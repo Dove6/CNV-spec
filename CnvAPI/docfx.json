@@ -1,0 +1,66 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "bin/**/*.dll"
+          ]
+        }
+      ],
+      "dest": "docfx/api",
+      "outputFormat": "mref",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "enumSortOrder": "alphabetic",
+      "allowCompilationErrors": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "docfx/api/**.yml",
+          "docfx/api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "docfx/articles/**.md",
+          "docfx/articles/**/toc.yml",
+          "docfx/toc.yml",
+          "docfx/*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "docfx/images/**"
+        ]
+      }
+    ],
+    "output": "docfx/_site",
+    "globalMetadataFiles": [],
+    "globalMetadata": {
+      "pdf": true
+    },
+    "fileMetadataFiles": [],
+    "fileMetadata": {
+      "pdf": {
+        "docfx/api/**/toc.yml": true
+      }
+    },
+    "template": [
+      "default",
+      "modern"
+    ],
+    "postProcessors": [],
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  }
+}

@@ -1,2 +1,6 @@
+.idea/
 .vscode/
+bin/
 docs/
+obj/
+*.DotSettings.user
