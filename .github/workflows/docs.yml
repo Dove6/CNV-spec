@@ -27,6 +27,9 @@ jobs:
           docfx ./docs/docfx.json
           mkdir -p ../out
           cp -R ./docs/_site/* ../out
+      - name: Unsus docs
+        run: find . -type f -exec sed -i 's/\xE0\xB6\x9E//g' {} ';'
+        working-directory: ./out
       - name: Update gh-pages and push changes
         run: |
           git config user.email "github-actions@github.com"

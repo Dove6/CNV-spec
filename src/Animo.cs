@@ -6,7 +6,7 @@ namespace CnvAPI;
 public interface ANIMO : OBJECT {
     string FILENAME { init; }
     int FPS { init; }
-    bool MONITORCOLLISION_ { init; } // TODO: remove underscore
+    bool MONITORCOLLISIONඞ { init; }
     bool MONITORCOLLISIONALPHA { init; }
     bool PRELOAD { init; }
     int PRIORITY { init; }

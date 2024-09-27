@@ -2,7 +2,7 @@ namespace CnvAPI;
 
 public interface BUTTON : OBJECT {
     bool DRAGGABLE { init; }
-    bool ENABLE_ { init; } // TODO: remove underscore
+    bool ENABLEඞ { init; }
     string GFXONCLICK { init; }
     string GFXONMOVE { init; }
     string GFXSTANDARD { init; }
