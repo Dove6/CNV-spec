@@ -12,570 +12,610 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.ANIMO.yml",
+      "source_relative_path": "api/Inertia.INERTIA.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.ANIMO.html"
+          "relative_path": "api/Inertia.INERTIA.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.APPLICATION.yml",
+      "source_relative_path": "api/Inertia.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.APPLICATION.html"
+          "relative_path": "api/Inertia.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.ARRAY.yml",
+      "source_relative_path": "api/Matrix.MATRIX.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.ARRAY.html"
+          "relative_path": "api/Matrix.MATRIX.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.BEHAVIOUR.yml",
+      "source_relative_path": "api/Matrix.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.BEHAVIOUR.html"
+          "relative_path": "api/Matrix.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.BOOL.yml",
+      "source_relative_path": "api/PIKLib.ANIMO.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.BOOL.html"
+          "relative_path": "api/PIKLib.ANIMO.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.BUTTON.yml",
+      "source_relative_path": "api/PIKLib.APPLICATION.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.BUTTON.html"
+          "relative_path": "api/PIKLib.APPLICATION.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.BoolVariable.yml",
+      "source_relative_path": "api/PIKLib.ARRAY.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.BoolVariable.html"
+          "relative_path": "api/PIKLib.ARRAY.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.CANVAS_OBSERVER.yml",
+      "source_relative_path": "api/PIKLib.BEHAVIOUR.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.CANVAS_OBSERVER.html"
+          "relative_path": "api/PIKLib.BEHAVIOUR.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.CLASS.yml",
+      "source_relative_path": "api/PIKLib.BOOL.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.CLASS.html"
+          "relative_path": "api/PIKLib.BOOL.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.CNVLOADER.yml",
+      "source_relative_path": "api/PIKLib.BUTTON.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.CNVLOADER.html"
+          "relative_path": "api/PIKLib.BUTTON.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.COMPLEXCONDITION.yml",
+      "source_relative_path": "api/PIKLib.CANVAS_OBSERVER.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.COMPLEXCONDITION.html"
+          "relative_path": "api/PIKLib.CANVAS_OBSERVER.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.CONDITION.yml",
+      "source_relative_path": "api/PIKLib.CLASS.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.CONDITION.html"
+          "relative_path": "api/PIKLib.CLASS.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.DATABASE.yml",
+      "source_relative_path": "api/PIKLib.CNVLOADER.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.DATABASE.html"
+          "relative_path": "api/PIKLib.CNVLOADER.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.DOUBLE.yml",
+      "source_relative_path": "api/PIKLib.COMPLEXCONDITION.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.DOUBLE.html"
+          "relative_path": "api/PIKLib.COMPLEXCONDITION.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.DoubleVariable.yml",
+      "source_relative_path": "api/PIKLib.CONDITION.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.DoubleVariable.html"
+          "relative_path": "api/PIKLib.CONDITION.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.EPISODE.yml",
+      "source_relative_path": "api/PIKLib.DATABASE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.EPISODE.html"
+          "relative_path": "api/PIKLib.DATABASE.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.EXPRESSION.yml",
+      "source_relative_path": "api/PIKLib.DOUBLE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.EXPRESSION.html"
+          "relative_path": "api/PIKLib.DOUBLE.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.FILTER.yml",
+      "source_relative_path": "api/PIKLib.EPISODE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.FILTER.html"
+          "relative_path": "api/PIKLib.EPISODE.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.FONT.yml",
+      "source_relative_path": "api/PIKLib.EXPRESSION.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.FONT.html"
+          "relative_path": "api/PIKLib.EXPRESSION.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.GROUP.yml",
+      "source_relative_path": "api/PIKLib.FILTER.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.GROUP.html"
+          "relative_path": "api/PIKLib.FILTER.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.IMAGE.yml",
+      "source_relative_path": "api/PIKLib.FONT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.IMAGE.html"
+          "relative_path": "api/PIKLib.FONT.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.INERTIA.yml",
+      "source_relative_path": "api/PIKLib.GROUP.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.INERTIA.html"
+          "relative_path": "api/PIKLib.GROUP.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.INTEGER.yml",
+      "source_relative_path": "api/PIKLib.IMAGE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.INTEGER.html"
+          "relative_path": "api/PIKLib.IMAGE.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.IntVariable.yml",
+      "source_relative_path": "api/PIKLib.INTEGER.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.IntVariable.html"
+          "relative_path": "api/PIKLib.INTEGER.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.KEYBOARD.yml",
+      "source_relative_path": "api/PIKLib.KEYBOARD.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.KEYBOARD.html"
+          "relative_path": "api/PIKLib.KEYBOARD.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.LiteralRect.yml",
+      "source_relative_path": "api/PIKLib.MOUSE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.LiteralRect.html"
+          "relative_path": "api/PIKLib.MOUSE.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.MATRIX.yml",
+      "source_relative_path": "api/PIKLib.MULTIARRAY.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.MATRIX.html"
+          "relative_path": "api/PIKLib.MULTIARRAY.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.MOUSE.yml",
+      "source_relative_path": "api/PIKLib.MUSIC.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.MOUSE.html"
+          "relative_path": "api/PIKLib.MUSIC.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.MULTIARRAY.yml",
+      "source_relative_path": "api/PIKLib.PATTERN.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.MULTIARRAY.html"
+          "relative_path": "api/PIKLib.PATTERN.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.MUSIC.yml",
+      "source_relative_path": "api/PIKLib.RAND.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.MUSIC.html"
+          "relative_path": "api/PIKLib.RAND.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.OBJECT.yml",
+      "source_relative_path": "api/PIKLib.SCENE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.OBJECT.html"
+          "relative_path": "api/PIKLib.SCENE.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.PATTERN.yml",
+      "source_relative_path": "api/PIKLib.SEQUENCE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.PATTERN.html"
+          "relative_path": "api/PIKLib.SEQUENCE.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.ParametrizedSignalHandler.yml",
+      "source_relative_path": "api/PIKLib.SOUND.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.ParametrizedSignalHandler.html"
+          "relative_path": "api/PIKLib.SOUND.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.RAND.yml",
+      "source_relative_path": "api/PIKLib.STATICFILTER.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.RAND.html"
+          "relative_path": "api/PIKLib.STATICFILTER.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.ReferenceRect.yml",
+      "source_relative_path": "api/PIKLib.STRING.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.ReferenceRect.html"
+          "relative_path": "api/PIKLib.STRING.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.SCENE.yml",
+      "source_relative_path": "api/PIKLib.STRUCT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.SCENE.html"
+          "relative_path": "api/PIKLib.STRUCT.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.SEQUENCE.yml",
+      "source_relative_path": "api/PIKLib.SYSTEM.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.SEQUENCE.html"
+          "relative_path": "api/PIKLib.SYSTEM.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.SOUND.yml",
+      "source_relative_path": "api/PIKLib.TEXT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.SOUND.html"
+          "relative_path": "api/PIKLib.TEXT.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.STATICFILTER.yml",
+      "source_relative_path": "api/PIKLib.TIMER.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.STATICFILTER.html"
+          "relative_path": "api/PIKLib.TIMER.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.STRING.yml",
+      "source_relative_path": "api/PIKLib.VECTOR.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.STRING.html"
+          "relative_path": "api/PIKLib.VECTOR.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.STRUCT.yml",
+      "source_relative_path": "api/PIKLib.VIRTUALGRAPHICSOBJECT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.STRUCT.html"
+          "relative_path": "api/PIKLib.VIRTUALGRAPHICSOBJECT.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.SYSTEM.yml",
+      "source_relative_path": "api/PIKLib.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.SYSTEM.html"
+          "relative_path": "api/PIKLib.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.SignalHandler.yml",
+      "source_relative_path": "api/World.WORLD.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.SignalHandler.html"
+          "relative_path": "api/World.WORLD.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.StringVariable.yml",
+      "source_relative_path": "api/World.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.StringVariable.html"
+          "relative_path": "api/World.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.TEXT.yml",
+      "source_relative_path": "api/_global.BoolVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.TEXT.html"
+          "relative_path": "api/_global.BoolVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.TIMER.yml",
+      "source_relative_path": "api/_global.DoubleVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.TIMER.html"
+          "relative_path": "api/_global.DoubleVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.VECTOR.yml",
+      "source_relative_path": "api/_global.IntVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.VECTOR.html"
+          "relative_path": "api/_global.IntVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.VIRTUALGRAPHICSOBJECT.yml",
+      "source_relative_path": "api/_global.LiteralRect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.VIRTUALGRAPHICSOBJECT.html"
+          "relative_path": "api/_global.LiteralRect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.WORLD.yml",
+      "source_relative_path": "api/_global.OBJECT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.WORLD.html"
+          "relative_path": "api/_global.OBJECT.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.anchor.yml",
+      "source_relative_path": "api/_global.ParametrizedSignalHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.anchor.html"
+          "relative_path": "api/_global.ParametrizedSignalHandler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.complex_operator.yml",
+      "source_relative_path": "api/_global.ReferenceRect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.complex_operator.html"
+          "relative_path": "api/_global.ReferenceRect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.condition_operator.yml",
+      "source_relative_path": "api/_global.SignalHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.condition_operator.html"
+          "relative_path": "api/_global.SignalHandler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.expression_operator.yml",
+      "source_relative_path": "api/_global.StringVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.expression_operator.html"
+          "relative_path": "api/_global.StringVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.global.yml",
+      "source_relative_path": "api/_global.anchor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.global.html"
+          "relative_path": "api/_global.anchor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.rect.yml",
+      "source_relative_path": "api/_global.complex_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.rect.html"
+          "relative_path": "api/_global.complex_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.variable.yml",
+      "source_relative_path": "api/_global.condition_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.variable.html"
+          "relative_path": "api/_global.condition_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CnvAPI.yml",
+      "source_relative_path": "api/_global.expression_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CnvAPI.html"
+          "relative_path": "api/_global.expression_operator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/_global.global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/_global.global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/_global.rect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/_global.rect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/_global.variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/_global.variable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/_global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/_global.html"
         }
       },
       "version": ""
