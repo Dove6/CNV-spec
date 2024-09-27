@@ -1,9 +1,11 @@
+using _global;
+
+namespace Matrix;
+
 /// <summary>
 /// 2D Boulder Dash-like simulation.
 /// </summary>
 /// Implemented by <c>Matrix.dll</c>
-namespace CnvAPI;
-
 public interface MATRIX : OBJECT {
     (int, int) BASEPOS { init; }
     int CELLHEIGHT { init; }

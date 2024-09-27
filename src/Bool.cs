@@ -1,8 +1,10 @@
+using _global;
+
+namespace PIKLib;
+
 /// <summary>
 /// Boolean value.
 /// </summary>
-namespace CnvAPI;
-
 public interface BOOL : OBJECT {
     bool TOINI { init; }
     bool VALUE { init; }

@@ -1,4 +1,4 @@
-namespace CnvAPI;
+namespace _global;
 
 public interface OBJECT {
     string DESCRIPTION { init; }

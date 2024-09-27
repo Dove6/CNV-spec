@@ -1,4 +1,6 @@
-namespace CnvAPI;
+using _global;
+
+namespace PIKLib;
 
 public interface RAND : OBJECT {
     int GET(int max_exclusive);

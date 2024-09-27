@@ -1,8 +1,10 @@
+using _global;
+
+namespace PIKLib;
+
 /// <summary>
 /// 2D sprite animation.
 /// </summary>
-namespace CnvAPI;
-
 public interface ANIMO : OBJECT {
     string FILENAME { init; }
     int FPS { init; }

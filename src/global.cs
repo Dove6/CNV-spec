@@ -1,4 +1,4 @@
-namespace CnvAPI;
+namespace _global;
 
 public enum anchor
 {
@@ -56,13 +56,13 @@ public record LiteralRect(int left_x, int top_y, int right_x, int bottom_y) : re
 public delegate void SignalHandler(params variable[] arguments);
 
 /// <summary>
-/// /// Run for parametrized signals.
+/// Run for parametrized signals.
 /// </summary>
 public delegate void ParametrizedSignalHandler(string parameter, params variable[] arguments);
 
 public interface global {
     /// <summary>
-    /// Creates an object of type <see cref="CnvAPI.BOOL"/>.
+    /// Creates an object of type <see cref="PIKLib.BOOL"/>.
     /// </summary>
     /// <param name="name">The name of created object.</param>
     /// <param name="value">The initial value of created object.</param>
@@ -71,7 +71,7 @@ public interface global {
     void BREAK();
 
     /// <summary>
-    /// Creates an object of type <see cref="CnvAPI.DOUBLE"/>.
+    /// Creates an object of type <see cref="PIKLib.DOUBLE"/>.
     /// </summary>
     /// <param name="name">The name of created object.</param>
     /// <param name="value">The initial value of created object.</param>
@@ -82,7 +82,7 @@ public interface global {
     void IF(string left, string operand, string right, string code_if_true, string code_if_false);
 
     /// <summary>
-    /// Creates an object of type <see cref="CnvAPI.INTEGER"/>.
+    /// Creates an object of type <see cref="PIKLib.INTEGER"/>.
     /// </summary>
     /// <param name="name">The name of created object.</param>
     /// <param name="value">The initial value of created object.</param>
@@ -95,7 +95,7 @@ public interface global {
     variable RETURN(variable value);
 
     /// <summary>
-    /// Creates an object of type <see cref="CnvAPI.STRING"/>.
+    /// Creates an object of type <see cref="PIKLib.STRING"/>.
     /// </summary>
     /// <param name="name">The name of created object.</param>
     /// <param name="value">The initial value of created object.</param>

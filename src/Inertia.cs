@@ -1,9 +1,11 @@
+using _global;
+
+namespace Inertia;
+
 /// <summary>
 /// 2D physics simulation.
 /// </summary>
 /// Implemented by <c>Inertia.dll</c>
-namespace CnvAPI;
-
 public interface INERTIA : OBJECT {
     void ADDFORCE(int id, double x, double y);
     int CREATESPHERE(double _1, double _2, double _3, double _4);

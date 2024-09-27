@@ -1,4 +1,6 @@
-namespace CnvAPI;
+using _global;
+
+namespace PIKLib;
 
 public interface TIMER : OBJECT {
     int ELAPSE { init; }

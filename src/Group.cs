@@ -1,4 +1,6 @@
-namespace CnvAPI;
+using _global;
+
+namespace PIKLib;
 
 public interface GROUP : OBJECT {
     void ADD(string object_name);

@@ -1,9 +1,11 @@
+using _global;
+
+namespace World;
+
 /// <summary>
 /// 3D physics simulation.
 /// </summary>
 /// Implemented by <c>World.dll</c>
-namespace CnvAPI;
-
 public interface WORLD : OBJECT {
     string FILENAME { init; }
 
