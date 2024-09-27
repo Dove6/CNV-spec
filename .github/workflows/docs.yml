@@ -1,0 +1,42 @@
+name: DocFX
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./repo
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: ./repo
+          fetch-depth: 0  
+      - uses: actions/setup-dotnet@v4
+      - run: dotnet tool install --global docfx --version 2.77.0
+      - name: Build release
+        run: dotnet build --configuration Release
+      - name: Generate docs
+        run: |
+          docfx build CnvAPI/docfx.json
+          mkdir -p ../out
+          cp -R ./CnvAPI/docfx/_site/* ../out
+      - name: Update gh-pages and push changes
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "github-actions"
+          git clean -xdf
+          git checkout gh-pages
+          git clean -xdf
+          git rm --cached -r .
+          cp -R ../out/* .
+          git add .
+          git commit -m "Update files" && git push || echo "No changes to commit"
