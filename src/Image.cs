@@ -28,4 +28,9 @@ public interface IMAGE : OBJECT {
     void SETPOSITION(int x, int y);
     void SETPRIORITY();
     void SHOW();
+
+    event SignalHandler ONCLICK;
+    event SignalHandler ONFOCUSOFF;
+    event SignalHandler ONFOCUSON;
+    event SignalHandler ONINIT;
 }

@@ -1,6 +1,16 @@
 namespace CnvAPI;
 
 public interface SCENE : OBJECT {
+    string AUTHOR { init; }
+    string BACKGROUND { init; }
+    string CREATIONTIME { init; }
+    string DESCRIPTION { init; }
+    string[] DLLS { init; }
+    string LASTMODIFYTIME { init; }
+    string MUSIC { init; }
+    string PATH { init; }
+    string VERSION { init; }
+
     void GETMAXHSPRIORITY();
     void GETMINHSPRIORITY();
     void GETPLAYINGANIMO();

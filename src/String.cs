@@ -1,6 +1,9 @@
 namespace CnvAPI;
 
 public interface STRING : OBJECT {
+    bool TOINI { init; }
+    string VALUE { init; }
+
     string ADD(string suffix);
     bool COPYFILE(string filename, string copied_filename);
     void CUT(int index, int length);
@@ -14,4 +17,8 @@ public interface STRING : OBJECT {
     void SET(string value);
     void SUB(int index, int length);
     void UPPER();
+
+    event ParametrizedSignalHandler ONBRUTALCHANGED;
+    event ParametrizedSignalHandler ONCHANGED;
+    event SignalHandler ONINIT;
 }

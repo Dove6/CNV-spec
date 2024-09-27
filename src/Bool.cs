@@ -19,4 +19,7 @@ public interface BOOL : OBJECT {
     /// <param name="_unused1">Unused.</param>
     /// <param name="_unused2">Unused.</param>
     void SWITCH(bool _unused1, bool _unused2);
+    
+    event ParametrizedSignalHandler ONBRUTALCHANGED;
+    event ParametrizedSignalHandler ONCHANGED;
 }

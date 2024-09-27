@@ -8,4 +8,7 @@ public interface COMPLEXCONDITION : OBJECT {
     void BREAK(bool _);
     bool CHECK(bool _);
     void ONE_BREAK(bool _);
+
+    event SignalHandler ONRUNTIMEFAILED;
+    event SignalHandler ONRUNTIMESUCCESS;
 }

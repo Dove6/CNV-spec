@@ -29,4 +29,7 @@ public interface MATRIX : OBJECT {
     void SETGATE(int _, int _2, int _3, int _4);
     void SETROW(int row_index, params int[] cell_types);
     void TICK();
+
+    event SignalHandler ONLATEST;
+    event SignalHandler ONNEXT;
 }

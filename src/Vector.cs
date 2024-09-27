@@ -1,6 +1,9 @@
 namespace CnvAPI;
 
 public interface VECTOR : OBJECT {
+    int SIZE { init; }
+    double[] VALUE { init; }
+
     void ADD(string summand_name);
     void ASSIGN(params double[] values);
     double GET(int index);

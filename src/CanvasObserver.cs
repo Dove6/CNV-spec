@@ -13,4 +13,7 @@ public interface CANVAS_OBSERVER : OBJECT {
     void SAVE(string filename);
     void SETBACKGROUND(string object_name_or_filename);
     void SETBKGPOS(int x, int y);
+
+    event ParametrizedSignalHandler ONWINDOWFOCUSOFF;
+    event ParametrizedSignalHandler ONWINDOWFOCUSON;
 }

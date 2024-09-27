@@ -5,6 +5,8 @@
 namespace CnvAPI;
 
 public interface WORLD : OBJECT {
+    string FILENAME { init; }
+
     void ADDBODY();
     void ADDFORCE();
     void ADDGRAVITYEX();

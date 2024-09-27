@@ -10,4 +10,6 @@ public interface GROUP : OBJECT {
     void REMOVEALL();
     void RESETMARKER();
     void SETMARKERPOS(int index);
+
+    event SignalHandler ONINIT;
 }

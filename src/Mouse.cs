@@ -1,6 +1,8 @@
 namespace CnvAPI;
 
 public interface MOUSE : OBJECT {
+    int? RAW { init;  }
+
     void DISABLE();
     void DISABLESIGNAL();
     void ENABLE();
@@ -13,4 +15,10 @@ public interface MOUSE : OBJECT {
     void SETCLIPRECT();
     void SETPOSITION(int x, int y);
     void SHOW();
+
+    event ParametrizedSignalHandler ONCLICK;
+    event SignalHandler ONDBLCLICK;
+    event SignalHandler ONINIT;
+    event SignalHandler ONMOVE;
+    event SignalHandler ONRELEASE;
 }

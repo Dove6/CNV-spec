@@ -3,7 +3,6 @@ namespace CnvAPI;
 public interface EPISODE : OBJECT {
     string AUTHOR { init; }
     string CREATIONTIME { init; }
-    string DESCRIPTION { init; }
     string LASTMODIFYTIME { init; }
     string PATH { init; }
     string[] SCENES { init; }

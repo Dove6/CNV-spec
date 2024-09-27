@@ -1,6 +1,15 @@
 namespace CnvAPI;
 
 public interface VIRTUALGRAPHICSOBJECT : OBJECT {
+    bool ASBUTTON { init; }
+    string MASK { init; }
+    bool MONITORCOLLISION { init; }
+    bool MONITORCOLLISIONALPHA { init; }
+    int PRIORITY { init; }
+    string SOURCE { init; }
+    bool TOCANVAS { init; }
+    bool VISIBLE { init; }
+
     int GETHEIGHT();
     int GETPOSITIONX();
     int GETPOSITIONY();

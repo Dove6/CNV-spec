@@ -43,4 +43,9 @@ public interface INTEGER : OBJECT {
     int SUB(int subtrahend);
 
     void SWITCH(int value1, int value2);
+
+    event ParametrizedSignalHandler ONBRUTALCHANGED;
+    event ParametrizedSignalHandler ONCHANGED;
+    event SignalHandler ONINIT;
+    event ParametrizedSignalHandler ONSIGNAL;
 }

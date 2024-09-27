@@ -7,4 +7,8 @@ public interface KEYBOARD : OBJECT {
     bool ISENABLED();
     bool ISKEYDOWN();
     void SETAUTOREPEAT();
+
+    event ParametrizedSignalHandler ONCHAR;
+    event SignalHandler ONKEYDOWN;
+    event SignalHandler ONKEYUP;
 }
