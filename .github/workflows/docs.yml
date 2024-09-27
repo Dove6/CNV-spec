@@ -22,13 +22,11 @@ jobs:
           fetch-depth: 0  
       - uses: actions/setup-dotnet@v4
       - run: dotnet tool install --global docfx --version 2.77.0
-      - name: Build release
-        run: dotnet build --configuration Release
       - name: Generate docs
         run: |
-          docfx build CnvAPI/docfx.json
+          docfx ./docs/docfx.json
           mkdir -p ../out
-          cp -R ./CnvAPI/docfx/_site/* ../out
+          cp -R ./docs/_site/* ../out
       - name: Update gh-pages and push changes
         run: |
           git config user.email "github-actions@github.com"

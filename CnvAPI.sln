@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnvAPI", "CnvAPI\CnvAPI.csproj", "{A04026BA-323B-431E-8092-A66DEC5F38FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnvAPI", "src\CnvAPI.csproj", "{A04026BA-323B-431E-8092-A66DEC5F38FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
