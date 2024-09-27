@@ -1,0 +1,67 @@
+{
+  "source_base_path": "/home/runner/work/CNV-spec/CNV-spec/repo/CnvAPI",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/articles/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docfx/articles/toc.json"
+        },
+        ".html": {
+          "relative_path": "docfx/articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docfx/toc.json"
+        },
+        ".html": {
+          "relative_path": "docfx/toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
