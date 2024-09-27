@@ -1516,6 +1516,18 @@ references:
   commentId: T:CnvAPI.BOOL
   fullName: CnvAPI.BOOL
   nameWithType: BOOL
+- uid: CnvAPI.BOOL.ONBRUTALCHANGED
+  name: ONBRUTALCHANGED
+  href: api/CnvAPI.BOOL.html#CnvAPI_BOOL_ONBRUTALCHANGED
+  commentId: E:CnvAPI.BOOL.ONBRUTALCHANGED
+  fullName: CnvAPI.BOOL.ONBRUTALCHANGED
+  nameWithType: BOOL.ONBRUTALCHANGED
+- uid: CnvAPI.BOOL.ONCHANGED
+  name: ONCHANGED
+  href: api/CnvAPI.BOOL.html#CnvAPI_BOOL_ONCHANGED
+  commentId: E:CnvAPI.BOOL.ONCHANGED
+  fullName: CnvAPI.BOOL.ONCHANGED
+  nameWithType: BOOL.ONCHANGED
 - uid: CnvAPI.BOOL.SET(System.Boolean)
   name: SET(bool)
   href: api/CnvAPI.BOOL.html#CnvAPI_BOOL_SET_System_Boolean_
@@ -1697,6 +1709,60 @@ references:
   isSpec: "True"
   fullName: CnvAPI.BUTTON.GFXSTANDARD
   nameWithType: BUTTON.GFXSTANDARD
+- uid: CnvAPI.BUTTON.ONACTION
+  name: ONACTION
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONACTION
+  commentId: E:CnvAPI.BUTTON.ONACTION
+  fullName: CnvAPI.BUTTON.ONACTION
+  nameWithType: BUTTON.ONACTION
+- uid: CnvAPI.BUTTON.ONCLICKED
+  name: ONCLICKED
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONCLICKED
+  commentId: E:CnvAPI.BUTTON.ONCLICKED
+  fullName: CnvAPI.BUTTON.ONCLICKED
+  nameWithType: BUTTON.ONCLICKED
+- uid: CnvAPI.BUTTON.ONDRAGGING
+  name: ONDRAGGING
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONDRAGGING
+  commentId: E:CnvAPI.BUTTON.ONDRAGGING
+  fullName: CnvAPI.BUTTON.ONDRAGGING
+  nameWithType: BUTTON.ONDRAGGING
+- uid: CnvAPI.BUTTON.ONENDDRAGGING
+  name: ONENDDRAGGING
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONENDDRAGGING
+  commentId: E:CnvAPI.BUTTON.ONENDDRAGGING
+  fullName: CnvAPI.BUTTON.ONENDDRAGGING
+  nameWithType: BUTTON.ONENDDRAGGING
+- uid: CnvAPI.BUTTON.ONFOCUSOFF
+  name: ONFOCUSOFF
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONFOCUSOFF
+  commentId: E:CnvAPI.BUTTON.ONFOCUSOFF
+  fullName: CnvAPI.BUTTON.ONFOCUSOFF
+  nameWithType: BUTTON.ONFOCUSOFF
+- uid: CnvAPI.BUTTON.ONFOCUSON
+  name: ONFOCUSON
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONFOCUSON
+  commentId: E:CnvAPI.BUTTON.ONFOCUSON
+  fullName: CnvAPI.BUTTON.ONFOCUSON
+  nameWithType: BUTTON.ONFOCUSON
+- uid: CnvAPI.BUTTON.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONINIT
+  commentId: E:CnvAPI.BUTTON.ONINIT
+  fullName: CnvAPI.BUTTON.ONINIT
+  nameWithType: BUTTON.ONINIT
+- uid: CnvAPI.BUTTON.ONRELEASED
+  name: ONRELEASED
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONRELEASED
+  commentId: E:CnvAPI.BUTTON.ONRELEASED
+  fullName: CnvAPI.BUTTON.ONRELEASED
+  nameWithType: BUTTON.ONRELEASED
+- uid: CnvAPI.BUTTON.ONSTARTDRAGGING
+  name: ONSTARTDRAGGING
+  href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ONSTARTDRAGGING
+  commentId: E:CnvAPI.BUTTON.ONSTARTDRAGGING
+  fullName: CnvAPI.BUTTON.ONSTARTDRAGGING
+  nameWithType: BUTTON.ONSTARTDRAGGING
 - uid: CnvAPI.BUTTON.RECT
   name: RECT
   href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_RECT
@@ -1923,6 +1989,18 @@ references:
   isSpec: "True"
   fullName: CnvAPI.CANVAS_OBSERVER.MOVEBKG
   nameWithType: CANVAS_OBSERVER.MOVEBKG
+- uid: CnvAPI.CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+  name: ONWINDOWFOCUSOFF
+  href: api/CnvAPI.CANVAS_OBSERVER.html#CnvAPI_CANVAS_OBSERVER_ONWINDOWFOCUSOFF
+  commentId: E:CnvAPI.CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+  fullName: CnvAPI.CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+  nameWithType: CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+- uid: CnvAPI.CANVAS_OBSERVER.ONWINDOWFOCUSON
+  name: ONWINDOWFOCUSON
+  href: api/CnvAPI.CANVAS_OBSERVER.html#CnvAPI_CANVAS_OBSERVER_ONWINDOWFOCUSON
+  commentId: E:CnvAPI.CANVAS_OBSERVER.ONWINDOWFOCUSON
+  fullName: CnvAPI.CANVAS_OBSERVER.ONWINDOWFOCUSON
+  nameWithType: CANVAS_OBSERVER.ONWINDOWFOCUSON
 - uid: CnvAPI.CANVAS_OBSERVER.PASTE
   name: PASTE()
   href: api/CnvAPI.CANVAS_OBSERVER.html#CnvAPI_CANVAS_OBSERVER_PASTE
@@ -2183,6 +2261,18 @@ references:
   isSpec: "True"
   fullName: CnvAPI.COMPLEXCONDITION.ONE_BREAK
   nameWithType: COMPLEXCONDITION.ONE_BREAK
+- uid: CnvAPI.COMPLEXCONDITION.ONRUNTIMEFAILED
+  name: ONRUNTIMEFAILED
+  href: api/CnvAPI.COMPLEXCONDITION.html#CnvAPI_COMPLEXCONDITION_ONRUNTIMEFAILED
+  commentId: E:CnvAPI.COMPLEXCONDITION.ONRUNTIMEFAILED
+  fullName: CnvAPI.COMPLEXCONDITION.ONRUNTIMEFAILED
+  nameWithType: COMPLEXCONDITION.ONRUNTIMEFAILED
+- uid: CnvAPI.COMPLEXCONDITION.ONRUNTIMESUCCESS
+  name: ONRUNTIMESUCCESS
+  href: api/CnvAPI.COMPLEXCONDITION.html#CnvAPI_COMPLEXCONDITION_ONRUNTIMESUCCESS
+  commentId: E:CnvAPI.COMPLEXCONDITION.ONRUNTIMESUCCESS
+  fullName: CnvAPI.COMPLEXCONDITION.ONRUNTIMESUCCESS
+  nameWithType: COMPLEXCONDITION.ONRUNTIMESUCCESS
 - uid: CnvAPI.COMPLEXCONDITION.OPERATOR
   name: OPERATOR
   href: api/CnvAPI.COMPLEXCONDITION.html#CnvAPI_COMPLEXCONDITION_OPERATOR
@@ -2250,6 +2340,18 @@ references:
   isSpec: "True"
   fullName: CnvAPI.CONDITION.ONE_BREAK
   nameWithType: CONDITION.ONE_BREAK
+- uid: CnvAPI.CONDITION.ONRUNTIMEFAILED
+  name: ONRUNTIMEFAILED
+  href: api/CnvAPI.CONDITION.html#CnvAPI_CONDITION_ONRUNTIMEFAILED
+  commentId: E:CnvAPI.CONDITION.ONRUNTIMEFAILED
+  fullName: CnvAPI.CONDITION.ONRUNTIMEFAILED
+  nameWithType: CONDITION.ONRUNTIMEFAILED
+- uid: CnvAPI.CONDITION.ONRUNTIMESUCCESS
+  name: ONRUNTIMESUCCESS
+  href: api/CnvAPI.CONDITION.html#CnvAPI_CONDITION_ONRUNTIMESUCCESS
+  commentId: E:CnvAPI.CONDITION.ONRUNTIMESUCCESS
+  fullName: CnvAPI.CONDITION.ONRUNTIMESUCCESS
+  nameWithType: CONDITION.ONRUNTIMESUCCESS
 - uid: CnvAPI.CONDITION.OPERAND1
   name: OPERAND1
   href: api/CnvAPI.CONDITION.html#CnvAPI_CONDITION_OPERAND1
@@ -2776,19 +2878,6 @@ references:
   isSpec: "True"
   fullName: CnvAPI.EPISODE.CREATIONTIME
   nameWithType: EPISODE.CREATIONTIME
-- uid: CnvAPI.EPISODE.DESCRIPTION
-  name: DESCRIPTION
-  href: api/CnvAPI.EPISODE.html#CnvAPI_EPISODE_DESCRIPTION
-  commentId: P:CnvAPI.EPISODE.DESCRIPTION
-  fullName: CnvAPI.EPISODE.DESCRIPTION
-  nameWithType: EPISODE.DESCRIPTION
-- uid: CnvAPI.EPISODE.DESCRIPTION*
-  name: DESCRIPTION
-  href: api/CnvAPI.EPISODE.html#CnvAPI_EPISODE_DESCRIPTION_
-  commentId: Overload:CnvAPI.EPISODE.DESCRIPTION
-  isSpec: "True"
-  fullName: CnvAPI.EPISODE.DESCRIPTION
-  nameWithType: EPISODE.DESCRIPTION
 - uid: CnvAPI.EPISODE.GETCURRENTSCENE
   name: GETCURRENTSCENE()
   href: api/CnvAPI.EPISODE.html#CnvAPI_EPISODE_GETCURRENTSCENE
@@ -3040,6 +3129,12 @@ references:
   isSpec: "True"
   fullName: CnvAPI.GROUP.NEXT
   nameWithType: GROUP.NEXT
+- uid: CnvAPI.GROUP.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.GROUP.html#CnvAPI_GROUP_ONINIT
+  commentId: E:CnvAPI.GROUP.ONINIT
+  fullName: CnvAPI.GROUP.ONINIT
+  nameWithType: GROUP.ONINIT
 - uid: CnvAPI.GROUP.PREV
   name: PREV()
   href: api/CnvAPI.GROUP.html#CnvAPI_GROUP_PREV
@@ -3318,6 +3413,30 @@ references:
   isSpec: "True"
   fullName: CnvAPI.IMAGE.MOVE
   nameWithType: IMAGE.MOVE
+- uid: CnvAPI.IMAGE.ONCLICK
+  name: ONCLICK
+  href: api/CnvAPI.IMAGE.html#CnvAPI_IMAGE_ONCLICK
+  commentId: E:CnvAPI.IMAGE.ONCLICK
+  fullName: CnvAPI.IMAGE.ONCLICK
+  nameWithType: IMAGE.ONCLICK
+- uid: CnvAPI.IMAGE.ONFOCUSOFF
+  name: ONFOCUSOFF
+  href: api/CnvAPI.IMAGE.html#CnvAPI_IMAGE_ONFOCUSOFF
+  commentId: E:CnvAPI.IMAGE.ONFOCUSOFF
+  fullName: CnvAPI.IMAGE.ONFOCUSOFF
+  nameWithType: IMAGE.ONFOCUSOFF
+- uid: CnvAPI.IMAGE.ONFOCUSON
+  name: ONFOCUSON
+  href: api/CnvAPI.IMAGE.html#CnvAPI_IMAGE_ONFOCUSON
+  commentId: E:CnvAPI.IMAGE.ONFOCUSON
+  fullName: CnvAPI.IMAGE.ONFOCUSON
+  nameWithType: IMAGE.ONFOCUSON
+- uid: CnvAPI.IMAGE.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.IMAGE.html#CnvAPI_IMAGE_ONINIT
+  commentId: E:CnvAPI.IMAGE.ONINIT
+  fullName: CnvAPI.IMAGE.ONINIT
+  nameWithType: IMAGE.ONINIT
 - uid: CnvAPI.IMAGE.PRELOAD
   name: PRELOAD
   href: api/CnvAPI.IMAGE.html#CnvAPI_IMAGE_PRELOAD
@@ -3883,6 +4002,30 @@ references:
   isSpec: "True"
   fullName: CnvAPI.INTEGER.MUL
   nameWithType: INTEGER.MUL
+- uid: CnvAPI.INTEGER.ONBRUTALCHANGED
+  name: ONBRUTALCHANGED
+  href: api/CnvAPI.INTEGER.html#CnvAPI_INTEGER_ONBRUTALCHANGED
+  commentId: E:CnvAPI.INTEGER.ONBRUTALCHANGED
+  fullName: CnvAPI.INTEGER.ONBRUTALCHANGED
+  nameWithType: INTEGER.ONBRUTALCHANGED
+- uid: CnvAPI.INTEGER.ONCHANGED
+  name: ONCHANGED
+  href: api/CnvAPI.INTEGER.html#CnvAPI_INTEGER_ONCHANGED
+  commentId: E:CnvAPI.INTEGER.ONCHANGED
+  fullName: CnvAPI.INTEGER.ONCHANGED
+  nameWithType: INTEGER.ONCHANGED
+- uid: CnvAPI.INTEGER.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.INTEGER.html#CnvAPI_INTEGER_ONINIT
+  commentId: E:CnvAPI.INTEGER.ONINIT
+  fullName: CnvAPI.INTEGER.ONINIT
+  nameWithType: INTEGER.ONINIT
+- uid: CnvAPI.INTEGER.ONSIGNAL
+  name: ONSIGNAL
+  href: api/CnvAPI.INTEGER.html#CnvAPI_INTEGER_ONSIGNAL
+  commentId: E:CnvAPI.INTEGER.ONSIGNAL
+  fullName: CnvAPI.INTEGER.ONSIGNAL
+  nameWithType: INTEGER.ONSIGNAL
 - uid: CnvAPI.INTEGER.OR(System.Int32)
   name: OR(int)
   href: api/CnvAPI.INTEGER.html#CnvAPI_INTEGER_OR_System_Int32_
@@ -4133,6 +4276,24 @@ references:
   isSpec: "True"
   fullName: CnvAPI.KEYBOARD.ISKEYDOWN
   nameWithType: KEYBOARD.ISKEYDOWN
+- uid: CnvAPI.KEYBOARD.ONCHAR
+  name: ONCHAR
+  href: api/CnvAPI.KEYBOARD.html#CnvAPI_KEYBOARD_ONCHAR
+  commentId: E:CnvAPI.KEYBOARD.ONCHAR
+  fullName: CnvAPI.KEYBOARD.ONCHAR
+  nameWithType: KEYBOARD.ONCHAR
+- uid: CnvAPI.KEYBOARD.ONKEYDOWN
+  name: ONKEYDOWN
+  href: api/CnvAPI.KEYBOARD.html#CnvAPI_KEYBOARD_ONKEYDOWN
+  commentId: E:CnvAPI.KEYBOARD.ONKEYDOWN
+  fullName: CnvAPI.KEYBOARD.ONKEYDOWN
+  nameWithType: KEYBOARD.ONKEYDOWN
+- uid: CnvAPI.KEYBOARD.ONKEYUP
+  name: ONKEYUP
+  href: api/CnvAPI.KEYBOARD.html#CnvAPI_KEYBOARD_ONKEYUP
+  commentId: E:CnvAPI.KEYBOARD.ONKEYUP
+  fullName: CnvAPI.KEYBOARD.ONKEYUP
+  nameWithType: KEYBOARD.ONKEYUP
 - uid: CnvAPI.KEYBOARD.SETAUTOREPEAT
   name: SETAUTOREPEAT()
   href: api/CnvAPI.KEYBOARD.html#CnvAPI_KEYBOARD_SETAUTOREPEAT
@@ -4502,6 +4663,18 @@ references:
   isSpec: "True"
   fullName: CnvAPI.MATRIX.NEXT
   nameWithType: MATRIX.NEXT
+- uid: CnvAPI.MATRIX.ONLATEST
+  name: ONLATEST
+  href: api/CnvAPI.MATRIX.html#CnvAPI_MATRIX_ONLATEST
+  commentId: E:CnvAPI.MATRIX.ONLATEST
+  fullName: CnvAPI.MATRIX.ONLATEST
+  nameWithType: MATRIX.ONLATEST
+- uid: CnvAPI.MATRIX.ONNEXT
+  name: ONNEXT
+  href: api/CnvAPI.MATRIX.html#CnvAPI_MATRIX_ONNEXT
+  commentId: E:CnvAPI.MATRIX.ONNEXT
+  fullName: CnvAPI.MATRIX.ONNEXT
+  nameWithType: MATRIX.ONNEXT
 - uid: CnvAPI.MATRIX.SET(System.Int32,System.Int32)
   name: SET(int, int)
   href: api/CnvAPI.MATRIX.html#CnvAPI_MATRIX_SET_System_Int32_System_Int32_
@@ -4686,6 +4859,49 @@ references:
   isSpec: "True"
   fullName: CnvAPI.MOUSE.ISLBUTTONDOWN
   nameWithType: MOUSE.ISLBUTTONDOWN
+- uid: CnvAPI.MOUSE.ONCLICK
+  name: ONCLICK
+  href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_ONCLICK
+  commentId: E:CnvAPI.MOUSE.ONCLICK
+  fullName: CnvAPI.MOUSE.ONCLICK
+  nameWithType: MOUSE.ONCLICK
+- uid: CnvAPI.MOUSE.ONDBLCLICK
+  name: ONDBLCLICK
+  href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_ONDBLCLICK
+  commentId: E:CnvAPI.MOUSE.ONDBLCLICK
+  fullName: CnvAPI.MOUSE.ONDBLCLICK
+  nameWithType: MOUSE.ONDBLCLICK
+- uid: CnvAPI.MOUSE.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_ONINIT
+  commentId: E:CnvAPI.MOUSE.ONINIT
+  fullName: CnvAPI.MOUSE.ONINIT
+  nameWithType: MOUSE.ONINIT
+- uid: CnvAPI.MOUSE.ONMOVE
+  name: ONMOVE
+  href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_ONMOVE
+  commentId: E:CnvAPI.MOUSE.ONMOVE
+  fullName: CnvAPI.MOUSE.ONMOVE
+  nameWithType: MOUSE.ONMOVE
+- uid: CnvAPI.MOUSE.ONRELEASE
+  name: ONRELEASE
+  href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_ONRELEASE
+  commentId: E:CnvAPI.MOUSE.ONRELEASE
+  fullName: CnvAPI.MOUSE.ONRELEASE
+  nameWithType: MOUSE.ONRELEASE
+- uid: CnvAPI.MOUSE.RAW
+  name: RAW
+  href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_RAW
+  commentId: P:CnvAPI.MOUSE.RAW
+  fullName: CnvAPI.MOUSE.RAW
+  nameWithType: MOUSE.RAW
+- uid: CnvAPI.MOUSE.RAW*
+  name: RAW
+  href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_RAW_
+  commentId: Overload:CnvAPI.MOUSE.RAW
+  isSpec: "True"
+  fullName: CnvAPI.MOUSE.RAW
+  nameWithType: MOUSE.RAW
 - uid: CnvAPI.MOUSE.SET
   name: SET()
   href: api/CnvAPI.MOUSE.html#CnvAPI_MOUSE_SET
@@ -4747,6 +4963,19 @@ references:
   commentId: T:CnvAPI.MULTIARRAY
   fullName: CnvAPI.MULTIARRAY
   nameWithType: MULTIARRAY
+- uid: CnvAPI.MULTIARRAY.DIMENSIONS
+  name: DIMENSIONS
+  href: api/CnvAPI.MULTIARRAY.html#CnvAPI_MULTIARRAY_DIMENSIONS
+  commentId: P:CnvAPI.MULTIARRAY.DIMENSIONS
+  fullName: CnvAPI.MULTIARRAY.DIMENSIONS
+  nameWithType: MULTIARRAY.DIMENSIONS
+- uid: CnvAPI.MULTIARRAY.DIMENSIONS*
+  name: DIMENSIONS
+  href: api/CnvAPI.MULTIARRAY.html#CnvAPI_MULTIARRAY_DIMENSIONS_
+  commentId: Overload:CnvAPI.MULTIARRAY.DIMENSIONS
+  isSpec: "True"
+  fullName: CnvAPI.MULTIARRAY.DIMENSIONS
+  nameWithType: MULTIARRAY.DIMENSIONS
 - uid: CnvAPI.MULTIARRAY.GET(System.Int32[])
   name: GET(params int[])
   href: api/CnvAPI.MULTIARRAY.html#CnvAPI_MULTIARRAY_GET_System_Int32___
@@ -4785,6 +5014,19 @@ references:
   commentId: T:CnvAPI.MUSIC
   fullName: CnvAPI.MUSIC
   nameWithType: MUSIC
+- uid: CnvAPI.MUSIC.FILENAME
+  name: FILENAME
+  href: api/CnvAPI.MUSIC.html#CnvAPI_MUSIC_FILENAME
+  commentId: P:CnvAPI.MUSIC.FILENAME
+  fullName: CnvAPI.MUSIC.FILENAME
+  nameWithType: MUSIC.FILENAME
+- uid: CnvAPI.MUSIC.FILENAME*
+  name: FILENAME
+  href: api/CnvAPI.MUSIC.html#CnvAPI_MUSIC_FILENAME_
+  commentId: Overload:CnvAPI.MUSIC.FILENAME
+  isSpec: "True"
+  fullName: CnvAPI.MUSIC.FILENAME
+  nameWithType: MUSIC.FILENAME
 - uid: CnvAPI.MUSIC.PLAY
   name: PLAY()
   href: api/CnvAPI.MUSIC.html#CnvAPI_MUSIC_PLAY
@@ -4971,6 +5213,58 @@ references:
   isSpec: "True"
   fullName: CnvAPI.PATTERN.GETGRAPHICSAT
   nameWithType: PATTERN.GETGRAPHICSAT
+- uid: CnvAPI.PATTERN.GRIDX
+  name: GRIDX
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_GRIDX
+  commentId: P:CnvAPI.PATTERN.GRIDX
+  fullName: CnvAPI.PATTERN.GRIDX
+  nameWithType: PATTERN.GRIDX
+- uid: CnvAPI.PATTERN.GRIDX*
+  name: GRIDX
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_GRIDX_
+  commentId: Overload:CnvAPI.PATTERN.GRIDX
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.GRIDX
+  nameWithType: PATTERN.GRIDX
+- uid: CnvAPI.PATTERN.GRIDY
+  name: GRIDY
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_GRIDY
+  commentId: P:CnvAPI.PATTERN.GRIDY
+  fullName: CnvAPI.PATTERN.GRIDY
+  nameWithType: PATTERN.GRIDY
+- uid: CnvAPI.PATTERN.GRIDY*
+  name: GRIDY
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_GRIDY_
+  commentId: Overload:CnvAPI.PATTERN.GRIDY
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.GRIDY
+  nameWithType: PATTERN.GRIDY
+- uid: CnvAPI.PATTERN.HEIGHT
+  name: HEIGHT
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_HEIGHT
+  commentId: P:CnvAPI.PATTERN.HEIGHT
+  fullName: CnvAPI.PATTERN.HEIGHT
+  nameWithType: PATTERN.HEIGHT
+- uid: CnvAPI.PATTERN.HEIGHT*
+  name: HEIGHT
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_HEIGHT_
+  commentId: Overload:CnvAPI.PATTERN.HEIGHT
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.HEIGHT
+  nameWithType: PATTERN.HEIGHT
+- uid: CnvAPI.PATTERN.LAYERS
+  name: LAYERS
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_LAYERS
+  commentId: P:CnvAPI.PATTERN.LAYERS
+  fullName: CnvAPI.PATTERN.LAYERS
+  nameWithType: PATTERN.LAYERS
+- uid: CnvAPI.PATTERN.LAYERS*
+  name: LAYERS
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_LAYERS_
+  commentId: Overload:CnvAPI.PATTERN.LAYERS
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.LAYERS
+  nameWithType: PATTERN.LAYERS
 - uid: CnvAPI.PATTERN.MOVE(System.Int32,System.Int32)
   name: MOVE(int, int)
   href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_MOVE_System_Int32_System_Int32_
@@ -4987,6 +5281,58 @@ references:
   isSpec: "True"
   fullName: CnvAPI.PATTERN.MOVE
   nameWithType: PATTERN.MOVE
+- uid: CnvAPI.PATTERN.PRIORITY
+  name: PRIORITY
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_PRIORITY
+  commentId: P:CnvAPI.PATTERN.PRIORITY
+  fullName: CnvAPI.PATTERN.PRIORITY
+  nameWithType: PATTERN.PRIORITY
+- uid: CnvAPI.PATTERN.PRIORITY*
+  name: PRIORITY
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_PRIORITY_
+  commentId: Overload:CnvAPI.PATTERN.PRIORITY
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.PRIORITY
+  nameWithType: PATTERN.PRIORITY
+- uid: CnvAPI.PATTERN.TOCANVAS
+  name: TOCANVAS
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_TOCANVAS
+  commentId: P:CnvAPI.PATTERN.TOCANVAS
+  fullName: CnvAPI.PATTERN.TOCANVAS
+  nameWithType: PATTERN.TOCANVAS
+- uid: CnvAPI.PATTERN.TOCANVAS*
+  name: TOCANVAS
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_TOCANVAS_
+  commentId: Overload:CnvAPI.PATTERN.TOCANVAS
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.TOCANVAS
+  nameWithType: PATTERN.TOCANVAS
+- uid: CnvAPI.PATTERN.VISIBLE
+  name: VISIBLE
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_VISIBLE
+  commentId: P:CnvAPI.PATTERN.VISIBLE
+  fullName: CnvAPI.PATTERN.VISIBLE
+  nameWithType: PATTERN.VISIBLE
+- uid: CnvAPI.PATTERN.VISIBLE*
+  name: VISIBLE
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_VISIBLE_
+  commentId: Overload:CnvAPI.PATTERN.VISIBLE
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.VISIBLE
+  nameWithType: PATTERN.VISIBLE
+- uid: CnvAPI.PATTERN.WIDTH
+  name: WIDTH
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_WIDTH
+  commentId: P:CnvAPI.PATTERN.WIDTH
+  fullName: CnvAPI.PATTERN.WIDTH
+  nameWithType: PATTERN.WIDTH
+- uid: CnvAPI.PATTERN.WIDTH*
+  name: WIDTH
+  href: api/CnvAPI.PATTERN.html#CnvAPI_PATTERN_WIDTH_
+  commentId: Overload:CnvAPI.PATTERN.WIDTH
+  isSpec: "True"
+  fullName: CnvAPI.PATTERN.WIDTH
+  nameWithType: PATTERN.WIDTH
 - uid: CnvAPI.ParametrizedSignalHandler
   name: ParametrizedSignalHandler
   href: api/CnvAPI.ParametrizedSignalHandler.html
@@ -5084,6 +5430,71 @@ references:
   commentId: T:CnvAPI.SCENE
   fullName: CnvAPI.SCENE
   nameWithType: SCENE
+- uid: CnvAPI.SCENE.AUTHOR
+  name: AUTHOR
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_AUTHOR
+  commentId: P:CnvAPI.SCENE.AUTHOR
+  fullName: CnvAPI.SCENE.AUTHOR
+  nameWithType: SCENE.AUTHOR
+- uid: CnvAPI.SCENE.AUTHOR*
+  name: AUTHOR
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_AUTHOR_
+  commentId: Overload:CnvAPI.SCENE.AUTHOR
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.AUTHOR
+  nameWithType: SCENE.AUTHOR
+- uid: CnvAPI.SCENE.BACKGROUND
+  name: BACKGROUND
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_BACKGROUND
+  commentId: P:CnvAPI.SCENE.BACKGROUND
+  fullName: CnvAPI.SCENE.BACKGROUND
+  nameWithType: SCENE.BACKGROUND
+- uid: CnvAPI.SCENE.BACKGROUND*
+  name: BACKGROUND
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_BACKGROUND_
+  commentId: Overload:CnvAPI.SCENE.BACKGROUND
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.BACKGROUND
+  nameWithType: SCENE.BACKGROUND
+- uid: CnvAPI.SCENE.CREATIONTIME
+  name: CREATIONTIME
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_CREATIONTIME
+  commentId: P:CnvAPI.SCENE.CREATIONTIME
+  fullName: CnvAPI.SCENE.CREATIONTIME
+  nameWithType: SCENE.CREATIONTIME
+- uid: CnvAPI.SCENE.CREATIONTIME*
+  name: CREATIONTIME
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_CREATIONTIME_
+  commentId: Overload:CnvAPI.SCENE.CREATIONTIME
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.CREATIONTIME
+  nameWithType: SCENE.CREATIONTIME
+- uid: CnvAPI.SCENE.DESCRIPTION
+  name: DESCRIPTION
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_DESCRIPTION
+  commentId: P:CnvAPI.SCENE.DESCRIPTION
+  fullName: CnvAPI.SCENE.DESCRIPTION
+  nameWithType: SCENE.DESCRIPTION
+- uid: CnvAPI.SCENE.DESCRIPTION*
+  name: DESCRIPTION
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_DESCRIPTION_
+  commentId: Overload:CnvAPI.SCENE.DESCRIPTION
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.DESCRIPTION
+  nameWithType: SCENE.DESCRIPTION
+- uid: CnvAPI.SCENE.DLLS
+  name: DLLS
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_DLLS
+  commentId: P:CnvAPI.SCENE.DLLS
+  fullName: CnvAPI.SCENE.DLLS
+  nameWithType: SCENE.DLLS
+- uid: CnvAPI.SCENE.DLLS*
+  name: DLLS
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_DLLS_
+  commentId: Overload:CnvAPI.SCENE.DLLS
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.DLLS
+  nameWithType: SCENE.DLLS
 - uid: CnvAPI.SCENE.GETMAXHSPRIORITY
   name: GETMAXHSPRIORITY()
   href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_GETMAXHSPRIORITY
@@ -5136,6 +5547,45 @@ references:
   isSpec: "True"
   fullName: CnvAPI.SCENE.GETPLAYINGSEQ
   nameWithType: SCENE.GETPLAYINGSEQ
+- uid: CnvAPI.SCENE.LASTMODIFYTIME
+  name: LASTMODIFYTIME
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_LASTMODIFYTIME
+  commentId: P:CnvAPI.SCENE.LASTMODIFYTIME
+  fullName: CnvAPI.SCENE.LASTMODIFYTIME
+  nameWithType: SCENE.LASTMODIFYTIME
+- uid: CnvAPI.SCENE.LASTMODIFYTIME*
+  name: LASTMODIFYTIME
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_LASTMODIFYTIME_
+  commentId: Overload:CnvAPI.SCENE.LASTMODIFYTIME
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.LASTMODIFYTIME
+  nameWithType: SCENE.LASTMODIFYTIME
+- uid: CnvAPI.SCENE.MUSIC
+  name: MUSIC
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_MUSIC
+  commentId: P:CnvAPI.SCENE.MUSIC
+  fullName: CnvAPI.SCENE.MUSIC
+  nameWithType: SCENE.MUSIC
+- uid: CnvAPI.SCENE.MUSIC*
+  name: MUSIC
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_MUSIC_
+  commentId: Overload:CnvAPI.SCENE.MUSIC
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.MUSIC
+  nameWithType: SCENE.MUSIC
+- uid: CnvAPI.SCENE.PATH
+  name: PATH
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_PATH
+  commentId: P:CnvAPI.SCENE.PATH
+  fullName: CnvAPI.SCENE.PATH
+  nameWithType: SCENE.PATH
+- uid: CnvAPI.SCENE.PATH*
+  name: PATH
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_PATH_
+  commentId: Overload:CnvAPI.SCENE.PATH
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.PATH
+  nameWithType: SCENE.PATH
 - uid: CnvAPI.SCENE.PAUSE
   name: PAUSE()
   href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_PAUSE
@@ -5272,12 +5722,38 @@ references:
   isSpec: "True"
   fullName: CnvAPI.SCENE.STOPMUSIC
   nameWithType: SCENE.STOPMUSIC
+- uid: CnvAPI.SCENE.VERSION
+  name: VERSION
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_VERSION
+  commentId: P:CnvAPI.SCENE.VERSION
+  fullName: CnvAPI.SCENE.VERSION
+  nameWithType: SCENE.VERSION
+- uid: CnvAPI.SCENE.VERSION*
+  name: VERSION
+  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_VERSION_
+  commentId: Overload:CnvAPI.SCENE.VERSION
+  isSpec: "True"
+  fullName: CnvAPI.SCENE.VERSION
+  nameWithType: SCENE.VERSION
 - uid: CnvAPI.SEQUENCE
   name: SEQUENCE
   href: api/CnvAPI.SEQUENCE.html
   commentId: T:CnvAPI.SEQUENCE
   fullName: CnvAPI.SEQUENCE
   nameWithType: SEQUENCE
+- uid: CnvAPI.SEQUENCE.FILENAME
+  name: FILENAME
+  href: api/CnvAPI.SEQUENCE.html#CnvAPI_SEQUENCE_FILENAME
+  commentId: P:CnvAPI.SEQUENCE.FILENAME
+  fullName: CnvAPI.SEQUENCE.FILENAME
+  nameWithType: SEQUENCE.FILENAME
+- uid: CnvAPI.SEQUENCE.FILENAME*
+  name: FILENAME
+  href: api/CnvAPI.SEQUENCE.html#CnvAPI_SEQUENCE_FILENAME_
+  commentId: Overload:CnvAPI.SEQUENCE.FILENAME
+  isSpec: "True"
+  fullName: CnvAPI.SEQUENCE.FILENAME
+  nameWithType: SEQUENCE.FILENAME
 - uid: CnvAPI.SEQUENCE.GETEVENTNAME
   name: GETEVENTNAME()
   href: api/CnvAPI.SEQUENCE.html#CnvAPI_SEQUENCE_GETEVENTNAME
@@ -5317,6 +5793,24 @@ references:
   isSpec: "True"
   fullName: CnvAPI.SEQUENCE.ISPLAYING
   nameWithType: SEQUENCE.ISPLAYING
+- uid: CnvAPI.SEQUENCE.ONFINISHED
+  name: ONFINISHED
+  href: api/CnvAPI.SEQUENCE.html#CnvAPI_SEQUENCE_ONFINISHED
+  commentId: E:CnvAPI.SEQUENCE.ONFINISHED
+  fullName: CnvAPI.SEQUENCE.ONFINISHED
+  nameWithType: SEQUENCE.ONFINISHED
+- uid: CnvAPI.SEQUENCE.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.SEQUENCE.html#CnvAPI_SEQUENCE_ONINIT
+  commentId: E:CnvAPI.SEQUENCE.ONINIT
+  fullName: CnvAPI.SEQUENCE.ONINIT
+  nameWithType: SEQUENCE.ONINIT
+- uid: CnvAPI.SEQUENCE.ONSTARTED
+  name: ONSTARTED
+  href: api/CnvAPI.SEQUENCE.html#CnvAPI_SEQUENCE_ONSTARTED
+  commentId: E:CnvAPI.SEQUENCE.ONSTARTED
+  fullName: CnvAPI.SEQUENCE.ONSTARTED
+  nameWithType: SEQUENCE.ONSTARTED
 - uid: CnvAPI.SEQUENCE.PAUSE
   name: PAUSE()
   href: api/CnvAPI.SEQUENCE.html#CnvAPI_SEQUENCE_PAUSE
@@ -5381,6 +5875,32 @@ references:
   commentId: T:CnvAPI.SOUND
   fullName: CnvAPI.SOUND
   nameWithType: SOUND
+- uid: CnvAPI.SOUND.FILENAME
+  name: FILENAME
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_FILENAME
+  commentId: P:CnvAPI.SOUND.FILENAME
+  fullName: CnvAPI.SOUND.FILENAME
+  nameWithType: SOUND.FILENAME
+- uid: CnvAPI.SOUND.FILENAME*
+  name: FILENAME
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_FILENAME_
+  commentId: Overload:CnvAPI.SOUND.FILENAME
+  isSpec: "True"
+  fullName: CnvAPI.SOUND.FILENAME
+  nameWithType: SOUND.FILENAME
+- uid: CnvAPI.SOUND.FLUSHAFTERPLAYED
+  name: FLUSHAFTERPLAYED
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_FLUSHAFTERPLAYED
+  commentId: P:CnvAPI.SOUND.FLUSHAFTERPLAYED
+  fullName: CnvAPI.SOUND.FLUSHAFTERPLAYED
+  nameWithType: SOUND.FLUSHAFTERPLAYED
+- uid: CnvAPI.SOUND.FLUSHAFTERPLAYED*
+  name: FLUSHAFTERPLAYED
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_FLUSHAFTERPLAYED_
+  commentId: Overload:CnvAPI.SOUND.FLUSHAFTERPLAYED
+  isSpec: "True"
+  fullName: CnvAPI.SOUND.FLUSHAFTERPLAYED
+  nameWithType: SOUND.FLUSHAFTERPLAYED
 - uid: CnvAPI.SOUND.ISPLAYING
   name: ISPLAYING()
   href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_ISPLAYING
@@ -5410,6 +5930,24 @@ references:
   isSpec: "True"
   fullName: CnvAPI.SOUND.LOAD
   nameWithType: SOUND.LOAD
+- uid: CnvAPI.SOUND.ONFINISHED
+  name: ONFINISHED
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_ONFINISHED
+  commentId: E:CnvAPI.SOUND.ONFINISHED
+  fullName: CnvAPI.SOUND.ONFINISHED
+  nameWithType: SOUND.ONFINISHED
+- uid: CnvAPI.SOUND.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_ONINIT
+  commentId: E:CnvAPI.SOUND.ONINIT
+  fullName: CnvAPI.SOUND.ONINIT
+  nameWithType: SOUND.ONINIT
+- uid: CnvAPI.SOUND.ONSTARTED
+  name: ONSTARTED
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_ONSTARTED
+  commentId: E:CnvAPI.SOUND.ONSTARTED
+  fullName: CnvAPI.SOUND.ONSTARTED
+  nameWithType: SOUND.ONSTARTED
 - uid: CnvAPI.SOUND.PAUSE
   name: PAUSE()
   href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_PAUSE
@@ -5436,6 +5974,32 @@ references:
   isSpec: "True"
   fullName: CnvAPI.SOUND.PLAY
   nameWithType: SOUND.PLAY
+- uid: CnvAPI.SOUND.PRELOAD
+  name: PRELOAD
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_PRELOAD
+  commentId: P:CnvAPI.SOUND.PRELOAD
+  fullName: CnvAPI.SOUND.PRELOAD
+  nameWithType: SOUND.PRELOAD
+- uid: CnvAPI.SOUND.PRELOAD*
+  name: PRELOAD
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_PRELOAD_
+  commentId: Overload:CnvAPI.SOUND.PRELOAD
+  isSpec: "True"
+  fullName: CnvAPI.SOUND.PRELOAD
+  nameWithType: SOUND.PRELOAD
+- uid: CnvAPI.SOUND.RELEASE
+  name: RELEASE
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_RELEASE
+  commentId: P:CnvAPI.SOUND.RELEASE
+  fullName: CnvAPI.SOUND.RELEASE
+  nameWithType: SOUND.RELEASE
+- uid: CnvAPI.SOUND.RELEASE*
+  name: RELEASE
+  href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_RELEASE_
+  commentId: Overload:CnvAPI.SOUND.RELEASE
+  isSpec: "True"
+  fullName: CnvAPI.SOUND.RELEASE
+  nameWithType: SOUND.RELEASE
 - uid: CnvAPI.SOUND.RESUME
   name: RESUME()
   href: api/CnvAPI.SOUND.html#CnvAPI_SOUND_RESUME
@@ -5484,6 +6048,19 @@ references:
   commentId: T:CnvAPI.STATICFILTER
   fullName: CnvAPI.STATICFILTER
   nameWithType: STATICFILTER
+- uid: CnvAPI.STATICFILTER.ACTION
+  name: ACTION
+  href: api/CnvAPI.STATICFILTER.html#CnvAPI_STATICFILTER_ACTION
+  commentId: P:CnvAPI.STATICFILTER.ACTION
+  fullName: CnvAPI.STATICFILTER.ACTION
+  nameWithType: STATICFILTER.ACTION
+- uid: CnvAPI.STATICFILTER.ACTION*
+  name: ACTION
+  href: api/CnvAPI.STATICFILTER.html#CnvAPI_STATICFILTER_ACTION_
+  commentId: Overload:CnvAPI.STATICFILTER.ACTION
+  isSpec: "True"
+  fullName: CnvAPI.STATICFILTER.ACTION
+  nameWithType: STATICFILTER.ACTION
 - uid: CnvAPI.STATICFILTER.LINK(System.String)
   name: LINK(string)
   href: api/CnvAPI.STATICFILTER.html#CnvAPI_STATICFILTER_LINK_System_String_
@@ -5640,6 +6217,24 @@ references:
   isSpec: "True"
   fullName: CnvAPI.STRING.LENGTH
   nameWithType: STRING.LENGTH
+- uid: CnvAPI.STRING.ONBRUTALCHANGED
+  name: ONBRUTALCHANGED
+  href: api/CnvAPI.STRING.html#CnvAPI_STRING_ONBRUTALCHANGED
+  commentId: E:CnvAPI.STRING.ONBRUTALCHANGED
+  fullName: CnvAPI.STRING.ONBRUTALCHANGED
+  nameWithType: STRING.ONBRUTALCHANGED
+- uid: CnvAPI.STRING.ONCHANGED
+  name: ONCHANGED
+  href: api/CnvAPI.STRING.html#CnvAPI_STRING_ONCHANGED
+  commentId: E:CnvAPI.STRING.ONCHANGED
+  fullName: CnvAPI.STRING.ONCHANGED
+  nameWithType: STRING.ONCHANGED
+- uid: CnvAPI.STRING.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.STRING.html#CnvAPI_STRING_ONINIT
+  commentId: E:CnvAPI.STRING.ONINIT
+  fullName: CnvAPI.STRING.ONINIT
+  nameWithType: STRING.ONINIT
 - uid: CnvAPI.STRING.REPLACE(System.String,System.String)
   name: REPLACE(string, string)
   href: api/CnvAPI.STRING.html#CnvAPI_STRING_REPLACE_System_String_System_String_
@@ -5717,6 +6312,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.STRING.SUB
   nameWithType: STRING.SUB
+- uid: CnvAPI.STRING.TOINI
+  name: TOINI
+  href: api/CnvAPI.STRING.html#CnvAPI_STRING_TOINI
+  commentId: P:CnvAPI.STRING.TOINI
+  fullName: CnvAPI.STRING.TOINI
+  nameWithType: STRING.TOINI
+- uid: CnvAPI.STRING.TOINI*
+  name: TOINI
+  href: api/CnvAPI.STRING.html#CnvAPI_STRING_TOINI_
+  commentId: Overload:CnvAPI.STRING.TOINI
+  isSpec: "True"
+  fullName: CnvAPI.STRING.TOINI
+  nameWithType: STRING.TOINI
 - uid: CnvAPI.STRING.UPPER
   name: UPPER()
   href: api/CnvAPI.STRING.html#CnvAPI_STRING_UPPER
@@ -5730,12 +6338,38 @@ references:
   isSpec: "True"
   fullName: CnvAPI.STRING.UPPER
   nameWithType: STRING.UPPER
+- uid: CnvAPI.STRING.VALUE
+  name: VALUE
+  href: api/CnvAPI.STRING.html#CnvAPI_STRING_VALUE
+  commentId: P:CnvAPI.STRING.VALUE
+  fullName: CnvAPI.STRING.VALUE
+  nameWithType: STRING.VALUE
+- uid: CnvAPI.STRING.VALUE*
+  name: VALUE
+  href: api/CnvAPI.STRING.html#CnvAPI_STRING_VALUE_
+  commentId: Overload:CnvAPI.STRING.VALUE
+  isSpec: "True"
+  fullName: CnvAPI.STRING.VALUE
+  nameWithType: STRING.VALUE
 - uid: CnvAPI.STRUCT
   name: STRUCT
   href: api/CnvAPI.STRUCT.html
   commentId: T:CnvAPI.STRUCT
   fullName: CnvAPI.STRUCT
   nameWithType: STRUCT
+- uid: CnvAPI.STRUCT.FIELDS
+  name: FIELDS
+  href: api/CnvAPI.STRUCT.html#CnvAPI_STRUCT_FIELDS
+  commentId: P:CnvAPI.STRUCT.FIELDS
+  fullName: CnvAPI.STRUCT.FIELDS
+  nameWithType: STRUCT.FIELDS
+- uid: CnvAPI.STRUCT.FIELDS*
+  name: FIELDS
+  href: api/CnvAPI.STRUCT.html#CnvAPI_STRUCT_FIELDS_
+  commentId: Overload:CnvAPI.STRUCT.FIELDS
+  isSpec: "True"
+  fullName: CnvAPI.STRUCT.FIELDS
+  nameWithType: STRUCT.FIELDS
 - uid: CnvAPI.STRUCT.GETFIELD(System.String)
   name: GETFIELD(string)
   href: api/CnvAPI.STRUCT.html#CnvAPI_STRUCT_GETFIELD_System_String_
@@ -5905,6 +6539,19 @@ references:
   commentId: T:CnvAPI.TEXT
   fullName: CnvAPI.TEXT
   nameWithType: TEXT
+- uid: CnvAPI.TEXT.FONT
+  name: FONT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_FONT
+  commentId: P:CnvAPI.TEXT.FONT
+  fullName: CnvAPI.TEXT.FONT
+  nameWithType: TEXT.FONT
+- uid: CnvAPI.TEXT.FONT*
+  name: FONT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_FONT_
+  commentId: Overload:CnvAPI.TEXT.FONT
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.FONT
+  nameWithType: TEXT.FONT
 - uid: CnvAPI.TEXT.HIDE
   name: HIDE()
   href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_HIDE
@@ -5918,6 +6565,77 @@ references:
   isSpec: "True"
   fullName: CnvAPI.TEXT.HIDE
   nameWithType: TEXT.HIDE
+- uid: CnvAPI.TEXT.HJUSTIFY
+  name: HJUSTIFY
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_HJUSTIFY
+  commentId: P:CnvAPI.TEXT.HJUSTIFY
+  fullName: CnvAPI.TEXT.HJUSTIFY
+  nameWithType: TEXT.HJUSTIFY
+- uid: CnvAPI.TEXT.HJUSTIFY*
+  name: HJUSTIFY
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_HJUSTIFY_
+  commentId: Overload:CnvAPI.TEXT.HJUSTIFY
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.HJUSTIFY
+  nameWithType: TEXT.HJUSTIFY
+- uid: CnvAPI.TEXT.HYPERTEXT
+  name: HYPERTEXT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_HYPERTEXT
+  commentId: P:CnvAPI.TEXT.HYPERTEXT
+  fullName: CnvAPI.TEXT.HYPERTEXT
+  nameWithType: TEXT.HYPERTEXT
+- uid: CnvAPI.TEXT.HYPERTEXT*
+  name: HYPERTEXT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_HYPERTEXT_
+  commentId: Overload:CnvAPI.TEXT.HYPERTEXT
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.HYPERTEXT
+  nameWithType: TEXT.HYPERTEXT
+- uid: CnvAPI.TEXT.MONITORCOLLISION
+  name: MONITORCOLLISION
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_MONITORCOLLISION
+  commentId: P:CnvAPI.TEXT.MONITORCOLLISION
+  fullName: CnvAPI.TEXT.MONITORCOLLISION
+  nameWithType: TEXT.MONITORCOLLISION
+- uid: CnvAPI.TEXT.MONITORCOLLISION*
+  name: MONITORCOLLISION
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_MONITORCOLLISION_
+  commentId: Overload:CnvAPI.TEXT.MONITORCOLLISION
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.MONITORCOLLISION
+  nameWithType: TEXT.MONITORCOLLISION
+- uid: CnvAPI.TEXT.MONITORCOLLISIONALPHA
+  name: MONITORCOLLISIONALPHA
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_MONITORCOLLISIONALPHA
+  commentId: P:CnvAPI.TEXT.MONITORCOLLISIONALPHA
+  fullName: CnvAPI.TEXT.MONITORCOLLISIONALPHA
+  nameWithType: TEXT.MONITORCOLLISIONALPHA
+- uid: CnvAPI.TEXT.MONITORCOLLISIONALPHA*
+  name: MONITORCOLLISIONALPHA
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_MONITORCOLLISIONALPHA_
+  commentId: Overload:CnvAPI.TEXT.MONITORCOLLISIONALPHA
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.MONITORCOLLISIONALPHA
+  nameWithType: TEXT.MONITORCOLLISIONALPHA
+- uid: CnvAPI.TEXT.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_ONINIT
+  commentId: E:CnvAPI.TEXT.ONINIT
+  fullName: CnvAPI.TEXT.ONINIT
+  nameWithType: TEXT.ONINIT
+- uid: CnvAPI.TEXT.RECT
+  name: RECT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_RECT
+  commentId: P:CnvAPI.TEXT.RECT
+  fullName: CnvAPI.TEXT.RECT
+  nameWithType: TEXT.RECT
+- uid: CnvAPI.TEXT.RECT*
+  name: RECT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_RECT_
+  commentId: Overload:CnvAPI.TEXT.RECT
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.RECT
+  nameWithType: TEXT.RECT
 - uid: CnvAPI.TEXT.SETCOLOR
   name: SETCOLOR()
   href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_SETCOLOR
@@ -5986,6 +6704,58 @@ references:
   isSpec: "True"
   fullName: CnvAPI.TEXT.SHOW
   nameWithType: TEXT.SHOW
+- uid: CnvAPI.TEXT.TEXT
+  name: TEXT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_TEXT
+  commentId: P:CnvAPI.TEXT.TEXT
+  fullName: CnvAPI.TEXT.TEXT
+  nameWithType: TEXT.TEXT
+- uid: CnvAPI.TEXT.TEXT*
+  name: TEXT
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_TEXT_
+  commentId: Overload:CnvAPI.TEXT.TEXT
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.TEXT
+  nameWithType: TEXT.TEXT
+- uid: CnvAPI.TEXT.TOCANVAS
+  name: TOCANVAS
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_TOCANVAS
+  commentId: P:CnvAPI.TEXT.TOCANVAS
+  fullName: CnvAPI.TEXT.TOCANVAS
+  nameWithType: TEXT.TOCANVAS
+- uid: CnvAPI.TEXT.TOCANVAS*
+  name: TOCANVAS
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_TOCANVAS_
+  commentId: Overload:CnvAPI.TEXT.TOCANVAS
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.TOCANVAS
+  nameWithType: TEXT.TOCANVAS
+- uid: CnvAPI.TEXT.VISIBLE
+  name: VISIBLE
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_VISIBLE
+  commentId: P:CnvAPI.TEXT.VISIBLE
+  fullName: CnvAPI.TEXT.VISIBLE
+  nameWithType: TEXT.VISIBLE
+- uid: CnvAPI.TEXT.VISIBLE*
+  name: VISIBLE
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_VISIBLE_
+  commentId: Overload:CnvAPI.TEXT.VISIBLE
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.VISIBLE
+  nameWithType: TEXT.VISIBLE
+- uid: CnvAPI.TEXT.VJUSTIFY
+  name: VJUSTIFY
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_VJUSTIFY
+  commentId: P:CnvAPI.TEXT.VJUSTIFY
+  fullName: CnvAPI.TEXT.VJUSTIFY
+  nameWithType: TEXT.VJUSTIFY
+- uid: CnvAPI.TEXT.VJUSTIFY*
+  name: VJUSTIFY
+  href: api/CnvAPI.TEXT.html#CnvAPI_TEXT_VJUSTIFY_
+  commentId: Overload:CnvAPI.TEXT.VJUSTIFY
+  isSpec: "True"
+  fullName: CnvAPI.TEXT.VJUSTIFY
+  nameWithType: TEXT.VJUSTIFY
 - uid: CnvAPI.TIMER
   name: TIMER
   href: api/CnvAPI.TIMER.html
@@ -6005,6 +6775,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.TIMER.DISABLE
   nameWithType: TIMER.DISABLE
+- uid: CnvAPI.TIMER.ELAPSE
+  name: ELAPSE
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_ELAPSE
+  commentId: P:CnvAPI.TIMER.ELAPSE
+  fullName: CnvAPI.TIMER.ELAPSE
+  nameWithType: TIMER.ELAPSE
+- uid: CnvAPI.TIMER.ELAPSE*
+  name: ELAPSE
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_ELAPSE_
+  commentId: Overload:CnvAPI.TIMER.ELAPSE
+  isSpec: "True"
+  fullName: CnvAPI.TIMER.ELAPSE
+  nameWithType: TIMER.ELAPSE
 - uid: CnvAPI.TIMER.ENABLE
   name: ENABLE()
   href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_ENABLE
@@ -6018,6 +6801,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.TIMER.ENABLE
   nameWithType: TIMER.ENABLE
+- uid: CnvAPI.TIMER.ENABLED
+  name: ENABLED
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_ENABLED
+  commentId: P:CnvAPI.TIMER.ENABLED
+  fullName: CnvAPI.TIMER.ENABLED
+  nameWithType: TIMER.ENABLED
+- uid: CnvAPI.TIMER.ENABLED*
+  name: ENABLED
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_ENABLED_
+  commentId: Overload:CnvAPI.TIMER.ENABLED
+  isSpec: "True"
+  fullName: CnvAPI.TIMER.ENABLED
+  nameWithType: TIMER.ENABLED
 - uid: CnvAPI.TIMER.GETTICKS
   name: GETTICKS()
   href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_GETTICKS
@@ -6031,6 +6827,18 @@ references:
   isSpec: "True"
   fullName: CnvAPI.TIMER.GETTICKS
   nameWithType: TIMER.GETTICKS
+- uid: CnvAPI.TIMER.ONINIT
+  name: ONINIT
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_ONINIT
+  commentId: E:CnvAPI.TIMER.ONINIT
+  fullName: CnvAPI.TIMER.ONINIT
+  nameWithType: TIMER.ONINIT
+- uid: CnvAPI.TIMER.ONTICK
+  name: ONTICK
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_ONTICK
+  commentId: E:CnvAPI.TIMER.ONTICK
+  fullName: CnvAPI.TIMER.ONTICK
+  nameWithType: TIMER.ONTICK
 - uid: CnvAPI.TIMER.RESET
   name: RESET()
   href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_RESET
@@ -6076,6 +6884,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.TIMER.SETELAPSE
   nameWithType: TIMER.SETELAPSE
+- uid: CnvAPI.TIMER.TICKS
+  name: TICKS
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_TICKS
+  commentId: P:CnvAPI.TIMER.TICKS
+  fullName: CnvAPI.TIMER.TICKS
+  nameWithType: TIMER.TICKS
+- uid: CnvAPI.TIMER.TICKS*
+  name: TICKS
+  href: api/CnvAPI.TIMER.html#CnvAPI_TIMER_TICKS_
+  commentId: Overload:CnvAPI.TIMER.TICKS
+  isSpec: "True"
+  fullName: CnvAPI.TIMER.TICKS
+  nameWithType: TIMER.TICKS
 - uid: CnvAPI.VECTOR
   name: VECTOR
   href: api/CnvAPI.VECTOR.html
@@ -6188,12 +7009,51 @@ references:
   isSpec: "True"
   fullName: CnvAPI.VECTOR.REFLECT
   nameWithType: VECTOR.REFLECT
+- uid: CnvAPI.VECTOR.SIZE
+  name: SIZE
+  href: api/CnvAPI.VECTOR.html#CnvAPI_VECTOR_SIZE
+  commentId: P:CnvAPI.VECTOR.SIZE
+  fullName: CnvAPI.VECTOR.SIZE
+  nameWithType: VECTOR.SIZE
+- uid: CnvAPI.VECTOR.SIZE*
+  name: SIZE
+  href: api/CnvAPI.VECTOR.html#CnvAPI_VECTOR_SIZE_
+  commentId: Overload:CnvAPI.VECTOR.SIZE
+  isSpec: "True"
+  fullName: CnvAPI.VECTOR.SIZE
+  nameWithType: VECTOR.SIZE
+- uid: CnvAPI.VECTOR.VALUE
+  name: VALUE
+  href: api/CnvAPI.VECTOR.html#CnvAPI_VECTOR_VALUE
+  commentId: P:CnvAPI.VECTOR.VALUE
+  fullName: CnvAPI.VECTOR.VALUE
+  nameWithType: VECTOR.VALUE
+- uid: CnvAPI.VECTOR.VALUE*
+  name: VALUE
+  href: api/CnvAPI.VECTOR.html#CnvAPI_VECTOR_VALUE_
+  commentId: Overload:CnvAPI.VECTOR.VALUE
+  isSpec: "True"
+  fullName: CnvAPI.VECTOR.VALUE
+  nameWithType: VECTOR.VALUE
 - uid: CnvAPI.VIRTUALGRAPHICSOBJECT
   name: VIRTUALGRAPHICSOBJECT
   href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html
   commentId: T:CnvAPI.VIRTUALGRAPHICSOBJECT
   fullName: CnvAPI.VIRTUALGRAPHICSOBJECT
   nameWithType: VIRTUALGRAPHICSOBJECT
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.ASBUTTON
+  name: ASBUTTON
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_ASBUTTON
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.ASBUTTON
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.ASBUTTON
+  nameWithType: VIRTUALGRAPHICSOBJECT.ASBUTTON
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.ASBUTTON*
+  name: ASBUTTON
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_ASBUTTON_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.ASBUTTON
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.ASBUTTON
+  nameWithType: VIRTUALGRAPHICSOBJECT.ASBUTTON
 - uid: CnvAPI.VIRTUALGRAPHICSOBJECT.GETHEIGHT
   name: GETHEIGHT()
   href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_GETHEIGHT
@@ -6246,6 +7106,45 @@ references:
   isSpec: "True"
   fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.GETWIDTH
   nameWithType: VIRTUALGRAPHICSOBJECT.GETWIDTH
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.MASK
+  name: MASK
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_MASK
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.MASK
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.MASK
+  nameWithType: VIRTUALGRAPHICSOBJECT.MASK
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.MASK*
+  name: MASK
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_MASK_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.MASK
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.MASK
+  nameWithType: VIRTUALGRAPHICSOBJECT.MASK
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISION
+  name: MONITORCOLLISION
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_MONITORCOLLISION
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISION
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISION
+  nameWithType: VIRTUALGRAPHICSOBJECT.MONITORCOLLISION
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISION*
+  name: MONITORCOLLISION
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_MONITORCOLLISION_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISION
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISION
+  nameWithType: VIRTUALGRAPHICSOBJECT.MONITORCOLLISION
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA
+  name: MONITORCOLLISIONALPHA
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_MONITORCOLLISIONALPHA
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA
+  nameWithType: VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA*
+  name: MONITORCOLLISIONALPHA
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_MONITORCOLLISIONALPHA_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA
+  nameWithType: VIRTUALGRAPHICSOBJECT.MONITORCOLLISIONALPHA
 - uid: CnvAPI.VIRTUALGRAPHICSOBJECT.MOVE(System.Int32,System.Int32)
   name: MOVE(int, int)
   href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_MOVE_System_Int32_System_Int32_
@@ -6262,6 +7161,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.MOVE
   nameWithType: VIRTUALGRAPHICSOBJECT.MOVE
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.PRIORITY
+  name: PRIORITY
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_PRIORITY
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.PRIORITY
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.PRIORITY
+  nameWithType: VIRTUALGRAPHICSOBJECT.PRIORITY
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.PRIORITY*
+  name: PRIORITY
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_PRIORITY_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.PRIORITY
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.PRIORITY
+  nameWithType: VIRTUALGRAPHICSOBJECT.PRIORITY
 - uid: CnvAPI.VIRTUALGRAPHICSOBJECT.SETMASK(System.String)
   name: SETMASK(string)
   href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_SETMASK_System_String_
@@ -6326,6 +7238,45 @@ references:
   isSpec: "True"
   fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.SETSOURCE
   nameWithType: VIRTUALGRAPHICSOBJECT.SETSOURCE
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.SOURCE
+  name: SOURCE
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_SOURCE
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.SOURCE
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.SOURCE
+  nameWithType: VIRTUALGRAPHICSOBJECT.SOURCE
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.SOURCE*
+  name: SOURCE
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_SOURCE_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.SOURCE
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.SOURCE
+  nameWithType: VIRTUALGRAPHICSOBJECT.SOURCE
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.TOCANVAS
+  name: TOCANVAS
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_TOCANVAS
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.TOCANVAS
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.TOCANVAS
+  nameWithType: VIRTUALGRAPHICSOBJECT.TOCANVAS
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.TOCANVAS*
+  name: TOCANVAS
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_TOCANVAS_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.TOCANVAS
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.TOCANVAS
+  nameWithType: VIRTUALGRAPHICSOBJECT.TOCANVAS
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.VISIBLE
+  name: VISIBLE
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_VISIBLE
+  commentId: P:CnvAPI.VIRTUALGRAPHICSOBJECT.VISIBLE
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.VISIBLE
+  nameWithType: VIRTUALGRAPHICSOBJECT.VISIBLE
+- uid: CnvAPI.VIRTUALGRAPHICSOBJECT.VISIBLE*
+  name: VISIBLE
+  href: api/CnvAPI.VIRTUALGRAPHICSOBJECT.html#CnvAPI_VIRTUALGRAPHICSOBJECT_VISIBLE_
+  commentId: Overload:CnvAPI.VIRTUALGRAPHICSOBJECT.VISIBLE
+  isSpec: "True"
+  fullName: CnvAPI.VIRTUALGRAPHICSOBJECT.VISIBLE
+  nameWithType: VIRTUALGRAPHICSOBJECT.VISIBLE
 - uid: CnvAPI.WORLD
   name: WORLD
   href: api/CnvAPI.WORLD.html
@@ -6371,6 +7322,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.WORLD.ADDGRAVITYEX
   nameWithType: WORLD.ADDGRAVITYEX
+- uid: CnvAPI.WORLD.FILENAME
+  name: FILENAME
+  href: api/CnvAPI.WORLD.html#CnvAPI_WORLD_FILENAME
+  commentId: P:CnvAPI.WORLD.FILENAME
+  fullName: CnvAPI.WORLD.FILENAME
+  nameWithType: WORLD.FILENAME
+- uid: CnvAPI.WORLD.FILENAME*
+  name: FILENAME
+  href: api/CnvAPI.WORLD.html#CnvAPI_WORLD_FILENAME_
+  commentId: Overload:CnvAPI.WORLD.FILENAME
+  isSpec: "True"
+  fullName: CnvAPI.WORLD.FILENAME
+  nameWithType: WORLD.FILENAME
 - uid: CnvAPI.WORLD.FINDPATH
   name: FINDPATH()
   href: api/CnvAPI.WORLD.html#CnvAPI_WORLD_FINDPATH
