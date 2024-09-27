@@ -1,0 +1,597 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface APPLICATION | Cnv API specification </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface APPLICATION | Cnv API specification ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=CnvAPI_APPLICATION.md&amp;value=---%0Auid%3A%20CnvAPI.APPLICATION%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Cnv API specification">
+            Cnv API specification
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CnvAPI.APPLICATION">
+
+
+
+  <h1 id="CnvAPI_APPLICATION" data-uid="CnvAPI.APPLICATION" class="text-break">
+Interface APPLICATION  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CnvAPI.html">CnvAPI</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CnvAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface APPLICATION : OBJECT</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_TYPE">OBJECT.TYPE</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETNAME">OBJECT.GETNAME()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CnvAPI_APPLICATION_AUTHOR_" data-uid="CnvAPI.APPLICATION.AUTHOR*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_AUTHOR" data-uid="CnvAPI.APPLICATION.AUTHOR">
+  AUTHOR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L4"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string AUTHOR { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_BLOOMOO_VERSION_" data-uid="CnvAPI.APPLICATION.BLOOMOO_VERSION*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_BLOOMOO_VERSION" data-uid="CnvAPI.APPLICATION.BLOOMOO_VERSION">
+  BLOOMOO_VERSION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string BLOOMOO_VERSION { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_CREATIONTIME_" data-uid="CnvAPI.APPLICATION.CREATIONTIME*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_CREATIONTIME" data-uid="CnvAPI.APPLICATION.CREATIONTIME">
+  CREATIONTIME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string CREATIONTIME { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_EPISODES_" data-uid="CnvAPI.APPLICATION.EPISODES*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_EPISODES" data-uid="CnvAPI.APPLICATION.EPISODES">
+  EPISODES
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string EPISODES { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_LASTMODIFYTIME_" data-uid="CnvAPI.APPLICATION.LASTMODIFYTIME*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_LASTMODIFYTIME" data-uid="CnvAPI.APPLICATION.LASTMODIFYTIME">
+  LASTMODIFYTIME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string LASTMODIFYTIME { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_PATH_" data-uid="CnvAPI.APPLICATION.PATH*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_PATH" data-uid="CnvAPI.APPLICATION.PATH">
+  PATH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string PATH { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_STARTWITH_" data-uid="CnvAPI.APPLICATION.STARTWITH*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_STARTWITH" data-uid="CnvAPI.APPLICATION.STARTWITH">
+  STARTWITH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string STARTWITH { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_VERSION_" data-uid="CnvAPI.APPLICATION.VERSION*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_VERSION" data-uid="CnvAPI.APPLICATION.VERSION">
+  VERSION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string VERSION { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CnvAPI_APPLICATION_EXIT_" data-uid="CnvAPI.APPLICATION.EXIT*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_EXIT" data-uid="CnvAPI.APPLICATION.EXIT">
+  EXIT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EXIT()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_GETLANGUAGE_" data-uid="CnvAPI.APPLICATION.GETLANGUAGE*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_GETLANGUAGE" data-uid="CnvAPI.APPLICATION.GETLANGUAGE">
+  GETLANGUAGE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GETLANGUAGE()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_RUN_" data-uid="CnvAPI.APPLICATION.RUN*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_RUN_System_String_System_String_CnvAPI_variable___" data-uid="CnvAPI.APPLICATION.RUN(System.String,System.String,CnvAPI.variable[])">
+  RUN(string, string, params variable[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">variable? RUN(string object_name, string method_name, params variable[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>object_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>method_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="CnvAPI.variable.html">variable</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_RUNENV_" data-uid="CnvAPI.APPLICATION.RUNENV*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_RUNENV_System_String_System_String_" data-uid="CnvAPI.APPLICATION.RUNENV(System.String,System.String)">
+  RUNENV(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">variable? RUNENV(string scene_name, string beh_name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scene_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>beh_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_APPLICATION_SETLANGUAGE_" data-uid="CnvAPI.APPLICATION.SETLANGUAGE*"></a>
+
+  <h3 id="CnvAPI_APPLICATION_SETLANGUAGE_System_String_" data-uid="CnvAPI.APPLICATION.SETLANGUAGE(System.String)">
+  SETLANGUAGE(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETLANGUAGE(string lang_id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lang_id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/Application.cs/#L3" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

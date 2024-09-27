@@ -1,59 +1,650 @@
 {
-  "source_base_path": "/home/runner/work/CNV-spec/CNV-spec/repo/CnvAPI",
+  "source_base_path": "/home/runner/work/CNV-spec/CNV-spec/repo/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "Conceptual",
-      "source_relative_path": "docfx/api/index.md",
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.ANIMO.yml",
       "output": {
         ".html": {
-          "relative_path": "docfx/api/index.html"
+          "relative_path": "api/CnvAPI.ANIMO.html"
         }
       },
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "docfx/articles/intro.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.APPLICATION.yml",
       "output": {
         ".html": {
-          "relative_path": "docfx/articles/intro.html"
+          "relative_path": "api/CnvAPI.APPLICATION.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.ARRAY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.ARRAY.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.BEHAVIOUR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.BEHAVIOUR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.BOOL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.BOOL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.BUTTON.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.BUTTON.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.BoolVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.BoolVariable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.CANVAS_OBSERVER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.CANVAS_OBSERVER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.CLASS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.CLASS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.CNVLOADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.CNVLOADER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.COMPLEXCONDITION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.COMPLEXCONDITION.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.CONDITION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.CONDITION.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.DATABASE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.DATABASE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.DOUBLE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.DOUBLE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.DoubleVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.DoubleVariable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.EPISODE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.EPISODE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.EXPRESSION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.EXPRESSION.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.FILTER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.FILTER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.FONT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.FONT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.GROUP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.GROUP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.IMAGE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.IMAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.INERTIA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.INERTIA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.INTEGER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.INTEGER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.IntVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.IntVariable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.KEYBOARD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.KEYBOARD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.LiteralRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.LiteralRect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.MATRIX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.MATRIX.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.MOUSE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.MOUSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.MULTIARRAY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.MULTIARRAY.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.MUSIC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.MUSIC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.OBJECT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.OBJECT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.PATTERN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.PATTERN.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.ParametrizedSignalHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.ParametrizedSignalHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.RAND.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.RAND.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.ReferenceRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.ReferenceRect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.SCENE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.SCENE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.SEQUENCE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.SEQUENCE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.SOUND.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.SOUND.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.STATICFILTER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.STATICFILTER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.STRING.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.STRING.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.STRUCT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.STRUCT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.SYSTEM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.SYSTEM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.SignalHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.SignalHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.StringVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.StringVariable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.TEXT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.TEXT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.TIMER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.TIMER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.VECTOR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.VECTOR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.VIRTUALGRAPHICSOBJECT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.VIRTUALGRAPHICSOBJECT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.WORLD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.WORLD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.anchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.anchor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.complex_operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.complex_operator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.condition_operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.condition_operator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.expression_operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.expression_operator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.rect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.rect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.variable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CnvAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CnvAPI.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "docfx/articles/toc.yml",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".json": {
-          "relative_path": "docfx/articles/toc.json"
+          "relative_path": "api/toc.json"
         },
         ".html": {
-          "relative_path": "docfx/articles/toc.html"
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docfx/index.md",
+      "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "docfx/index.html"
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "docfx/toc.yml",
+      "source_relative_path": "docs/toc.yml",
       "output": {
         ".json": {
-          "relative_path": "docfx/toc.json"
+          "relative_path": "docs/toc.json"
         },
         ".html": {
-          "relative_path": "docfx/toc.html"
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

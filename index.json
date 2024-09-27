@@ -1,0 +1,302 @@
+{
+  "api/CnvAPI.ANIMO.html": {
+    "href": "api/CnvAPI.ANIMO.html",
+    "title": "Interface ANIMO | Cnv API specification",
+    "keywords": "Interface ANIMO Namespace CnvAPI Assembly CnvAPI.dll public interface ANIMO : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties FILENAME string FILENAME { init; } Property Value string FPS int FPS { init; } Property Value int MONITORCOLLISIONALPHA bool MONITORCOLLISIONALPHA { init; } Property Value bool MONITORCOLLISION_ bool MONITORCOLLISION_ { init; } Property Value bool PRELOAD bool PRELOAD { init; } Property Value bool PRIORITY int PRIORITY { init; } Property Value int RELEASE bool RELEASE { init; } Property Value bool TOCANVAS bool TOCANVAS { init; } Property Value bool VISIBLE bool VISIBLE { init; } Property Value bool Methods GETCENTERX() Retrieves the horizontal position of the center of the object. int GETCENTERX() Returns int Horizontal position of the object's center. GETCENTERY() int GETCENTERY() Returns int GETCFRAMEINEVENT() int GETCFRAMEINEVENT() Returns int GETCURRFRAMEPOSX() int GETCURRFRAMEPOSX() Returns int GETCURRFRAMEPOSY() int GETCURRFRAMEPOSY() Returns int GETENDX() int GETENDX() Returns int GETENDY() int GETENDY() Returns int GETEVENTNAME() string GETEVENTNAME() Returns string GETFRAME() int GETFRAME() Returns int GETFRAMENAME() string GETFRAMENAME() Returns string GETHEIGHT() int GETHEIGHT() Returns int GETMAXWIDTH() int GETMAXWIDTH() Returns int GETNOE() int GETNOE() Returns int GETNOF() int GETNOF() Returns int GETNOFINEVENT(string) int GETNOFINEVENT(string event_name) Parameters event_name string Returns int GETOPACITY() int GETOPACITY() Returns int GETPOSITIONX() int GETPOSITIONX() Returns int GETPOSITIONY() int GETPOSITIONY() Returns int GETPRIORITY() int GETPRIORITY() Returns int GETWIDTH() int GETWIDTH() Returns int HIDE() Hides the object. void HIDE() INVALIDATE() void INVALIDATE() ISAT() bool ISAT() Returns bool ISNEAR(string, string) Checks if the object is near the other one. bool ISNEAR(string other, string iou_threshold) Parameters other string Another graphics object for which nearness with the current object is checked. iou_threshold string Minimum IoU value to treat two objects as being near each other. Returns bool Boolean value indicating if objects are near each other. ISPLAYING() bool ISPLAYING() Returns bool ISVISIBLE() bool ISVISIBLE() Returns bool LOAD(string) void LOAD(string filename) Parameters filename string MERGEALPHA() void MERGEALPHA() MONITORCOLLISION(bool) void MONITORCOLLISION(bool pixel_perfect) Parameters pixel_perfect bool MOVE(int, int) void MOVE(int x_offset, int y_offset) Parameters x_offset int y_offset int NEXT() void NEXT() NEXTFRAME() void NEXTFRAME() NPLAY() void NPLAY() PAUSE() void PAUSE() PLAY(int) void PLAY(int event_index) Parameters event_index int PLAY(string) Plays animation event identified by name event_name. void PLAY(string event_name) Parameters event_name string The name of the animation event to play. PREVFRAME() void PREVFRAME() REMOVEMONITORCOLLISION() void REMOVEMONITORCOLLISION() RESUME() void RESUME() SETANCHOR(anchor) void SETANCHOR(anchor anchor) Parameters anchor anchor SETASBUTTON(bool, bool) void SETASBUTTON(bool as_button, bool with_cursor_pointer) Parameters as_button bool with_cursor_pointer bool SETBACKWARD() void SETBACKWARD() SETCLIPPING() void SETCLIPPING() SETFORWARD() void SETFORWARD() SETFPS(int) void SETFPS(int fps) Parameters fps int SETFRAME(int) void SETFRAME(int image_index) Parameters image_index int SETFRAME(string, int) void SETFRAME(string event_name, int frame_index) Parameters event_name string frame_index int SETFRAMENAME(string) void SETFRAMENAME(string frame_name) Parameters frame_name string SETOPACITY(int) void SETOPACITY(int opacity) Parameters opacity int SETPOSITION(int, int) void SETPOSITION(int x, int y) Parameters x int y int SETPRIORITY(int) void SETPRIORITY(int priority) Parameters priority int SHOW() void SHOW() STOP(bool) void STOP(bool emit_on_finished = true) Parameters emit_on_finished bool Events ONCLICK event SignalHandler ONCLICK Event Type SignalHandler ONCOLLISION event ParametrizedSignalHandler ONCOLLISION Event Type ParametrizedSignalHandler ONFINISHED Signal emitted when an animation event has finished playing. event ParametrizedSignalHandler ONFINISHED Event Type ParametrizedSignalHandler ONFOCUSOFF event SignalHandler ONFOCUSOFF Event Type SignalHandler ONFOCUSON event SignalHandler ONFOCUSON Event Type SignalHandler ONFRAMECHANGED event ParametrizedSignalHandler ONFRAMECHANGED Event Type ParametrizedSignalHandler ONINIT event SignalHandler ONINIT Event Type SignalHandler ONRELEASE event SignalHandler ONRELEASE Event Type SignalHandler ONSIGNAL event ParametrizedSignalHandler ONSIGNAL Event Type ParametrizedSignalHandler ONSTARTED event ParametrizedSignalHandler ONSTARTED Event Type ParametrizedSignalHandler"
+  },
+  "api/CnvAPI.APPLICATION.html": {
+    "href": "api/CnvAPI.APPLICATION.html",
+    "title": "Interface APPLICATION | Cnv API specification",
+    "keywords": "Interface APPLICATION Namespace CnvAPI Assembly CnvAPI.dll public interface APPLICATION : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties AUTHOR string AUTHOR { init; } Property Value string BLOOMOO_VERSION string BLOOMOO_VERSION { init; } Property Value string CREATIONTIME string CREATIONTIME { init; } Property Value string EPISODES string EPISODES { init; } Property Value string LASTMODIFYTIME string LASTMODIFYTIME { init; } Property Value string PATH string PATH { init; } Property Value string STARTWITH string STARTWITH { init; } Property Value string VERSION string VERSION { init; } Property Value string Methods EXIT() void EXIT() GETLANGUAGE() string GETLANGUAGE() Returns string RUN(string, string, params variable[]) variable? RUN(string object_name, string method_name, params variable[] arguments) Parameters object_name string method_name string arguments variable[] Returns variable RUNENV(string, string) variable? RUNENV(string scene_name, string beh_name) Parameters scene_name string beh_name string Returns variable SETLANGUAGE(string) void SETLANGUAGE(string lang_id) Parameters lang_id string"
+  },
+  "api/CnvAPI.ARRAY.html": {
+    "href": "api/CnvAPI.ARRAY.html",
+    "title": "Interface ARRAY | Cnv API specification",
+    "keywords": "Interface ARRAY Namespace CnvAPI Assembly CnvAPI.dll public interface ARRAY : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADD() void ADD() ADDAT(int, variable) void ADDAT(int index, variable summand) Parameters index int summand variable CHANGEAT(int, variable) void CHANGEAT(int index, variable value) Parameters index int value variable CLAMPAT(int, variable, variable) void CLAMPAT(int index, variable min, variable max) Parameters index int min variable max variable CONTAINS(variable) void CONTAINS(variable value) Parameters value variable COPYTO() void COPYTO() FIND() void FIND() GET(int) void GET(int index) Parameters index int GETSIZE() void GETSIZE() GETSUMVALUE() void GETSUMVALUE() INSERTAT(int, variable) void INSERTAT(int index, variable value) Parameters index int value variable LOAD() void LOAD() LOADINI() void LOADINI() MODAT() void MODAT() MULAT() void MULAT() REMOVE() void REMOVE() REMOVEALL() void REMOVEALL() REMOVEAT() void REMOVEAT() REVERSEFIND() void REVERSEFIND() SAVE() void SAVE() SAVEINI() void SAVEINI() SUB() void SUB() SUBAT() void SUBAT() SUM() void SUM()"
+  },
+  "api/CnvAPI.BEHAVIOUR.html": {
+    "href": "api/CnvAPI.BEHAVIOUR.html",
+    "title": "Interface BEHAVIOUR | Cnv API specification",
+    "keywords": "Interface BEHAVIOUR Namespace CnvAPI Assembly CnvAPI.dll public interface BEHAVIOUR : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties CODE string CODE { init; } Property Value string CONDITION string CONDITION { init; } Property Value string Methods RUN(params variable[]) variable? RUN(params variable[] arguments) Parameters arguments variable[] Returns variable RUNC(params variable[]) variable? RUNC(params variable[] arguments) Parameters arguments variable[] Returns variable RUNLOOPED(int, int, int) void RUNLOOPED(int start, int range_size, int step = 1) Parameters start int range_size int step int"
+  },
+  "api/CnvAPI.BOOL.html": {
+    "href": "api/CnvAPI.BOOL.html",
+    "title": "Interface BOOL | Cnv API specification",
+    "keywords": "Interface BOOL Namespace CnvAPI Assembly CnvAPI.dll public interface BOOL : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties TOINI bool TOINI { init; } Property Value bool VALUE bool VALUE { init; } Property Value bool Methods SET(bool) Sets the value of the object to value. void SET(bool value) Parameters value bool New value for the object. SWITCH(bool, bool) Switches the value of the object between TRUE and FALSE. void SWITCH(bool _unused1, bool _unused2) Parameters _unused1 bool Unused. _unused2 bool Unused."
+  },
+  "api/CnvAPI.BUTTON.html": {
+    "href": "api/CnvAPI.BUTTON.html",
+    "title": "Interface BUTTON | Cnv API specification",
+    "keywords": "Interface BUTTON Namespace CnvAPI Assembly CnvAPI.dll public interface BUTTON : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties DRAGGABLE bool DRAGGABLE { init; } Property Value bool ENABLE_ bool ENABLE_ { init; } Property Value bool GFXONCLICK string GFXONCLICK { init; } Property Value string GFXONMOVE string GFXONMOVE { init; } Property Value string GFXSTANDARD string GFXSTANDARD { init; } Property Value string RECT rect RECT { init; } Property Value rect SNDONMOVE string SNDONMOVE { init; } Property Value string Methods DISABLE() void DISABLE() DISABLEBUTVISIBLE() void DISABLEBUTVISIBLE() ENABLE() void ENABLE() GETSTD() string GETSTD() Returns string SETONCLICK(string) void SETONCLICK(string object_name) Parameters object_name string SETONMOVE(string) void SETONMOVE(string object_name) Parameters object_name string SETPRIORITY(int) void SETPRIORITY(int priority) Parameters priority int SETRECT(int, int, int, int) void SETRECT(int left_x, int top_y, int right_x, int bottom_y) Parameters left_x int top_y int right_x int bottom_y int SETRECT(string) void SETRECT(string object_name) Parameters object_name string SETSTD(string) void SETSTD(string object_name) Parameters object_name string"
+  },
+  "api/CnvAPI.BoolVariable.html": {
+    "href": "api/CnvAPI.BoolVariable.html",
+    "title": "Class BoolVariable | Cnv API specification",
+    "keywords": "Class BoolVariable Namespace CnvAPI Assembly CnvAPI.dll public record BoolVariable : variable, IEquatable<variable>, IEquatable<BoolVariable> Inheritance object variable BoolVariable Implements IEquatable<variable> IEquatable<BoolVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BoolVariable(bool) public BoolVariable(bool value) Parameters value bool Properties value public bool value { get; init; } Property Value bool"
+  },
+  "api/CnvAPI.CANVAS_OBSERVER.html": {
+    "href": "api/CnvAPI.CANVAS_OBSERVER.html",
+    "title": "Interface CANVAS_OBSERVER | Cnv API specification",
+    "keywords": "Interface CANVAS_OBSERVER Namespace CnvAPI Assembly CnvAPI.dll public interface CANVAS_OBSERVER : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADD() void ADD() ENABLENOTIFY() void ENABLENOTIFY() GETGRAPHICSAT(int, int) string? GETGRAPHICSAT(int x_position, int y_position) Parameters x_position int y_position int Returns string GETGRAPHICSAT(int, int, bool, int, int, bool) string? GETGRAPHICSAT(int x_position, int y_position, bool _unknown, int min_priority, int max_priority, bool pixel_perfect) Parameters x_position int y_position int _unknown bool min_priority int max_priority int pixel_perfect bool Returns string MOVEBKG(int, int) void MOVEBKG(int x_offset, int y_offset) Parameters x_offset int y_offset int PASTE() void PASTE() REDRAW() void REDRAW() REFRESH() void REFRESH() REMOVE() void REMOVE() SAVE(string) void SAVE(string filename) Parameters filename string SETBACKGROUND(string) void SETBACKGROUND(string object_name_or_filename) Parameters object_name_or_filename string SETBKGPOS(int, int) void SETBKGPOS(int x, int y) Parameters x int y int"
+  },
+  "api/CnvAPI.CLASS.html": {
+    "href": "api/CnvAPI.CLASS.html",
+    "title": "Interface CLASS | Cnv API specification",
+    "keywords": "Interface CLASS Namespace CnvAPI Assembly CnvAPI.dll public interface CLASS : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties BASE string BASE { init; } Property Value string DEF string DEF { init; } Property Value string Methods NEW(string, params variable[]) void NEW(string object_name, params variable[] arguments) Parameters object_name string arguments variable[]"
+  },
+  "api/CnvAPI.CNVLOADER.html": {
+    "href": "api/CnvAPI.CNVLOADER.html",
+    "title": "Interface CNVLOADER | Cnv API specification",
+    "keywords": "Interface CNVLOADER Namespace CnvAPI Assembly CnvAPI.dll public interface CNVLOADER : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods LOAD() void LOAD() RELEASE() void RELEASE()"
+  },
+  "api/CnvAPI.COMPLEXCONDITION.html": {
+    "href": "api/CnvAPI.COMPLEXCONDITION.html",
+    "title": "Interface COMPLEXCONDITION | Cnv API specification",
+    "keywords": "Interface COMPLEXCONDITION Namespace CnvAPI Assembly CnvAPI.dll public interface COMPLEXCONDITION : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties CONDITION1 string CONDITION1 { init; } Property Value string CONDITION2 string CONDITION2 { init; } Property Value string OPERATOR complex_operator OPERATOR { init; } Property Value complex_operator Methods BREAK(bool) void BREAK(bool _) Parameters _ bool CHECK(bool) bool CHECK(bool _) Parameters _ bool Returns bool ONE_BREAK(bool) void ONE_BREAK(bool _) Parameters _ bool"
+  },
+  "api/CnvAPI.CONDITION.html": {
+    "href": "api/CnvAPI.CONDITION.html",
+    "title": "Interface CONDITION | Cnv API specification",
+    "keywords": "Interface CONDITION Namespace CnvAPI Assembly CnvAPI.dll public interface CONDITION : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties OPERAND1 string OPERAND1 { init; } Property Value string OPERAND2 string OPERAND2 { init; } Property Value string OPERATOR condition_operator OPERATOR { init; } Property Value condition_operator Methods BREAK(bool) void BREAK(bool _) Parameters _ bool CHECK(bool) bool CHECK(bool _) Parameters _ bool Returns bool ONE_BREAK(bool) void ONE_BREAK(bool _) Parameters _ bool"
+  },
+  "api/CnvAPI.DATABASE.html": {
+    "href": "api/CnvAPI.DATABASE.html",
+    "title": "Interface DATABASE | Cnv API specification",
+    "keywords": "Interface DATABASE Namespace CnvAPI Assembly CnvAPI.dll public interface DATABASE : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties MODEL string MODEL { init; } Property Value string Methods ADD(string) void ADD(string object_name) Parameters object_name string FIND(string, variable, int) int FIND(string column_name, variable value, int start_row_index) Parameters column_name string value variable start_row_index int Returns int GETCURSORPOS() int GETCURSORPOS() Returns int GETROWSNO() int GETROWSNO() Returns int LOAD(string) void LOAD(string filename) Parameters filename string NEXT() void NEXT() REMOVEALL() void REMOVEALL() SAVE(string) void SAVE(string filename) Parameters filename string SELECT(int) void SELECT(int row_index) Parameters row_index int"
+  },
+  "api/CnvAPI.DOUBLE.html": {
+    "href": "api/CnvAPI.DOUBLE.html",
+    "title": "Interface DOUBLE | Cnv API specification",
+    "keywords": "Interface DOUBLE Namespace CnvAPI Assembly CnvAPI.dll public interface DOUBLE : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties TOINI bool TOINI { init; } Property Value bool VALUE double VALUE { init; } Property Value double Methods ADD(double) double ADD(double summand) Parameters summand double Returns double ARCTAN(double) double ARCTAN(double degrees) Parameters degrees double Returns double ARCTANEX(double, double, int) double ARCTANEX(double y, double x, int summand = 0) Parameters y double x double summand int Returns double CLAMP(double, double) double CLAMP(double min, double max) Parameters min double max double Returns double COSINUS(double) double COSINUS(double degrees) Parameters degrees double Returns double DIV(double) void DIV(double divisor) Parameters divisor double LENGTH(double, double) double LENGTH(double horizontal_distance, double vertical_distance) Parameters horizontal_distance double vertical_distance double Returns double MAXA(params double[]) double MAXA(params double[] values) Parameters values double[] Returns double MINA(params double[]) double MINA(params double[] values) Parameters values double[] Returns double MUL(double) void MUL(double multiplier) Parameters multiplier double SET(double) void SET(double value) Parameters value double SINUS(double) double SINUS(double degrees) Parameters degrees double Returns double SQRT() double SQRT() Returns double SUB(double) double SUB(double subtrahend) Parameters subtrahend double Returns double"
+  },
+  "api/CnvAPI.DoubleVariable.html": {
+    "href": "api/CnvAPI.DoubleVariable.html",
+    "title": "Class DoubleVariable | Cnv API specification",
+    "keywords": "Class DoubleVariable Namespace CnvAPI Assembly CnvAPI.dll public record DoubleVariable : variable, IEquatable<variable>, IEquatable<DoubleVariable> Inheritance object variable DoubleVariable Implements IEquatable<variable> IEquatable<DoubleVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DoubleVariable(double) public DoubleVariable(double value) Parameters value double Properties value public double value { get; init; } Property Value double"
+  },
+  "api/CnvAPI.EPISODE.html": {
+    "href": "api/CnvAPI.EPISODE.html",
+    "title": "Interface EPISODE | Cnv API specification",
+    "keywords": "Interface EPISODE Namespace CnvAPI Assembly CnvAPI.dll public interface EPISODE : OBJECT Inherited Members OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties AUTHOR string AUTHOR { init; } Property Value string CREATIONTIME string CREATIONTIME { init; } Property Value string DESCRIPTION string DESCRIPTION { init; } Property Value string LASTMODIFYTIME string LASTMODIFYTIME { init; } Property Value string PATH string PATH { init; } Property Value string SCENES string[] SCENES { init; } Property Value string[] STARTWITH string STARTWITH { init; } Property Value string VERSION string VERSION { init; } Property Value string Methods BACK() void BACK() GETCURRENTSCENE() string GETCURRENTSCENE() Returns string GETLATESTSCENE() string GETLATESTSCENE() Returns string GOTO(string) void GOTO(string scene_name) Parameters scene_name string"
+  },
+  "api/CnvAPI.EXPRESSION.html": {
+    "href": "api/CnvAPI.EXPRESSION.html",
+    "title": "Interface EXPRESSION | Cnv API specification",
+    "keywords": "Interface EXPRESSION Namespace CnvAPI Assembly CnvAPI.dll public interface EXPRESSION : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties OPERAND1 string OPERAND1 { init; } Property Value string OPERAND2 string OPERAND2 { init; } Property Value string OPERATOR expression_operator OPERATOR { init; } Property Value expression_operator"
+  },
+  "api/CnvAPI.FILTER.html": {
+    "href": "api/CnvAPI.FILTER.html",
+    "title": "Interface FILTER | Cnv API specification",
+    "keywords": "Interface FILTER Namespace CnvAPI Assembly CnvAPI.dll public interface FILTER : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties ACTION string ACTION { init; } Property Value string"
+  },
+  "api/CnvAPI.FONT.html": {
+    "href": "api/CnvAPI.FONT.html",
+    "title": "Interface FONT | Cnv API specification",
+    "keywords": "Interface FONT Namespace CnvAPI Assembly CnvAPI.dll public interface FONT : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties DEF_family_style_size string DEF_family_style_size { init; } Property Value string"
+  },
+  "api/CnvAPI.GROUP.html": {
+    "href": "api/CnvAPI.GROUP.html",
+    "title": "Interface GROUP | Cnv API specification",
+    "keywords": "Interface GROUP Namespace CnvAPI Assembly CnvAPI.dll public interface GROUP : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADD(string) void ADD(string object_name) Parameters object_name string ADDCLONES() void ADDCLONES() GETSIZE() void GETSIZE() NEXT() void NEXT() PREV() void PREV() REMOVE(string) void REMOVE(string object_name) Parameters object_name string REMOVEALL() void REMOVEALL() RESETMARKER() void RESETMARKER() SETMARKERPOS(int) void SETMARKERPOS(int index) Parameters index int"
+  },
+  "api/CnvAPI.IMAGE.html": {
+    "href": "api/CnvAPI.IMAGE.html",
+    "title": "Interface IMAGE | Cnv API specification",
+    "keywords": "Interface IMAGE Namespace CnvAPI Assembly CnvAPI.dll public interface IMAGE : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties FILENAME string FILENAME { init; } Property Value string MONITORCOLLISION bool MONITORCOLLISION { init; } Property Value bool MONITORCOLLISIONALPHA bool MONITORCOLLISIONALPHA { init; } Property Value bool PRELOAD bool PRELOAD { init; } Property Value bool PRIORITY int PRIORITY { init; } Property Value int RELEASE bool RELEASE { init; } Property Value bool TOCANVAS bool TOCANVAS { init; } Property Value bool VISIBLE bool VISIBLE { init; } Property Value bool Methods GETALPHA() void GETALPHA() GETHEIGHT() void GETHEIGHT() GETPIXEL() void GETPIXEL() GETPOSITIONX() void GETPOSITIONX() GETPOSITIONY() void GETPOSITIONY() GETWIDTH() void GETWIDTH() HIDE() void HIDE() INVALIDATE() void INVALIDATE() ISVISIBLE() void ISVISIBLE() LOAD() void LOAD() MERGEALPHA(int, int, string) void MERGEALPHA(int x_offset, int y_offset, string object_name) Parameters x_offset int y_offset int object_name string MOVE(int, int) void MOVE(int x_offset, int y_offset) Parameters x_offset int y_offset int SETASBUTTON() void SETASBUTTON() SETCLIPPING(int, int, int, int) void SETCLIPPING(int left_x, int top_y, int _width, int _height) Parameters left_x int top_y int _width int _height int SETOPACITY() void SETOPACITY() SETPOSITION(int, int) void SETPOSITION(int x, int y) Parameters x int y int SETPRIORITY() void SETPRIORITY() SHOW() void SHOW()"
+  },
+  "api/CnvAPI.INERTIA.html": {
+    "href": "api/CnvAPI.INERTIA.html",
+    "title": "Interface INERTIA | Cnv API specification",
+    "keywords": "Interface INERTIA Namespace CnvAPI Assembly CnvAPI.dll public interface INERTIA : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADDFORCE(int, double, double) void ADDFORCE(int id, double x, double y) Parameters id int x double y double CREATESPHERE(double, double, double, double) int CREATESPHERE(double _1, double _2, double _3, double _4) Parameters _1 double _2 double _3 double _4 double Returns int DELETEBODY(int) void DELETEBODY(int id) Parameters id int GETPOSITIONX(int) double GETPOSITIONX(int id) Parameters id int Returns double GETPOSITIONY(int) double GETPOSITIONY(int id) Parameters id int Returns double GETSPEED(int) double GETSPEED(int id) Parameters id int Returns double LINK(int, string, bool, bool) void LINK(int id, string object_name, bool _1, bool _2) Parameters id int object_name string _1 bool _2 bool LOAD(string) void LOAD(string filename) Parameters filename string RESETTIMER() void RESETTIMER() SETGRAVITY(double, double) void SETGRAVITY(double x, double y) Parameters x double y double SETLINEARDAMPING(double, double) void SETLINEARDAMPING(double x, double y) Parameters x double y double SETMATERIAL(int, string) void SETMATERIAL(int id, string material_name) Parameters id int material_name string SETPOSITION(int, double, double) void SETPOSITION(int id, double x, double y) Parameters id int x double y double SETVELOCITY(int, double, double) void SETVELOCITY(int id, double x, double y) Parameters id int x double y double TICK() void TICK() UNLINK(int) void UNLINK(int id) Parameters id int"
+  },
+  "api/CnvAPI.INTEGER.html": {
+    "href": "api/CnvAPI.INTEGER.html",
+    "title": "Interface INTEGER | Cnv API specification",
+    "keywords": "Interface INTEGER Namespace CnvAPI Assembly CnvAPI.dll public interface INTEGER : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties TOINI bool TOINI { init; } Property Value bool VALUE int VALUE { init; } Property Value int VARTYPE string VARTYPE { init; } Property Value string Methods ABS(int) Sets the modulus of value as the value of the object. int ABS(int value) Parameters value int The value of which modulus is to be set as the value of the object. Returns int ADD(int) int ADD(int summand) Parameters summand int Returns int AND(int) int AND(int operand) Parameters operand int Returns int CLAMP(int, int) int CLAMP(int min, int max) Parameters min int max int Returns int DEC() void DEC() DIV(int) void DIV(int divisor) Parameters divisor int INC() void INC() LENGTH(int, int) int LENGTH(int horizontal_distance, int vertical_distance) Parameters horizontal_distance int vertical_distance int Returns int MOD(int) void MOD(int divisor) Parameters divisor int MUL(int) void MUL(int multiplier) Parameters multiplier int OR(int) int OR(int operand) Parameters operand int Returns int RANDOM(int) int RANDOM(int max_exclusive) Parameters max_exclusive int Returns int RANDOM(int, int) int RANDOM(int summand, int max_exclusive) Parameters summand int max_exclusive int Returns int RESETINI() void RESETINI() SET(int) void SET(int value) Parameters value int SUB(int) int SUB(int subtrahend) Parameters subtrahend int Returns int SWITCH(int, int) void SWITCH(int value1, int value2) Parameters value1 int value2 int"
+  },
+  "api/CnvAPI.IntVariable.html": {
+    "href": "api/CnvAPI.IntVariable.html",
+    "title": "Class IntVariable | Cnv API specification",
+    "keywords": "Class IntVariable Namespace CnvAPI Assembly CnvAPI.dll public record IntVariable : variable, IEquatable<variable>, IEquatable<IntVariable> Inheritance object variable IntVariable Implements IEquatable<variable> IEquatable<IntVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors IntVariable(int) public IntVariable(int value) Parameters value int Properties value public int value { get; init; } Property Value int"
+  },
+  "api/CnvAPI.KEYBOARD.html": {
+    "href": "api/CnvAPI.KEYBOARD.html",
+    "title": "Interface KEYBOARD | Cnv API specification",
+    "keywords": "Interface KEYBOARD Namespace CnvAPI Assembly CnvAPI.dll public interface KEYBOARD : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods DISABLE() void DISABLE() ENABLE() void ENABLE() GETLATESTKEY() void GETLATESTKEY() ISENABLED() bool ISENABLED() Returns bool ISKEYDOWN() bool ISKEYDOWN() Returns bool SETAUTOREPEAT() void SETAUTOREPEAT()"
+  },
+  "api/CnvAPI.LiteralRect.html": {
+    "href": "api/CnvAPI.LiteralRect.html",
+    "title": "Class LiteralRect | Cnv API specification",
+    "keywords": "Class LiteralRect Namespace CnvAPI Assembly CnvAPI.dll public record LiteralRect : rect, IEquatable<rect>, IEquatable<LiteralRect> Inheritance object rect LiteralRect Implements IEquatable<rect> IEquatable<LiteralRect> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors LiteralRect(int, int, int, int) public LiteralRect(int left_x, int top_y, int right_x, int bottom_y) Parameters left_x int top_y int right_x int bottom_y int Properties bottom_y public int bottom_y { get; init; } Property Value int left_x public int left_x { get; init; } Property Value int right_x public int right_x { get; init; } Property Value int top_y public int top_y { get; init; } Property Value int"
+  },
+  "api/CnvAPI.MATRIX.html": {
+    "href": "api/CnvAPI.MATRIX.html",
+    "title": "Interface MATRIX | Cnv API specification",
+    "keywords": "Interface MATRIX Namespace CnvAPI Assembly CnvAPI.dll public interface MATRIX : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Properties BASEPOS (int, int) BASEPOS { init; } Property Value (int, int) CELLHEIGHT int CELLHEIGHT { init; } Property Value int CELLWIDTH int CELLWIDTH { init; } Property Value int SIZE (int, int) SIZE { init; } Property Value (int, int) Methods CALCENEMYMOVEDEST(int, int) int CALCENEMYMOVEDEST(int current_cell, int current_direction) Parameters current_cell int current_direction int Returns int CALCENEMYMOVEDIR(int, int) int CALCENEMYMOVEDIR(int current_cell, int current_direction) Parameters current_cell int current_direction int Returns int CANHEROGOTO(int) bool CANHEROGOTO(int cell_index) Parameters cell_index int Returns bool GET(int) int GET(int cell_index) Parameters cell_index int Returns int GETCELLOFFSET(int, int) int GETCELLOFFSET(int x, int y) Parameters x int y int Returns int GETCELLPOSX(int) int GETCELLPOSX(int cell_index) Parameters cell_index int Returns int GETCELLPOSY(int) int GETCELLPOSY(int cell_index) Parameters cell_index int Returns int GETCELLSNO(int) int GETCELLSNO(int cell_type) Parameters cell_type int Returns int GETFIELDPOSX(int) int GETFIELDPOSX(int cell_index) Parameters cell_index int Returns int GETFIELDPOSY(int) int GETFIELDPOSY(int cell_index) Parameters cell_index int Returns int GETOFFSET(int, int) int GETOFFSET(int x, int y) Parameters x int y int Returns int ISGATEEMPTY() bool ISGATEEMPTY() Returns bool ISINGATE(int) bool ISINGATE(int _) Parameters _ int Returns bool MOVE(int, int) void MOVE(int _, int _2) Parameters _ int _2 int NEXT() int NEXT() Returns int SET(int, int) void SET(int cell_index, int cell_type) Parameters cell_index int cell_type int SETGATE(int, int, int, int) void SETGATE(int _, int _2, int _3, int _4) Parameters _ int _2 int _3 int _4 int SETROW(int, params int[]) void SETROW(int row_index, params int[] cell_types) Parameters row_index int cell_types int[] TICK() void TICK()"
+  },
+  "api/CnvAPI.MOUSE.html": {
+    "href": "api/CnvAPI.MOUSE.html",
+    "title": "Interface MOUSE | Cnv API specification",
+    "keywords": "Interface MOUSE Namespace CnvAPI Assembly CnvAPI.dll public interface MOUSE : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods DISABLE() void DISABLE() DISABLESIGNAL() void DISABLESIGNAL() ENABLE() void ENABLE() ENABLESIGNAL() void ENABLESIGNAL() GETPOSX() int GETPOSX() Returns int GETPOSY() int GETPOSY() Returns int HIDE() void HIDE() ISLBUTTONDOWN() bool ISLBUTTONDOWN() Returns bool SET() void SET() SETCLIPRECT() void SETCLIPRECT() SETPOSITION(int, int) void SETPOSITION(int x, int y) Parameters x int y int SHOW() void SHOW()"
+  },
+  "api/CnvAPI.MULTIARRAY.html": {
+    "href": "api/CnvAPI.MULTIARRAY.html",
+    "title": "Interface MULTIARRAY | Cnv API specification",
+    "keywords": "Interface MULTIARRAY Namespace CnvAPI Assembly CnvAPI.dll public interface MULTIARRAY : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods GET(params int[]) variable? GET(params int[] indices) Parameters indices int[] Returns variable SET(variable, params int[]) void SET(variable value, params int[] indices) Parameters value variable indices int[]"
+  },
+  "api/CnvAPI.MUSIC.html": {
+    "href": "api/CnvAPI.MUSIC.html",
+    "title": "Interface MUSIC | Cnv API specification",
+    "keywords": "Interface MUSIC Namespace CnvAPI Assembly CnvAPI.dll public interface MUSIC : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods PLAY() void PLAY()"
+  },
+  "api/CnvAPI.OBJECT.html": {
+    "href": "api/CnvAPI.OBJECT.html",
+    "title": "Interface OBJECT | Cnv API specification",
+    "keywords": "Interface OBJECT Namespace CnvAPI Assembly CnvAPI.dll public interface OBJECT Properties DESCRIPTION string DESCRIPTION { init; } Property Value string TYPE string TYPE { init; } Property Value string Methods ADDBEHAVIOUR(string, string) void ADDBEHAVIOUR(string signal_name, string code) Parameters signal_name string code string CLONE(int) void CLONE(int count = 1) Parameters count int GETCLONEINDEX() int GETCLONEINDEX() Returns int GETNAME() string GETNAME() Returns string MSGBOX(string) void MSGBOX(string message) Parameters message string REMOVEBEHAVIOUR(string) void REMOVEBEHAVIOUR(string signal_name) Parameters signal_name string RESETCLONES() void RESETCLONES()"
+  },
+  "api/CnvAPI.PATTERN.html": {
+    "href": "api/CnvAPI.PATTERN.html",
+    "title": "Interface PATTERN | Cnv API specification",
+    "keywords": "Interface PATTERN Namespace CnvAPI Assembly CnvAPI.dll public interface PATTERN : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADD(string, int, int, string, int) void ADD(string _, int x, int y, string object_name, int _2) Parameters _ string x int y int object_name string _2 int GETGRAPHICSAT(int, int, bool, bool, int) string GETGRAPHICSAT(int x, int y, bool _, bool _2, int _3) Parameters x int y int _ bool _2 bool _3 int Returns string MOVE(int, int) void MOVE(int x, int y) Parameters x int y int"
+  },
+  "api/CnvAPI.ParametrizedSignalHandler.html": {
+    "href": "api/CnvAPI.ParametrizedSignalHandler.html",
+    "title": "Delegate ParametrizedSignalHandler | Cnv API specification",
+    "keywords": "Delegate ParametrizedSignalHandler Namespace CnvAPI Assembly CnvAPI.dll /// Run for parametrized signals. public delegate void ParametrizedSignalHandler(string parameter, params variable[] arguments) Parameters parameter string /// Run for parametrized signals. arguments variable[] /// Run for parametrized signals."
+  },
+  "api/CnvAPI.RAND.html": {
+    "href": "api/CnvAPI.RAND.html",
+    "title": "Interface RAND | Cnv API specification",
+    "keywords": "Interface RAND Namespace CnvAPI Assembly CnvAPI.dll public interface RAND : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods GET(int) int GET(int max_exclusive) Parameters max_exclusive int Returns int GET(int, int) int GET(int summand, int max_exclusive) Parameters summand int max_exclusive int Returns int GETPLENTY(string, int, int, int, bool) void GETPLENTY(string arr_name, int _, int _2, int _3, bool _4) Parameters arr_name string _ int _2 int _3 int _4 bool"
+  },
+  "api/CnvAPI.ReferenceRect.html": {
+    "href": "api/CnvAPI.ReferenceRect.html",
+    "title": "Class ReferenceRect | Cnv API specification",
+    "keywords": "Class ReferenceRect Namespace CnvAPI Assembly CnvAPI.dll public record ReferenceRect : rect, IEquatable<rect>, IEquatable<ReferenceRect> Inheritance object rect ReferenceRect Implements IEquatable<rect> IEquatable<ReferenceRect> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ReferenceRect(string) public ReferenceRect(string object_name) Parameters object_name string Properties object_name public string object_name { get; init; } Property Value string"
+  },
+  "api/CnvAPI.SCENE.html": {
+    "href": "api/CnvAPI.SCENE.html",
+    "title": "Interface SCENE | Cnv API specification",
+    "keywords": "Interface SCENE Namespace CnvAPI Assembly CnvAPI.dll public interface SCENE : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods GETMAXHSPRIORITY() void GETMAXHSPRIORITY() GETMINHSPRIORITY() void GETMINHSPRIORITY() GETPLAYINGANIMO() void GETPLAYINGANIMO() GETPLAYINGSEQ() void GETPLAYINGSEQ() PAUSE() void PAUSE() REMOVECLONES() void REMOVECLONES() RESUME() void RESUME() RUN(string, string, params variable[]) variable? RUN(string object_name, string method_name, params variable[] arguments) Parameters object_name string method_name string arguments variable[] Returns variable RUNCLONES() void RUNCLONES() SETMAXHSPRIORITY() void SETMAXHSPRIORITY() SETMINHSPRIORITY() void SETMINHSPRIORITY() SETMUSICVOLUME(int) void SETMUSICVOLUME(int volume) Parameters volume int STARTMUSIC() void STARTMUSIC() STOPMUSIC() void STOPMUSIC()"
+  },
+  "api/CnvAPI.SEQUENCE.html": {
+    "href": "api/CnvAPI.SEQUENCE.html",
+    "title": "Interface SEQUENCE | Cnv API specification",
+    "keywords": "Interface SEQUENCE Namespace CnvAPI Assembly CnvAPI.dll public interface SEQUENCE : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods GETEVENTNAME() string GETEVENTNAME() Returns string HIDE() void HIDE() ISPLAYING() bool ISPLAYING() Returns bool PAUSE() void PAUSE() PLAY(string) void PLAY(string parameter) Parameters parameter string RESUME() void RESUME() STOP(bool) void STOP(bool emit_on_finished = true) Parameters emit_on_finished bool"
+  },
+  "api/CnvAPI.SOUND.html": {
+    "href": "api/CnvAPI.SOUND.html",
+    "title": "Interface SOUND | Cnv API specification",
+    "keywords": "Interface SOUND Namespace CnvAPI Assembly CnvAPI.dll public interface SOUND : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ISPLAYING() bool ISPLAYING() Returns bool LOAD(string) void LOAD(string filename) Parameters filename string PAUSE() void PAUSE() PLAY() void PLAY() RESUME() void RESUME() SETVOLUME(int) void SETVOLUME(int volume) Parameters volume int STOP() void STOP()"
+  },
+  "api/CnvAPI.STATICFILTER.html": {
+    "href": "api/CnvAPI.STATICFILTER.html",
+    "title": "Interface STATICFILTER | Cnv API specification",
+    "keywords": "Interface STATICFILTER Namespace CnvAPI Assembly CnvAPI.dll public interface STATICFILTER : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods LINK(string) void LINK(string graphics_name) Parameters graphics_name string SETPROPERTY(string, variable) void SETPROPERTY(string key, variable value) Parameters key string value variable UNLINK(string) void UNLINK(string graphics_name) Parameters graphics_name string"
+  },
+  "api/CnvAPI.STRING.html": {
+    "href": "api/CnvAPI.STRING.html",
+    "title": "Interface STRING | Cnv API specification",
+    "keywords": "Interface STRING Namespace CnvAPI Assembly CnvAPI.dll public interface STRING : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADD(string) string ADD(string suffix) Parameters suffix string Returns string COPYFILE(string, string) bool COPYFILE(string filename, string copied_filename) Parameters filename string copied_filename string Returns bool CUT(int, int) void CUT(int index, int length) Parameters index int length int FIND(string, int) int FIND(string needle, int start_index = 0) Parameters needle string start_index int Returns int GET(int) string GET(int start_index) Parameters start_index int Returns string GET(int, int) string GET(int start_index, int length) Parameters start_index int length int Returns string LENGTH() int LENGTH() Returns int REPLACE(string, string) void REPLACE(string search, string replace) Parameters search string replace string REPLACEAT(int, string) void REPLACEAT(int index, string replace) Parameters index int replace string RESETINI() void RESETINI() SET(string) void SET(string value) Parameters value string SUB(int, int) void SUB(int index, int length) Parameters index int length int UPPER() void UPPER()"
+  },
+  "api/CnvAPI.STRUCT.html": {
+    "href": "api/CnvAPI.STRUCT.html",
+    "title": "Interface STRUCT | Cnv API specification",
+    "keywords": "Interface STRUCT Namespace CnvAPI Assembly CnvAPI.dll public interface STRUCT : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods GETFIELD(string) variable GETFIELD(string field_name) Parameters field_name string Returns variable SET(string) void SET(string struct_name) Parameters struct_name string SETFIELD(string, variable) void SETFIELD(string field_name, variable value) Parameters field_name string value variable"
+  },
+  "api/CnvAPI.SYSTEM.html": {
+    "href": "api/CnvAPI.SYSTEM.html",
+    "title": "Interface SYSTEM | Cnv API specification",
+    "keywords": "Interface SYSTEM Namespace CnvAPI Assembly CnvAPI.dll public interface SYSTEM : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods GETDATE() string GETDATE() Returns string GETMHZ() int GETMHZ() Returns int GETMINUTES() int GETMINUTES() Returns int GETSECONDS() int GETSECONDS() Returns int GETSYSTEMTIME() int GETSYSTEMTIME() Returns int"
+  },
+  "api/CnvAPI.SignalHandler.html": {
+    "href": "api/CnvAPI.SignalHandler.html",
+    "title": "Delegate SignalHandler | Cnv API specification",
+    "keywords": "Delegate SignalHandler Namespace CnvAPI Assembly CnvAPI.dll Run for signals. public delegate void SignalHandler(params variable[] arguments) Parameters arguments variable[] Run for signals."
+  },
+  "api/CnvAPI.StringVariable.html": {
+    "href": "api/CnvAPI.StringVariable.html",
+    "title": "Class StringVariable | Cnv API specification",
+    "keywords": "Class StringVariable Namespace CnvAPI Assembly CnvAPI.dll public record StringVariable : variable, IEquatable<variable>, IEquatable<StringVariable> Inheritance object variable StringVariable Implements IEquatable<variable> IEquatable<StringVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StringVariable(string) public StringVariable(string value) Parameters value string Properties value public string value { get; init; } Property Value string"
+  },
+  "api/CnvAPI.TEXT.html": {
+    "href": "api/CnvAPI.TEXT.html",
+    "title": "Interface TEXT | Cnv API specification",
+    "keywords": "Interface TEXT Namespace CnvAPI Assembly CnvAPI.dll public interface TEXT : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods HIDE() void HIDE() SETCOLOR() void SETCOLOR() SETJUSTIFY() void SETJUSTIFY() SETPOSITION() void SETPOSITION() SETTEXT(string) void SETTEXT(string text) Parameters text string SHOW() void SHOW()"
+  },
+  "api/CnvAPI.TIMER.html": {
+    "href": "api/CnvAPI.TIMER.html",
+    "title": "Interface TIMER | Cnv API specification",
+    "keywords": "Interface TIMER Namespace CnvAPI Assembly CnvAPI.dll public interface TIMER : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods DISABLE() void DISABLE() ENABLE() void ENABLE() GETTICKS() int GETTICKS() Returns int RESET() void RESET() SET(int) void SET(int _) Parameters _ int SETELAPSE(int) void SETELAPSE(int _) Parameters _ int"
+  },
+  "api/CnvAPI.VECTOR.html": {
+    "href": "api/CnvAPI.VECTOR.html",
+    "title": "Interface VECTOR | Cnv API specification",
+    "keywords": "Interface VECTOR Namespace CnvAPI Assembly CnvAPI.dll public interface VECTOR : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADD(string) void ADD(string summand_name) Parameters summand_name string ASSIGN(params double[]) void ASSIGN(params double[] values) Parameters values double[] GET(int) double GET(int index) Parameters index int Returns double LEN() double LEN() Returns double MUL(double) void MUL(double multiplier) Parameters multiplier double NORMALIZE() void NORMALIZE() REFLECT(string, string) void REFLECT(string normal_name, string result_name) Parameters normal_name string result_name string"
+  },
+  "api/CnvAPI.VIRTUALGRAPHICSOBJECT.html": {
+    "href": "api/CnvAPI.VIRTUALGRAPHICSOBJECT.html",
+    "title": "Interface VIRTUALGRAPHICSOBJECT | Cnv API specification",
+    "keywords": "Interface VIRTUALGRAPHICSOBJECT Namespace CnvAPI Assembly CnvAPI.dll public interface VIRTUALGRAPHICSOBJECT : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods GETHEIGHT() int GETHEIGHT() Returns int GETPOSITIONX() int GETPOSITIONX() Returns int GETPOSITIONY() int GETPOSITIONY() Returns int GETWIDTH() int GETWIDTH() Returns int MOVE(int, int) void MOVE(int x_offset, int y_offset) Parameters x_offset int y_offset int SETMASK(string) void SETMASK(string graphics_name) Parameters graphics_name string SETPOSITION(int, int) void SETPOSITION(int x, int y) Parameters x int y int SETPRIORITY(int) void SETPRIORITY(int priority) Parameters priority int SETSOURCE(string) void SETSOURCE(string graphics_name) Parameters graphics_name string"
+  },
+  "api/CnvAPI.WORLD.html": {
+    "href": "api/CnvAPI.WORLD.html",
+    "title": "Interface WORLD | Cnv API specification",
+    "keywords": "Interface WORLD Namespace CnvAPI Assembly CnvAPI.dll public interface WORLD : OBJECT Inherited Members OBJECT.DESCRIPTION OBJECT.TYPE OBJECT.ADDBEHAVIOUR(string, string) OBJECT.CLONE(int) OBJECT.GETCLONEINDEX() OBJECT.GETNAME() OBJECT.MSGBOX(string) OBJECT.REMOVEBEHAVIOUR(string) OBJECT.RESETCLONES() Methods ADDBODY() void ADDBODY() ADDFORCE() void ADDFORCE() ADDGRAVITYEX() void ADDGRAVITYEX() FINDPATH() void FINDPATH() FOLLOWPATH() void FOLLOWPATH() GETANGLE() void GETANGLE() GETBKGPOSX() void GETBKGPOSX() GETBKGPOSY() void GETBKGPOSY() GETMOVEDISTANCE() void GETMOVEDISTANCE() GETPOSITIONX() void GETPOSITIONX() GETPOSITIONY() void GETPOSITIONY() GETPOSITIONZ() void GETPOSITIONZ() GETROTATIONZ() void GETROTATIONZ() GETSPEED() void GETSPEED() JOIN() void JOIN() LINK() void LINK() LOAD() void LOAD() MOVEOBJECTS() void MOVEOBJECTS() REMOVEOBJECT() void REMOVEOBJECT() SETACTIVE() void SETACTIVE() SETBKGSIZE() void SETBKGSIZE() SETBODYDYNAMICS() void SETBODYDYNAMICS() SETG() void SETG() SETGRAVITY() void SETGRAVITY() SETGRAVITYCENTER() void SETGRAVITYCENTER() SETLIMIT() void SETLIMIT() SETMAXSPEED() void SETMAXSPEED() SETMOVEFLAGS() void SETMOVEFLAGS() SETPOSITION() void SETPOSITION() SETREFOBJECT() void SETREFOBJECT() SETVELOCITY() void SETVELOCITY() START() void START() STOP() void STOP() UNLINK() void UNLINK()"
+  },
+  "api/CnvAPI.anchor.html": {
+    "href": "api/CnvAPI.anchor.html",
+    "title": "Enum anchor | Cnv API specification",
+    "keywords": "Enum anchor Namespace CnvAPI Assembly CnvAPI.dll public enum anchor Fields BOTTOM = 8 CENTER = 0 LEFT = 5 LEFTLOWER = 3 LEFTUPPER = 1 RIGHT = 6 RIGHTLOWER = 4 RIGHTUPPER = 2 TOP = 7"
+  },
+  "api/CnvAPI.complex_operator.html": {
+    "href": "api/CnvAPI.complex_operator.html",
+    "title": "Enum complex_operator | Cnv API specification",
+    "keywords": "Enum complex_operator Namespace CnvAPI Assembly CnvAPI.dll public enum complex_operator Fields AND = 0 OR = 1"
+  },
+  "api/CnvAPI.condition_operator.html": {
+    "href": "api/CnvAPI.condition_operator.html",
+    "title": "Enum condition_operator | Cnv API specification",
+    "keywords": "Enum condition_operator Namespace CnvAPI Assembly CnvAPI.dll public enum condition_operator Fields EQUAL = 0 GREATER = 3 GREATEREQUAL = 5 LESS = 2 LESSEQUAL = 4 NOTEQUAL = 1"
+  },
+  "api/CnvAPI.expression_operator.html": {
+    "href": "api/CnvAPI.expression_operator.html",
+    "title": "Enum expression_operator | Cnv API specification",
+    "keywords": "Enum expression_operator Namespace CnvAPI Assembly CnvAPI.dll public enum expression_operator Fields ADD = 0 DIV = 3 MOD = 4 MUL = 2 SUB = 1"
+  },
+  "api/CnvAPI.global.html": {
+    "href": "api/CnvAPI.global.html",
+    "title": "Interface global | Cnv API specification",
+    "keywords": "Interface global Namespace CnvAPI Assembly CnvAPI.dll public interface global Methods BOOL(string, bool) Creates an object of type BOOL. void BOOL(string name, bool value) Parameters name string The name of created object. value bool The initial value of created object. BREAK() void BREAK() DOUBLE(string, double) Creates an object of type DOUBLE. void DOUBLE(string name, double value) Parameters name string The name of created object. value double The initial value of created object. IF(string, string, string) void IF(string condition, string code_if_true, string code_if_false) Parameters condition string code_if_true string code_if_false string IF(string, string, string, string, string) void IF(string left, string operand, string right, string code_if_true, string code_if_false) Parameters left string operand string right string code_if_true string code_if_false string INT(string, int) Creates an object of type INTEGER. void INT(string name, int value) Parameters name string The name of created object. value int The initial value of created object. LOOP(string, int, int, int) void LOOP(string behaviour, int init, int len, int step) Parameters behaviour string init int len int step int MSGBOX(string) void MSGBOX(string message) Parameters message string RETURN(variable) variable RETURN(variable value) Parameters value variable Returns variable STRING(string, string) Creates an object of type STRING. string STRING(string name, string value) Parameters name string The name of created object. value string The initial value of created object. Returns string WHILE(string, string, string, string) void WHILE(string left, string condition, string right, string code) Parameters left string condition string right string code string"
+  },
+  "api/CnvAPI.html": {
+    "href": "api/CnvAPI.html",
+    "title": "Namespace CnvAPI | Cnv API specification",
+    "keywords": "Namespace CnvAPI Classes BoolVariable DoubleVariable IntVariable LiteralRect ReferenceRect StringVariable rect variable Interfaces ANIMO APPLICATION ARRAY BEHAVIOUR BOOL BUTTON CANVAS_OBSERVER CLASS CNVLOADER COMPLEXCONDITION CONDITION DATABASE DOUBLE EPISODE EXPRESSION FILTER FONT GROUP IMAGE INERTIA INTEGER KEYBOARD MATRIX MOUSE MULTIARRAY MUSIC OBJECT PATTERN RAND SCENE SEQUENCE SOUND STATICFILTER STRING STRUCT SYSTEM TEXT TIMER VECTOR VIRTUALGRAPHICSOBJECT WORLD global Enums anchor complex_operator condition_operator expression_operator Delegates ParametrizedSignalHandler /// Run for parametrized signals. SignalHandler Run for signals."
+  },
+  "api/CnvAPI.rect.html": {
+    "href": "api/CnvAPI.rect.html",
+    "title": "Class rect | Cnv API specification",
+    "keywords": "Class rect Namespace CnvAPI Assembly CnvAPI.dll public abstract record rect : IEquatable<rect> Inheritance object rect Implements IEquatable<rect> Derived LiteralRect ReferenceRect Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CnvAPI.variable.html": {
+    "href": "api/CnvAPI.variable.html",
+    "title": "Class variable | Cnv API specification",
+    "keywords": "Class variable Namespace CnvAPI Assembly CnvAPI.dll public abstract record variable : IEquatable<variable> Inheritance object variable Implements IEquatable<variable> Derived BoolVariable DoubleVariable IntVariable StringVariable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | Cnv API specification",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | Cnv API specification",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Cnv API specification",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

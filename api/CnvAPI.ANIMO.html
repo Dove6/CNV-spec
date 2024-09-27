@@ -1,0 +1,2369 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ANIMO | Cnv API specification </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ANIMO | Cnv API specification ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=CnvAPI_ANIMO.md&amp;value=---%0Auid%3A%20CnvAPI.ANIMO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Cnv API specification">
+            Cnv API specification
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CnvAPI.ANIMO">
+
+
+
+  <h1 id="CnvAPI_ANIMO" data-uid="CnvAPI.ANIMO" class="text-break">
+Interface ANIMO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CnvAPI.html">CnvAPI</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CnvAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ANIMO : OBJECT</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_TYPE">OBJECT.TYPE</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETNAME">OBJECT.GETNAME()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CnvAPI_ANIMO_FILENAME_" data-uid="CnvAPI.ANIMO.FILENAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_FILENAME" data-uid="CnvAPI.ANIMO.FILENAME">
+  FILENAME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string FILENAME { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_FPS_" data-uid="CnvAPI.ANIMO.FPS*"></a>
+
+  <h3 id="CnvAPI_ANIMO_FPS" data-uid="CnvAPI.ANIMO.FPS">
+  FPS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FPS { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_MONITORCOLLISIONALPHA_" data-uid="CnvAPI.ANIMO.MONITORCOLLISIONALPHA*"></a>
+
+  <h3 id="CnvAPI_ANIMO_MONITORCOLLISIONALPHA" data-uid="CnvAPI.ANIMO.MONITORCOLLISIONALPHA">
+  MONITORCOLLISIONALPHA
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool MONITORCOLLISIONALPHA { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_MONITORCOLLISION__" data-uid="CnvAPI.ANIMO.MONITORCOLLISION_*"></a>
+
+  <h3 id="CnvAPI_ANIMO_MONITORCOLLISION_" data-uid="CnvAPI.ANIMO.MONITORCOLLISION_">
+  MONITORCOLLISION_
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool MONITORCOLLISION_ { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_PRELOAD_" data-uid="CnvAPI.ANIMO.PRELOAD*"></a>
+
+  <h3 id="CnvAPI_ANIMO_PRELOAD" data-uid="CnvAPI.ANIMO.PRELOAD">
+  PRELOAD
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool PRELOAD { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_PRIORITY_" data-uid="CnvAPI.ANIMO.PRIORITY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_PRIORITY" data-uid="CnvAPI.ANIMO.PRIORITY">
+  PRIORITY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PRIORITY { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_RELEASE_" data-uid="CnvAPI.ANIMO.RELEASE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_RELEASE" data-uid="CnvAPI.ANIMO.RELEASE">
+  RELEASE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RELEASE { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_TOCANVAS_" data-uid="CnvAPI.ANIMO.TOCANVAS*"></a>
+
+  <h3 id="CnvAPI_ANIMO_TOCANVAS" data-uid="CnvAPI.ANIMO.TOCANVAS">
+  TOCANVAS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TOCANVAS { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_VISIBLE_" data-uid="CnvAPI.ANIMO.VISIBLE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_VISIBLE" data-uid="CnvAPI.ANIMO.VISIBLE">
+  VISIBLE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool VISIBLE { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CnvAPI_ANIMO_GETCENTERX_" data-uid="CnvAPI.ANIMO.GETCENTERX*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETCENTERX" data-uid="CnvAPI.ANIMO.GETCENTERX">
+  GETCENTERX()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the horizontal position of the center of the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETCENTERX()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Horizontal position of the object's center.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETCENTERY_" data-uid="CnvAPI.ANIMO.GETCENTERY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETCENTERY" data-uid="CnvAPI.ANIMO.GETCENTERY">
+  GETCENTERY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETCENTERY()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETCFRAMEINEVENT_" data-uid="CnvAPI.ANIMO.GETCFRAMEINEVENT*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETCFRAMEINEVENT" data-uid="CnvAPI.ANIMO.GETCFRAMEINEVENT">
+  GETCFRAMEINEVENT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETCFRAMEINEVENT()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETCURRFRAMEPOSX_" data-uid="CnvAPI.ANIMO.GETCURRFRAMEPOSX*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETCURRFRAMEPOSX" data-uid="CnvAPI.ANIMO.GETCURRFRAMEPOSX">
+  GETCURRFRAMEPOSX()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETCURRFRAMEPOSX()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETCURRFRAMEPOSY_" data-uid="CnvAPI.ANIMO.GETCURRFRAMEPOSY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETCURRFRAMEPOSY" data-uid="CnvAPI.ANIMO.GETCURRFRAMEPOSY">
+  GETCURRFRAMEPOSY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETCURRFRAMEPOSY()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETENDX_" data-uid="CnvAPI.ANIMO.GETENDX*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETENDX" data-uid="CnvAPI.ANIMO.GETENDX">
+  GETENDX()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETENDX()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETENDY_" data-uid="CnvAPI.ANIMO.GETENDY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETENDY" data-uid="CnvAPI.ANIMO.GETENDY">
+  GETENDY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETENDY()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETEVENTNAME_" data-uid="CnvAPI.ANIMO.GETEVENTNAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETEVENTNAME" data-uid="CnvAPI.ANIMO.GETEVENTNAME">
+  GETEVENTNAME()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GETEVENTNAME()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETFRAME_" data-uid="CnvAPI.ANIMO.GETFRAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETFRAME" data-uid="CnvAPI.ANIMO.GETFRAME">
+  GETFRAME()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETFRAME()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETFRAMENAME_" data-uid="CnvAPI.ANIMO.GETFRAMENAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETFRAMENAME" data-uid="CnvAPI.ANIMO.GETFRAMENAME">
+  GETFRAMENAME()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GETFRAMENAME()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETHEIGHT_" data-uid="CnvAPI.ANIMO.GETHEIGHT*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETHEIGHT" data-uid="CnvAPI.ANIMO.GETHEIGHT">
+  GETHEIGHT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETHEIGHT()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETMAXWIDTH_" data-uid="CnvAPI.ANIMO.GETMAXWIDTH*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETMAXWIDTH" data-uid="CnvAPI.ANIMO.GETMAXWIDTH">
+  GETMAXWIDTH()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETMAXWIDTH()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETNOE_" data-uid="CnvAPI.ANIMO.GETNOE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETNOE" data-uid="CnvAPI.ANIMO.GETNOE">
+  GETNOE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETNOE()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETNOF_" data-uid="CnvAPI.ANIMO.GETNOF*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETNOF" data-uid="CnvAPI.ANIMO.GETNOF">
+  GETNOF()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETNOF()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETNOFINEVENT_" data-uid="CnvAPI.ANIMO.GETNOFINEVENT*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETNOFINEVENT_System_String_" data-uid="CnvAPI.ANIMO.GETNOFINEVENT(System.String)">
+  GETNOFINEVENT(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETNOFINEVENT(string event_name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETOPACITY_" data-uid="CnvAPI.ANIMO.GETOPACITY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETOPACITY" data-uid="CnvAPI.ANIMO.GETOPACITY">
+  GETOPACITY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETOPACITY()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETPOSITIONX_" data-uid="CnvAPI.ANIMO.GETPOSITIONX*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETPOSITIONX" data-uid="CnvAPI.ANIMO.GETPOSITIONX">
+  GETPOSITIONX()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETPOSITIONX()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETPOSITIONY_" data-uid="CnvAPI.ANIMO.GETPOSITIONY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETPOSITIONY" data-uid="CnvAPI.ANIMO.GETPOSITIONY">
+  GETPOSITIONY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETPOSITIONY()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETPRIORITY_" data-uid="CnvAPI.ANIMO.GETPRIORITY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETPRIORITY" data-uid="CnvAPI.ANIMO.GETPRIORITY">
+  GETPRIORITY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETPRIORITY()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_GETWIDTH_" data-uid="CnvAPI.ANIMO.GETWIDTH*"></a>
+
+  <h3 id="CnvAPI_ANIMO_GETWIDTH" data-uid="CnvAPI.ANIMO.GETWIDTH">
+  GETWIDTH()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GETWIDTH()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_HIDE_" data-uid="CnvAPI.ANIMO.HIDE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_HIDE" data-uid="CnvAPI.ANIMO.HIDE">
+  HIDE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hides the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HIDE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_INVALIDATE_" data-uid="CnvAPI.ANIMO.INVALIDATE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_INVALIDATE" data-uid="CnvAPI.ANIMO.INVALIDATE">
+  INVALIDATE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void INVALIDATE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_ISAT_" data-uid="CnvAPI.ANIMO.ISAT*"></a>
+
+  <h3 id="CnvAPI_ANIMO_ISAT" data-uid="CnvAPI.ANIMO.ISAT">
+  ISAT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISAT()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_ISNEAR_" data-uid="CnvAPI.ANIMO.ISNEAR*"></a>
+
+  <h3 id="CnvAPI_ANIMO_ISNEAR_System_String_System_String_" data-uid="CnvAPI.ANIMO.ISNEAR(System.String,System.String)">
+  ISNEAR(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the object is near the <code>other</code> one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISNEAR(string other, string iou_threshold)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Another graphics object for which nearness with the current object is checked.</p>
+</dd>
+    <dt><code>iou_threshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Minimum IoU value to treat two objects as being near each other.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Boolean value indicating if objects are near each other.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_ISPLAYING_" data-uid="CnvAPI.ANIMO.ISPLAYING*"></a>
+
+  <h3 id="CnvAPI_ANIMO_ISPLAYING" data-uid="CnvAPI.ANIMO.ISPLAYING">
+  ISPLAYING()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISPLAYING()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_ISVISIBLE_" data-uid="CnvAPI.ANIMO.ISVISIBLE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_ISVISIBLE" data-uid="CnvAPI.ANIMO.ISVISIBLE">
+  ISVISIBLE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISVISIBLE()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_LOAD_" data-uid="CnvAPI.ANIMO.LOAD*"></a>
+
+  <h3 id="CnvAPI_ANIMO_LOAD_System_String_" data-uid="CnvAPI.ANIMO.LOAD(System.String)">
+  LOAD(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LOAD(string filename)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_MERGEALPHA_" data-uid="CnvAPI.ANIMO.MERGEALPHA*"></a>
+
+  <h3 id="CnvAPI_ANIMO_MERGEALPHA" data-uid="CnvAPI.ANIMO.MERGEALPHA">
+  MERGEALPHA()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MERGEALPHA()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_MONITORCOLLISION_" data-uid="CnvAPI.ANIMO.MONITORCOLLISION*"></a>
+
+  <h3 id="CnvAPI_ANIMO_MONITORCOLLISION_System_Boolean_" data-uid="CnvAPI.ANIMO.MONITORCOLLISION(System.Boolean)">
+  MONITORCOLLISION(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MONITORCOLLISION(bool pixel_perfect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pixel_perfect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_MOVE_" data-uid="CnvAPI.ANIMO.MOVE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_MOVE_System_Int32_System_Int32_" data-uid="CnvAPI.ANIMO.MOVE(System.Int32,System.Int32)">
+  MOVE(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MOVE(int x_offset, int y_offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_NEXT_" data-uid="CnvAPI.ANIMO.NEXT*"></a>
+
+  <h3 id="CnvAPI_ANIMO_NEXT" data-uid="CnvAPI.ANIMO.NEXT">
+  NEXT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void NEXT()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_NEXTFRAME_" data-uid="CnvAPI.ANIMO.NEXTFRAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_NEXTFRAME" data-uid="CnvAPI.ANIMO.NEXTFRAME">
+  NEXTFRAME()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void NEXTFRAME()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_NPLAY_" data-uid="CnvAPI.ANIMO.NPLAY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_NPLAY" data-uid="CnvAPI.ANIMO.NPLAY">
+  NPLAY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void NPLAY()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_PAUSE_" data-uid="CnvAPI.ANIMO.PAUSE*"></a>
+
+  <h3 id="CnvAPI_ANIMO_PAUSE" data-uid="CnvAPI.ANIMO.PAUSE">
+  PAUSE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PAUSE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_PLAY_" data-uid="CnvAPI.ANIMO.PLAY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_PLAY_System_Int32_" data-uid="CnvAPI.ANIMO.PLAY(System.Int32)">
+  PLAY(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PLAY(int event_index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_PLAY_" data-uid="CnvAPI.ANIMO.PLAY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_PLAY_System_String_" data-uid="CnvAPI.ANIMO.PLAY(System.String)">
+  PLAY(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Plays animation event identified by name <code>event_name</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PLAY(string event_name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the animation event to play.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_PREVFRAME_" data-uid="CnvAPI.ANIMO.PREVFRAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_PREVFRAME" data-uid="CnvAPI.ANIMO.PREVFRAME">
+  PREVFRAME()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PREVFRAME()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_REMOVEMONITORCOLLISION_" data-uid="CnvAPI.ANIMO.REMOVEMONITORCOLLISION*"></a>
+
+  <h3 id="CnvAPI_ANIMO_REMOVEMONITORCOLLISION" data-uid="CnvAPI.ANIMO.REMOVEMONITORCOLLISION">
+  REMOVEMONITORCOLLISION()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void REMOVEMONITORCOLLISION()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_RESUME_" data-uid="CnvAPI.ANIMO.RESUME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_RESUME" data-uid="CnvAPI.ANIMO.RESUME">
+  RESUME()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RESUME()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETANCHOR_" data-uid="CnvAPI.ANIMO.SETANCHOR*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETANCHOR_CnvAPI_anchor_" data-uid="CnvAPI.ANIMO.SETANCHOR(CnvAPI.anchor)">
+  SETANCHOR(anchor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETANCHOR(anchor anchor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>anchor</code> <a class="xref" href="CnvAPI.anchor.html">anchor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETASBUTTON_" data-uid="CnvAPI.ANIMO.SETASBUTTON*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETASBUTTON_System_Boolean_System_Boolean_" data-uid="CnvAPI.ANIMO.SETASBUTTON(System.Boolean,System.Boolean)">
+  SETASBUTTON(bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETASBUTTON(bool as_button, bool with_cursor_pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>as_button</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>with_cursor_pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETBACKWARD_" data-uid="CnvAPI.ANIMO.SETBACKWARD*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETBACKWARD" data-uid="CnvAPI.ANIMO.SETBACKWARD">
+  SETBACKWARD()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETBACKWARD()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETCLIPPING_" data-uid="CnvAPI.ANIMO.SETCLIPPING*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETCLIPPING" data-uid="CnvAPI.ANIMO.SETCLIPPING">
+  SETCLIPPING()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETCLIPPING()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETFORWARD_" data-uid="CnvAPI.ANIMO.SETFORWARD*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETFORWARD" data-uid="CnvAPI.ANIMO.SETFORWARD">
+  SETFORWARD()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETFORWARD()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETFPS_" data-uid="CnvAPI.ANIMO.SETFPS*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETFPS_System_Int32_" data-uid="CnvAPI.ANIMO.SETFPS(System.Int32)">
+  SETFPS(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETFPS(int fps)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETFRAME_" data-uid="CnvAPI.ANIMO.SETFRAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETFRAME_System_Int32_" data-uid="CnvAPI.ANIMO.SETFRAME(System.Int32)">
+  SETFRAME(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETFRAME(int image_index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image_index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETFRAME_" data-uid="CnvAPI.ANIMO.SETFRAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETFRAME_System_String_System_Int32_" data-uid="CnvAPI.ANIMO.SETFRAME(System.String,System.Int32)">
+  SETFRAME(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETFRAME(string event_name, int frame_index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>frame_index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETFRAMENAME_" data-uid="CnvAPI.ANIMO.SETFRAMENAME*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETFRAMENAME_System_String_" data-uid="CnvAPI.ANIMO.SETFRAMENAME(System.String)">
+  SETFRAMENAME(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETFRAMENAME(string frame_name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frame_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETOPACITY_" data-uid="CnvAPI.ANIMO.SETOPACITY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETOPACITY_System_Int32_" data-uid="CnvAPI.ANIMO.SETOPACITY(System.Int32)">
+  SETOPACITY(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETOPACITY(int opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETPOSITION_" data-uid="CnvAPI.ANIMO.SETPOSITION*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETPOSITION_System_Int32_System_Int32_" data-uid="CnvAPI.ANIMO.SETPOSITION(System.Int32,System.Int32)">
+  SETPOSITION(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETPOSITION(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SETPRIORITY_" data-uid="CnvAPI.ANIMO.SETPRIORITY*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SETPRIORITY_System_Int32_" data-uid="CnvAPI.ANIMO.SETPRIORITY(System.Int32)">
+  SETPRIORITY(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETPRIORITY(int priority)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_SHOW_" data-uid="CnvAPI.ANIMO.SHOW*"></a>
+
+  <h3 id="CnvAPI_ANIMO_SHOW" data-uid="CnvAPI.ANIMO.SHOW">
+  SHOW()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SHOW()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ANIMO_STOP_" data-uid="CnvAPI.ANIMO.STOP*"></a>
+
+  <h3 id="CnvAPI_ANIMO_STOP_System_Boolean_" data-uid="CnvAPI.ANIMO.STOP(System.Boolean)">
+  STOP(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void STOP(bool emit_on_finished = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emit_on_finished</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONCLICK" data-uid="CnvAPI.ANIMO.ONCLICK">
+  ONCLICK
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event SignalHandler ONCLICK</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONCOLLISION" data-uid="CnvAPI.ANIMO.ONCOLLISION">
+  ONCOLLISION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONCOLLISION</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONFINISHED" data-uid="CnvAPI.ANIMO.ONFINISHED">
+  ONFINISHED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Signal emitted when an animation event has finished playing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONFINISHED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONFOCUSOFF" data-uid="CnvAPI.ANIMO.ONFOCUSOFF">
+  ONFOCUSOFF
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event SignalHandler ONFOCUSOFF</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONFOCUSON" data-uid="CnvAPI.ANIMO.ONFOCUSON">
+  ONFOCUSON
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event SignalHandler ONFOCUSON</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONFRAMECHANGED" data-uid="CnvAPI.ANIMO.ONFRAMECHANGED">
+  ONFRAMECHANGED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONFRAMECHANGED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONINIT" data-uid="CnvAPI.ANIMO.ONINIT">
+  ONINIT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event SignalHandler ONINIT</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONRELEASE" data-uid="CnvAPI.ANIMO.ONRELEASE">
+  ONRELEASE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event SignalHandler ONRELEASE</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONSIGNAL" data-uid="CnvAPI.ANIMO.ONSIGNAL">
+  ONSIGNAL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONSIGNAL</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CnvAPI_ANIMO_ONSTARTED" data-uid="CnvAPI.ANIMO.ONSTARTED">
+  ONSTARTED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONSTARTED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CnvAPI.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/Animo.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

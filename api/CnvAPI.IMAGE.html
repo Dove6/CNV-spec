@@ -1,0 +1,933 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IMAGE | Cnv API specification </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IMAGE | Cnv API specification ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=CnvAPI_IMAGE.md&amp;value=---%0Auid%3A%20CnvAPI.IMAGE%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Cnv API specification">
+            Cnv API specification
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CnvAPI.IMAGE">
+
+
+
+  <h1 id="CnvAPI_IMAGE" data-uid="CnvAPI.IMAGE" class="text-break">
+Interface IMAGE  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CnvAPI.html">CnvAPI</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CnvAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMAGE : OBJECT</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_TYPE">OBJECT.TYPE</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETNAME">OBJECT.GETNAME()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CnvAPI_IMAGE_FILENAME_" data-uid="CnvAPI.IMAGE.FILENAME*"></a>
+
+  <h3 id="CnvAPI_IMAGE_FILENAME" data-uid="CnvAPI.IMAGE.FILENAME">
+  FILENAME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L4"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string FILENAME { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_MONITORCOLLISION_" data-uid="CnvAPI.IMAGE.MONITORCOLLISION*"></a>
+
+  <h3 id="CnvAPI_IMAGE_MONITORCOLLISION" data-uid="CnvAPI.IMAGE.MONITORCOLLISION">
+  MONITORCOLLISION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool MONITORCOLLISION { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_MONITORCOLLISIONALPHA_" data-uid="CnvAPI.IMAGE.MONITORCOLLISIONALPHA*"></a>
+
+  <h3 id="CnvAPI_IMAGE_MONITORCOLLISIONALPHA" data-uid="CnvAPI.IMAGE.MONITORCOLLISIONALPHA">
+  MONITORCOLLISIONALPHA
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool MONITORCOLLISIONALPHA { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_PRELOAD_" data-uid="CnvAPI.IMAGE.PRELOAD*"></a>
+
+  <h3 id="CnvAPI_IMAGE_PRELOAD" data-uid="CnvAPI.IMAGE.PRELOAD">
+  PRELOAD
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool PRELOAD { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_PRIORITY_" data-uid="CnvAPI.IMAGE.PRIORITY*"></a>
+
+  <h3 id="CnvAPI_IMAGE_PRIORITY" data-uid="CnvAPI.IMAGE.PRIORITY">
+  PRIORITY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PRIORITY { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_RELEASE_" data-uid="CnvAPI.IMAGE.RELEASE*"></a>
+
+  <h3 id="CnvAPI_IMAGE_RELEASE" data-uid="CnvAPI.IMAGE.RELEASE">
+  RELEASE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RELEASE { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_TOCANVAS_" data-uid="CnvAPI.IMAGE.TOCANVAS*"></a>
+
+  <h3 id="CnvAPI_IMAGE_TOCANVAS" data-uid="CnvAPI.IMAGE.TOCANVAS">
+  TOCANVAS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TOCANVAS { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_VISIBLE_" data-uid="CnvAPI.IMAGE.VISIBLE*"></a>
+
+  <h3 id="CnvAPI_IMAGE_VISIBLE" data-uid="CnvAPI.IMAGE.VISIBLE">
+  VISIBLE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool VISIBLE { init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CnvAPI_IMAGE_GETALPHA_" data-uid="CnvAPI.IMAGE.GETALPHA*"></a>
+
+  <h3 id="CnvAPI_IMAGE_GETALPHA" data-uid="CnvAPI.IMAGE.GETALPHA">
+  GETALPHA()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETALPHA()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_GETHEIGHT_" data-uid="CnvAPI.IMAGE.GETHEIGHT*"></a>
+
+  <h3 id="CnvAPI_IMAGE_GETHEIGHT" data-uid="CnvAPI.IMAGE.GETHEIGHT">
+  GETHEIGHT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETHEIGHT()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_GETPIXEL_" data-uid="CnvAPI.IMAGE.GETPIXEL*"></a>
+
+  <h3 id="CnvAPI_IMAGE_GETPIXEL" data-uid="CnvAPI.IMAGE.GETPIXEL">
+  GETPIXEL()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETPIXEL()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_GETPOSITIONX_" data-uid="CnvAPI.IMAGE.GETPOSITIONX*"></a>
+
+  <h3 id="CnvAPI_IMAGE_GETPOSITIONX" data-uid="CnvAPI.IMAGE.GETPOSITIONX">
+  GETPOSITIONX()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETPOSITIONX()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_GETPOSITIONY_" data-uid="CnvAPI.IMAGE.GETPOSITIONY*"></a>
+
+  <h3 id="CnvAPI_IMAGE_GETPOSITIONY" data-uid="CnvAPI.IMAGE.GETPOSITIONY">
+  GETPOSITIONY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETPOSITIONY()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_GETWIDTH_" data-uid="CnvAPI.IMAGE.GETWIDTH*"></a>
+
+  <h3 id="CnvAPI_IMAGE_GETWIDTH" data-uid="CnvAPI.IMAGE.GETWIDTH">
+  GETWIDTH()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETWIDTH()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_HIDE_" data-uid="CnvAPI.IMAGE.HIDE*"></a>
+
+  <h3 id="CnvAPI_IMAGE_HIDE" data-uid="CnvAPI.IMAGE.HIDE">
+  HIDE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HIDE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_INVALIDATE_" data-uid="CnvAPI.IMAGE.INVALIDATE*"></a>
+
+  <h3 id="CnvAPI_IMAGE_INVALIDATE" data-uid="CnvAPI.IMAGE.INVALIDATE">
+  INVALIDATE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void INVALIDATE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_ISVISIBLE_" data-uid="CnvAPI.IMAGE.ISVISIBLE*"></a>
+
+  <h3 id="CnvAPI_IMAGE_ISVISIBLE" data-uid="CnvAPI.IMAGE.ISVISIBLE">
+  ISVISIBLE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ISVISIBLE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_LOAD_" data-uid="CnvAPI.IMAGE.LOAD*"></a>
+
+  <h3 id="CnvAPI_IMAGE_LOAD" data-uid="CnvAPI.IMAGE.LOAD">
+  LOAD()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LOAD()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_MERGEALPHA_" data-uid="CnvAPI.IMAGE.MERGEALPHA*"></a>
+
+  <h3 id="CnvAPI_IMAGE_MERGEALPHA_System_Int32_System_Int32_System_String_" data-uid="CnvAPI.IMAGE.MERGEALPHA(System.Int32,System.Int32,System.String)">
+  MERGEALPHA(int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MERGEALPHA(int x_offset, int y_offset, string object_name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>object_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_MOVE_" data-uid="CnvAPI.IMAGE.MOVE*"></a>
+
+  <h3 id="CnvAPI_IMAGE_MOVE_System_Int32_System_Int32_" data-uid="CnvAPI.IMAGE.MOVE(System.Int32,System.Int32)">
+  MOVE(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MOVE(int x_offset, int y_offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_SETASBUTTON_" data-uid="CnvAPI.IMAGE.SETASBUTTON*"></a>
+
+  <h3 id="CnvAPI_IMAGE_SETASBUTTON" data-uid="CnvAPI.IMAGE.SETASBUTTON">
+  SETASBUTTON()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETASBUTTON()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_SETCLIPPING_" data-uid="CnvAPI.IMAGE.SETCLIPPING*"></a>
+
+  <h3 id="CnvAPI_IMAGE_SETCLIPPING_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="CnvAPI.IMAGE.SETCLIPPING(System.Int32,System.Int32,System.Int32,System.Int32)">
+  SETCLIPPING(int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETCLIPPING(int left_x, int top_y, int _width, int _height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>top_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>_width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>_height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_SETOPACITY_" data-uid="CnvAPI.IMAGE.SETOPACITY*"></a>
+
+  <h3 id="CnvAPI_IMAGE_SETOPACITY" data-uid="CnvAPI.IMAGE.SETOPACITY">
+  SETOPACITY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETOPACITY()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_SETPOSITION_" data-uid="CnvAPI.IMAGE.SETPOSITION*"></a>
+
+  <h3 id="CnvAPI_IMAGE_SETPOSITION_System_Int32_System_Int32_" data-uid="CnvAPI.IMAGE.SETPOSITION(System.Int32,System.Int32)">
+  SETPOSITION(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETPOSITION(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_SETPRIORITY_" data-uid="CnvAPI.IMAGE.SETPRIORITY*"></a>
+
+  <h3 id="CnvAPI_IMAGE_SETPRIORITY" data-uid="CnvAPI.IMAGE.SETPRIORITY">
+  SETPRIORITY()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SETPRIORITY()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_IMAGE_SHOW_" data-uid="CnvAPI.IMAGE.SHOW*"></a>
+
+  <h3 id="CnvAPI_IMAGE_SHOW" data-uid="CnvAPI.IMAGE.SHOW">
+  SHOW()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SHOW()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/Image.cs/#L3" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

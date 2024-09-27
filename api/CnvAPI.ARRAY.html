@@ -1,0 +1,843 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ARRAY | Cnv API specification </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ARRAY | Cnv API specification ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=CnvAPI_ARRAY.md&amp;value=---%0Auid%3A%20CnvAPI.ARRAY%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Cnv API specification">
+            Cnv API specification
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CnvAPI.ARRAY">
+
+
+
+  <h1 id="CnvAPI_ARRAY" data-uid="CnvAPI.ARRAY" class="text-break">
+Interface ARRAY  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CnvAPI.html">CnvAPI</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CnvAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ARRAY : OBJECT</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_TYPE">OBJECT.TYPE</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_GETNAME">OBJECT.GETNAME()</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CnvAPI.OBJECT.html#CnvAPI_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CnvAPI_ARRAY_ADD_" data-uid="CnvAPI.ARRAY.ADD*"></a>
+
+  <h3 id="CnvAPI_ARRAY_ADD" data-uid="CnvAPI.ARRAY.ADD">
+  ADD()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L4"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ADD()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_ADDAT_" data-uid="CnvAPI.ARRAY.ADDAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_ADDAT_System_Int32_CnvAPI_variable_" data-uid="CnvAPI.ARRAY.ADDAT(System.Int32,CnvAPI.variable)">
+  ADDAT(int, variable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ADDAT(int index, variable summand)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>summand</code> <a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_CHANGEAT_" data-uid="CnvAPI.ARRAY.CHANGEAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_CHANGEAT_System_Int32_CnvAPI_variable_" data-uid="CnvAPI.ARRAY.CHANGEAT(System.Int32,CnvAPI.variable)">
+  CHANGEAT(int, variable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CHANGEAT(int index, variable value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_CLAMPAT_" data-uid="CnvAPI.ARRAY.CLAMPAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_CLAMPAT_System_Int32_CnvAPI_variable_CnvAPI_variable_" data-uid="CnvAPI.ARRAY.CLAMPAT(System.Int32,CnvAPI.variable,CnvAPI.variable)">
+  CLAMPAT(int, variable, variable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CLAMPAT(int index, variable min, variable max)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>min</code> <a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+    <dt><code>max</code> <a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_CONTAINS_" data-uid="CnvAPI.ARRAY.CONTAINS*"></a>
+
+  <h3 id="CnvAPI_ARRAY_CONTAINS_CnvAPI_variable_" data-uid="CnvAPI.ARRAY.CONTAINS(CnvAPI.variable)">
+  CONTAINS(variable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CONTAINS(variable value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_COPYTO_" data-uid="CnvAPI.ARRAY.COPYTO*"></a>
+
+  <h3 id="CnvAPI_ARRAY_COPYTO" data-uid="CnvAPI.ARRAY.COPYTO">
+  COPYTO()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void COPYTO()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_FIND_" data-uid="CnvAPI.ARRAY.FIND*"></a>
+
+  <h3 id="CnvAPI_ARRAY_FIND" data-uid="CnvAPI.ARRAY.FIND">
+  FIND()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FIND()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_GET_" data-uid="CnvAPI.ARRAY.GET*"></a>
+
+  <h3 id="CnvAPI_ARRAY_GET_System_Int32_" data-uid="CnvAPI.ARRAY.GET(System.Int32)">
+  GET(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GET(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_GETSIZE_" data-uid="CnvAPI.ARRAY.GETSIZE*"></a>
+
+  <h3 id="CnvAPI_ARRAY_GETSIZE" data-uid="CnvAPI.ARRAY.GETSIZE">
+  GETSIZE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETSIZE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_GETSUMVALUE_" data-uid="CnvAPI.ARRAY.GETSUMVALUE*"></a>
+
+  <h3 id="CnvAPI_ARRAY_GETSUMVALUE" data-uid="CnvAPI.ARRAY.GETSUMVALUE">
+  GETSUMVALUE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GETSUMVALUE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_INSERTAT_" data-uid="CnvAPI.ARRAY.INSERTAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_INSERTAT_System_Int32_CnvAPI_variable_" data-uid="CnvAPI.ARRAY.INSERTAT(System.Int32,CnvAPI.variable)">
+  INSERTAT(int, variable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void INSERTAT(int index, variable value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="CnvAPI.variable.html">variable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_LOAD_" data-uid="CnvAPI.ARRAY.LOAD*"></a>
+
+  <h3 id="CnvAPI_ARRAY_LOAD" data-uid="CnvAPI.ARRAY.LOAD">
+  LOAD()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LOAD()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_LOADINI_" data-uid="CnvAPI.ARRAY.LOADINI*"></a>
+
+  <h3 id="CnvAPI_ARRAY_LOADINI" data-uid="CnvAPI.ARRAY.LOADINI">
+  LOADINI()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LOADINI()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_MODAT_" data-uid="CnvAPI.ARRAY.MODAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_MODAT" data-uid="CnvAPI.ARRAY.MODAT">
+  MODAT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MODAT()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_MULAT_" data-uid="CnvAPI.ARRAY.MULAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_MULAT" data-uid="CnvAPI.ARRAY.MULAT">
+  MULAT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void MULAT()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_REMOVE_" data-uid="CnvAPI.ARRAY.REMOVE*"></a>
+
+  <h3 id="CnvAPI_ARRAY_REMOVE" data-uid="CnvAPI.ARRAY.REMOVE">
+  REMOVE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void REMOVE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_REMOVEALL_" data-uid="CnvAPI.ARRAY.REMOVEALL*"></a>
+
+  <h3 id="CnvAPI_ARRAY_REMOVEALL" data-uid="CnvAPI.ARRAY.REMOVEALL">
+  REMOVEALL()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void REMOVEALL()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_REMOVEAT_" data-uid="CnvAPI.ARRAY.REMOVEAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_REMOVEAT" data-uid="CnvAPI.ARRAY.REMOVEAT">
+  REMOVEAT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void REMOVEAT()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_REVERSEFIND_" data-uid="CnvAPI.ARRAY.REVERSEFIND*"></a>
+
+  <h3 id="CnvAPI_ARRAY_REVERSEFIND" data-uid="CnvAPI.ARRAY.REVERSEFIND">
+  REVERSEFIND()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void REVERSEFIND()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_SAVE_" data-uid="CnvAPI.ARRAY.SAVE*"></a>
+
+  <h3 id="CnvAPI_ARRAY_SAVE" data-uid="CnvAPI.ARRAY.SAVE">
+  SAVE()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SAVE()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_SAVEINI_" data-uid="CnvAPI.ARRAY.SAVEINI*"></a>
+
+  <h3 id="CnvAPI_ARRAY_SAVEINI" data-uid="CnvAPI.ARRAY.SAVEINI">
+  SAVEINI()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SAVEINI()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_SUB_" data-uid="CnvAPI.ARRAY.SUB*"></a>
+
+  <h3 id="CnvAPI_ARRAY_SUB" data-uid="CnvAPI.ARRAY.SUB">
+  SUB()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SUB()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_SUBAT_" data-uid="CnvAPI.ARRAY.SUBAT*"></a>
+
+  <h3 id="CnvAPI_ARRAY_SUBAT" data-uid="CnvAPI.ARRAY.SUBAT">
+  SUBAT()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SUBAT()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CnvAPI_ARRAY_SUM_" data-uid="CnvAPI.ARRAY.SUM*"></a>
+
+  <h3 id="CnvAPI_ARRAY_SUM" data-uid="CnvAPI.ARRAY.SUM">
+  SUM()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SUM()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/Array.cs/#L3" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
