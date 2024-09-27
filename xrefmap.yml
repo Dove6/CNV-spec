@@ -441,19 +441,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.ANIMO.MONITORCOLLISIONALPHA
   nameWithType: ANIMO.MONITORCOLLISIONALPHA
-- uid: CnvAPI.ANIMO.MONITORCOLLISION_
-  name: MONITORCOLLISION_
+- uid: CnvAPI.ANIMO.MONITORCOLLISION
+  name: MONITORCOLLISION
   href: api/CnvAPI.ANIMO.html#CnvAPI_ANIMO_MONITORCOLLISION_
-  commentId: P:CnvAPI.ANIMO.MONITORCOLLISION_
-  fullName: CnvAPI.ANIMO.MONITORCOLLISION_
-  nameWithType: ANIMO.MONITORCOLLISION_
-- uid: CnvAPI.ANIMO.MONITORCOLLISION_*
-  name: MONITORCOLLISION_
+  commentId: P:CnvAPI.ANIMO.MONITORCOLLISION
+  fullName: CnvAPI.ANIMO.MONITORCOLLISION
+  nameWithType: ANIMO.MONITORCOLLISION
+- uid: CnvAPI.ANIMO.MONITORCOLLISION*
+  name: MONITORCOLLISION
   href: api/CnvAPI.ANIMO.html#CnvAPI_ANIMO_MONITORCOLLISION__
-  commentId: Overload:CnvAPI.ANIMO.MONITORCOLLISION_
+  commentId: Overload:CnvAPI.ANIMO.MONITORCOLLISION
   isSpec: "True"
-  fullName: CnvAPI.ANIMO.MONITORCOLLISION_
-  nameWithType: ANIMO.MONITORCOLLISION_
+  fullName: CnvAPI.ANIMO.MONITORCOLLISION
+  nameWithType: ANIMO.MONITORCOLLISION
 - uid: CnvAPI.ANIMO.MOVE(System.Int32,System.Int32)
   name: MOVE(int, int)
   href: api/CnvAPI.ANIMO.html#CnvAPI_ANIMO_MOVE_System_Int32_System_Int32_
@@ -1644,19 +1644,19 @@ references:
   isSpec: "True"
   fullName: CnvAPI.BUTTON.ENABLE
   nameWithType: BUTTON.ENABLE
-- uid: CnvAPI.BUTTON.ENABLE_
-  name: ENABLE_
+- uid: CnvAPI.BUTTON.ENABLE
+  name: ENABLE
   href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ENABLE_
-  commentId: P:CnvAPI.BUTTON.ENABLE_
-  fullName: CnvAPI.BUTTON.ENABLE_
-  nameWithType: BUTTON.ENABLE_
-- uid: CnvAPI.BUTTON.ENABLE_*
-  name: ENABLE_
+  commentId: P:CnvAPI.BUTTON.ENABLE
+  fullName: CnvAPI.BUTTON.ENABLE
+  nameWithType: BUTTON.ENABLE
+- uid: CnvAPI.BUTTON.ENABLE*
+  name: ENABLE
   href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_ENABLE__
-  commentId: Overload:CnvAPI.BUTTON.ENABLE_
+  commentId: Overload:CnvAPI.BUTTON.ENABLE
   isSpec: "True"
-  fullName: CnvAPI.BUTTON.ENABLE_
-  nameWithType: BUTTON.ENABLE_
+  fullName: CnvAPI.BUTTON.ENABLE
+  nameWithType: BUTTON.ENABLE
 - uid: CnvAPI.BUTTON.GETSTD
   name: GETSTD()
   href: api/CnvAPI.BUTTON.html#CnvAPI_BUTTON_GETSTD
@@ -5469,19 +5469,6 @@ references:
   isSpec: "True"
   fullName: CnvAPI.SCENE.CREATIONTIME
   nameWithType: SCENE.CREATIONTIME
-- uid: CnvAPI.SCENE.DESCRIPTION
-  name: DESCRIPTION
-  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_DESCRIPTION
-  commentId: P:CnvAPI.SCENE.DESCRIPTION
-  fullName: CnvAPI.SCENE.DESCRIPTION
-  nameWithType: SCENE.DESCRIPTION
-- uid: CnvAPI.SCENE.DESCRIPTION*
-  name: DESCRIPTION
-  href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_DESCRIPTION_
-  commentId: Overload:CnvAPI.SCENE.DESCRIPTION
-  isSpec: "True"
-  fullName: CnvAPI.SCENE.DESCRIPTION
-  nameWithType: SCENE.DESCRIPTION
 - uid: CnvAPI.SCENE.DLLS
   name: DLLS
   href: api/CnvAPI.SCENE.html#CnvAPI_SCENE_DLLS
