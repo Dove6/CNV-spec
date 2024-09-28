@@ -2,13 +2,13 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface KEYBOARD : OBJECT {
-    void DISABLE();
-    void ENABLE();
-    void GETLATESTKEY();
-    bool ISENABLED();
-    bool ISKEYDOWN();
-    void SETAUTOREPEAT();
+public class KEYBOARD : OBJECT {
+    public void DISABLE() { throw new NotImplementedException(); }
+    public void ENABLE() { throw new NotImplementedException(); }
+    public void GETLATESTKEY() { throw new NotImplementedException(); }
+    public bool ISENABLED() { throw new NotImplementedException(); }
+    public bool ISKEYDOWN() { throw new NotImplementedException(); }
+    public void SETAUTOREPEAT() { throw new NotImplementedException(); }
 
     event ParametrizedSignalHandler ONCHAR;
     event SignalHandler ONKEYDOWN;

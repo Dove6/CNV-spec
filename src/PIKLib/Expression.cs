@@ -2,8 +2,8 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface EXPRESSION : OBJECT {
-    string OPERAND1 { init; }
-    string OPERAND2 { init; }
-    expression_operator OPERATOR { init; }
+public class EXPRESSION : OBJECT {
+    public string OPERAND1 { private get; init; }
+    public string OPERAND2 { private get; init; }
+    public expression_operator OPERATOR { private get; init; }
 }

@@ -2,9 +2,9 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface CLASS : OBJECT {
-    string BASE { init; }
-    string DEF { init; }
+public class CLASS : OBJECT {
+    public string BASE { private get; init; }
+    public string DEF { private get; init; }
 
-    void NEW(string object_name, params variable[] arguments);
+    public void NEW(string object_name, params variable[] arguments) { throw new NotImplementedException(); }
 }

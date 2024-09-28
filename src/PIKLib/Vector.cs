@@ -2,15 +2,15 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface VECTOR : OBJECT {
-    int SIZE { init; }
-    double[] VALUE { init; }
+public class VECTOR : OBJECT {
+    public int SIZE { private get; init; }
+    public double[] VALUE { private get; init; }
 
-    void ADD(string summand_name);
-    void ASSIGN(params double[] values);
-    double GET(int index);
-    double LEN();
-    void MUL(double multiplier);
-    void NORMALIZE();
-    void REFLECT(string normal_name, string result_name);
+    public void ADD(string summand_name) { throw new NotImplementedException(); }
+    public void ASSIGN(params double[] values) { throw new NotImplementedException(); }
+    public double GET(int index) { throw new NotImplementedException(); }
+    public double LEN() { throw new NotImplementedException(); }
+    public void MUL(double multiplier) { throw new NotImplementedException(); }
+    public void NORMALIZE() { throw new NotImplementedException(); }
+    public void REFLECT(string normal_name, string result_name) { throw new NotImplementedException(); }
 }

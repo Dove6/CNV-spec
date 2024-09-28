@@ -2,6 +2,6 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface FILTER : OBJECT {
-    string ACTION { init; }
+public class FILTER : OBJECT {
+    public string ACTION { private get; init; }
 }

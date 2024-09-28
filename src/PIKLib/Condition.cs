@@ -2,14 +2,14 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface CONDITION : OBJECT {
-    string OPERAND1 { init; }
-    string OPERAND2 { init; }
-    condition_operator OPERATOR { init; }
+public class CONDITION : OBJECT {
+    public string OPERAND1 { private get; init; }
+    public string OPERAND2 { private get; init; }
+    public condition_operator OPERATOR { private get; init; }
 
-    void BREAK(bool _);
-    bool CHECK(bool _);
-    void ONE_BREAK(bool _);
+    public void BREAK(bool _) { throw new NotImplementedException(); }
+    public bool CHECK(bool _) { throw new NotImplementedException(); }
+    public void ONE_BREAK(bool _) { throw new NotImplementedException(); }
 
     event SignalHandler ONRUNTIMEFAILED;
     event SignalHandler ONRUNTIMESUCCESS;

@@ -2,7 +2,7 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface CNVLOADER : OBJECT {
-    void LOAD();
-    void RELEASE();
+public class CNVLOADER : OBJECT {
+    public void LOAD() { throw new NotImplementedException(); }
+    public void RELEASE() { throw new NotImplementedException(); }
 }

@@ -2,16 +2,16 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface GROUP : OBJECT {
-    void ADD(string object_name);
-    void ADDCLONES();
-    void GETSIZE();
-    void NEXT();
-    void PREV();
-    void REMOVE(string object_name);
-    void REMOVEALL();
-    void RESETMARKER();
-    void SETMARKERPOS(int index);
+public class GROUP : OBJECT {
+    public void ADD(string object_name) { throw new NotImplementedException(); }
+    public void ADDCLONES() { throw new NotImplementedException(); }
+    public void GETSIZE() { throw new NotImplementedException(); }
+    public void NEXT() { throw new NotImplementedException(); }
+    public void PREV() { throw new NotImplementedException(); }
+    public void REMOVE(string object_name) { throw new NotImplementedException(); }
+    public void REMOVEALL() { throw new NotImplementedException(); }
+    public void RESETMARKER() { throw new NotImplementedException(); }
+    public void SETMARKERPOS(int index) { throw new NotImplementedException(); }
 
     event SignalHandler ONINIT;
 }

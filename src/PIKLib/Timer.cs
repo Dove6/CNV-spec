@@ -2,17 +2,17 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface TIMER : OBJECT {
-    int ELAPSE { init; }
-    bool ENABLED { init; }
-    int TICKS { init; }
+public class TIMER : OBJECT {
+    public int ELAPSE { private get; init; }
+    public bool ENABLED { private get; init; }
+    public int TICKS { private get; init; }
 
-    void DISABLE();
-    void ENABLE();
-    int GETTICKS();
-    void RESET();
-    void SET(int _);
-    void SETELAPSE(int _);
+    public void DISABLE() { throw new NotImplementedException(); }
+    public void ENABLE() { throw new NotImplementedException(); }
+    public int GETTICKS() { throw new NotImplementedException(); }
+    public void RESET() { throw new NotImplementedException(); }
+    public void SET(int _) { throw new NotImplementedException(); }
+    public void SETELAPSE(int _) { throw new NotImplementedException(); }
 
     event SignalHandler ONINIT;
     event ParametrizedSignalHandler ONTICK;

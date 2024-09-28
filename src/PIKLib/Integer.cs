@@ -2,49 +2,49 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface INTEGER : OBJECT {
-    bool TOINI { init; }
-    int VALUE { init; }
-    string VARTYPE { init; }
+public class INTEGER : OBJECT {
+    public bool TOINI { private get; init; }
+    public int VALUE { private get; init; }
+    public string VARTYPE { private get; init; }
 
     /// <summary>
     /// Sets the modulus of <c>value</c> as the value of the object.
     /// </summary>
     /// <param name="value">The value of which modulus is to be set as the value of the object.</param>
     /// <returns></returns>
-    int ABS(int value);
+    public int ABS(int value) { throw new NotImplementedException(); }
 
-    int ADD(int summand);
+    public int ADD(int summand) { throw new NotImplementedException(); }
     
-    int AND(int operand);
+    public int AND(int operand) { throw new NotImplementedException(); }
 
-    int CLAMP(int min, int max);
+    public int CLAMP(int min, int max) { throw new NotImplementedException(); }
 
-    void DEC();
+    public void DEC() { throw new NotImplementedException(); }
 
-    void DIV(int divisor);
+    public void DIV(int divisor) { throw new NotImplementedException(); }
 
-    void INC();
+    public void INC() { throw new NotImplementedException(); }
 
-    int LENGTH(int horizontal_distance, int vertical_distance);
+    public int LENGTH(int horizontal_distance, int vertical_distance) { throw new NotImplementedException(); }
 
-    void MOD(int divisor);
+    public void MOD(int divisor) { throw new NotImplementedException(); }
 
-    void MUL(int multiplier);
+    public void MUL(int multiplier) { throw new NotImplementedException(); }
 
-    int OR(int operand);
+    public int OR(int operand) { throw new NotImplementedException(); }
 
-    int RANDOM(int max_exclusive);
+    public int RANDOM(int max_exclusive) { throw new NotImplementedException(); }
 
-    int RANDOM(int summand, int max_exclusive);
+    public int RANDOM(int summand, int max_exclusive) { throw new NotImplementedException(); }
 
-    void RESETINI();
+    public void RESETINI() { throw new NotImplementedException(); }
 
-    void SET(int value);
+    public void SET(int value) { throw new NotImplementedException(); }
 
-    int SUB(int subtrahend);
+    public int SUB(int subtrahend) { throw new NotImplementedException(); }
 
-    void SWITCH(int value1, int value2);
+    public void SWITCH(int value1, int value2) { throw new NotImplementedException(); }
 
     event ParametrizedSignalHandler ONBRUTALCHANGED;
     event ParametrizedSignalHandler ONCHANGED;

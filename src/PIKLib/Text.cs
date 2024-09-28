@@ -2,24 +2,24 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface TEXT : OBJECT {
-    string FONT { init; }
-    bool HJUSTIFY { init; }
-    bool HYPERTEXT { init; }
-    bool MONITORCOLLISION { init; }
-    bool MONITORCOLLISIONALPHA { init; }
-    rect RECT { init; }
-    string TEXT { init; }
-    bool TOCANVAS { init; }
-    bool VISIBLE { init; }
-    bool VJUSTIFY { init; }
+public class TEXT : OBJECT {
+    public string FONT { private get; init; }
+    public bool HJUSTIFY { private get; init; }
+    public bool HYPERTEXT { private get; init; }
+    public bool MONITORCOLLISION { private get; init; }
+    public bool MONITORCOLLISIONALPHA { private get; init; }
+    public rect RECT { private get; init; }
+    public string TEXTඞ { private get; init; }
+    public bool TOCANVAS { private get; init; }
+    public bool VISIBLE { private get; init; }
+    public bool VJUSTIFY { private get; init; }
 
-    void HIDE();
-    void SETCOLOR();
-    void SETJUSTIFY();
-    void SETPOSITION();
-    void SETTEXT(string text);
-    void SHOW();
+    public void HIDE() { throw new NotImplementedException(); }
+    public void SETCOLOR() { throw new NotImplementedException(); }
+    public void SETJUSTIFY() { throw new NotImplementedException(); }
+    public void SETPOSITION() { throw new NotImplementedException(); }
+    public void SETTEXT(string text) { throw new NotImplementedException(); }
+    public void SHOW() { throw new NotImplementedException(); }
 
     event SignalHandler ONINIT;
 }

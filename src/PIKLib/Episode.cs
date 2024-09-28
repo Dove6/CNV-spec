@@ -2,17 +2,17 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface EPISODE : OBJECT {
-    string AUTHOR { init; }
-    string CREATIONTIME { init; }
-    string LASTMODIFYTIME { init; }
-    string PATH { init; }
-    string[] SCENES { init; }
-    string STARTWITH { init; }
-    string VERSION { init; }
+public class EPISODE : OBJECT {
+    public string AUTHOR { private get; init; }
+    public string CREATIONTIME { private get; init; }
+    public string LASTMODIFYTIME { private get; init; }
+    public string PATH { private get; init; }
+    public string[] SCENES { private get; init; }
+    public string STARTWITH { private get; init; }
+    public string VERSION { private get; init; }
 
-    void BACK();
-    string GETCURRENTSCENE();
-    string GETLATESTSCENE();
-    void GOTO(string scene_name);
+    public void BACK() { throw new NotImplementedException(); }
+    public string GETCURRENTSCENE() { throw new NotImplementedException(); }
+    public string GETLATESTSCENE() { throw new NotImplementedException(); }
+    public void GOTO(string scene_name) { throw new NotImplementedException(); }
 }

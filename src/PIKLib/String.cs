@@ -2,23 +2,23 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface STRING : OBJECT {
-    bool TOINI { init; }
-    string VALUE { init; }
+public class STRING : OBJECT {
+    public bool TOINI { private get; init; }
+    public string VALUE { private get; init; }
 
-    string ADD(string suffix);
-    bool COPYFILE(string filename, string copied_filename);
-    void CUT(int index, int length);
-    int FIND(string needle, int start_index = 0);
-    string GET(int start_index);
-    string GET(int start_index, int length);
-    int LENGTH();
-    void REPLACE(string search, string replace);
-    void REPLACEAT(int index, string replace);
-    void RESETINI();
-    void SET(string value);
-    void SUB(int index, int length);
-    void UPPER();
+    public string ADD(string suffix) { throw new NotImplementedException(); }
+    public bool COPYFILE(string filename, string copied_filename) { throw new NotImplementedException(); }
+    public void CUT(int index, int length) { throw new NotImplementedException(); }
+    public int FIND(string needle, int start_index = 0) { throw new NotImplementedException(); }
+    public string GET(int start_index) { throw new NotImplementedException(); }
+    public string GET(int start_index, int length) { throw new NotImplementedException(); }
+    public int LENGTH() { throw new NotImplementedException(); }
+    public void REPLACE(string search, string replace) { throw new NotImplementedException(); }
+    public void REPLACEAT(int index, string replace) { throw new NotImplementedException(); }
+    public void RESETINI() { throw new NotImplementedException(); }
+    public void SET(string value) { throw new NotImplementedException(); }
+    public void SUB(int index, int length) { throw new NotImplementedException(); }
+    public void UPPER() { throw new NotImplementedException(); }
 
     event ParametrizedSignalHandler ONBRUTALCHANGED;
     event ParametrizedSignalHandler ONCHANGED;

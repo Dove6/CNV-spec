@@ -2,9 +2,9 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface MULTIARRAY : OBJECT {
-    int DIMENSIONS { init; }
+public class MULTIARRAY : OBJECT {
+    public int DIMENSIONS { private get; init; }
 
-    variable? GET(params int[] indices);
-    void SET(variable value, params int[] indices); // TODO: swap the order (value after indices)
+    public variable? GET(params int[] indices) { throw new NotImplementedException(); }
+    public void SET(variable value, params int[] indices) { throw new NotImplementedException(); } // TODO: swap the order (value after indices)
 }

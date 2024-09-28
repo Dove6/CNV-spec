@@ -2,25 +2,28 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface BUTTON : OBJECT {
-    bool DRAGGABLE { init; }
-    bool ENABLEඞ { init; }
-    string GFXONCLICK { init; }
-    string GFXONMOVE { init; }
-    string GFXSTANDARD { init; }
-    rect RECT { init; }
-    string SNDONMOVE { init; }
+public class BUTTON : OBJECT {
+    public bool DRAGGABLE { private get; init; }
+    public bool ENABLEඞ { private get; init; }
+    public string GFXONCLICK { private get; init; }
+    public string GFXONMOVE { private get; init; }
 
-    void DISABLE();
-    void DISABLEBUTVISIBLE();
-    void ENABLE();
-    string GETSTD();
-    void SETONCLICK(string object_name);
-    void SETONMOVE(string object_name);
-    void SETPRIORITY(int priority);
-    void SETRECT(string object_name);
-    void SETRECT(int left_x, int top_y, int right_x, int bottom_y);
-    void SETSTD(string object_name);
+    /// <summary>
+    /// A graphics
+    /// </summary>
+    public string GFXSTANDARD { private get; init; }
+    public rect RECT { private get; init; }
+    public string SNDONMOVE { private get; init; }
+
+    public void DISABLE() { throw new NotImplementedException(); }
+    public void DISABLEBUTVISIBLE() { throw new NotImplementedException(); }
+    public void ENABLE() { throw new NotImplementedException(); }
+    public string GETSTD() { throw new NotImplementedException(); }
+    public void SETONCLICK(string object_name) { throw new NotImplementedException(); }
+    public void SETONMOVE(string object_name) { throw new NotImplementedException(); }
+    public void SETPRIORITY(int priority) { throw new NotImplementedException(); }
+    public void SETRECT(rect rect) { throw new NotImplementedException(); }
+    public void SETSTD(string object_name) { throw new NotImplementedException(); }
     
     event SignalHandler ONACTION;
     event SignalHandler ONCLICKED;

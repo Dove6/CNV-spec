@@ -2,19 +2,19 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface SOUND : OBJECT {
-    string FILENAME { init; }
-    bool FLUSHAFTERPLAYED { init; }
-    bool PRELOAD { init; }
-    bool RELEASE { init; }
+public class SOUND : OBJECT {
+    public string FILENAME { private get; init; }
+    public bool FLUSHAFTERPLAYED { private get; init; }
+    public bool PRELOAD { private get; init; }
+    public bool RELEASE { private get; init; }
 
-    bool ISPLAYING();
-    void LOAD(string filename);
-    void PAUSE();
-    void PLAY();
-    void RESUME();
-    void SETVOLUME(int volume);
-    void STOP();
+    public bool ISPLAYING() { throw new NotImplementedException(); }
+    public void LOAD(string filename) { throw new NotImplementedException(); }
+    public void PAUSE() { throw new NotImplementedException(); }
+    public void PLAY() { throw new NotImplementedException(); }
+    public void RESUME() { throw new NotImplementedException(); }
+    public void SETVOLUME(int volume) { throw new NotImplementedException(); }
+    public void STOP() { throw new NotImplementedException(); }
 
     event SignalHandler ONFINISHED;
     event SignalHandler ONINIT;

@@ -2,6 +2,6 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface FONT : OBJECT {
-    string DEF_family_style_size { init; }
+public class FONT : OBJECT {
+    public string DEF_family_style_size { private get; init; }
 }

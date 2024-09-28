@@ -2,21 +2,21 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface MOUSE : OBJECT {
-    int? RAW { init;  }
+public class MOUSE : OBJECT {
+    public int? RAW { private get; init;  }
 
-    void DISABLE();
-    void DISABLESIGNAL();
-    void ENABLE();
-    void ENABLESIGNAL();
-    int GETPOSX();
-    int GETPOSY();
-    void HIDE();
-    bool ISLBUTTONDOWN();
-    void SET();
-    void SETCLIPRECT();
-    void SETPOSITION(int x, int y);
-    void SHOW();
+    public void DISABLE() { throw new NotImplementedException(); }
+    public void DISABLESIGNAL() { throw new NotImplementedException(); }
+    public void ENABLE() { throw new NotImplementedException(); }
+    public void ENABLESIGNAL() { throw new NotImplementedException(); }
+    public int GETPOSX() { throw new NotImplementedException(); }
+    public int GETPOSY() { throw new NotImplementedException(); }
+    public void HIDE() { throw new NotImplementedException(); }
+    public bool ISLBUTTONDOWN() { throw new NotImplementedException(); }
+    public void SET() { throw new NotImplementedException(); }
+    public void SETCLIPRECT() { throw new NotImplementedException(); }
+    public void SETPOSITION(int x, int y) { throw new NotImplementedException(); }
+    public void SHOW() { throw new NotImplementedException(); }
 
     event ParametrizedSignalHandler ONCLICK;
     event SignalHandler ONDBLCLICK;

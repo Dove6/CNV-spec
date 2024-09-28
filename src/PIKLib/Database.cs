@@ -2,16 +2,16 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface DATABASE : OBJECT {
-    string MODEL { init; }
+public class DATABASE : OBJECT {
+    public string MODEL { private get; init; }
 
-    void ADD(string object_name);
-    int FIND(string column_name, variable value, int start_row_index);
-    int GETCURSORPOS();
-    int GETROWSNO();
-    void LOAD(string filename);
-    void NEXT();
-    void REMOVEALL();
-    void SAVE(string filename);
-    void SELECT(int row_index);
+    public void ADD(string object_name) { throw new NotImplementedException(); }
+    public int FIND(string column_name, variable value, int start_row_index) { throw new NotImplementedException(); }
+    public int GETCURSORPOS() { throw new NotImplementedException(); }
+    public int GETROWSNO() { throw new NotImplementedException(); }
+    public void LOAD(string filename) { throw new NotImplementedException(); }
+    public void NEXT() { throw new NotImplementedException(); }
+    public void REMOVEALL() { throw new NotImplementedException(); }
+    public void SAVE(string filename) { throw new NotImplementedException(); }
+    public void SELECT(int row_index) { throw new NotImplementedException(); }
 }

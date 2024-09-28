@@ -2,8 +2,8 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface MUSIC : OBJECT {
-    string FILENAME { init; }
+public class MUSIC : OBJECT {
+    public string FILENAME { private get; init; }
 
-    void PLAY();
+    public void PLAY() { throw new NotImplementedException(); }
 }

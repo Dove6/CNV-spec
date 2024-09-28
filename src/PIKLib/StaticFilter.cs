@@ -2,10 +2,10 @@ using _abstractions;
 
 namespace PIKLib;
 
-public interface STATICFILTER : OBJECT {
-    string ACTION { init; }
+public class STATICFILTER : OBJECT {
+    public string ACTION { private get; init; }
 
-    void LINK(string graphics_name);
-    void SETPROPERTY(string key, variable value);
-    void UNLINK(string graphics_name);
+    public void LINK(string graphics_name) { throw new NotImplementedException(); }
+    public void SETPROPERTY(string key, variable value) { throw new NotImplementedException(); }
+    public void UNLINK(string graphics_name) { throw new NotImplementedException(); }
 }
