@@ -1,4 +1,4 @@
-namespace _abstractions;
+namespace abstractions;
 
 public enum anchor
 {

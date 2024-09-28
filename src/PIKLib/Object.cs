@@ -1,4 +1,4 @@
-namespace _abstractions;
+namespace abstractions;
 
 public abstract class OBJECT {
     public string DESCRIPTION  { private get; init; }
