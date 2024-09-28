@@ -13,8 +13,8 @@ public class ANIMO : OBJECT {
     public bool PRELOAD { private get; init; }
     public int PRIORITY { private get; init; }
     public bool RELEASE { private get; init; }
-    public bool TOCANVAS { private get; init; }
-    public bool VISIBLE { private get; init; }
+    public bool TOCANVAS { private get; init; } = false;
+    public bool VISIBLE { private get; init; } = false;
 
     /// <summary>
     /// Retrieves the horizontal position of the center of the object.
