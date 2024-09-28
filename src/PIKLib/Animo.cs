@@ -21,6 +21,7 @@ public class ANIMO : OBJECT {
     /// <remarks>
     /// The property overrides settings from a file.
     /// </remarks>
+    /// <value>Default value: NULL.</value>
     /// <seealso cref="SETFPS"/>
     public int? FPS { private get; init; } = null;
 
@@ -32,6 +33,7 @@ public class ANIMO : OBJECT {
     ///
     /// By default, AABB collision algorithm is used.
     /// </remarks>
+    /// <value>Default value: FALSE.</value>
     /// <seealso cref="MONITORCOLLISIONALPHA"/>
     /// <seealso cref="MONITORCOLLISION"/>
     /// <seealso cref="REMOVEMONITORCOLLISION"/>
@@ -43,6 +45,7 @@ public class ANIMO : OBJECT {
     /// <remarks>
     /// The property is ignored if <see cref="MONITORCOLLISIONඞ"/> is set to FALSE.
     /// </remarks>
+    /// <value>Default value: FALSE.</value>
     /// <seealso cref="MONITORCOLLISIONඞ"/>
     /// <seealso cref="MONITORCOLLISION"/>
     /// <seealso cref="REMOVEMONITORCOLLISION"/>
@@ -74,11 +77,13 @@ public class ANIMO : OBJECT {
     /// <remarks>
     /// Without setting the property to TRUE, the object remains invisible.
     /// </remarks>
+    /// <value>Default value: FALSE.</value>
     public bool TOCANVAS { private get; init; } = false;
 
     /// <summary>
     /// Should the object be visible by default?
     /// </summary>
+    /// <value>Default value: FALSE.</value>
     /// <seealso cref="TOCANVAS"/>
     /// <seealso cref="HIDE"/>
     /// <seealso cref="ISVISIBLE"/>

@@ -38,6 +38,8 @@ jobs:
           find . -type f -exec sed -i 's/public class //g' {} ';'
           find . -type f -exec sed -i 's/public event //g' {} ';'
           find . -type f -exec sed -i 's/public //g' {} ';'
+          find . -type f -exec sed -i 's/ { private get; init; }//g' {} ';'
+          find . -type f -exec sed -i 's/ { init; }//g' {} ';'
         working-directory: ./out
       - name: Update gh-pages and push changes
         run: |
