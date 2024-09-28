@@ -13,5 +13,5 @@ public class GROUP : OBJECT {
     public void RESETMARKER() { throw new NotImplementedException(); }
     public void SETMARKERPOS(int index) { throw new NotImplementedException(); }
 
-    event SignalHandler ONINIT;
+    public event SignalHandler? ONINIT;
 }

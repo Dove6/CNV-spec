@@ -1,4 +1,5 @@
 using abstractions;
+using char_name = System.String;
 
 namespace PIKLib;
 
@@ -10,7 +11,7 @@ public class KEYBOARD : OBJECT {
     public bool ISKEYDOWN() { throw new NotImplementedException(); }
     public void SETAUTOREPEAT() { throw new NotImplementedException(); }
 
-    event ParametrizedSignalHandler ONCHAR;
-    event SignalHandler ONKEYDOWN;
-    event SignalHandler ONKEYUP;
+    public event SignalHandler<char_name>? ONCHAR;
+    public event SignalHandler? ONKEYDOWN;
+    public event SignalHandler? ONKEYUP;
 }

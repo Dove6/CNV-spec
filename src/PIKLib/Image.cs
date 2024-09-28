@@ -31,8 +31,8 @@ public class IMAGE : OBJECT {
     public void SETPRIORITY() { throw new NotImplementedException(); }
     public void SHOW() { throw new NotImplementedException(); }
 
-    event SignalHandler ONCLICK;
-    event SignalHandler ONFOCUSOFF;
-    event SignalHandler ONFOCUSON;
-    event SignalHandler ONINIT;
+    public event SignalHandler? ONCLICK;
+    public event SignalHandler? ONFOCUSOFF;
+    public event SignalHandler? ONFOCUSON;
+    public event SignalHandler? ONINIT;
 }

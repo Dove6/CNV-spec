@@ -32,6 +32,6 @@ public class MATRIX : OBJECT {
     public void SETROW(int row_index, params int[] cell_types) { throw new NotImplementedException(); }
     public void TICK() { throw new NotImplementedException(); }
 
-    event SignalHandler ONLATEST;
-    event SignalHandler ONNEXT;
+    public event SignalHandler? ONLATEST;
+    public event SignalHandler? ONNEXT;
 }

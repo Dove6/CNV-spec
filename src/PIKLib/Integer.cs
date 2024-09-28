@@ -1,4 +1,6 @@
 using abstractions;
+using signal_name = System.String;
+using stringified_value = System.String;
 
 namespace PIKLib;
 
@@ -15,7 +17,7 @@ public class INTEGER : OBJECT {
     public int ABS(int value) { throw new NotImplementedException(); }
 
     public int ADD(int summand) { throw new NotImplementedException(); }
-    
+
     public int AND(int operand) { throw new NotImplementedException(); }
 
     public int CLAMP(int min, int max) { throw new NotImplementedException(); }
@@ -46,8 +48,8 @@ public class INTEGER : OBJECT {
 
     public void SWITCH(int value1, int value2) { throw new NotImplementedException(); }
 
-    event ParametrizedSignalHandler ONBRUTALCHANGED;
-    event ParametrizedSignalHandler ONCHANGED;
-    event SignalHandler ONINIT;
-    event ParametrizedSignalHandler ONSIGNAL;
+    public event SignalHandler<stringified_value>? ONBRUTALCHANGED;
+    public event SignalHandler<stringified_value>? ONCHANGED;
+    public event SignalHandler? ONINIT;
+    public event SignalHandler<signal_name>? ONSIGNAL;
 }

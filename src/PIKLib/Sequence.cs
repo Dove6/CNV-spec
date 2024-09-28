@@ -1,4 +1,5 @@
 using abstractions;
+using parameter = System.String;
 
 namespace PIKLib;
 
@@ -13,7 +14,7 @@ public class SEQUENCE : OBJECT {
     public void RESUME() { throw new NotImplementedException(); }
     public void STOP(bool emit_on_finished = true) { throw new NotImplementedException(); }
 
-    event ParametrizedSignalHandler ONFINISHED;
-    event SignalHandler ONINIT;
-    event ParametrizedSignalHandler ONSTARTED;
+    public event SignalHandler<parameter>? ONFINISHED;
+    public event SignalHandler? ONINIT;
+    public event SignalHandler<parameter>? ONSTARTED;
 }

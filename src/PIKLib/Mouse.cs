@@ -1,4 +1,5 @@
 using abstractions;
+using button_name = System.String;
 
 namespace PIKLib;
 
@@ -18,9 +19,9 @@ public class MOUSE : OBJECT {
     public void SETPOSITION(int x, int y) { throw new NotImplementedException(); }
     public void SHOW() { throw new NotImplementedException(); }
 
-    event ParametrizedSignalHandler ONCLICK;
-    event SignalHandler ONDBLCLICK;
-    event SignalHandler ONINIT;
-    event SignalHandler ONMOVE;
-    event SignalHandler ONRELEASE;
+    public event SignalHandler<button_name>? ONCLICK;
+    public event SignalHandler? ONDBLCLICK;
+    public event SignalHandler? ONINIT;
+    public event SignalHandler? ONMOVE;
+    public event SignalHandler? ONRELEASE;
 }

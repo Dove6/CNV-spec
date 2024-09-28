@@ -16,6 +16,6 @@ public class CANVAS_OBSERVER : OBJECT {
     public void SETBACKGROUND(string object_name_or_filename) { throw new NotImplementedException(); }
     public void SETBKGPOS(int x, int y) { throw new NotImplementedException(); }
 
-    event ParametrizedSignalHandler ONWINDOWFOCUSOFF;
-    event ParametrizedSignalHandler ONWINDOWFOCUSON;
+    public event SignalHandler? ONWINDOWFOCUSOFF;
+    public event SignalHandler? ONWINDOWFOCUSON;
 }

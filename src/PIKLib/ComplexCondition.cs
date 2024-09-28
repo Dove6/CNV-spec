@@ -11,6 +11,6 @@ public class COMPLEXCONDITION : OBJECT {
     public bool CHECK(bool _) { throw new NotImplementedException(); }
     public void ONE_BREAK(bool _) { throw new NotImplementedException(); }
 
-    event SignalHandler ONRUNTIMEFAILED;
-    event SignalHandler ONRUNTIMESUCCESS;
+    public event SignalHandler? ONRUNTIMEFAILED;
+    public event SignalHandler? ONRUNTIMESUCCESS;
 }

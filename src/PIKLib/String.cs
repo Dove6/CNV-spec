@@ -1,4 +1,5 @@
 using abstractions;
+using stringified_value = System.String;
 
 namespace PIKLib;
 
@@ -20,7 +21,7 @@ public class STRING : OBJECT {
     public void SUB(int index, int length) { throw new NotImplementedException(); }
     public void UPPER() { throw new NotImplementedException(); }
 
-    event ParametrizedSignalHandler ONBRUTALCHANGED;
-    event ParametrizedSignalHandler ONCHANGED;
-    event SignalHandler ONINIT;
+    public event SignalHandler<stringified_value>? ONBRUTALCHANGED;
+    public event SignalHandler<stringified_value>? ONCHANGED;
+    public event SignalHandler? ONINIT;
 }

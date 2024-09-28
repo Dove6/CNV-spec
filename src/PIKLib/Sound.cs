@@ -16,7 +16,7 @@ public class SOUND : OBJECT {
     public void SETVOLUME(int volume) { throw new NotImplementedException(); }
     public void STOP() { throw new NotImplementedException(); }
 
-    event SignalHandler ONFINISHED;
-    event SignalHandler ONINIT;
-    event SignalHandler ONSTARTED;
+    public event SignalHandler? ONFINISHED;
+    public event SignalHandler? ONINIT;
+    public event SignalHandler? ONSTARTED;
 }

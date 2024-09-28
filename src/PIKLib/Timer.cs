@@ -1,4 +1,5 @@
 using abstractions;
+using stringified_tick_number = System.String;
 
 namespace PIKLib;
 
@@ -14,6 +15,6 @@ public class TIMER : OBJECT {
     public void SET(int _) { throw new NotImplementedException(); }
     public void SETELAPSE(int _) { throw new NotImplementedException(); }
 
-    event SignalHandler ONINIT;
-    event ParametrizedSignalHandler ONTICK;
+    public event SignalHandler? ONINIT;
+    public event SignalHandler<stringified_tick_number>? ONTICK;
 }

@@ -21,5 +21,5 @@ public class TEXT : OBJECT {
     public void SETTEXT(string text) { throw new NotImplementedException(); }
     public void SHOW() { throw new NotImplementedException(); }
 
-    event SignalHandler ONINIT;
+    public event SignalHandler? ONINIT;
 }
