@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class BUTTON | Cnv API specification ">
       
-      
+      <meta name="description" content="An interactable area which reacts to mouse cursor being hovered over it and clicking it.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_BUTTON" data-uid="PIKLib.BUTTON" class="text-break">
-Class BUTTON  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class BUTTON  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
   <dl><dt>Assembly</dt><dd>PIKLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>An interactable area which reacts to mouse cursor being hovered over it and clicking it.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -184,10 +185,11 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_DRAGGABLE" data-uid="PIKLib.BUTTON.DRAGGABLE">
   DRAGGABLE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A value specifying if the object should support dragging.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -215,10 +217,11 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_ENABLE_" data-uid="PIKLib.BUTTON.ENABLE">
   ENABLE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A value specifying if the object should be activated by default.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -238,6 +241,9 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="PIKLib_BUTTON_ENABLE__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A disabled button hides associated objects supplied using the <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXSTANDARD">GFXSTANDARD</a>, <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXONMOVE">GFXONMOVE</a> and <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXONCLICK">GFXONCLICK</a> properties.</p>
+</div>
 
 
 
@@ -246,14 +252,15 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_GFXONCLICK" data-uid="PIKLib.BUTTON.GFXONCLICK">
   GFXONCLICK
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The name of an <a class="xref" href="PIKLib.ANIMO.html">ANIMO</a> or <a class="xref" href="PIKLib.IMAGE.html">IMAGE</a> object to be shown when the mouse button is being pressed over the button.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GFXONCLICK { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">string? GFXONCLICK { init; }</code></pre>
   </div>
 
 
@@ -269,6 +276,9 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="PIKLib_BUTTON_GFXONCLICK_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property is overridden by the <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_RECT">RECT</a> property.</p>
+</div>
 
 
 
@@ -277,14 +287,15 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_GFXONMOVE" data-uid="PIKLib.BUTTON.GFXONMOVE">
   GFXONMOVE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The name of an <a class="xref" href="PIKLib.ANIMO.html">ANIMO</a> or <a class="xref" href="PIKLib.IMAGE.html">IMAGE</a> object to be shown when the mouse cursor is being hovered over the button.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GFXONMOVE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">string? GFXONMOVE { init; }</code></pre>
   </div>
 
 
@@ -300,6 +311,9 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="PIKLib_BUTTON_GFXONMOVE_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property is overridden by the <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_RECT">RECT</a> property.</p>
+</div>
 
 
 
@@ -308,10 +322,10 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_GFXSTANDARD" data-uid="PIKLib.BUTTON.GFXSTANDARD">
   GFXSTANDARD
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>A graphics</p>
+  <div class="markdown level1 summary"><p>The name of an <a class="xref" href="PIKLib.ANIMO.html">ANIMO</a> or <a class="xref" href="PIKLib.IMAGE.html">IMAGE</a> object to be shown when the button is neither pressed nor hovered upon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -332,6 +346,9 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="PIKLib_BUTTON_GFXSTANDARD_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property is overridden by the <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_RECT">RECT</a> property.</p>
+</div>
 
 
 
@@ -340,10 +357,11 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_RECT" data-uid="PIKLib.BUTTON.RECT">
   RECT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A literal rect described by four coordinates or a reference being the name of a graphical object to base the rect on, capturing its current state.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -363,6 +381,11 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="PIKLib_BUTTON_RECT_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property overrides the <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXSTANDARD">GFXSTANDARD</a>, <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXONMOVE">GFXONMOVE</a> and <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXONCLICK">GFXONCLICK</a> properties.
+If a reference is used, the rect only reflects the state of the referenced object at the time of the method call.
+For example changing the referenced animation frame does not result in the interactive area of the button being resized/moved.</p>
+</div>
 
 
 
@@ -371,10 +394,11 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_SNDONMOVE" data-uid="PIKLib.BUTTON.SNDONMOVE">
   SNDONMOVE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The name of a <a class="xref" href="PIKLib.SOUND.html">SOUND</a> object to be played when mouse cursor hovers over the button.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -406,7 +430,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_DISABLE" data-uid="PIKLib.BUTTON.DISABLE">
   DISABLE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -432,7 +456,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_DISABLEBUTVISIBLE" data-uid="PIKLib.BUTTON.DISABLEBUTVISIBLE">
   DISABLEBUTVISIBLE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -458,7 +482,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_ENABLE" data-uid="PIKLib.BUTTON.ENABLE">
   ENABLE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -484,7 +508,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_GETSTD" data-uid="PIKLib.BUTTON.GETSTD">
   GETSTD()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -515,7 +539,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_SETONCLICK_System_String_" data-uid="PIKLib.BUTTON.SETONCLICK(System.String)">
   SETONCLICK(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -546,7 +570,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_SETONMOVE_System_String_" data-uid="PIKLib.BUTTON.SETONMOVE(System.String)">
   SETONMOVE(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -577,7 +601,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_SETPRIORITY_System_Int32_" data-uid="PIKLib.BUTTON.SETPRIORITY(System.Int32)">
   SETPRIORITY(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -608,10 +632,10 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_SETRECT_abstractions_rect_" data-uid="PIKLib.BUTTON.SETRECT(abstractions.rect)">
   SETRECT(rect)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the interactive area of the button to the given rect.</p>
+  <div class="markdown level1 summary"><p>Sets the interactive area of the button to the given <code class="paramref">rect</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -633,6 +657,12 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="PIKLib_BUTTON_SETRECT_abstractions_rect__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Calling this method does not make the button visible or enabled.
+Setting a rect makes the <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXSTANDARD">GFXSTANDARD</a>, <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXONMOVE">GFXONMOVE</a> and <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_GFXONCLICK">GFXONCLICK</a> properties as well as any further calls to the <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_SETSTD_System_String_">SETSTD(string)</a>, <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_SETONMOVE_System_String_">SETONMOVE(string)</a> and <a class="xref" href="PIKLib.BUTTON.html#PIKLib_BUTTON_SETONCLICK_System_String_">SETONCLICK(string)</a> methods to be ignored.
+If a reference is used, the rect only reflects the state of the referenced object at the time of the method call.
+For example changing the referenced animation frame does not result in the interactive area of the button being resized/moved.</p>
+</div>
 
 
 
@@ -641,7 +671,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="PIKLib_BUTTON_SETSTD_System_String_" data-uid="PIKLib.BUTTON.SETSTD(System.String)">
   SETSTD(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -672,7 +702,7 @@ Class BUTTON  <a class="header-action link-secondary" title="View source" href="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Button.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 
