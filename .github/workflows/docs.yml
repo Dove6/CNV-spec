@@ -34,6 +34,7 @@ jobs:
           find . -type f -exec sed -i 's/public interface//g' {} ';'
           find . -type f -exec sed -i 's/public static class//g' {} ';'
           find . -type f -exec sed -i 's/public static//g' {} ';'
+          find . -type f -exec sed -i 's/public abstract class//g' {} ';'
           find . -type f -exec sed -i 's/public class//g' {} ';'
           find . -type f -exec sed -i 's/public //g' {} ';'
         working-directory: ./out
