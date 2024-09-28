@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface EPISODE | Cnv API specification </title>
+      <title>Class EPISODE | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface EPISODE | Cnv API specification ">
+      <meta name="title" content="Class EPISODE | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_EPISODE" data-uid="PIKLib.EPISODE" class="text-break">
-Interface EPISODE  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Episode.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class EPISODE  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Episode.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> EPISODE : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class EPISODE : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">EPISODE</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string AUTHOR { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string AUTHOR { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string CREATIONTIME { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CREATIONTIME { init; }</code></pre>
   </div>
 
 
@@ -224,7 +253,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string LASTMODIFYTIME { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LASTMODIFYTIME { init; }</code></pre>
   </div>
 
 
@@ -255,7 +284,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string PATH { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PATH { init; }</code></pre>
   </div>
 
 
@@ -286,7 +315,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string[] SCENES { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] SCENES { init; }</code></pre>
   </div>
 
 
@@ -317,7 +346,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string STARTWITH { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string STARTWITH { init; }</code></pre>
   </div>
 
 
@@ -348,7 +377,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string VERSION { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string VERSION { init; }</code></pre>
   </div>
 
 
@@ -383,7 +412,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void BACK()</code></pre>
+    <pre><code class="lang-csharp hljs">public void BACK()</code></pre>
   </div>
 
 
@@ -409,7 +438,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GETCURRENTSCENE()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GETCURRENTSCENE()</code></pre>
   </div>
 
 
@@ -440,7 +469,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GETLATESTSCENE()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GETLATESTSCENE()</code></pre>
   </div>
 
 
@@ -471,7 +500,7 @@ Interface EPISODE  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GOTO(string scene_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GOTO(string scene_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

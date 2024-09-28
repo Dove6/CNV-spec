@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface STRUCT | Cnv API specification </title>
+      <title>Class STRUCT | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface STRUCT | Cnv API specification ">
+      <meta name="title" content="Class STRUCT | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_STRUCT" data-uid="PIKLib.STRUCT" class="text-break">
-Interface STRUCT  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Struct.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class STRUCT  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Struct.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface STRUCT  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> STRUCT : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class STRUCT : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">STRUCT</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface STRUCT  <a class="header-action link-secondary" title="View source" hr
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface STRUCT  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">(string, string)[] FIELDS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public (string, string)[] FIELDS { init; }</code></pre>
   </div>
 
 
@@ -197,7 +226,7 @@ Interface STRUCT  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">variable GETFIELD(string field_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public variable GETFIELD(string field_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -233,7 +262,7 @@ Interface STRUCT  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SET(string struct_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SET(string struct_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -264,7 +293,7 @@ Interface STRUCT  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETFIELD(string field_name, variable value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETFIELD(string field_name, variable value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

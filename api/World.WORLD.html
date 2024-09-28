@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface WORLD | Cnv API specification </title>
+      <title>Class WORLD | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface WORLD | Cnv API specification ">
+      <meta name="title" content="Class WORLD | Cnv API specification ">
       
       <meta name="description" content="3D physics simulation.">
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="World_WORLD" data-uid="World.WORLD" class="text-break">
-Interface WORLD  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/World/World.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class WORLD  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/World/World.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,12 +102,20 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> WORLD : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class WORLD : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">WORLD</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -141,6 +149,27 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -163,7 +192,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string FILENAME { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FILENAME { init; }</code></pre>
   </div>
 
 
@@ -198,7 +227,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ADDBODY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ADDBODY()</code></pre>
   </div>
 
 
@@ -224,7 +253,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ADDFORCE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ADDFORCE()</code></pre>
   </div>
 
 
@@ -250,7 +279,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ADDGRAVITYEX()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ADDGRAVITYEX()</code></pre>
   </div>
 
 
@@ -276,7 +305,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void FINDPATH()</code></pre>
+    <pre><code class="lang-csharp hljs">public void FINDPATH()</code></pre>
   </div>
 
 
@@ -302,7 +331,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void FOLLOWPATH()</code></pre>
+    <pre><code class="lang-csharp hljs">public void FOLLOWPATH()</code></pre>
   </div>
 
 
@@ -328,7 +357,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETANGLE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETANGLE()</code></pre>
   </div>
 
 
@@ -354,7 +383,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETBKGPOSX()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETBKGPOSX()</code></pre>
   </div>
 
 
@@ -380,7 +409,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETBKGPOSY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETBKGPOSY()</code></pre>
   </div>
 
 
@@ -406,7 +435,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETMOVEDISTANCE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETMOVEDISTANCE()</code></pre>
   </div>
 
 
@@ -432,7 +461,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETPOSITIONX()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETPOSITIONX()</code></pre>
   </div>
 
 
@@ -458,7 +487,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETPOSITIONY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETPOSITIONY()</code></pre>
   </div>
 
 
@@ -484,7 +513,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETPOSITIONZ()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETPOSITIONZ()</code></pre>
   </div>
 
 
@@ -510,7 +539,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETROTATIONZ()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETROTATIONZ()</code></pre>
   </div>
 
 
@@ -536,7 +565,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETSPEED()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETSPEED()</code></pre>
   </div>
 
 
@@ -562,7 +591,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void JOIN()</code></pre>
+    <pre><code class="lang-csharp hljs">public void JOIN()</code></pre>
   </div>
 
 
@@ -588,7 +617,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void LINK()</code></pre>
+    <pre><code class="lang-csharp hljs">public void LINK()</code></pre>
   </div>
 
 
@@ -614,7 +643,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void LOAD()</code></pre>
+    <pre><code class="lang-csharp hljs">public void LOAD()</code></pre>
   </div>
 
 
@@ -640,7 +669,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MOVEOBJECTS()</code></pre>
+    <pre><code class="lang-csharp hljs">public void MOVEOBJECTS()</code></pre>
   </div>
 
 
@@ -666,7 +695,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REMOVEOBJECT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REMOVEOBJECT()</code></pre>
   </div>
 
 
@@ -692,7 +721,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETACTIVE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETACTIVE()</code></pre>
   </div>
 
 
@@ -718,7 +747,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETBKGSIZE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETBKGSIZE()</code></pre>
   </div>
 
 
@@ -744,7 +773,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETBODYDYNAMICS()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETBODYDYNAMICS()</code></pre>
   </div>
 
 
@@ -770,7 +799,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETG()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETG()</code></pre>
   </div>
 
 
@@ -796,7 +825,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETGRAVITY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETGRAVITY()</code></pre>
   </div>
 
 
@@ -822,7 +851,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETGRAVITYCENTER()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETGRAVITYCENTER()</code></pre>
   </div>
 
 
@@ -848,7 +877,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETLIMIT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETLIMIT()</code></pre>
   </div>
 
 
@@ -874,7 +903,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETMAXSPEED()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETMAXSPEED()</code></pre>
   </div>
 
 
@@ -900,7 +929,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETMOVEFLAGS()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETMOVEFLAGS()</code></pre>
   </div>
 
 
@@ -926,7 +955,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETPOSITION()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETPOSITION()</code></pre>
   </div>
 
 
@@ -952,7 +981,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETREFOBJECT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETREFOBJECT()</code></pre>
   </div>
 
 
@@ -978,7 +1007,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETVELOCITY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETVELOCITY()</code></pre>
   </div>
 
 
@@ -1004,7 +1033,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void START()</code></pre>
+    <pre><code class="lang-csharp hljs">public void START()</code></pre>
   </div>
 
 
@@ -1030,7 +1059,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void STOP()</code></pre>
+    <pre><code class="lang-csharp hljs">public void STOP()</code></pre>
   </div>
 
 
@@ -1056,7 +1085,7 @@ Interface WORLD  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void UNLINK()</code></pre>
+    <pre><code class="lang-csharp hljs">public void UNLINK()</code></pre>
   </div>
 
 

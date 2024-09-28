@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface CLASS | Cnv API specification </title>
+      <title>Class CLASS | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface CLASS | Cnv API specification ">
+      <meta name="title" content="Class CLASS | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_CLASS" data-uid="PIKLib.CLASS" class="text-break">
-Interface CLASS  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Class.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class CLASS  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Class.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface CLASS  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> CLASS : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class CLASS : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">CLASS</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface CLASS  <a class="header-action link-secondary" title="View source" hre
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface CLASS  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string BASE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string BASE { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface CLASS  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string DEF { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string DEF { init; }</code></pre>
   </div>
 
 
@@ -228,7 +257,7 @@ Interface CLASS  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void NEW(string object_name, params variable[] arguments)</code></pre>
+    <pre><code class="lang-csharp hljs">public void NEW(string object_name, params variable[] arguments)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

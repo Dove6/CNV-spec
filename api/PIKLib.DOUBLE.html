@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface DOUBLE | Cnv API specification </title>
+      <title>Class DOUBLE | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface DOUBLE | Cnv API specification ">
+      <meta name="title" content="Class DOUBLE | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_DOUBLE" data-uid="PIKLib.DOUBLE" class="text-break">
-Interface DOUBLE  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Double.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class DOUBLE  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Double.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> DOUBLE : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class DOUBLE : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">DOUBLE</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TOINI { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TOINI { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double VALUE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double VALUE { init; }</code></pre>
   </div>
 
 
@@ -228,7 +257,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double ADD(double summand)</code></pre>
+    <pre><code class="lang-csharp hljs">public double ADD(double summand)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -264,7 +293,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double ARCTAN(double degrees)</code></pre>
+    <pre><code class="lang-csharp hljs">public double ARCTAN(double degrees)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -300,7 +329,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double ARCTANEX(double y, double x, int summand = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public double ARCTANEX(double y, double x, int summand = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -340,7 +369,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double CLAMP(double min, double max)</code></pre>
+    <pre><code class="lang-csharp hljs">public double CLAMP(double min, double max)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -378,7 +407,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double COSINUS(double degrees)</code></pre>
+    <pre><code class="lang-csharp hljs">public double COSINUS(double degrees)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -414,7 +443,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DIV(double divisor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DIV(double divisor)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -445,7 +474,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double LENGTH(double horizontal_distance, double vertical_distance)</code></pre>
+    <pre><code class="lang-csharp hljs">public double LENGTH(double horizontal_distance, double vertical_distance)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -483,7 +512,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double MAXA(params double[] values)</code></pre>
+    <pre><code class="lang-csharp hljs">public double MAXA(params double[] values)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -519,7 +548,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double MINA(params double[] values)</code></pre>
+    <pre><code class="lang-csharp hljs">public double MINA(params double[] values)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -555,7 +584,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MUL(double multiplier)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MUL(double multiplier)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -586,7 +615,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SET(double value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SET(double value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -617,7 +646,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double SINUS(double degrees)</code></pre>
+    <pre><code class="lang-csharp hljs">public double SINUS(double degrees)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -653,7 +682,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double SQRT()</code></pre>
+    <pre><code class="lang-csharp hljs">public double SQRT()</code></pre>
   </div>
 
 
@@ -684,7 +713,7 @@ Interface DOUBLE  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double SUB(double subtrahend)</code></pre>
+    <pre><code class="lang-csharp hljs">public double SUB(double subtrahend)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

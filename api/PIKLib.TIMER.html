@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface TIMER | Cnv API specification </title>
+      <title>Class TIMER | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface TIMER | Cnv API specification ">
+      <meta name="title" content="Class TIMER | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_TIMER" data-uid="PIKLib.TIMER" class="text-break">
-Interface TIMER  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Timer.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class TIMER  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Timer.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> TIMER : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class TIMER : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">TIMER</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int ELAPSE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int ELAPSE { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ENABLED { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ENABLED { init; }</code></pre>
   </div>
 
 
@@ -224,7 +253,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int TICKS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int TICKS { init; }</code></pre>
   </div>
 
 
@@ -259,7 +288,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DISABLE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void DISABLE()</code></pre>
   </div>
 
 
@@ -285,7 +314,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ENABLE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ENABLE()</code></pre>
   </div>
 
 
@@ -311,7 +340,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETTICKS()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETTICKS()</code></pre>
   </div>
 
 
@@ -342,7 +371,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RESET()</code></pre>
+    <pre><code class="lang-csharp hljs">public void RESET()</code></pre>
   </div>
 
 
@@ -368,7 +397,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SET(int _)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SET(int _)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -399,7 +428,7 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETELAPSE(int _)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETELAPSE(int _)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -412,70 +441,6 @@ Interface TIMER  <a class="header-action link-secondary" title="View source" hre
 
 
 
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="PIKLib_TIMER_ONINIT" data-uid="PIKLib.TIMER.ONINIT">
-  ONINIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Timer.cs/#L17"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONINIT</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_TIMER_ONTICK" data-uid="PIKLib.TIMER.ONTICK">
-  ONTICK
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Timer.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONTICK</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

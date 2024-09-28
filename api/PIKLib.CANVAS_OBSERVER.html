@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface CANVAS_OBSERVER | Cnv API specification </title>
+      <title>Class CANVAS_OBSERVER | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface CANVAS_OBSERVER | Cnv API specification ">
+      <meta name="title" content="Class CANVAS_OBSERVER | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_CANVAS_OBSERVER" data-uid="PIKLib.CANVAS_OBSERVER" class="text-break">
-Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/CanvasObserver.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class CANVAS_OBSERVER  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/CanvasObserver.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> CANVAS_OBSERVER : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class CANVAS_OBSERVER : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">CANVAS_OBSERVER</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ADD()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ADD()</code></pre>
   </div>
 
 
@@ -188,7 +217,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ENABLENOTIFY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ENABLENOTIFY()</code></pre>
   </div>
 
 
@@ -214,7 +243,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string? GETGRAPHICSAT(int x_position, int y_position)</code></pre>
+    <pre><code class="lang-csharp hljs">public string? GETGRAPHICSAT(int x_position, int y_position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -252,7 +281,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string? GETGRAPHICSAT(int x_position, int y_position, bool _unknown, int min_priority, int max_priority, bool pixel_perfect)</code></pre>
+    <pre><code class="lang-csharp hljs">public string? GETGRAPHICSAT(int x_position, int y_position, bool _unknown, int min_priority, int max_priority, bool pixel_perfect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -298,7 +327,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MOVEBKG(int x_offset, int y_offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MOVEBKG(int x_offset, int y_offset)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -331,7 +360,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PASTE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void PASTE()</code></pre>
   </div>
 
 
@@ -357,7 +386,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REDRAW()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REDRAW()</code></pre>
   </div>
 
 
@@ -383,7 +412,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REFRESH()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REFRESH()</code></pre>
   </div>
 
 
@@ -409,7 +438,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REMOVE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REMOVE()</code></pre>
   </div>
 
 
@@ -435,7 +464,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SAVE(string filename)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SAVE(string filename)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -466,7 +495,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETBACKGROUND(string object_name_or_filename)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETBACKGROUND(string object_name_or_filename)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -497,7 +526,7 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETBKGPOS(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETBKGPOS(int x, int y)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -512,70 +541,6 @@ Interface CANVAS_OBSERVER  <a class="header-action link-secondary" title="View s
 
 
 
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="PIKLib_CANVAS_OBSERVER_ONWINDOWFOCUSOFF" data-uid="PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSOFF">
-  ONWINDOWFOCUSOFF
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/CanvasObserver.cs/#L19"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONWINDOWFOCUSOFF</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_CANVAS_OBSERVER_ONWINDOWFOCUSON" data-uid="PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSON">
-  ONWINDOWFOCUSON
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/CanvasObserver.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONWINDOWFOCUSON</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface MATRIX | Cnv API specification </title>
+      <title>Class MATRIX | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface MATRIX | Cnv API specification ">
+      <meta name="title" content="Class MATRIX | Cnv API specification ">
       
       <meta name="description" content="2D Boulder Dash-like simulation.">
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Matrix_MATRIX" data-uid="Matrix.MATRIX" class="text-break">
-Interface MATRIX  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Matrix/Matrix.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class MATRIX  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Matrix/Matrix.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,12 +102,20 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> MATRIX : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class MATRIX : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">MATRIX</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -141,6 +149,27 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -163,7 +192,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">(int, int) BASEPOS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public (int, int) BASEPOS { init; }</code></pre>
   </div>
 
 
@@ -194,7 +223,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int CELLHEIGHT { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int CELLHEIGHT { init; }</code></pre>
   </div>
 
 
@@ -225,7 +254,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int CELLWIDTH { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int CELLWIDTH { init; }</code></pre>
   </div>
 
 
@@ -256,7 +285,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">(int, int) SIZE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public (int, int) SIZE { init; }</code></pre>
   </div>
 
 
@@ -291,7 +320,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int CALCENEMYMOVEDEST(int current_cell, int current_direction)</code></pre>
+    <pre><code class="lang-csharp hljs">public int CALCENEMYMOVEDEST(int current_cell, int current_direction)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -329,7 +358,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int CALCENEMYMOVEDIR(int current_cell, int current_direction)</code></pre>
+    <pre><code class="lang-csharp hljs">public int CALCENEMYMOVEDIR(int current_cell, int current_direction)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -367,7 +396,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool CANHEROGOTO(int cell_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CANHEROGOTO(int cell_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -403,7 +432,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GET(int cell_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GET(int cell_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -439,7 +468,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCELLOFFSET(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCELLOFFSET(int x, int y)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -477,7 +506,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCELLPOSX(int cell_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCELLPOSX(int cell_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -513,7 +542,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCELLPOSY(int cell_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCELLPOSY(int cell_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -549,7 +578,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCELLSNO(int cell_type)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCELLSNO(int cell_type)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -585,7 +614,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETFIELDPOSX(int cell_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETFIELDPOSX(int cell_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -621,7 +650,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETFIELDPOSY(int cell_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETFIELDPOSY(int cell_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -657,7 +686,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETOFFSET(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETOFFSET(int x, int y)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -695,7 +724,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISGATEEMPTY()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ISGATEEMPTY()</code></pre>
   </div>
 
 
@@ -726,7 +755,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISINGATE(int _)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ISINGATE(int _)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -762,7 +791,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MOVE(int _, int _2)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MOVE(int _, int _2)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -795,7 +824,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int NEXT()</code></pre>
+    <pre><code class="lang-csharp hljs">public int NEXT()</code></pre>
   </div>
 
 
@@ -826,7 +855,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SET(int cell_index, int cell_type)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SET(int cell_index, int cell_type)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -859,7 +888,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETGATE(int _, int _2, int _3, int _4)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETGATE(int _, int _2, int _3, int _4)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -896,7 +925,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETROW(int row_index, params int[] cell_types)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETROW(int row_index, params int[] cell_types)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -929,7 +958,7 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void TICK()</code></pre>
+    <pre><code class="lang-csharp hljs">public void TICK()</code></pre>
   </div>
 
 
@@ -937,70 +966,6 @@ Interface MATRIX  <a class="header-action link-secondary" title="View source" hr
 
 
 
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="Matrix_MATRIX_ONLATEST" data-uid="Matrix.MATRIX.ONLATEST">
-  ONLATEST
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Matrix/Matrix.cs/#L35"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONLATEST</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="Matrix_MATRIX_ONNEXT" data-uid="Matrix.MATRIX.ONNEXT">
-  ONNEXT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/Matrix/Matrix.cs/#L36"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONNEXT</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

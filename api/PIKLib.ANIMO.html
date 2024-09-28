@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface ANIMO | Cnv API specification </title>
+      <title>Class ANIMO | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface ANIMO | Cnv API specification ">
+      <meta name="title" content="Class ANIMO | Cnv API specification ">
       
       <meta name="description" content="2D sprite animation.">
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_ANIMO" data-uid="PIKLib.ANIMO" class="text-break">
-Interface ANIMO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class ANIMO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,12 +102,20 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> ANIMO : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class ANIMO : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">ANIMO</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -141,6 +149,27 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -163,7 +192,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string FILENAME { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FILENAME { init; }</code></pre>
   </div>
 
 
@@ -194,7 +223,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int FPS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int FPS { init; }</code></pre>
   </div>
 
 
@@ -225,7 +254,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool MONITORCOLLISIONALPHA { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool MONITORCOLLISIONALPHA { init; }</code></pre>
   </div>
 
 
@@ -256,7 +285,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool MONITORCOLLISION { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool MONITORCOLLISION { init; }</code></pre>
   </div>
 
 
@@ -287,7 +316,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool PRELOAD { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool PRELOAD { init; }</code></pre>
   </div>
 
 
@@ -318,7 +347,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int PRIORITY { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int PRIORITY { init; }</code></pre>
   </div>
 
 
@@ -349,7 +378,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RELEASE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool RELEASE { init; }</code></pre>
   </div>
 
 
@@ -380,7 +409,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TOCANVAS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TOCANVAS { init; }</code></pre>
   </div>
 
 
@@ -411,7 +440,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool VISIBLE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool VISIBLE { init; }</code></pre>
   </div>
 
 
@@ -447,7 +476,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCENTERX()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCENTERX()</code></pre>
   </div>
 
 
@@ -479,7 +508,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCENTERY()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCENTERY()</code></pre>
   </div>
 
 
@@ -510,7 +539,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCFRAMEINEVENT()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCFRAMEINEVENT()</code></pre>
   </div>
 
 
@@ -541,7 +570,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCURRFRAMEPOSX()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCURRFRAMEPOSX()</code></pre>
   </div>
 
 
@@ -572,7 +601,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETCURRFRAMEPOSY()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETCURRFRAMEPOSY()</code></pre>
   </div>
 
 
@@ -603,7 +632,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETENDX()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETENDX()</code></pre>
   </div>
 
 
@@ -634,7 +663,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETENDY()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETENDY()</code></pre>
   </div>
 
 
@@ -665,7 +694,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GETEVENTNAME()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GETEVENTNAME()</code></pre>
   </div>
 
 
@@ -696,7 +725,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETFRAME()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETFRAME()</code></pre>
   </div>
 
 
@@ -727,7 +756,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GETFRAMENAME()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GETFRAMENAME()</code></pre>
   </div>
 
 
@@ -758,7 +787,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETHEIGHT()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETHEIGHT()</code></pre>
   </div>
 
 
@@ -789,7 +818,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETMAXWIDTH()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETMAXWIDTH()</code></pre>
   </div>
 
 
@@ -820,7 +849,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETNOE()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETNOE()</code></pre>
   </div>
 
 
@@ -851,7 +880,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETNOF()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETNOF()</code></pre>
   </div>
 
 
@@ -882,7 +911,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETNOFINEVENT(string event_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETNOFINEVENT(string event_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -918,7 +947,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETOPACITY()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETOPACITY()</code></pre>
   </div>
 
 
@@ -949,7 +978,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETPOSITIONX()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETPOSITIONX()</code></pre>
   </div>
 
 
@@ -980,7 +1009,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETPOSITIONY()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETPOSITIONY()</code></pre>
   </div>
 
 
@@ -1011,7 +1040,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETPRIORITY()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETPRIORITY()</code></pre>
   </div>
 
 
@@ -1042,7 +1071,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETWIDTH()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETWIDTH()</code></pre>
   </div>
 
 
@@ -1074,7 +1103,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void HIDE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void HIDE()</code></pre>
   </div>
 
 
@@ -1100,7 +1129,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void INVALIDATE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void INVALIDATE()</code></pre>
   </div>
 
 
@@ -1126,7 +1155,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISAT()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ISAT()</code></pre>
   </div>
 
 
@@ -1158,7 +1187,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISNEAR(string other, string iou_threshold)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ISNEAR(string other, string iou_threshold)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1199,7 +1228,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISPLAYING()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ISPLAYING()</code></pre>
   </div>
 
 
@@ -1230,7 +1259,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISVISIBLE()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ISVISIBLE()</code></pre>
   </div>
 
 
@@ -1261,7 +1290,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void LOAD(string filename)</code></pre>
+    <pre><code class="lang-csharp hljs">public void LOAD(string filename)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1292,7 +1321,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MERGEALPHA()</code></pre>
+    <pre><code class="lang-csharp hljs">public void MERGEALPHA()</code></pre>
   </div>
 
 
@@ -1318,7 +1347,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MONITORCOLLISION(bool pixel_perfect)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MONITORCOLLISION(bool pixel_perfect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1349,7 +1378,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MOVE(int x_offset, int y_offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MOVE(int x_offset, int y_offset)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1382,7 +1411,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void NEXT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void NEXT()</code></pre>
   </div>
 
 
@@ -1408,7 +1437,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void NEXTFRAME()</code></pre>
+    <pre><code class="lang-csharp hljs">public void NEXTFRAME()</code></pre>
   </div>
 
 
@@ -1434,7 +1463,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void NPLAY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void NPLAY()</code></pre>
   </div>
 
 
@@ -1460,7 +1489,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PAUSE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void PAUSE()</code></pre>
   </div>
 
 
@@ -1486,7 +1515,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PLAY(int event_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public void PLAY(int event_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1518,7 +1547,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PLAY(string event_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void PLAY(string event_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1550,7 +1579,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PREVFRAME()</code></pre>
+    <pre><code class="lang-csharp hljs">public void PREVFRAME()</code></pre>
   </div>
 
 
@@ -1576,7 +1605,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REMOVEMONITORCOLLISION()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REMOVEMONITORCOLLISION()</code></pre>
   </div>
 
 
@@ -1602,7 +1631,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RESUME()</code></pre>
+    <pre><code class="lang-csharp hljs">public void RESUME()</code></pre>
   </div>
 
 
@@ -1628,7 +1657,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETANCHOR(anchor anchor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETANCHOR(anchor anchor)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1659,7 +1688,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETASBUTTON(bool as_button, bool with_cursor_pointer)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETASBUTTON(bool as_button, bool with_cursor_pointer)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1692,7 +1721,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETBACKWARD()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETBACKWARD()</code></pre>
   </div>
 
 
@@ -1718,7 +1747,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETCLIPPING()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETCLIPPING()</code></pre>
   </div>
 
 
@@ -1744,7 +1773,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETFORWARD()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETFORWARD()</code></pre>
   </div>
 
 
@@ -1770,7 +1799,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETFPS(int fps)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETFPS(int fps)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1801,7 +1830,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETFRAME(int image_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETFRAME(int image_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1832,7 +1861,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETFRAME(string event_name, int frame_index)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETFRAME(string event_name, int frame_index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1865,7 +1894,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETFRAMENAME(string frame_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETFRAMENAME(string frame_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1896,7 +1925,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETOPACITY(int opacity)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETOPACITY(int opacity)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1927,7 +1956,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETPOSITION(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETPOSITION(int x, int y)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1960,7 +1989,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETPRIORITY(int priority)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETPRIORITY(int priority)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1991,7 +2020,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SHOW()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SHOW()</code></pre>
   </div>
 
 
@@ -2017,7 +2046,7 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void STOP(bool emit_on_finished = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void STOP(bool emit_on_finished = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -2030,311 +2059,6 @@ Interface ANIMO  <a class="header-action link-secondary" title="View source" hre
 
 
 
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="PIKLib_ANIMO_ONCLICK" data-uid="PIKLib.ANIMO.ONCLICK">
-  ONCLICK
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L98"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONCLICK</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONCOLLISION" data-uid="PIKLib.ANIMO.ONCOLLISION">
-  ONCOLLISION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L99"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONCOLLISION</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONFINISHED" data-uid="PIKLib.ANIMO.ONFINISHED">
-  ONFINISHED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L104"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Signal emitted when an animation event has finished playing.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONFINISHED</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONFOCUSOFF" data-uid="PIKLib.ANIMO.ONFOCUSOFF">
-  ONFOCUSOFF
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L105"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONFOCUSOFF</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONFOCUSON" data-uid="PIKLib.ANIMO.ONFOCUSON">
-  ONFOCUSON
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L106"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONFOCUSON</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONFRAMECHANGED" data-uid="PIKLib.ANIMO.ONFRAMECHANGED">
-  ONFRAMECHANGED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L107"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONFRAMECHANGED</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONINIT" data-uid="PIKLib.ANIMO.ONINIT">
-  ONINIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L108"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONINIT</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONRELEASE" data-uid="PIKLib.ANIMO.ONRELEASE">
-  ONRELEASE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L109"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONRELEASE</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONSIGNAL" data-uid="PIKLib.ANIMO.ONSIGNAL">
-  ONSIGNAL
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L110"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONSIGNAL</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_ANIMO_ONSTARTED" data-uid="PIKLib.ANIMO.ONSTARTED">
-  ONSTARTED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L111"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONSTARTED</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface CONDITION | Cnv API specification </title>
+      <title>Class CONDITION | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface CONDITION | Cnv API specification ">
+      <meta name="title" content="Class CONDITION | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_CONDITION" data-uid="PIKLib.CONDITION" class="text-break">
-Interface CONDITION  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Condition.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class CONDITION  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Condition.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> CONDITION : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class CONDITION : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">CONDITION</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string OPERAND1 { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string OPERAND1 { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string OPERAND2 { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string OPERAND2 { init; }</code></pre>
   </div>
 
 
@@ -224,7 +253,7 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">condition_operator OPERATOR { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public condition_operator OPERATOR { init; }</code></pre>
   </div>
 
 
@@ -259,7 +288,7 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void BREAK(bool _)</code></pre>
+    <pre><code class="lang-csharp hljs">public void BREAK(bool _)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -290,7 +319,7 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool CHECK(bool _)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CHECK(bool _)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -326,7 +355,7 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ONE_BREAK(bool _)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ONE_BREAK(bool _)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -339,70 +368,6 @@ Interface CONDITION  <a class="header-action link-secondary" title="View source"
 
 
 
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="PIKLib_CONDITION_ONRUNTIMEFAILED" data-uid="PIKLib.CONDITION.ONRUNTIMEFAILED">
-  ONRUNTIMEFAILED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Condition.cs/#L14"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONRUNTIMEFAILED</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_CONDITION_ONRUNTIMESUCCESS" data-uid="PIKLib.CONDITION.ONRUNTIMESUCCESS">
-  ONRUNTIMESUCCESS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Condition.cs/#L15"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONRUNTIMESUCCESS</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

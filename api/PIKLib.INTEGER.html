@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface INTEGER | Cnv API specification </title>
+      <title>Class INTEGER | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface INTEGER | Cnv API specification ">
+      <meta name="title" content="Class INTEGER | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_INTEGER" data-uid="PIKLib.INTEGER" class="text-break">
-Interface INTEGER  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Integer.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class INTEGER  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Integer.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> INTEGER : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class INTEGER : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">INTEGER</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TOINI { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TOINI { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int VALUE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int VALUE { init; }</code></pre>
   </div>
 
 
@@ -224,7 +253,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string VARTYPE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string VARTYPE { init; }</code></pre>
   </div>
 
 
@@ -260,7 +289,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int ABS(int value)</code></pre>
+    <pre><code class="lang-csharp hljs">public int ABS(int value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -297,7 +326,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int ADD(int summand)</code></pre>
+    <pre><code class="lang-csharp hljs">public int ADD(int summand)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -333,7 +362,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int AND(int operand)</code></pre>
+    <pre><code class="lang-csharp hljs">public int AND(int operand)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -369,7 +398,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int CLAMP(int min, int max)</code></pre>
+    <pre><code class="lang-csharp hljs">public int CLAMP(int min, int max)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -407,7 +436,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DEC()</code></pre>
+    <pre><code class="lang-csharp hljs">public void DEC()</code></pre>
   </div>
 
 
@@ -433,7 +462,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DIV(int divisor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DIV(int divisor)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -464,7 +493,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void INC()</code></pre>
+    <pre><code class="lang-csharp hljs">public void INC()</code></pre>
   </div>
 
 
@@ -490,7 +519,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int LENGTH(int horizontal_distance, int vertical_distance)</code></pre>
+    <pre><code class="lang-csharp hljs">public int LENGTH(int horizontal_distance, int vertical_distance)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -528,7 +557,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MOD(int divisor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MOD(int divisor)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -559,7 +588,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MUL(int multiplier)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MUL(int multiplier)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -590,7 +619,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int OR(int operand)</code></pre>
+    <pre><code class="lang-csharp hljs">public int OR(int operand)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -626,7 +655,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int RANDOM(int max_exclusive)</code></pre>
+    <pre><code class="lang-csharp hljs">public int RANDOM(int max_exclusive)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -662,7 +691,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int RANDOM(int summand, int max_exclusive)</code></pre>
+    <pre><code class="lang-csharp hljs">public int RANDOM(int summand, int max_exclusive)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -700,7 +729,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RESETINI()</code></pre>
+    <pre><code class="lang-csharp hljs">public void RESETINI()</code></pre>
   </div>
 
 
@@ -726,7 +755,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SET(int value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SET(int value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -757,7 +786,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int SUB(int subtrahend)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SUB(int subtrahend)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -793,7 +822,7 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SWITCH(int value1, int value2)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SWITCH(int value1, int value2)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -808,130 +837,6 @@ Interface INTEGER  <a class="header-action link-secondary" title="View source" h
 
 
 
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="PIKLib_INTEGER_ONBRUTALCHANGED" data-uid="PIKLib.INTEGER.ONBRUTALCHANGED">
-  ONBRUTALCHANGED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Integer.cs/#L49"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONBRUTALCHANGED</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_INTEGER_ONCHANGED" data-uid="PIKLib.INTEGER.ONCHANGED">
-  ONCHANGED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Integer.cs/#L50"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONCHANGED</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_INTEGER_ONINIT" data-uid="PIKLib.INTEGER.ONINIT">
-  ONINIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Integer.cs/#L51"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONINIT</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_INTEGER_ONSIGNAL" data-uid="PIKLib.INTEGER.ONSIGNAL">
-  ONSIGNAL
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Integer.cs/#L52"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event ParametrizedSignalHandler ONSIGNAL</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.ParametrizedSignalHandler.html">ParametrizedSignalHandler</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

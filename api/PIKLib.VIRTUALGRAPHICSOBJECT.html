@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface VIRTUALGRAPHICSOBJECT | Cnv API specification </title>
+      <title>Class VIRTUALGRAPHICSOBJECT | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface VIRTUALGRAPHICSOBJECT | Cnv API specification ">
+      <meta name="title" content="Class VIRTUALGRAPHICSOBJECT | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_VIRTUALGRAPHICSOBJECT" data-uid="PIKLib.VIRTUALGRAPHICSOBJECT" class="text-break">
-Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/VirtualGraphicsObject.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/VirtualGraphicsObject.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> VIRTUALGRAPHICSOBJECT : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class VIRTUALGRAPHICSOBJECT : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">VIRTUALGRAPHICSOBJECT</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ASBUTTON { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ASBUTTON { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string MASK { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string MASK { init; }</code></pre>
   </div>
 
 
@@ -224,7 +253,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool MONITORCOLLISION { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool MONITORCOLLISION { init; }</code></pre>
   </div>
 
 
@@ -255,7 +284,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool MONITORCOLLISIONALPHA { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool MONITORCOLLISIONALPHA { init; }</code></pre>
   </div>
 
 
@@ -286,7 +315,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int PRIORITY { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int PRIORITY { init; }</code></pre>
   </div>
 
 
@@ -317,7 +346,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string SOURCE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string SOURCE { init; }</code></pre>
   </div>
 
 
@@ -348,7 +377,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TOCANVAS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TOCANVAS { init; }</code></pre>
   </div>
 
 
@@ -379,7 +408,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool VISIBLE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool VISIBLE { init; }</code></pre>
   </div>
 
 
@@ -414,7 +443,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETHEIGHT()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETHEIGHT()</code></pre>
   </div>
 
 
@@ -445,7 +474,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETPOSITIONX()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETPOSITIONX()</code></pre>
   </div>
 
 
@@ -476,7 +505,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETPOSITIONY()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETPOSITIONY()</code></pre>
   </div>
 
 
@@ -507,7 +536,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GETWIDTH()</code></pre>
+    <pre><code class="lang-csharp hljs">public int GETWIDTH()</code></pre>
   </div>
 
 
@@ -538,7 +567,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MOVE(int x_offset, int y_offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MOVE(int x_offset, int y_offset)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -571,7 +600,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETMASK(string graphics_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETMASK(string graphics_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -602,7 +631,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETPOSITION(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETPOSITION(int x, int y)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -635,7 +664,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETPRIORITY(int priority)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETPRIORITY(int priority)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -666,7 +695,7 @@ Interface VIRTUALGRAPHICSOBJECT  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETSOURCE(string graphics_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETSOURCE(string graphics_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

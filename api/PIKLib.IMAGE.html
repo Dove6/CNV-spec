@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IMAGE | Cnv API specification </title>
+      <title>Class IMAGE | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IMAGE | Cnv API specification ">
+      <meta name="title" content="Class IMAGE | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_IMAGE" data-uid="PIKLib.IMAGE" class="text-break">
-Interface IMAGE  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Image.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class IMAGE  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Image.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> IMAGE : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class IMAGE : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">IMAGE</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string FILENAME { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FILENAME { init; }</code></pre>
   </div>
 
 
@@ -193,7 +222,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool MONITORCOLLISION { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool MONITORCOLLISION { init; }</code></pre>
   </div>
 
 
@@ -224,7 +253,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool MONITORCOLLISIONALPHA { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool MONITORCOLLISIONALPHA { init; }</code></pre>
   </div>
 
 
@@ -255,7 +284,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool PRELOAD { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool PRELOAD { init; }</code></pre>
   </div>
 
 
@@ -286,7 +315,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int PRIORITY { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int PRIORITY { init; }</code></pre>
   </div>
 
 
@@ -317,7 +346,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RELEASE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool RELEASE { init; }</code></pre>
   </div>
 
 
@@ -348,7 +377,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool TOCANVAS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TOCANVAS { init; }</code></pre>
   </div>
 
 
@@ -379,7 +408,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool VISIBLE { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool VISIBLE { init; }</code></pre>
   </div>
 
 
@@ -414,7 +443,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETALPHA()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETALPHA()</code></pre>
   </div>
 
 
@@ -440,7 +469,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETHEIGHT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETHEIGHT()</code></pre>
   </div>
 
 
@@ -466,7 +495,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETPIXEL()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETPIXEL()</code></pre>
   </div>
 
 
@@ -492,7 +521,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETPOSITIONX()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETPOSITIONX()</code></pre>
   </div>
 
 
@@ -518,7 +547,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETPOSITIONY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETPOSITIONY()</code></pre>
   </div>
 
 
@@ -544,7 +573,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETWIDTH()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETWIDTH()</code></pre>
   </div>
 
 
@@ -570,7 +599,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void HIDE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void HIDE()</code></pre>
   </div>
 
 
@@ -596,7 +625,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void INVALIDATE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void INVALIDATE()</code></pre>
   </div>
 
 
@@ -622,7 +651,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ISVISIBLE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ISVISIBLE()</code></pre>
   </div>
 
 
@@ -648,7 +677,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void LOAD()</code></pre>
+    <pre><code class="lang-csharp hljs">public void LOAD()</code></pre>
   </div>
 
 
@@ -674,7 +703,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MERGEALPHA(int x_offset, int y_offset, string object_name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MERGEALPHA(int x_offset, int y_offset, string object_name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -709,7 +738,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MOVE(int x_offset, int y_offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MOVE(int x_offset, int y_offset)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -742,7 +771,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETASBUTTON()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETASBUTTON()</code></pre>
   </div>
 
 
@@ -768,7 +797,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETCLIPPING(int left_x, int top_y, int _width, int _height)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETCLIPPING(int left_x, int top_y, int _width, int _height)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -805,7 +834,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETOPACITY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETOPACITY()</code></pre>
   </div>
 
 
@@ -831,7 +860,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETPOSITION(int x, int y)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETPOSITION(int x, int y)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -864,7 +893,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETPRIORITY()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SETPRIORITY()</code></pre>
   </div>
 
 
@@ -890,7 +919,7 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SHOW()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SHOW()</code></pre>
   </div>
 
 
@@ -898,130 +927,6 @@ Interface IMAGE  <a class="header-action link-secondary" title="View source" hre
 
 
 
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="PIKLib_IMAGE_ONCLICK" data-uid="PIKLib.IMAGE.ONCLICK">
-  ONCLICK
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Image.cs/#L34"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONCLICK</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_IMAGE_ONFOCUSOFF" data-uid="PIKLib.IMAGE.ONFOCUSOFF">
-  ONFOCUSOFF
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Image.cs/#L35"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONFOCUSOFF</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_IMAGE_ONFOCUSON" data-uid="PIKLib.IMAGE.ONFOCUSON">
-  ONFOCUSON
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Image.cs/#L36"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONFOCUSON</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h3 id="PIKLib_IMAGE_ONINIT" data-uid="PIKLib.IMAGE.ONINIT">
-  ONINIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Image.cs/#L37"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event SignalHandler ONINIT</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="_abstractions.SignalHandler.html">SignalHandler</a></dt>
-    <dd></dd>
-  </dl>
 
 
 

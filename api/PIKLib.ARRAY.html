@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface ARRAY | Cnv API specification </title>
+      <title>Class ARRAY | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface ARRAY | Cnv API specification ">
+      <meta name="title" content="Class ARRAY | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_ARRAY" data-uid="PIKLib.ARRAY" class="text-break">
-Interface ARRAY  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Array.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class ARRAY  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Array.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,12 +101,20 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> ARRAY : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public class ARRAY : OBJECT</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.OBJECT.html">OBJECT</a></div>
+      <div><span class="xref">ARRAY</span></div>
+    </dd>
+  </dl>
 
 
 
@@ -140,6 +148,27 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
     <div>
       <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -162,7 +191,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ADD()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ADD()</code></pre>
   </div>
 
 
@@ -188,7 +217,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ADDAT(int index, variable summand)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ADDAT(int index, variable summand)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -221,7 +250,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void CHANGEAT(int index, variable value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CHANGEAT(int index, variable value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -254,7 +283,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void CLAMPAT(int index, variable min, variable max)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CLAMPAT(int index, variable min, variable max)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -289,7 +318,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void CONTAINS(variable value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CONTAINS(variable value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -320,7 +349,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void COPYTO()</code></pre>
+    <pre><code class="lang-csharp hljs">public void COPYTO()</code></pre>
   </div>
 
 
@@ -346,7 +375,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void FIND()</code></pre>
+    <pre><code class="lang-csharp hljs">public void FIND()</code></pre>
   </div>
 
 
@@ -372,7 +401,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GET(int index)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GET(int index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -403,7 +432,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETSIZE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETSIZE()</code></pre>
   </div>
 
 
@@ -429,7 +458,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETSUMVALUE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GETSUMVALUE()</code></pre>
   </div>
 
 
@@ -455,7 +484,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void INSERTAT(int index, variable value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void INSERTAT(int index, variable value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -488,7 +517,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void LOAD()</code></pre>
+    <pre><code class="lang-csharp hljs">public void LOAD()</code></pre>
   </div>
 
 
@@ -514,7 +543,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void LOADINI()</code></pre>
+    <pre><code class="lang-csharp hljs">public void LOADINI()</code></pre>
   </div>
 
 
@@ -540,7 +569,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MODAT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void MODAT()</code></pre>
   </div>
 
 
@@ -566,7 +595,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MULAT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void MULAT()</code></pre>
   </div>
 
 
@@ -592,7 +621,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REMOVE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REMOVE()</code></pre>
   </div>
 
 
@@ -618,7 +647,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REMOVEALL()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REMOVEALL()</code></pre>
   </div>
 
 
@@ -644,7 +673,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REMOVEAT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REMOVEAT()</code></pre>
   </div>
 
 
@@ -670,7 +699,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void REVERSEFIND()</code></pre>
+    <pre><code class="lang-csharp hljs">public void REVERSEFIND()</code></pre>
   </div>
 
 
@@ -696,7 +725,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SAVE()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SAVE()</code></pre>
   </div>
 
 
@@ -722,7 +751,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SAVEINI()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SAVEINI()</code></pre>
   </div>
 
 
@@ -748,7 +777,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SUB()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SUB()</code></pre>
   </div>
 
 
@@ -774,7 +803,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SUBAT()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SUBAT()</code></pre>
   </div>
 
 
@@ -800,7 +829,7 @@ Interface ARRAY  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SUM()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SUM()</code></pre>
   </div>
 
 
