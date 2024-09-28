@@ -22,6 +22,14 @@ public class BUTTON : OBJECT {
     public void SETONCLICK(string object_name) { throw new NotImplementedException(); }
     public void SETONMOVE(string object_name) { throw new NotImplementedException(); }
     public void SETPRIORITY(int priority) { throw new NotImplementedException(); }
+
+    /// <summary>
+    /// Sets the interactive area of the button to the given rect.
+    /// </summary>
+    /// Calling this method does not make the button visible or enabled.
+    /// If a reference is used, the rect only reflects the state of the referenced object at the time of the method call.
+    /// For example changing the referenced animation frame does not result in the interactive area of the button being resized/moved.
+    /// <param name="rect">A literal rect described by four coordinates or a reference being the name of a graphical object to base the rect on, capturing its current state.</param>
     public void SETRECT(rect rect) { throw new NotImplementedException(); }
     public void SETSTD(string object_name) { throw new NotImplementedException(); }
     
