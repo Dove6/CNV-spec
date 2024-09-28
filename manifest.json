@@ -52,10 +52,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PIKLib..yml",
+      "source_relative_path": "api/PIKLib.@.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PIKLib..html"
+          "relative_path": "api/PIKLib.@.html"
         }
       },
       "version": ""

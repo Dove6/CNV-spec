@@ -640,175 +640,175 @@ references:
   commentId: N:PIKLib
   fullName: PIKLib
   nameWithType: PIKLib
-- uid: PIKLib.
-  name: 
+- uid: PIKLib.@
+  name: @
   href: api/PIKLib.AA%E0%B6%9EAA.html
-  commentId: T:PIKLib.
-  fullName: PIKLib.
-  nameWithType: 
-- uid: PIKLib..BOOL(System.String,System.Boolean)
+  commentId: T:PIKLib.@
+  fullName: PIKLib.@
+  nameWithType: @
+- uid: PIKLib.@.BOOL(System.String,System.Boolean)
   name: BOOL(string, bool)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BOOL_System_String_System_Boolean_
-  commentId: M:PIKLib..BOOL(System.String,System.Boolean)
+  commentId: M:PIKLib.@.BOOL(System.String,System.Boolean)
   name.vb: BOOL(String, Boolean)
-  fullName: PIKLib..BOOL(string, bool)
-  fullName.vb: PIKLib..BOOL(String, Boolean)
-  nameWithType: .BOOL(string, bool)
-  nameWithType.vb: .BOOL(String, Boolean)
-- uid: PIKLib..BOOL*
+  fullName: PIKLib.@.BOOL(string, bool)
+  fullName.vb: PIKLib.@.BOOL(String, Boolean)
+  nameWithType: @.BOOL(string, bool)
+  nameWithType.vb: @.BOOL(String, Boolean)
+- uid: PIKLib.@.BOOL*
   name: BOOL
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BOOL_
-  commentId: Overload:PIKLib..BOOL
+  commentId: Overload:PIKLib.@.BOOL
   isSpec: "True"
-  fullName: PIKLib..BOOL
-  nameWithType: .BOOL
-- uid: PIKLib..BREAK
+  fullName: PIKLib.@.BOOL
+  nameWithType: @.BOOL
+- uid: PIKLib.@.BREAK
   name: BREAK()
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BREAK
-  commentId: M:PIKLib..BREAK
-  fullName: PIKLib..BREAK()
-  nameWithType: .BREAK()
-- uid: PIKLib..BREAK*
+  commentId: M:PIKLib.@.BREAK
+  fullName: PIKLib.@.BREAK()
+  nameWithType: @.BREAK()
+- uid: PIKLib.@.BREAK*
   name: BREAK
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BREAK_
-  commentId: Overload:PIKLib..BREAK
+  commentId: Overload:PIKLib.@.BREAK
   isSpec: "True"
-  fullName: PIKLib..BREAK
-  nameWithType: .BREAK
-- uid: PIKLib..DOUBLE(System.String,System.Double)
+  fullName: PIKLib.@.BREAK
+  nameWithType: @.BREAK
+- uid: PIKLib.@.DOUBLE(System.String,System.Double)
   name: DOUBLE(string, double)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_DOUBLE_System_String_System_Double_
-  commentId: M:PIKLib..DOUBLE(System.String,System.Double)
+  commentId: M:PIKLib.@.DOUBLE(System.String,System.Double)
   name.vb: DOUBLE(String, Double)
-  fullName: PIKLib..DOUBLE(string, double)
-  fullName.vb: PIKLib..DOUBLE(String, Double)
-  nameWithType: .DOUBLE(string, double)
-  nameWithType.vb: .DOUBLE(String, Double)
-- uid: PIKLib..DOUBLE*
+  fullName: PIKLib.@.DOUBLE(string, double)
+  fullName.vb: PIKLib.@.DOUBLE(String, Double)
+  nameWithType: @.DOUBLE(string, double)
+  nameWithType.vb: @.DOUBLE(String, Double)
+- uid: PIKLib.@.DOUBLE*
   name: DOUBLE
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_DOUBLE_
-  commentId: Overload:PIKLib..DOUBLE
+  commentId: Overload:PIKLib.@.DOUBLE
   isSpec: "True"
-  fullName: PIKLib..DOUBLE
-  nameWithType: .DOUBLE
-- uid: PIKLib..IF(System.String,System.String,System.String)
+  fullName: PIKLib.@.DOUBLE
+  nameWithType: @.DOUBLE
+- uid: PIKLib.@.IF(System.String,System.String,System.String)
   name: IF(string, string, string)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_IF_System_String_System_String_System_String_
-  commentId: M:PIKLib..IF(System.String,System.String,System.String)
+  commentId: M:PIKLib.@.IF(System.String,System.String,System.String)
   name.vb: IF(String, String, String)
-  fullName: PIKLib..IF(string, string, string)
-  fullName.vb: PIKLib..IF(String, String, String)
-  nameWithType: .IF(string, string, string)
-  nameWithType.vb: .IF(String, String, String)
-- uid: PIKLib..IF(System.String,System.String,System.String,System.String,System.String)
+  fullName: PIKLib.@.IF(string, string, string)
+  fullName.vb: PIKLib.@.IF(String, String, String)
+  nameWithType: @.IF(string, string, string)
+  nameWithType.vb: @.IF(String, String, String)
+- uid: PIKLib.@.IF(System.String,System.String,System.String,System.String,System.String)
   name: IF(string, string, string, string, string)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_IF_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:PIKLib..IF(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:PIKLib.@.IF(System.String,System.String,System.String,System.String,System.String)
   name.vb: IF(String, String, String, String, String)
-  fullName: PIKLib..IF(string, string, string, string, string)
-  fullName.vb: PIKLib..IF(String, String, String, String, String)
-  nameWithType: .IF(string, string, string, string, string)
-  nameWithType.vb: .IF(String, String, String, String, String)
-- uid: PIKLib..IF*
+  fullName: PIKLib.@.IF(string, string, string, string, string)
+  fullName.vb: PIKLib.@.IF(String, String, String, String, String)
+  nameWithType: @.IF(string, string, string, string, string)
+  nameWithType.vb: @.IF(String, String, String, String, String)
+- uid: PIKLib.@.IF*
   name: IF
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_IF_
-  commentId: Overload:PIKLib..IF
+  commentId: Overload:PIKLib.@.IF
   isSpec: "True"
-  fullName: PIKLib..IF
-  nameWithType: .IF
-- uid: PIKLib..INT(System.String,System.Int32)
+  fullName: PIKLib.@.IF
+  nameWithType: @.IF
+- uid: PIKLib.@.INT(System.String,System.Int32)
   name: INT(string, int)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_INT_System_String_System_Int32_
-  commentId: M:PIKLib..INT(System.String,System.Int32)
+  commentId: M:PIKLib.@.INT(System.String,System.Int32)
   name.vb: INT(String, Integer)
-  fullName: PIKLib..INT(string, int)
-  fullName.vb: PIKLib..INT(String, Integer)
-  nameWithType: .INT(string, int)
-  nameWithType.vb: .INT(String, Integer)
-- uid: PIKLib..INT*
+  fullName: PIKLib.@.INT(string, int)
+  fullName.vb: PIKLib.@.INT(String, Integer)
+  nameWithType: @.INT(string, int)
+  nameWithType.vb: @.INT(String, Integer)
+- uid: PIKLib.@.INT*
   name: INT
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_INT_
-  commentId: Overload:PIKLib..INT
+  commentId: Overload:PIKLib.@.INT
   isSpec: "True"
-  fullName: PIKLib..INT
-  nameWithType: .INT
-- uid: PIKLib..LOOP(System.String,System.Int32,System.Int32,System.Int32)
+  fullName: PIKLib.@.INT
+  nameWithType: @.INT
+- uid: PIKLib.@.LOOP(System.String,System.Int32,System.Int32,System.Int32)
   name: LOOP(string, int, int, int)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_LOOP_System_String_System_Int32_System_Int32_System_Int32_
-  commentId: M:PIKLib..LOOP(System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:PIKLib.@.LOOP(System.String,System.Int32,System.Int32,System.Int32)
   name.vb: LOOP(String, Integer, Integer, Integer)
-  fullName: PIKLib..LOOP(string, int, int, int)
-  fullName.vb: PIKLib..LOOP(String, Integer, Integer, Integer)
-  nameWithType: .LOOP(string, int, int, int)
-  nameWithType.vb: .LOOP(String, Integer, Integer, Integer)
-- uid: PIKLib..LOOP*
+  fullName: PIKLib.@.LOOP(string, int, int, int)
+  fullName.vb: PIKLib.@.LOOP(String, Integer, Integer, Integer)
+  nameWithType: @.LOOP(string, int, int, int)
+  nameWithType.vb: @.LOOP(String, Integer, Integer, Integer)
+- uid: PIKLib.@.LOOP*
   name: LOOP
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_LOOP_
-  commentId: Overload:PIKLib..LOOP
+  commentId: Overload:PIKLib.@.LOOP
   isSpec: "True"
-  fullName: PIKLib..LOOP
-  nameWithType: .LOOP
-- uid: PIKLib..MSGBOX(System.String)
+  fullName: PIKLib.@.LOOP
+  nameWithType: @.LOOP
+- uid: PIKLib.@.MSGBOX(System.String)
   name: MSGBOX(string)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_MSGBOX_System_String_
-  commentId: M:PIKLib..MSGBOX(System.String)
+  commentId: M:PIKLib.@.MSGBOX(System.String)
   name.vb: MSGBOX(String)
-  fullName: PIKLib..MSGBOX(string)
-  fullName.vb: PIKLib..MSGBOX(String)
-  nameWithType: .MSGBOX(string)
-  nameWithType.vb: .MSGBOX(String)
-- uid: PIKLib..MSGBOX*
+  fullName: PIKLib.@.MSGBOX(string)
+  fullName.vb: PIKLib.@.MSGBOX(String)
+  nameWithType: @.MSGBOX(string)
+  nameWithType.vb: @.MSGBOX(String)
+- uid: PIKLib.@.MSGBOX*
   name: MSGBOX
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_MSGBOX_
-  commentId: Overload:PIKLib..MSGBOX
+  commentId: Overload:PIKLib.@.MSGBOX
   isSpec: "True"
-  fullName: PIKLib..MSGBOX
-  nameWithType: .MSGBOX
-- uid: PIKLib..RETURN(_abstractions.variable)
+  fullName: PIKLib.@.MSGBOX
+  nameWithType: @.MSGBOX
+- uid: PIKLib.@.RETURN(_abstractions.variable)
   name: RETURN(variable)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_RETURN__abstractions_variable_
-  commentId: M:PIKLib..RETURN(_abstractions.variable)
-  fullName: PIKLib..RETURN(_abstractions.variable)
-  nameWithType: .RETURN(variable)
-- uid: PIKLib..RETURN*
+  commentId: M:PIKLib.@.RETURN(_abstractions.variable)
+  fullName: PIKLib.@.RETURN(_abstractions.variable)
+  nameWithType: @.RETURN(variable)
+- uid: PIKLib.@.RETURN*
   name: RETURN
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_RETURN_
-  commentId: Overload:PIKLib..RETURN
+  commentId: Overload:PIKLib.@.RETURN
   isSpec: "True"
-  fullName: PIKLib..RETURN
-  nameWithType: .RETURN
-- uid: PIKLib..STRING(System.String,System.String)
+  fullName: PIKLib.@.RETURN
+  nameWithType: @.RETURN
+- uid: PIKLib.@.STRING(System.String,System.String)
   name: STRING(string, string)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_STRING_System_String_System_String_
-  commentId: M:PIKLib..STRING(System.String,System.String)
+  commentId: M:PIKLib.@.STRING(System.String,System.String)
   name.vb: STRING(String, String)
-  fullName: PIKLib..STRING(string, string)
-  fullName.vb: PIKLib..STRING(String, String)
-  nameWithType: .STRING(string, string)
-  nameWithType.vb: .STRING(String, String)
-- uid: PIKLib..STRING*
+  fullName: PIKLib.@.STRING(string, string)
+  fullName.vb: PIKLib.@.STRING(String, String)
+  nameWithType: @.STRING(string, string)
+  nameWithType.vb: @.STRING(String, String)
+- uid: PIKLib.@.STRING*
   name: STRING
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_STRING_
-  commentId: Overload:PIKLib..STRING
+  commentId: Overload:PIKLib.@.STRING
   isSpec: "True"
-  fullName: PIKLib..STRING
-  nameWithType: .STRING
-- uid: PIKLib..WHILE(System.String,System.String,System.String,System.String)
+  fullName: PIKLib.@.STRING
+  nameWithType: @.STRING
+- uid: PIKLib.@.WHILE(System.String,System.String,System.String,System.String)
   name: WHILE(string, string, string, string)
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_WHILE_System_String_System_String_System_String_System_String_
-  commentId: M:PIKLib..WHILE(System.String,System.String,System.String,System.String)
+  commentId: M:PIKLib.@.WHILE(System.String,System.String,System.String,System.String)
   name.vb: WHILE(String, String, String, String)
-  fullName: PIKLib..WHILE(string, string, string, string)
-  fullName.vb: PIKLib..WHILE(String, String, String, String)
-  nameWithType: .WHILE(string, string, string, string)
-  nameWithType.vb: .WHILE(String, String, String, String)
-- uid: PIKLib..WHILE*
+  fullName: PIKLib.@.WHILE(string, string, string, string)
+  fullName.vb: PIKLib.@.WHILE(String, String, String, String)
+  nameWithType: @.WHILE(string, string, string, string)
+  nameWithType.vb: @.WHILE(String, String, String, String)
+- uid: PIKLib.@.WHILE*
   name: WHILE
   href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_WHILE_
-  commentId: Overload:PIKLib..WHILE
+  commentId: Overload:PIKLib.@.WHILE
   isSpec: "True"
-  fullName: PIKLib..WHILE
-  nameWithType: .WHILE
+  fullName: PIKLib.@.WHILE
+  nameWithType: @.WHILE
 - uid: PIKLib.ANIMO
   name: ANIMO
   href: api/PIKLib.ANIMO.html
