@@ -1,5 +1,4 @@
 using abstractions;
-using stringified_tick_number = System.String;
 
 namespace PIKLib;
 

@@ -1,7 +1,4 @@
 using abstractions;
-using other_name = System.String;
-using event_name = System.String;
-using signal_name = System.String;
 
 namespace PIKLib;
 

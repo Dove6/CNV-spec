@@ -67,3 +67,51 @@ public delegate void SignalHandler(params variable[] arguments);
 /// <param name="parameter">The parameter identifying the handler.</param>
 /// <param name="arguments">Arguments passed to the handler.</param>
 public delegate void SignalHandler<P>(P parameter, params variable[] arguments);
+
+public record button_name(string Value)
+{
+    public static implicit operator string(button_name n) => n.Value;
+    public static implicit operator button_name(string s) => new(s);
+}
+
+public record char_name(string Value)
+{
+    public static implicit operator string(char_name n) => n.Value;
+    public static implicit operator char_name(string s) => new(s);
+}
+
+public record event_name(string Value)
+{
+    public static implicit operator string(event_name n) => n.Value;
+    public static implicit operator event_name(string s) => new(s);
+}
+
+public record other_name(string Value)
+{
+    public static implicit operator string(other_name n) => n.Value;
+    public static implicit operator other_name(string s) => new(s);
+}
+
+public record parameter(string Value)
+{
+    public static implicit operator string(parameter n) => n.Value;
+    public static implicit operator parameter(string s) => new(s);
+}
+
+public record signal_name(string Value)
+{
+    public static implicit operator string(signal_name n) => n.Value;
+    public static implicit operator signal_name(string s) => new(s);
+}
+
+public record stringified_value(string Value)
+{
+    public static implicit operator string(stringified_value n) => n.Value;
+    public static implicit operator stringified_value(string s) => new(s);
+}
+
+public record stringified_tick_number(string Value)
+{
+    public static implicit operator string(stringified_tick_number n) => n.Value;
+    public static implicit operator stringified_tick_number(string s) => new(s);
+}

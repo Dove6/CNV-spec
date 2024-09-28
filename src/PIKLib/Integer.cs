@@ -1,6 +1,4 @@
 using abstractions;
-using signal_name = System.String;
-using stringified_value = System.String;
 
 namespace PIKLib;
 

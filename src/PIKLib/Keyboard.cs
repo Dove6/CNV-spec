@@ -1,5 +1,4 @@
 using abstractions;
-using char_name = System.String;
 
 namespace PIKLib;
 

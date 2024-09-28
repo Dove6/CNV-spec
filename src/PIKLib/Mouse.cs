@@ -1,5 +1,4 @@
 using abstractions;
-using button_name = System.String;
 
 namespace PIKLib;
 

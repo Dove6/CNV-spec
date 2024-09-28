@@ -1,5 +1,4 @@
 using abstractions;
-using parameter = System.String;
 
 namespace PIKLib;
 

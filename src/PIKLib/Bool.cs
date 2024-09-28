@@ -1,5 +1,4 @@
 using abstractions;
-using stringified_value = System.String;
 
 namespace PIKLib;
 
