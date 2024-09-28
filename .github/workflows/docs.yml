@@ -28,7 +28,12 @@ jobs:
           mkdir -p ../out
           cp -R ./docs/_site/* ../out
       - name: Unsus docs
-        run: find . -type f -exec sed -i 's/\xE0\xB6\x9E//g' {} ';'
+        run: |
+          find . -type f -exec sed -i 's/AA\xE0\xB6\x9EAA//g' {} ';'
+          find . -type f -exec sed -i 's/\xE0\xB6\x9E//g' {} ';'
+          find . -type f -exec sed -i 's/public interface//g' {} ';'
+          find . -type f -exec sed -i 's/public static class//g' {} ';'
+          find . -type f -exec sed -i 's/public static//g' {} ';'
         working-directory: ./out
       - name: Update gh-pages and push changes
         run: |
