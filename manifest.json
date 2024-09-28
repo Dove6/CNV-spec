@@ -52,6 +52,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PIKLib..yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PIKLib..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/PIKLib.ANIMO.yml",
       "output": {
         ".html": {
@@ -452,170 +462,160 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.BoolVariable.yml",
+      "source_relative_path": "api/_abstractions.BoolVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.BoolVariable.html"
+          "relative_path": "api/_abstractions.BoolVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.DoubleVariable.yml",
+      "source_relative_path": "api/_abstractions.DoubleVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.DoubleVariable.html"
+          "relative_path": "api/_abstractions.DoubleVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.IntVariable.yml",
+      "source_relative_path": "api/_abstractions.IntVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.IntVariable.html"
+          "relative_path": "api/_abstractions.IntVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.LiteralRect.yml",
+      "source_relative_path": "api/_abstractions.LiteralRect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.LiteralRect.html"
+          "relative_path": "api/_abstractions.LiteralRect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.OBJECT.yml",
+      "source_relative_path": "api/_abstractions.OBJECT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.OBJECT.html"
+          "relative_path": "api/_abstractions.OBJECT.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.ParametrizedSignalHandler.yml",
+      "source_relative_path": "api/_abstractions.ParametrizedSignalHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.ParametrizedSignalHandler.html"
+          "relative_path": "api/_abstractions.ParametrizedSignalHandler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.ReferenceRect.yml",
+      "source_relative_path": "api/_abstractions.ReferenceRect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.ReferenceRect.html"
+          "relative_path": "api/_abstractions.ReferenceRect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.SignalHandler.yml",
+      "source_relative_path": "api/_abstractions.SignalHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.SignalHandler.html"
+          "relative_path": "api/_abstractions.SignalHandler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.StringVariable.yml",
+      "source_relative_path": "api/_abstractions.StringVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.StringVariable.html"
+          "relative_path": "api/_abstractions.StringVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.anchor.yml",
+      "source_relative_path": "api/_abstractions.anchor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.anchor.html"
+          "relative_path": "api/_abstractions.anchor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.complex_operator.yml",
+      "source_relative_path": "api/_abstractions.complex_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.complex_operator.html"
+          "relative_path": "api/_abstractions.complex_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.condition_operator.yml",
+      "source_relative_path": "api/_abstractions.condition_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.condition_operator.html"
+          "relative_path": "api/_abstractions.condition_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.expression_operator.yml",
+      "source_relative_path": "api/_abstractions.expression_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.expression_operator.html"
+          "relative_path": "api/_abstractions.expression_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.global.yml",
+      "source_relative_path": "api/_abstractions.rect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.global.html"
+          "relative_path": "api/_abstractions.rect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.rect.yml",
+      "source_relative_path": "api/_abstractions.variable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.rect.html"
+          "relative_path": "api/_abstractions.variable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_global.variable.yml",
+      "source_relative_path": "api/_abstractions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_global.variable.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/_global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/_global.html"
+          "relative_path": "api/_abstractions.html"
         }
       },
       "version": ""

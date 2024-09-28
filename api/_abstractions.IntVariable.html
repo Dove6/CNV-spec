@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface FILTER | Cnv API specification </title>
+      <title>Class IntVariable | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface FILTER | Cnv API specification ">
+      <meta name="title" content="Class IntVariable | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=PIKLib_FILTER.md&amp;value=---%0Auid%3A%20PIKLib.FILTER%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=_abstractions_IntVariable.md&amp;value=---%0Auid%3A%20_abstractions.IntVariable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PIKLib.FILTER">
+        <article data-uid="_abstractions.IntVariable">
 
 
 
-  <h1 id="PIKLib_FILTER" data-uid="PIKLib.FILTER" class="text-break">
-Interface FILTER  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Filter.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h1 id="_abstractions_IntVariable" data-uid="_abstractions.IntVariable" class="text-break">
+Class IntVariable  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="PIKLib.html">PIKLib</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="_abstractions.html">_abstractions</a></dd></dl>
   <dl><dt>Assembly</dt><dd>PIKLib.dll</dd></dl>
   </div>
 
@@ -101,46 +101,90 @@ Interface FILTER  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> FILTER : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">public record IntVariable : variable, IEquatable&lt;variable&gt;, IEquatable&lt;IntVariable&gt;</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="_abstractions.variable.html">variable</a></div>
+      <div><span class="xref">IntVariable</span></div>
+    </dd>
+  </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="_abstractions.variable.html">variable</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="_abstractions.IntVariable.html">IntVariable</a>&gt;</div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_TYPE">OBJECT.TYPE</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
     <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_GETNAME">OBJECT.GETNAME()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="_abstractions_IntVariable__ctor_" data-uid="_abstractions.IntVariable.#ctor*"></a>
+
+  <h3 id="_abstractions_IntVariable__ctor_System_Int32_" data-uid="_abstractions.IntVariable.#ctor(System.Int32)">
+  IntVariable(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IntVariable(int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
 
@@ -151,18 +195,18 @@ Interface FILTER  <a class="header-action link-secondary" title="View source" hr
 </h2>
 
 
-  <a id="PIKLib_FILTER_ACTION_" data-uid="PIKLib.FILTER.ACTION*"></a>
+  <a id="_abstractions_IntVariable_value_" data-uid="_abstractions.IntVariable.value*"></a>
 
-  <h3 id="PIKLib_FILTER_ACTION" data-uid="PIKLib.FILTER.ACTION">
-  ACTION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Filter.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h3 id="_abstractions_IntVariable_value" data-uid="_abstractions.IntVariable.value">
+  value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string ACTION { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int value { get; init; }</code></pre>
   </div>
 
 
@@ -171,7 +215,7 @@ Interface FILTER  <a class="header-action link-secondary" title="View source" hr
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -186,7 +230,7 @@ Interface FILTER  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Filter.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L45" class="edit-link">Edit this page</a>
         </div>
 
 

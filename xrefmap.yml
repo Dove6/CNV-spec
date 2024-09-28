@@ -640,6 +640,175 @@ references:
   commentId: N:PIKLib
   fullName: PIKLib
   nameWithType: PIKLib
+- uid: PIKLib.
+  name: 
+  href: api/PIKLib.AA%E0%B6%9EAA.html
+  commentId: T:PIKLib.
+  fullName: PIKLib.
+  nameWithType: 
+- uid: PIKLib..BOOL(System.String,System.Boolean)
+  name: BOOL(string, bool)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BOOL_System_String_System_Boolean_
+  commentId: M:PIKLib..BOOL(System.String,System.Boolean)
+  name.vb: BOOL(String, Boolean)
+  fullName: PIKLib..BOOL(string, bool)
+  fullName.vb: PIKLib..BOOL(String, Boolean)
+  nameWithType: .BOOL(string, bool)
+  nameWithType.vb: .BOOL(String, Boolean)
+- uid: PIKLib..BOOL*
+  name: BOOL
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BOOL_
+  commentId: Overload:PIKLib..BOOL
+  isSpec: "True"
+  fullName: PIKLib..BOOL
+  nameWithType: .BOOL
+- uid: PIKLib..BREAK
+  name: BREAK()
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BREAK
+  commentId: M:PIKLib..BREAK
+  fullName: PIKLib..BREAK()
+  nameWithType: .BREAK()
+- uid: PIKLib..BREAK*
+  name: BREAK
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_BREAK_
+  commentId: Overload:PIKLib..BREAK
+  isSpec: "True"
+  fullName: PIKLib..BREAK
+  nameWithType: .BREAK
+- uid: PIKLib..DOUBLE(System.String,System.Double)
+  name: DOUBLE(string, double)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_DOUBLE_System_String_System_Double_
+  commentId: M:PIKLib..DOUBLE(System.String,System.Double)
+  name.vb: DOUBLE(String, Double)
+  fullName: PIKLib..DOUBLE(string, double)
+  fullName.vb: PIKLib..DOUBLE(String, Double)
+  nameWithType: .DOUBLE(string, double)
+  nameWithType.vb: .DOUBLE(String, Double)
+- uid: PIKLib..DOUBLE*
+  name: DOUBLE
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_DOUBLE_
+  commentId: Overload:PIKLib..DOUBLE
+  isSpec: "True"
+  fullName: PIKLib..DOUBLE
+  nameWithType: .DOUBLE
+- uid: PIKLib..IF(System.String,System.String,System.String)
+  name: IF(string, string, string)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_IF_System_String_System_String_System_String_
+  commentId: M:PIKLib..IF(System.String,System.String,System.String)
+  name.vb: IF(String, String, String)
+  fullName: PIKLib..IF(string, string, string)
+  fullName.vb: PIKLib..IF(String, String, String)
+  nameWithType: .IF(string, string, string)
+  nameWithType.vb: .IF(String, String, String)
+- uid: PIKLib..IF(System.String,System.String,System.String,System.String,System.String)
+  name: IF(string, string, string, string, string)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_IF_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:PIKLib..IF(System.String,System.String,System.String,System.String,System.String)
+  name.vb: IF(String, String, String, String, String)
+  fullName: PIKLib..IF(string, string, string, string, string)
+  fullName.vb: PIKLib..IF(String, String, String, String, String)
+  nameWithType: .IF(string, string, string, string, string)
+  nameWithType.vb: .IF(String, String, String, String, String)
+- uid: PIKLib..IF*
+  name: IF
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_IF_
+  commentId: Overload:PIKLib..IF
+  isSpec: "True"
+  fullName: PIKLib..IF
+  nameWithType: .IF
+- uid: PIKLib..INT(System.String,System.Int32)
+  name: INT(string, int)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_INT_System_String_System_Int32_
+  commentId: M:PIKLib..INT(System.String,System.Int32)
+  name.vb: INT(String, Integer)
+  fullName: PIKLib..INT(string, int)
+  fullName.vb: PIKLib..INT(String, Integer)
+  nameWithType: .INT(string, int)
+  nameWithType.vb: .INT(String, Integer)
+- uid: PIKLib..INT*
+  name: INT
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_INT_
+  commentId: Overload:PIKLib..INT
+  isSpec: "True"
+  fullName: PIKLib..INT
+  nameWithType: .INT
+- uid: PIKLib..LOOP(System.String,System.Int32,System.Int32,System.Int32)
+  name: LOOP(string, int, int, int)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_LOOP_System_String_System_Int32_System_Int32_System_Int32_
+  commentId: M:PIKLib..LOOP(System.String,System.Int32,System.Int32,System.Int32)
+  name.vb: LOOP(String, Integer, Integer, Integer)
+  fullName: PIKLib..LOOP(string, int, int, int)
+  fullName.vb: PIKLib..LOOP(String, Integer, Integer, Integer)
+  nameWithType: .LOOP(string, int, int, int)
+  nameWithType.vb: .LOOP(String, Integer, Integer, Integer)
+- uid: PIKLib..LOOP*
+  name: LOOP
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_LOOP_
+  commentId: Overload:PIKLib..LOOP
+  isSpec: "True"
+  fullName: PIKLib..LOOP
+  nameWithType: .LOOP
+- uid: PIKLib..MSGBOX(System.String)
+  name: MSGBOX(string)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_MSGBOX_System_String_
+  commentId: M:PIKLib..MSGBOX(System.String)
+  name.vb: MSGBOX(String)
+  fullName: PIKLib..MSGBOX(string)
+  fullName.vb: PIKLib..MSGBOX(String)
+  nameWithType: .MSGBOX(string)
+  nameWithType.vb: .MSGBOX(String)
+- uid: PIKLib..MSGBOX*
+  name: MSGBOX
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_MSGBOX_
+  commentId: Overload:PIKLib..MSGBOX
+  isSpec: "True"
+  fullName: PIKLib..MSGBOX
+  nameWithType: .MSGBOX
+- uid: PIKLib..RETURN(_abstractions.variable)
+  name: RETURN(variable)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_RETURN__abstractions_variable_
+  commentId: M:PIKLib..RETURN(_abstractions.variable)
+  fullName: PIKLib..RETURN(_abstractions.variable)
+  nameWithType: .RETURN(variable)
+- uid: PIKLib..RETURN*
+  name: RETURN
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_RETURN_
+  commentId: Overload:PIKLib..RETURN
+  isSpec: "True"
+  fullName: PIKLib..RETURN
+  nameWithType: .RETURN
+- uid: PIKLib..STRING(System.String,System.String)
+  name: STRING(string, string)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_STRING_System_String_System_String_
+  commentId: M:PIKLib..STRING(System.String,System.String)
+  name.vb: STRING(String, String)
+  fullName: PIKLib..STRING(string, string)
+  fullName.vb: PIKLib..STRING(String, String)
+  nameWithType: .STRING(string, string)
+  nameWithType.vb: .STRING(String, String)
+- uid: PIKLib..STRING*
+  name: STRING
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_STRING_
+  commentId: Overload:PIKLib..STRING
+  isSpec: "True"
+  fullName: PIKLib..STRING
+  nameWithType: .STRING
+- uid: PIKLib..WHILE(System.String,System.String,System.String,System.String)
+  name: WHILE(string, string, string, string)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_WHILE_System_String_System_String_System_String_System_String_
+  commentId: M:PIKLib..WHILE(System.String,System.String,System.String,System.String)
+  name.vb: WHILE(String, String, String, String)
+  fullName: PIKLib..WHILE(string, string, string, string)
+  fullName.vb: PIKLib..WHILE(String, String, String, String)
+  nameWithType: .WHILE(string, string, string, string)
+  nameWithType.vb: .WHILE(String, String, String, String)
+- uid: PIKLib..WHILE*
+  name: WHILE
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_WHILE_
+  commentId: Overload:PIKLib..WHILE
+  isSpec: "True"
+  fullName: PIKLib..WHILE
+  nameWithType: .WHILE
 - uid: PIKLib.ANIMO
   name: ANIMO
   href: api/PIKLib.ANIMO.html
@@ -1318,11 +1487,11 @@ references:
   isSpec: "True"
   fullName: PIKLib.ANIMO.RESUME
   nameWithType: ANIMO.RESUME
-- uid: PIKLib.ANIMO.SETANCHOR(_global.anchor)
+- uid: PIKLib.ANIMO.SETANCHOR(_abstractions.anchor)
   name: SETANCHOR(anchor)
-  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_SETANCHOR__global_anchor_
-  commentId: M:PIKLib.ANIMO.SETANCHOR(_global.anchor)
-  fullName: PIKLib.ANIMO.SETANCHOR(_global.anchor)
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_SETANCHOR__abstractions_anchor_
+  commentId: M:PIKLib.ANIMO.SETANCHOR(_abstractions.anchor)
+  fullName: PIKLib.ANIMO.SETANCHOR(_abstractions.anchor)
   nameWithType: ANIMO.SETANCHOR(anchor)
 - uid: PIKLib.ANIMO.SETANCHOR*
   name: SETANCHOR
@@ -1656,13 +1825,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.APPLICATION.PATH
   nameWithType: APPLICATION.PATH
-- uid: PIKLib.APPLICATION.RUN(System.String,System.String,_global.variable[])
+- uid: PIKLib.APPLICATION.RUN(System.String,System.String,_abstractions.variable[])
   name: RUN(string, string, params variable[])
-  href: api/PIKLib.APPLICATION.html#PIKLib_APPLICATION_RUN_System_String_System_String__global_variable___
-  commentId: M:PIKLib.APPLICATION.RUN(System.String,System.String,_global.variable[])
+  href: api/PIKLib.APPLICATION.html#PIKLib_APPLICATION_RUN_System_String_System_String__abstractions_variable___
+  commentId: M:PIKLib.APPLICATION.RUN(System.String,System.String,_abstractions.variable[])
   name.vb: RUN(String, String, ParamArray variable())
-  fullName: PIKLib.APPLICATION.RUN(string, string, params _global.variable[])
-  fullName.vb: PIKLib.APPLICATION.RUN(String, String, ParamArray _global.variable())
+  fullName: PIKLib.APPLICATION.RUN(string, string, params _abstractions.variable[])
+  fullName.vb: PIKLib.APPLICATION.RUN(String, String, ParamArray _abstractions.variable())
   nameWithType: APPLICATION.RUN(string, string, params variable[])
   nameWithType.vb: APPLICATION.RUN(String, String, ParamArray variable())
 - uid: PIKLib.APPLICATION.RUN*
@@ -1749,13 +1918,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.ADD
   nameWithType: ARRAY.ADD
-- uid: PIKLib.ARRAY.ADDAT(System.Int32,_global.variable)
+- uid: PIKLib.ARRAY.ADDAT(System.Int32,_abstractions.variable)
   name: ADDAT(int, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_ADDAT_System_Int32__global_variable_
-  commentId: M:PIKLib.ARRAY.ADDAT(System.Int32,_global.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_ADDAT_System_Int32__abstractions_variable_
+  commentId: M:PIKLib.ARRAY.ADDAT(System.Int32,_abstractions.variable)
   name.vb: ADDAT(Integer, variable)
-  fullName: PIKLib.ARRAY.ADDAT(int, _global.variable)
-  fullName.vb: PIKLib.ARRAY.ADDAT(Integer, _global.variable)
+  fullName: PIKLib.ARRAY.ADDAT(int, _abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.ADDAT(Integer, _abstractions.variable)
   nameWithType: ARRAY.ADDAT(int, variable)
   nameWithType.vb: ARRAY.ADDAT(Integer, variable)
 - uid: PIKLib.ARRAY.ADDAT*
@@ -1765,13 +1934,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.ADDAT
   nameWithType: ARRAY.ADDAT
-- uid: PIKLib.ARRAY.CHANGEAT(System.Int32,_global.variable)
+- uid: PIKLib.ARRAY.CHANGEAT(System.Int32,_abstractions.variable)
   name: CHANGEAT(int, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CHANGEAT_System_Int32__global_variable_
-  commentId: M:PIKLib.ARRAY.CHANGEAT(System.Int32,_global.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CHANGEAT_System_Int32__abstractions_variable_
+  commentId: M:PIKLib.ARRAY.CHANGEAT(System.Int32,_abstractions.variable)
   name.vb: CHANGEAT(Integer, variable)
-  fullName: PIKLib.ARRAY.CHANGEAT(int, _global.variable)
-  fullName.vb: PIKLib.ARRAY.CHANGEAT(Integer, _global.variable)
+  fullName: PIKLib.ARRAY.CHANGEAT(int, _abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.CHANGEAT(Integer, _abstractions.variable)
   nameWithType: ARRAY.CHANGEAT(int, variable)
   nameWithType.vb: ARRAY.CHANGEAT(Integer, variable)
 - uid: PIKLib.ARRAY.CHANGEAT*
@@ -1781,13 +1950,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.CHANGEAT
   nameWithType: ARRAY.CHANGEAT
-- uid: PIKLib.ARRAY.CLAMPAT(System.Int32,_global.variable,_global.variable)
+- uid: PIKLib.ARRAY.CLAMPAT(System.Int32,_abstractions.variable,_abstractions.variable)
   name: CLAMPAT(int, variable, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CLAMPAT_System_Int32__global_variable__global_variable_
-  commentId: M:PIKLib.ARRAY.CLAMPAT(System.Int32,_global.variable,_global.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CLAMPAT_System_Int32__abstractions_variable__abstractions_variable_
+  commentId: M:PIKLib.ARRAY.CLAMPAT(System.Int32,_abstractions.variable,_abstractions.variable)
   name.vb: CLAMPAT(Integer, variable, variable)
-  fullName: PIKLib.ARRAY.CLAMPAT(int, _global.variable, _global.variable)
-  fullName.vb: PIKLib.ARRAY.CLAMPAT(Integer, _global.variable, _global.variable)
+  fullName: PIKLib.ARRAY.CLAMPAT(int, _abstractions.variable, _abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.CLAMPAT(Integer, _abstractions.variable, _abstractions.variable)
   nameWithType: ARRAY.CLAMPAT(int, variable, variable)
   nameWithType.vb: ARRAY.CLAMPAT(Integer, variable, variable)
 - uid: PIKLib.ARRAY.CLAMPAT*
@@ -1797,11 +1966,11 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.CLAMPAT
   nameWithType: ARRAY.CLAMPAT
-- uid: PIKLib.ARRAY.CONTAINS(_global.variable)
+- uid: PIKLib.ARRAY.CONTAINS(_abstractions.variable)
   name: CONTAINS(variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CONTAINS__global_variable_
-  commentId: M:PIKLib.ARRAY.CONTAINS(_global.variable)
-  fullName: PIKLib.ARRAY.CONTAINS(_global.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CONTAINS__abstractions_variable_
+  commentId: M:PIKLib.ARRAY.CONTAINS(_abstractions.variable)
+  fullName: PIKLib.ARRAY.CONTAINS(_abstractions.variable)
   nameWithType: ARRAY.CONTAINS(variable)
 - uid: PIKLib.ARRAY.CONTAINS*
   name: CONTAINS
@@ -1878,13 +2047,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.GETSUMVALUE
   nameWithType: ARRAY.GETSUMVALUE
-- uid: PIKLib.ARRAY.INSERTAT(System.Int32,_global.variable)
+- uid: PIKLib.ARRAY.INSERTAT(System.Int32,_abstractions.variable)
   name: INSERTAT(int, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_INSERTAT_System_Int32__global_variable_
-  commentId: M:PIKLib.ARRAY.INSERTAT(System.Int32,_global.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_INSERTAT_System_Int32__abstractions_variable_
+  commentId: M:PIKLib.ARRAY.INSERTAT(System.Int32,_abstractions.variable)
   name.vb: INSERTAT(Integer, variable)
-  fullName: PIKLib.ARRAY.INSERTAT(int, _global.variable)
-  fullName.vb: PIKLib.ARRAY.INSERTAT(Integer, _global.variable)
+  fullName: PIKLib.ARRAY.INSERTAT(int, _abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.INSERTAT(Integer, _abstractions.variable)
   nameWithType: ARRAY.INSERTAT(int, variable)
   nameWithType.vb: ARRAY.INSERTAT(Integer, variable)
 - uid: PIKLib.ARRAY.INSERTAT*
@@ -2095,13 +2264,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.BEHAVIOUR.CONDITION
   nameWithType: BEHAVIOUR.CONDITION
-- uid: PIKLib.BEHAVIOUR.RUN(_global.variable[])
+- uid: PIKLib.BEHAVIOUR.RUN(_abstractions.variable[])
   name: RUN(params variable[])
-  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUN__global_variable___
-  commentId: M:PIKLib.BEHAVIOUR.RUN(_global.variable[])
+  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUN__abstractions_variable___
+  commentId: M:PIKLib.BEHAVIOUR.RUN(_abstractions.variable[])
   name.vb: RUN(ParamArray variable())
-  fullName: PIKLib.BEHAVIOUR.RUN(params _global.variable[])
-  fullName.vb: PIKLib.BEHAVIOUR.RUN(ParamArray _global.variable())
+  fullName: PIKLib.BEHAVIOUR.RUN(params _abstractions.variable[])
+  fullName.vb: PIKLib.BEHAVIOUR.RUN(ParamArray _abstractions.variable())
   nameWithType: BEHAVIOUR.RUN(params variable[])
   nameWithType.vb: BEHAVIOUR.RUN(ParamArray variable())
 - uid: PIKLib.BEHAVIOUR.RUN*
@@ -2111,13 +2280,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.BEHAVIOUR.RUN
   nameWithType: BEHAVIOUR.RUN
-- uid: PIKLib.BEHAVIOUR.RUNC(_global.variable[])
+- uid: PIKLib.BEHAVIOUR.RUNC(_abstractions.variable[])
   name: RUNC(params variable[])
-  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUNC__global_variable___
-  commentId: M:PIKLib.BEHAVIOUR.RUNC(_global.variable[])
+  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUNC__abstractions_variable___
+  commentId: M:PIKLib.BEHAVIOUR.RUNC(_abstractions.variable[])
   name.vb: RUNC(ParamArray variable())
-  fullName: PIKLib.BEHAVIOUR.RUNC(params _global.variable[])
-  fullName.vb: PIKLib.BEHAVIOUR.RUNC(ParamArray _global.variable())
+  fullName: PIKLib.BEHAVIOUR.RUNC(params _abstractions.variable[])
+  fullName.vb: PIKLib.BEHAVIOUR.RUNC(ParamArray _abstractions.variable())
   nameWithType: BEHAVIOUR.RUNC(params variable[])
   nameWithType.vb: BEHAVIOUR.RUNC(ParamArray variable())
 - uid: PIKLib.BEHAVIOUR.RUNC*
@@ -2728,13 +2897,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.CLASS.DEF
   nameWithType: CLASS.DEF
-- uid: PIKLib.CLASS.NEW(System.String,_global.variable[])
+- uid: PIKLib.CLASS.NEW(System.String,_abstractions.variable[])
   name: NEW(string, params variable[])
-  href: api/PIKLib.CLASS.html#PIKLib_CLASS_NEW_System_String__global_variable___
-  commentId: M:PIKLib.CLASS.NEW(System.String,_global.variable[])
+  href: api/PIKLib.CLASS.html#PIKLib_CLASS_NEW_System_String__abstractions_variable___
+  commentId: M:PIKLib.CLASS.NEW(System.String,_abstractions.variable[])
   name.vb: NEW(String, ParamArray variable())
-  fullName: PIKLib.CLASS.NEW(string, params _global.variable[])
-  fullName.vb: PIKLib.CLASS.NEW(String, ParamArray _global.variable())
+  fullName: PIKLib.CLASS.NEW(string, params _abstractions.variable[])
+  fullName.vb: PIKLib.CLASS.NEW(String, ParamArray _abstractions.variable())
   nameWithType: CLASS.NEW(string, params variable[])
   nameWithType.vb: CLASS.NEW(String, ParamArray variable())
 - uid: PIKLib.CLASS.NEW*
@@ -3008,13 +3177,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.DATABASE.ADD
   nameWithType: DATABASE.ADD
-- uid: PIKLib.DATABASE.FIND(System.String,_global.variable,System.Int32)
+- uid: PIKLib.DATABASE.FIND(System.String,_abstractions.variable,System.Int32)
   name: FIND(string, variable, int)
-  href: api/PIKLib.DATABASE.html#PIKLib_DATABASE_FIND_System_String__global_variable_System_Int32_
-  commentId: M:PIKLib.DATABASE.FIND(System.String,_global.variable,System.Int32)
+  href: api/PIKLib.DATABASE.html#PIKLib_DATABASE_FIND_System_String__abstractions_variable_System_Int32_
+  commentId: M:PIKLib.DATABASE.FIND(System.String,_abstractions.variable,System.Int32)
   name.vb: FIND(String, variable, Integer)
-  fullName: PIKLib.DATABASE.FIND(string, _global.variable, int)
-  fullName.vb: PIKLib.DATABASE.FIND(String, _global.variable, Integer)
+  fullName: PIKLib.DATABASE.FIND(string, _abstractions.variable, int)
+  fullName.vb: PIKLib.DATABASE.FIND(String, _abstractions.variable, Integer)
   nameWithType: DATABASE.FIND(string, variable, int)
   nameWithType.vb: DATABASE.FIND(String, variable, Integer)
 - uid: PIKLib.DATABASE.FIND*
@@ -4813,13 +4982,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.MULTIARRAY.GET
   nameWithType: MULTIARRAY.GET
-- uid: PIKLib.MULTIARRAY.SET(_global.variable,System.Int32[])
+- uid: PIKLib.MULTIARRAY.SET(_abstractions.variable,System.Int32[])
   name: SET(variable, params int[])
-  href: api/PIKLib.MULTIARRAY.html#PIKLib_MULTIARRAY_SET__global_variable_System_Int32___
-  commentId: M:PIKLib.MULTIARRAY.SET(_global.variable,System.Int32[])
+  href: api/PIKLib.MULTIARRAY.html#PIKLib_MULTIARRAY_SET__abstractions_variable_System_Int32___
+  commentId: M:PIKLib.MULTIARRAY.SET(_abstractions.variable,System.Int32[])
   name.vb: SET(variable, ParamArray Integer())
-  fullName: PIKLib.MULTIARRAY.SET(_global.variable, params int[])
-  fullName.vb: PIKLib.MULTIARRAY.SET(_global.variable, ParamArray Integer())
+  fullName: PIKLib.MULTIARRAY.SET(_abstractions.variable, params int[])
+  fullName.vb: PIKLib.MULTIARRAY.SET(_abstractions.variable, ParamArray Integer())
   nameWithType: MULTIARRAY.SET(variable, params int[])
   nameWithType.vb: MULTIARRAY.SET(variable, ParamArray Integer())
 - uid: PIKLib.MULTIARRAY.SET*
@@ -5254,13 +5423,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.SCENE.RESUME
   nameWithType: SCENE.RESUME
-- uid: PIKLib.SCENE.RUN(System.String,System.String,_global.variable[])
+- uid: PIKLib.SCENE.RUN(System.String,System.String,_abstractions.variable[])
   name: RUN(string, string, params variable[])
-  href: api/PIKLib.SCENE.html#PIKLib_SCENE_RUN_System_String_System_String__global_variable___
-  commentId: M:PIKLib.SCENE.RUN(System.String,System.String,_global.variable[])
+  href: api/PIKLib.SCENE.html#PIKLib_SCENE_RUN_System_String_System_String__abstractions_variable___
+  commentId: M:PIKLib.SCENE.RUN(System.String,System.String,_abstractions.variable[])
   name.vb: RUN(String, String, ParamArray variable())
-  fullName: PIKLib.SCENE.RUN(string, string, params _global.variable[])
-  fullName.vb: PIKLib.SCENE.RUN(String, String, ParamArray _global.variable())
+  fullName: PIKLib.SCENE.RUN(string, string, params _abstractions.variable[])
+  fullName.vb: PIKLib.SCENE.RUN(String, String, ParamArray _abstractions.variable())
   nameWithType: SCENE.RUN(string, string, params variable[])
   nameWithType.vb: SCENE.RUN(String, String, ParamArray variable())
 - uid: PIKLib.SCENE.RUN*
@@ -5706,13 +5875,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.STATICFILTER.LINK
   nameWithType: STATICFILTER.LINK
-- uid: PIKLib.STATICFILTER.SETPROPERTY(System.String,_global.variable)
+- uid: PIKLib.STATICFILTER.SETPROPERTY(System.String,_abstractions.variable)
   name: SETPROPERTY(string, variable)
-  href: api/PIKLib.STATICFILTER.html#PIKLib_STATICFILTER_SETPROPERTY_System_String__global_variable_
-  commentId: M:PIKLib.STATICFILTER.SETPROPERTY(System.String,_global.variable)
+  href: api/PIKLib.STATICFILTER.html#PIKLib_STATICFILTER_SETPROPERTY_System_String__abstractions_variable_
+  commentId: M:PIKLib.STATICFILTER.SETPROPERTY(System.String,_abstractions.variable)
   name.vb: SETPROPERTY(String, variable)
-  fullName: PIKLib.STATICFILTER.SETPROPERTY(string, _global.variable)
-  fullName.vb: PIKLib.STATICFILTER.SETPROPERTY(String, _global.variable)
+  fullName: PIKLib.STATICFILTER.SETPROPERTY(string, _abstractions.variable)
+  fullName.vb: PIKLib.STATICFILTER.SETPROPERTY(String, _abstractions.variable)
   nameWithType: STATICFILTER.SETPROPERTY(string, variable)
   nameWithType.vb: STATICFILTER.SETPROPERTY(String, variable)
 - uid: PIKLib.STATICFILTER.SETPROPERTY*
@@ -6031,13 +6200,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.STRUCT.SET
   nameWithType: STRUCT.SET
-- uid: PIKLib.STRUCT.SETFIELD(System.String,_global.variable)
+- uid: PIKLib.STRUCT.SETFIELD(System.String,_abstractions.variable)
   name: SETFIELD(string, variable)
-  href: api/PIKLib.STRUCT.html#PIKLib_STRUCT_SETFIELD_System_String__global_variable_
-  commentId: M:PIKLib.STRUCT.SETFIELD(System.String,_global.variable)
+  href: api/PIKLib.STRUCT.html#PIKLib_STRUCT_SETFIELD_System_String__abstractions_variable_
+  commentId: M:PIKLib.STRUCT.SETFIELD(System.String,_abstractions.variable)
   name.vb: SETFIELD(String, variable)
-  fullName: PIKLib.STRUCT.SETFIELD(string, _global.variable)
-  fullName.vb: PIKLib.STRUCT.SETFIELD(String, _global.variable)
+  fullName: PIKLib.STRUCT.SETFIELD(string, _abstractions.variable)
+  fullName.vb: PIKLib.STRUCT.SETFIELD(String, _abstractions.variable)
   nameWithType: STRUCT.SETFIELD(string, variable)
   nameWithType.vb: STRUCT.SETFIELD(String, variable)
 - uid: PIKLib.STRUCT.SETFIELD*
@@ -7329,760 +7498,591 @@ references:
   isSpec: "True"
   fullName: World.WORLD.UNLINK
   nameWithType: WORLD.UNLINK
-- uid: _global
-  name: _global
-  href: api/_global.html
-  commentId: N:_global
-  fullName: _global
-  nameWithType: _global
-- uid: _global.BoolVariable
+- uid: _abstractions
+  name: _abstractions
+  href: api/_abstractions.html
+  commentId: N:_abstractions
+  fullName: _abstractions
+  nameWithType: _abstractions
+- uid: _abstractions.BoolVariable
   name: BoolVariable
-  href: api/_global.BoolVariable.html
-  commentId: T:_global.BoolVariable
-  fullName: _global.BoolVariable
+  href: api/_abstractions.BoolVariable.html
+  commentId: T:_abstractions.BoolVariable
+  fullName: _abstractions.BoolVariable
   nameWithType: BoolVariable
-- uid: _global.BoolVariable.#ctor(System.Boolean)
+- uid: _abstractions.BoolVariable.#ctor(System.Boolean)
   name: BoolVariable(bool)
-  href: api/_global.BoolVariable.html#_global_BoolVariable__ctor_System_Boolean_
-  commentId: M:_global.BoolVariable.#ctor(System.Boolean)
+  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable__ctor_System_Boolean_
+  commentId: M:_abstractions.BoolVariable.#ctor(System.Boolean)
   name.vb: New(Boolean)
-  fullName: _global.BoolVariable.BoolVariable(bool)
-  fullName.vb: _global.BoolVariable.New(Boolean)
+  fullName: _abstractions.BoolVariable.BoolVariable(bool)
+  fullName.vb: _abstractions.BoolVariable.New(Boolean)
   nameWithType: BoolVariable.BoolVariable(bool)
   nameWithType.vb: BoolVariable.New(Boolean)
-- uid: _global.BoolVariable.#ctor*
+- uid: _abstractions.BoolVariable.#ctor*
   name: BoolVariable
-  href: api/_global.BoolVariable.html#_global_BoolVariable__ctor_
-  commentId: Overload:_global.BoolVariable.#ctor
+  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable__ctor_
+  commentId: Overload:_abstractions.BoolVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _global.BoolVariable.BoolVariable
-  fullName.vb: _global.BoolVariable.New
+  fullName: _abstractions.BoolVariable.BoolVariable
+  fullName.vb: _abstractions.BoolVariable.New
   nameWithType: BoolVariable.BoolVariable
   nameWithType.vb: BoolVariable.New
-- uid: _global.BoolVariable.value
+- uid: _abstractions.BoolVariable.value
   name: value
-  href: api/_global.BoolVariable.html#_global_BoolVariable_value
-  commentId: P:_global.BoolVariable.value
-  fullName: _global.BoolVariable.value
+  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable_value
+  commentId: P:_abstractions.BoolVariable.value
+  fullName: _abstractions.BoolVariable.value
   nameWithType: BoolVariable.value
-- uid: _global.BoolVariable.value*
+- uid: _abstractions.BoolVariable.value*
   name: value
-  href: api/_global.BoolVariable.html#_global_BoolVariable_value_
-  commentId: Overload:_global.BoolVariable.value
+  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable_value_
+  commentId: Overload:_abstractions.BoolVariable.value
   isSpec: "True"
-  fullName: _global.BoolVariable.value
+  fullName: _abstractions.BoolVariable.value
   nameWithType: BoolVariable.value
-- uid: _global.DoubleVariable
+- uid: _abstractions.DoubleVariable
   name: DoubleVariable
-  href: api/_global.DoubleVariable.html
-  commentId: T:_global.DoubleVariable
-  fullName: _global.DoubleVariable
+  href: api/_abstractions.DoubleVariable.html
+  commentId: T:_abstractions.DoubleVariable
+  fullName: _abstractions.DoubleVariable
   nameWithType: DoubleVariable
-- uid: _global.DoubleVariable.#ctor(System.Double)
+- uid: _abstractions.DoubleVariable.#ctor(System.Double)
   name: DoubleVariable(double)
-  href: api/_global.DoubleVariable.html#_global_DoubleVariable__ctor_System_Double_
-  commentId: M:_global.DoubleVariable.#ctor(System.Double)
+  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable__ctor_System_Double_
+  commentId: M:_abstractions.DoubleVariable.#ctor(System.Double)
   name.vb: New(Double)
-  fullName: _global.DoubleVariable.DoubleVariable(double)
-  fullName.vb: _global.DoubleVariable.New(Double)
+  fullName: _abstractions.DoubleVariable.DoubleVariable(double)
+  fullName.vb: _abstractions.DoubleVariable.New(Double)
   nameWithType: DoubleVariable.DoubleVariable(double)
   nameWithType.vb: DoubleVariable.New(Double)
-- uid: _global.DoubleVariable.#ctor*
+- uid: _abstractions.DoubleVariable.#ctor*
   name: DoubleVariable
-  href: api/_global.DoubleVariable.html#_global_DoubleVariable__ctor_
-  commentId: Overload:_global.DoubleVariable.#ctor
+  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable__ctor_
+  commentId: Overload:_abstractions.DoubleVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _global.DoubleVariable.DoubleVariable
-  fullName.vb: _global.DoubleVariable.New
+  fullName: _abstractions.DoubleVariable.DoubleVariable
+  fullName.vb: _abstractions.DoubleVariable.New
   nameWithType: DoubleVariable.DoubleVariable
   nameWithType.vb: DoubleVariable.New
-- uid: _global.DoubleVariable.value
+- uid: _abstractions.DoubleVariable.value
   name: value
-  href: api/_global.DoubleVariable.html#_global_DoubleVariable_value
-  commentId: P:_global.DoubleVariable.value
-  fullName: _global.DoubleVariable.value
+  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable_value
+  commentId: P:_abstractions.DoubleVariable.value
+  fullName: _abstractions.DoubleVariable.value
   nameWithType: DoubleVariable.value
-- uid: _global.DoubleVariable.value*
+- uid: _abstractions.DoubleVariable.value*
   name: value
-  href: api/_global.DoubleVariable.html#_global_DoubleVariable_value_
-  commentId: Overload:_global.DoubleVariable.value
+  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable_value_
+  commentId: Overload:_abstractions.DoubleVariable.value
   isSpec: "True"
-  fullName: _global.DoubleVariable.value
+  fullName: _abstractions.DoubleVariable.value
   nameWithType: DoubleVariable.value
-- uid: _global.IntVariable
+- uid: _abstractions.IntVariable
   name: IntVariable
-  href: api/_global.IntVariable.html
-  commentId: T:_global.IntVariable
-  fullName: _global.IntVariable
+  href: api/_abstractions.IntVariable.html
+  commentId: T:_abstractions.IntVariable
+  fullName: _abstractions.IntVariable
   nameWithType: IntVariable
-- uid: _global.IntVariable.#ctor(System.Int32)
+- uid: _abstractions.IntVariable.#ctor(System.Int32)
   name: IntVariable(int)
-  href: api/_global.IntVariable.html#_global_IntVariable__ctor_System_Int32_
-  commentId: M:_global.IntVariable.#ctor(System.Int32)
+  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable__ctor_System_Int32_
+  commentId: M:_abstractions.IntVariable.#ctor(System.Int32)
   name.vb: New(Integer)
-  fullName: _global.IntVariable.IntVariable(int)
-  fullName.vb: _global.IntVariable.New(Integer)
+  fullName: _abstractions.IntVariable.IntVariable(int)
+  fullName.vb: _abstractions.IntVariable.New(Integer)
   nameWithType: IntVariable.IntVariable(int)
   nameWithType.vb: IntVariable.New(Integer)
-- uid: _global.IntVariable.#ctor*
+- uid: _abstractions.IntVariable.#ctor*
   name: IntVariable
-  href: api/_global.IntVariable.html#_global_IntVariable__ctor_
-  commentId: Overload:_global.IntVariable.#ctor
+  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable__ctor_
+  commentId: Overload:_abstractions.IntVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _global.IntVariable.IntVariable
-  fullName.vb: _global.IntVariable.New
+  fullName: _abstractions.IntVariable.IntVariable
+  fullName.vb: _abstractions.IntVariable.New
   nameWithType: IntVariable.IntVariable
   nameWithType.vb: IntVariable.New
-- uid: _global.IntVariable.value
+- uid: _abstractions.IntVariable.value
   name: value
-  href: api/_global.IntVariable.html#_global_IntVariable_value
-  commentId: P:_global.IntVariable.value
-  fullName: _global.IntVariable.value
+  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable_value
+  commentId: P:_abstractions.IntVariable.value
+  fullName: _abstractions.IntVariable.value
   nameWithType: IntVariable.value
-- uid: _global.IntVariable.value*
+- uid: _abstractions.IntVariable.value*
   name: value
-  href: api/_global.IntVariable.html#_global_IntVariable_value_
-  commentId: Overload:_global.IntVariable.value
+  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable_value_
+  commentId: Overload:_abstractions.IntVariable.value
   isSpec: "True"
-  fullName: _global.IntVariable.value
+  fullName: _abstractions.IntVariable.value
   nameWithType: IntVariable.value
-- uid: _global.LiteralRect
+- uid: _abstractions.LiteralRect
   name: LiteralRect
-  href: api/_global.LiteralRect.html
-  commentId: T:_global.LiteralRect
-  fullName: _global.LiteralRect
+  href: api/_abstractions.LiteralRect.html
+  commentId: T:_abstractions.LiteralRect
+  fullName: _abstractions.LiteralRect
   nameWithType: LiteralRect
-- uid: _global.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+- uid: _abstractions.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
   name: LiteralRect(int, int, int, int)
-  href: api/_global.LiteralRect.html#_global_LiteralRect__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:_global.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:_abstractions.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
   name.vb: New(Integer, Integer, Integer, Integer)
-  fullName: _global.LiteralRect.LiteralRect(int, int, int, int)
-  fullName.vb: _global.LiteralRect.New(Integer, Integer, Integer, Integer)
+  fullName: _abstractions.LiteralRect.LiteralRect(int, int, int, int)
+  fullName.vb: _abstractions.LiteralRect.New(Integer, Integer, Integer, Integer)
   nameWithType: LiteralRect.LiteralRect(int, int, int, int)
   nameWithType.vb: LiteralRect.New(Integer, Integer, Integer, Integer)
-- uid: _global.LiteralRect.#ctor*
+- uid: _abstractions.LiteralRect.#ctor*
   name: LiteralRect
-  href: api/_global.LiteralRect.html#_global_LiteralRect__ctor_
-  commentId: Overload:_global.LiteralRect.#ctor
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect__ctor_
+  commentId: Overload:_abstractions.LiteralRect.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _global.LiteralRect.LiteralRect
-  fullName.vb: _global.LiteralRect.New
+  fullName: _abstractions.LiteralRect.LiteralRect
+  fullName.vb: _abstractions.LiteralRect.New
   nameWithType: LiteralRect.LiteralRect
   nameWithType.vb: LiteralRect.New
-- uid: _global.LiteralRect.bottom_y
+- uid: _abstractions.LiteralRect.bottom_y
   name: bottom_y
-  href: api/_global.LiteralRect.html#_global_LiteralRect_bottom_y
-  commentId: P:_global.LiteralRect.bottom_y
-  fullName: _global.LiteralRect.bottom_y
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_bottom_y
+  commentId: P:_abstractions.LiteralRect.bottom_y
+  fullName: _abstractions.LiteralRect.bottom_y
   nameWithType: LiteralRect.bottom_y
-- uid: _global.LiteralRect.bottom_y*
+- uid: _abstractions.LiteralRect.bottom_y*
   name: bottom_y
-  href: api/_global.LiteralRect.html#_global_LiteralRect_bottom_y_
-  commentId: Overload:_global.LiteralRect.bottom_y
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_bottom_y_
+  commentId: Overload:_abstractions.LiteralRect.bottom_y
   isSpec: "True"
-  fullName: _global.LiteralRect.bottom_y
+  fullName: _abstractions.LiteralRect.bottom_y
   nameWithType: LiteralRect.bottom_y
-- uid: _global.LiteralRect.left_x
+- uid: _abstractions.LiteralRect.left_x
   name: left_x
-  href: api/_global.LiteralRect.html#_global_LiteralRect_left_x
-  commentId: P:_global.LiteralRect.left_x
-  fullName: _global.LiteralRect.left_x
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_left_x
+  commentId: P:_abstractions.LiteralRect.left_x
+  fullName: _abstractions.LiteralRect.left_x
   nameWithType: LiteralRect.left_x
-- uid: _global.LiteralRect.left_x*
+- uid: _abstractions.LiteralRect.left_x*
   name: left_x
-  href: api/_global.LiteralRect.html#_global_LiteralRect_left_x_
-  commentId: Overload:_global.LiteralRect.left_x
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_left_x_
+  commentId: Overload:_abstractions.LiteralRect.left_x
   isSpec: "True"
-  fullName: _global.LiteralRect.left_x
+  fullName: _abstractions.LiteralRect.left_x
   nameWithType: LiteralRect.left_x
-- uid: _global.LiteralRect.right_x
+- uid: _abstractions.LiteralRect.right_x
   name: right_x
-  href: api/_global.LiteralRect.html#_global_LiteralRect_right_x
-  commentId: P:_global.LiteralRect.right_x
-  fullName: _global.LiteralRect.right_x
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_right_x
+  commentId: P:_abstractions.LiteralRect.right_x
+  fullName: _abstractions.LiteralRect.right_x
   nameWithType: LiteralRect.right_x
-- uid: _global.LiteralRect.right_x*
+- uid: _abstractions.LiteralRect.right_x*
   name: right_x
-  href: api/_global.LiteralRect.html#_global_LiteralRect_right_x_
-  commentId: Overload:_global.LiteralRect.right_x
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_right_x_
+  commentId: Overload:_abstractions.LiteralRect.right_x
   isSpec: "True"
-  fullName: _global.LiteralRect.right_x
+  fullName: _abstractions.LiteralRect.right_x
   nameWithType: LiteralRect.right_x
-- uid: _global.LiteralRect.top_y
+- uid: _abstractions.LiteralRect.top_y
   name: top_y
-  href: api/_global.LiteralRect.html#_global_LiteralRect_top_y
-  commentId: P:_global.LiteralRect.top_y
-  fullName: _global.LiteralRect.top_y
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_top_y
+  commentId: P:_abstractions.LiteralRect.top_y
+  fullName: _abstractions.LiteralRect.top_y
   nameWithType: LiteralRect.top_y
-- uid: _global.LiteralRect.top_y*
+- uid: _abstractions.LiteralRect.top_y*
   name: top_y
-  href: api/_global.LiteralRect.html#_global_LiteralRect_top_y_
-  commentId: Overload:_global.LiteralRect.top_y
+  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_top_y_
+  commentId: Overload:_abstractions.LiteralRect.top_y
   isSpec: "True"
-  fullName: _global.LiteralRect.top_y
+  fullName: _abstractions.LiteralRect.top_y
   nameWithType: LiteralRect.top_y
-- uid: _global.OBJECT
+- uid: _abstractions.OBJECT
   name: OBJECT
-  href: api/_global.OBJECT.html
-  commentId: T:_global.OBJECT
-  fullName: _global.OBJECT
+  href: api/_abstractions.OBJECT.html
+  commentId: T:_abstractions.OBJECT
+  fullName: _abstractions.OBJECT
   nameWithType: OBJECT
-- uid: _global.OBJECT.ADDBEHAVIOUR(System.String,System.String)
+- uid: _abstractions.OBJECT.ADDBEHAVIOUR(System.String,System.String)
   name: ADDBEHAVIOUR(string, string)
-  href: api/_global.OBJECT.html#_global_OBJECT_ADDBEHAVIOUR_System_String_System_String_
-  commentId: M:_global.OBJECT.ADDBEHAVIOUR(System.String,System.String)
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_ADDBEHAVIOUR_System_String_System_String_
+  commentId: M:_abstractions.OBJECT.ADDBEHAVIOUR(System.String,System.String)
   name.vb: ADDBEHAVIOUR(String, String)
-  fullName: _global.OBJECT.ADDBEHAVIOUR(string, string)
-  fullName.vb: _global.OBJECT.ADDBEHAVIOUR(String, String)
+  fullName: _abstractions.OBJECT.ADDBEHAVIOUR(string, string)
+  fullName.vb: _abstractions.OBJECT.ADDBEHAVIOUR(String, String)
   nameWithType: OBJECT.ADDBEHAVIOUR(string, string)
   nameWithType.vb: OBJECT.ADDBEHAVIOUR(String, String)
-- uid: _global.OBJECT.ADDBEHAVIOUR*
+- uid: _abstractions.OBJECT.ADDBEHAVIOUR*
   name: ADDBEHAVIOUR
-  href: api/_global.OBJECT.html#_global_OBJECT_ADDBEHAVIOUR_
-  commentId: Overload:_global.OBJECT.ADDBEHAVIOUR
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_ADDBEHAVIOUR_
+  commentId: Overload:_abstractions.OBJECT.ADDBEHAVIOUR
   isSpec: "True"
-  fullName: _global.OBJECT.ADDBEHAVIOUR
+  fullName: _abstractions.OBJECT.ADDBEHAVIOUR
   nameWithType: OBJECT.ADDBEHAVIOUR
-- uid: _global.OBJECT.CLONE(System.Int32)
+- uid: _abstractions.OBJECT.CLONE(System.Int32)
   name: CLONE(int)
-  href: api/_global.OBJECT.html#_global_OBJECT_CLONE_System_Int32_
-  commentId: M:_global.OBJECT.CLONE(System.Int32)
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_CLONE_System_Int32_
+  commentId: M:_abstractions.OBJECT.CLONE(System.Int32)
   name.vb: CLONE(Integer)
-  fullName: _global.OBJECT.CLONE(int)
-  fullName.vb: _global.OBJECT.CLONE(Integer)
+  fullName: _abstractions.OBJECT.CLONE(int)
+  fullName.vb: _abstractions.OBJECT.CLONE(Integer)
   nameWithType: OBJECT.CLONE(int)
   nameWithType.vb: OBJECT.CLONE(Integer)
-- uid: _global.OBJECT.CLONE*
+- uid: _abstractions.OBJECT.CLONE*
   name: CLONE
-  href: api/_global.OBJECT.html#_global_OBJECT_CLONE_
-  commentId: Overload:_global.OBJECT.CLONE
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_CLONE_
+  commentId: Overload:_abstractions.OBJECT.CLONE
   isSpec: "True"
-  fullName: _global.OBJECT.CLONE
+  fullName: _abstractions.OBJECT.CLONE
   nameWithType: OBJECT.CLONE
-- uid: _global.OBJECT.DESCRIPTION
+- uid: _abstractions.OBJECT.DESCRIPTION
   name: DESCRIPTION
-  href: api/_global.OBJECT.html#_global_OBJECT_DESCRIPTION
-  commentId: P:_global.OBJECT.DESCRIPTION
-  fullName: _global.OBJECT.DESCRIPTION
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_DESCRIPTION
+  commentId: P:_abstractions.OBJECT.DESCRIPTION
+  fullName: _abstractions.OBJECT.DESCRIPTION
   nameWithType: OBJECT.DESCRIPTION
-- uid: _global.OBJECT.DESCRIPTION*
+- uid: _abstractions.OBJECT.DESCRIPTION*
   name: DESCRIPTION
-  href: api/_global.OBJECT.html#_global_OBJECT_DESCRIPTION_
-  commentId: Overload:_global.OBJECT.DESCRIPTION
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_DESCRIPTION_
+  commentId: Overload:_abstractions.OBJECT.DESCRIPTION
   isSpec: "True"
-  fullName: _global.OBJECT.DESCRIPTION
+  fullName: _abstractions.OBJECT.DESCRIPTION
   nameWithType: OBJECT.DESCRIPTION
-- uid: _global.OBJECT.GETCLONEINDEX
+- uid: _abstractions.OBJECT.GETCLONEINDEX
   name: GETCLONEINDEX()
-  href: api/_global.OBJECT.html#_global_OBJECT_GETCLONEINDEX
-  commentId: M:_global.OBJECT.GETCLONEINDEX
-  fullName: _global.OBJECT.GETCLONEINDEX()
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETCLONEINDEX
+  commentId: M:_abstractions.OBJECT.GETCLONEINDEX
+  fullName: _abstractions.OBJECT.GETCLONEINDEX()
   nameWithType: OBJECT.GETCLONEINDEX()
-- uid: _global.OBJECT.GETCLONEINDEX*
+- uid: _abstractions.OBJECT.GETCLONEINDEX*
   name: GETCLONEINDEX
-  href: api/_global.OBJECT.html#_global_OBJECT_GETCLONEINDEX_
-  commentId: Overload:_global.OBJECT.GETCLONEINDEX
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETCLONEINDEX_
+  commentId: Overload:_abstractions.OBJECT.GETCLONEINDEX
   isSpec: "True"
-  fullName: _global.OBJECT.GETCLONEINDEX
+  fullName: _abstractions.OBJECT.GETCLONEINDEX
   nameWithType: OBJECT.GETCLONEINDEX
-- uid: _global.OBJECT.GETNAME
+- uid: _abstractions.OBJECT.GETNAME
   name: GETNAME()
-  href: api/_global.OBJECT.html#_global_OBJECT_GETNAME
-  commentId: M:_global.OBJECT.GETNAME
-  fullName: _global.OBJECT.GETNAME()
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETNAME
+  commentId: M:_abstractions.OBJECT.GETNAME
+  fullName: _abstractions.OBJECT.GETNAME()
   nameWithType: OBJECT.GETNAME()
-- uid: _global.OBJECT.GETNAME*
+- uid: _abstractions.OBJECT.GETNAME*
   name: GETNAME
-  href: api/_global.OBJECT.html#_global_OBJECT_GETNAME_
-  commentId: Overload:_global.OBJECT.GETNAME
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETNAME_
+  commentId: Overload:_abstractions.OBJECT.GETNAME
   isSpec: "True"
-  fullName: _global.OBJECT.GETNAME
+  fullName: _abstractions.OBJECT.GETNAME
   nameWithType: OBJECT.GETNAME
-- uid: _global.OBJECT.MSGBOX(System.String)
+- uid: _abstractions.OBJECT.MSGBOX(System.String)
   name: MSGBOX(string)
-  href: api/_global.OBJECT.html#_global_OBJECT_MSGBOX_System_String_
-  commentId: M:_global.OBJECT.MSGBOX(System.String)
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_MSGBOX_System_String_
+  commentId: M:_abstractions.OBJECT.MSGBOX(System.String)
   name.vb: MSGBOX(String)
-  fullName: _global.OBJECT.MSGBOX(string)
-  fullName.vb: _global.OBJECT.MSGBOX(String)
+  fullName: _abstractions.OBJECT.MSGBOX(string)
+  fullName.vb: _abstractions.OBJECT.MSGBOX(String)
   nameWithType: OBJECT.MSGBOX(string)
   nameWithType.vb: OBJECT.MSGBOX(String)
-- uid: _global.OBJECT.MSGBOX*
+- uid: _abstractions.OBJECT.MSGBOX*
   name: MSGBOX
-  href: api/_global.OBJECT.html#_global_OBJECT_MSGBOX_
-  commentId: Overload:_global.OBJECT.MSGBOX
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_MSGBOX_
+  commentId: Overload:_abstractions.OBJECT.MSGBOX
   isSpec: "True"
-  fullName: _global.OBJECT.MSGBOX
+  fullName: _abstractions.OBJECT.MSGBOX
   nameWithType: OBJECT.MSGBOX
-- uid: _global.OBJECT.REMOVEBEHAVIOUR(System.String)
+- uid: _abstractions.OBJECT.REMOVEBEHAVIOUR(System.String)
   name: REMOVEBEHAVIOUR(string)
-  href: api/_global.OBJECT.html#_global_OBJECT_REMOVEBEHAVIOUR_System_String_
-  commentId: M:_global.OBJECT.REMOVEBEHAVIOUR(System.String)
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_REMOVEBEHAVIOUR_System_String_
+  commentId: M:_abstractions.OBJECT.REMOVEBEHAVIOUR(System.String)
   name.vb: REMOVEBEHAVIOUR(String)
-  fullName: _global.OBJECT.REMOVEBEHAVIOUR(string)
-  fullName.vb: _global.OBJECT.REMOVEBEHAVIOUR(String)
+  fullName: _abstractions.OBJECT.REMOVEBEHAVIOUR(string)
+  fullName.vb: _abstractions.OBJECT.REMOVEBEHAVIOUR(String)
   nameWithType: OBJECT.REMOVEBEHAVIOUR(string)
   nameWithType.vb: OBJECT.REMOVEBEHAVIOUR(String)
-- uid: _global.OBJECT.REMOVEBEHAVIOUR*
+- uid: _abstractions.OBJECT.REMOVEBEHAVIOUR*
   name: REMOVEBEHAVIOUR
-  href: api/_global.OBJECT.html#_global_OBJECT_REMOVEBEHAVIOUR_
-  commentId: Overload:_global.OBJECT.REMOVEBEHAVIOUR
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_REMOVEBEHAVIOUR_
+  commentId: Overload:_abstractions.OBJECT.REMOVEBEHAVIOUR
   isSpec: "True"
-  fullName: _global.OBJECT.REMOVEBEHAVIOUR
+  fullName: _abstractions.OBJECT.REMOVEBEHAVIOUR
   nameWithType: OBJECT.REMOVEBEHAVIOUR
-- uid: _global.OBJECT.RESETCLONES
+- uid: _abstractions.OBJECT.RESETCLONES
   name: RESETCLONES()
-  href: api/_global.OBJECT.html#_global_OBJECT_RESETCLONES
-  commentId: M:_global.OBJECT.RESETCLONES
-  fullName: _global.OBJECT.RESETCLONES()
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES
+  commentId: M:_abstractions.OBJECT.RESETCLONES
+  fullName: _abstractions.OBJECT.RESETCLONES()
   nameWithType: OBJECT.RESETCLONES()
-- uid: _global.OBJECT.RESETCLONES*
+- uid: _abstractions.OBJECT.RESETCLONES*
   name: RESETCLONES
-  href: api/_global.OBJECT.html#_global_OBJECT_RESETCLONES_
-  commentId: Overload:_global.OBJECT.RESETCLONES
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES_
+  commentId: Overload:_abstractions.OBJECT.RESETCLONES
   isSpec: "True"
-  fullName: _global.OBJECT.RESETCLONES
+  fullName: _abstractions.OBJECT.RESETCLONES
   nameWithType: OBJECT.RESETCLONES
-- uid: _global.OBJECT.TYPE
+- uid: _abstractions.OBJECT.TYPE
   name: TYPE
-  href: api/_global.OBJECT.html#_global_OBJECT_TYPE
-  commentId: P:_global.OBJECT.TYPE
-  fullName: _global.OBJECT.TYPE
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_TYPE
+  commentId: P:_abstractions.OBJECT.TYPE
+  fullName: _abstractions.OBJECT.TYPE
   nameWithType: OBJECT.TYPE
-- uid: _global.OBJECT.TYPE*
+- uid: _abstractions.OBJECT.TYPE*
   name: TYPE
-  href: api/_global.OBJECT.html#_global_OBJECT_TYPE_
-  commentId: Overload:_global.OBJECT.TYPE
+  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_TYPE_
+  commentId: Overload:_abstractions.OBJECT.TYPE
   isSpec: "True"
-  fullName: _global.OBJECT.TYPE
+  fullName: _abstractions.OBJECT.TYPE
   nameWithType: OBJECT.TYPE
-- uid: _global.ParametrizedSignalHandler
+- uid: _abstractions.ParametrizedSignalHandler
   name: ParametrizedSignalHandler
-  href: api/_global.ParametrizedSignalHandler.html
-  commentId: T:_global.ParametrizedSignalHandler
-  fullName: _global.ParametrizedSignalHandler
+  href: api/_abstractions.ParametrizedSignalHandler.html
+  commentId: T:_abstractions.ParametrizedSignalHandler
+  fullName: _abstractions.ParametrizedSignalHandler
   nameWithType: ParametrizedSignalHandler
-- uid: _global.ReferenceRect
+- uid: _abstractions.ReferenceRect
   name: ReferenceRect
-  href: api/_global.ReferenceRect.html
-  commentId: T:_global.ReferenceRect
-  fullName: _global.ReferenceRect
+  href: api/_abstractions.ReferenceRect.html
+  commentId: T:_abstractions.ReferenceRect
+  fullName: _abstractions.ReferenceRect
   nameWithType: ReferenceRect
-- uid: _global.ReferenceRect.#ctor(System.String)
+- uid: _abstractions.ReferenceRect.#ctor(System.String)
   name: ReferenceRect(string)
-  href: api/_global.ReferenceRect.html#_global_ReferenceRect__ctor_System_String_
-  commentId: M:_global.ReferenceRect.#ctor(System.String)
+  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect__ctor_System_String_
+  commentId: M:_abstractions.ReferenceRect.#ctor(System.String)
   name.vb: New(String)
-  fullName: _global.ReferenceRect.ReferenceRect(string)
-  fullName.vb: _global.ReferenceRect.New(String)
+  fullName: _abstractions.ReferenceRect.ReferenceRect(string)
+  fullName.vb: _abstractions.ReferenceRect.New(String)
   nameWithType: ReferenceRect.ReferenceRect(string)
   nameWithType.vb: ReferenceRect.New(String)
-- uid: _global.ReferenceRect.#ctor*
+- uid: _abstractions.ReferenceRect.#ctor*
   name: ReferenceRect
-  href: api/_global.ReferenceRect.html#_global_ReferenceRect__ctor_
-  commentId: Overload:_global.ReferenceRect.#ctor
+  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect__ctor_
+  commentId: Overload:_abstractions.ReferenceRect.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _global.ReferenceRect.ReferenceRect
-  fullName.vb: _global.ReferenceRect.New
+  fullName: _abstractions.ReferenceRect.ReferenceRect
+  fullName.vb: _abstractions.ReferenceRect.New
   nameWithType: ReferenceRect.ReferenceRect
   nameWithType.vb: ReferenceRect.New
-- uid: _global.ReferenceRect.object_name
+- uid: _abstractions.ReferenceRect.object_name
   name: object_name
-  href: api/_global.ReferenceRect.html#_global_ReferenceRect_object_name
-  commentId: P:_global.ReferenceRect.object_name
-  fullName: _global.ReferenceRect.object_name
+  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect_object_name
+  commentId: P:_abstractions.ReferenceRect.object_name
+  fullName: _abstractions.ReferenceRect.object_name
   nameWithType: ReferenceRect.object_name
-- uid: _global.ReferenceRect.object_name*
+- uid: _abstractions.ReferenceRect.object_name*
   name: object_name
-  href: api/_global.ReferenceRect.html#_global_ReferenceRect_object_name_
-  commentId: Overload:_global.ReferenceRect.object_name
+  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect_object_name_
+  commentId: Overload:_abstractions.ReferenceRect.object_name
   isSpec: "True"
-  fullName: _global.ReferenceRect.object_name
+  fullName: _abstractions.ReferenceRect.object_name
   nameWithType: ReferenceRect.object_name
-- uid: _global.SignalHandler
+- uid: _abstractions.SignalHandler
   name: SignalHandler
-  href: api/_global.SignalHandler.html
-  commentId: T:_global.SignalHandler
-  fullName: _global.SignalHandler
+  href: api/_abstractions.SignalHandler.html
+  commentId: T:_abstractions.SignalHandler
+  fullName: _abstractions.SignalHandler
   nameWithType: SignalHandler
-- uid: _global.StringVariable
+- uid: _abstractions.StringVariable
   name: StringVariable
-  href: api/_global.StringVariable.html
-  commentId: T:_global.StringVariable
-  fullName: _global.StringVariable
+  href: api/_abstractions.StringVariable.html
+  commentId: T:_abstractions.StringVariable
+  fullName: _abstractions.StringVariable
   nameWithType: StringVariable
-- uid: _global.StringVariable.#ctor(System.String)
+- uid: _abstractions.StringVariable.#ctor(System.String)
   name: StringVariable(string)
-  href: api/_global.StringVariable.html#_global_StringVariable__ctor_System_String_
-  commentId: M:_global.StringVariable.#ctor(System.String)
+  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable__ctor_System_String_
+  commentId: M:_abstractions.StringVariable.#ctor(System.String)
   name.vb: New(String)
-  fullName: _global.StringVariable.StringVariable(string)
-  fullName.vb: _global.StringVariable.New(String)
+  fullName: _abstractions.StringVariable.StringVariable(string)
+  fullName.vb: _abstractions.StringVariable.New(String)
   nameWithType: StringVariable.StringVariable(string)
   nameWithType.vb: StringVariable.New(String)
-- uid: _global.StringVariable.#ctor*
+- uid: _abstractions.StringVariable.#ctor*
   name: StringVariable
-  href: api/_global.StringVariable.html#_global_StringVariable__ctor_
-  commentId: Overload:_global.StringVariable.#ctor
+  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable__ctor_
+  commentId: Overload:_abstractions.StringVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _global.StringVariable.StringVariable
-  fullName.vb: _global.StringVariable.New
+  fullName: _abstractions.StringVariable.StringVariable
+  fullName.vb: _abstractions.StringVariable.New
   nameWithType: StringVariable.StringVariable
   nameWithType.vb: StringVariable.New
-- uid: _global.StringVariable.value
+- uid: _abstractions.StringVariable.value
   name: value
-  href: api/_global.StringVariable.html#_global_StringVariable_value
-  commentId: P:_global.StringVariable.value
-  fullName: _global.StringVariable.value
+  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable_value
+  commentId: P:_abstractions.StringVariable.value
+  fullName: _abstractions.StringVariable.value
   nameWithType: StringVariable.value
-- uid: _global.StringVariable.value*
+- uid: _abstractions.StringVariable.value*
   name: value
-  href: api/_global.StringVariable.html#_global_StringVariable_value_
-  commentId: Overload:_global.StringVariable.value
+  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable_value_
+  commentId: Overload:_abstractions.StringVariable.value
   isSpec: "True"
-  fullName: _global.StringVariable.value
+  fullName: _abstractions.StringVariable.value
   nameWithType: StringVariable.value
-- uid: _global.anchor
+- uid: _abstractions.anchor
   name: anchor
-  href: api/_global.anchor.html
-  commentId: T:_global.anchor
-  fullName: _global.anchor
+  href: api/_abstractions.anchor.html
+  commentId: T:_abstractions.anchor
+  fullName: _abstractions.anchor
   nameWithType: anchor
-- uid: _global.anchor.BOTTOM
+- uid: _abstractions.anchor.BOTTOM
   name: BOTTOM
-  href: api/_global.anchor.html#_global_anchor_BOTTOM
-  commentId: F:_global.anchor.BOTTOM
-  fullName: _global.anchor.BOTTOM
+  href: api/_abstractions.anchor.html#_abstractions_anchor_BOTTOM
+  commentId: F:_abstractions.anchor.BOTTOM
+  fullName: _abstractions.anchor.BOTTOM
   nameWithType: anchor.BOTTOM
-- uid: _global.anchor.CENTER
+- uid: _abstractions.anchor.CENTER
   name: CENTER
-  href: api/_global.anchor.html#_global_anchor_CENTER
-  commentId: F:_global.anchor.CENTER
-  fullName: _global.anchor.CENTER
+  href: api/_abstractions.anchor.html#_abstractions_anchor_CENTER
+  commentId: F:_abstractions.anchor.CENTER
+  fullName: _abstractions.anchor.CENTER
   nameWithType: anchor.CENTER
-- uid: _global.anchor.LEFT
+- uid: _abstractions.anchor.LEFT
   name: LEFT
-  href: api/_global.anchor.html#_global_anchor_LEFT
-  commentId: F:_global.anchor.LEFT
-  fullName: _global.anchor.LEFT
+  href: api/_abstractions.anchor.html#_abstractions_anchor_LEFT
+  commentId: F:_abstractions.anchor.LEFT
+  fullName: _abstractions.anchor.LEFT
   nameWithType: anchor.LEFT
-- uid: _global.anchor.LEFTLOWER
+- uid: _abstractions.anchor.LEFTLOWER
   name: LEFTLOWER
-  href: api/_global.anchor.html#_global_anchor_LEFTLOWER
-  commentId: F:_global.anchor.LEFTLOWER
-  fullName: _global.anchor.LEFTLOWER
+  href: api/_abstractions.anchor.html#_abstractions_anchor_LEFTLOWER
+  commentId: F:_abstractions.anchor.LEFTLOWER
+  fullName: _abstractions.anchor.LEFTLOWER
   nameWithType: anchor.LEFTLOWER
-- uid: _global.anchor.LEFTUPPER
+- uid: _abstractions.anchor.LEFTUPPER
   name: LEFTUPPER
-  href: api/_global.anchor.html#_global_anchor_LEFTUPPER
-  commentId: F:_global.anchor.LEFTUPPER
-  fullName: _global.anchor.LEFTUPPER
+  href: api/_abstractions.anchor.html#_abstractions_anchor_LEFTUPPER
+  commentId: F:_abstractions.anchor.LEFTUPPER
+  fullName: _abstractions.anchor.LEFTUPPER
   nameWithType: anchor.LEFTUPPER
-- uid: _global.anchor.RIGHT
+- uid: _abstractions.anchor.RIGHT
   name: RIGHT
-  href: api/_global.anchor.html#_global_anchor_RIGHT
-  commentId: F:_global.anchor.RIGHT
-  fullName: _global.anchor.RIGHT
+  href: api/_abstractions.anchor.html#_abstractions_anchor_RIGHT
+  commentId: F:_abstractions.anchor.RIGHT
+  fullName: _abstractions.anchor.RIGHT
   nameWithType: anchor.RIGHT
-- uid: _global.anchor.RIGHTLOWER
+- uid: _abstractions.anchor.RIGHTLOWER
   name: RIGHTLOWER
-  href: api/_global.anchor.html#_global_anchor_RIGHTLOWER
-  commentId: F:_global.anchor.RIGHTLOWER
-  fullName: _global.anchor.RIGHTLOWER
+  href: api/_abstractions.anchor.html#_abstractions_anchor_RIGHTLOWER
+  commentId: F:_abstractions.anchor.RIGHTLOWER
+  fullName: _abstractions.anchor.RIGHTLOWER
   nameWithType: anchor.RIGHTLOWER
-- uid: _global.anchor.RIGHTUPPER
+- uid: _abstractions.anchor.RIGHTUPPER
   name: RIGHTUPPER
-  href: api/_global.anchor.html#_global_anchor_RIGHTUPPER
-  commentId: F:_global.anchor.RIGHTUPPER
-  fullName: _global.anchor.RIGHTUPPER
+  href: api/_abstractions.anchor.html#_abstractions_anchor_RIGHTUPPER
+  commentId: F:_abstractions.anchor.RIGHTUPPER
+  fullName: _abstractions.anchor.RIGHTUPPER
   nameWithType: anchor.RIGHTUPPER
-- uid: _global.anchor.TOP
+- uid: _abstractions.anchor.TOP
   name: TOP
-  href: api/_global.anchor.html#_global_anchor_TOP
-  commentId: F:_global.anchor.TOP
-  fullName: _global.anchor.TOP
+  href: api/_abstractions.anchor.html#_abstractions_anchor_TOP
+  commentId: F:_abstractions.anchor.TOP
+  fullName: _abstractions.anchor.TOP
   nameWithType: anchor.TOP
-- uid: _global.complex_operator
+- uid: _abstractions.complex_operator
   name: complex_operator
-  href: api/_global.complex_operator.html
-  commentId: T:_global.complex_operator
-  fullName: _global.complex_operator
+  href: api/_abstractions.complex_operator.html
+  commentId: T:_abstractions.complex_operator
+  fullName: _abstractions.complex_operator
   nameWithType: complex_operator
-- uid: _global.complex_operator.AND
+- uid: _abstractions.complex_operator.AND
   name: AND
-  href: api/_global.complex_operator.html#_global_complex_operator_AND
-  commentId: F:_global.complex_operator.AND
-  fullName: _global.complex_operator.AND
+  href: api/_abstractions.complex_operator.html#_abstractions_complex_operator_AND
+  commentId: F:_abstractions.complex_operator.AND
+  fullName: _abstractions.complex_operator.AND
   nameWithType: complex_operator.AND
-- uid: _global.complex_operator.OR
+- uid: _abstractions.complex_operator.OR
   name: OR
-  href: api/_global.complex_operator.html#_global_complex_operator_OR
-  commentId: F:_global.complex_operator.OR
-  fullName: _global.complex_operator.OR
+  href: api/_abstractions.complex_operator.html#_abstractions_complex_operator_OR
+  commentId: F:_abstractions.complex_operator.OR
+  fullName: _abstractions.complex_operator.OR
   nameWithType: complex_operator.OR
-- uid: _global.condition_operator
+- uid: _abstractions.condition_operator
   name: condition_operator
-  href: api/_global.condition_operator.html
-  commentId: T:_global.condition_operator
-  fullName: _global.condition_operator
+  href: api/_abstractions.condition_operator.html
+  commentId: T:_abstractions.condition_operator
+  fullName: _abstractions.condition_operator
   nameWithType: condition_operator
-- uid: _global.condition_operator.EQUAL
+- uid: _abstractions.condition_operator.EQUAL
   name: EQUAL
-  href: api/_global.condition_operator.html#_global_condition_operator_EQUAL
-  commentId: F:_global.condition_operator.EQUAL
-  fullName: _global.condition_operator.EQUAL
+  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_EQUAL
+  commentId: F:_abstractions.condition_operator.EQUAL
+  fullName: _abstractions.condition_operator.EQUAL
   nameWithType: condition_operator.EQUAL
-- uid: _global.condition_operator.GREATER
+- uid: _abstractions.condition_operator.GREATER
   name: GREATER
-  href: api/_global.condition_operator.html#_global_condition_operator_GREATER
-  commentId: F:_global.condition_operator.GREATER
-  fullName: _global.condition_operator.GREATER
+  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_GREATER
+  commentId: F:_abstractions.condition_operator.GREATER
+  fullName: _abstractions.condition_operator.GREATER
   nameWithType: condition_operator.GREATER
-- uid: _global.condition_operator.GREATEREQUAL
+- uid: _abstractions.condition_operator.GREATEREQUAL
   name: GREATEREQUAL
-  href: api/_global.condition_operator.html#_global_condition_operator_GREATEREQUAL
-  commentId: F:_global.condition_operator.GREATEREQUAL
-  fullName: _global.condition_operator.GREATEREQUAL
+  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_GREATEREQUAL
+  commentId: F:_abstractions.condition_operator.GREATEREQUAL
+  fullName: _abstractions.condition_operator.GREATEREQUAL
   nameWithType: condition_operator.GREATEREQUAL
-- uid: _global.condition_operator.LESS
+- uid: _abstractions.condition_operator.LESS
   name: LESS
-  href: api/_global.condition_operator.html#_global_condition_operator_LESS
-  commentId: F:_global.condition_operator.LESS
-  fullName: _global.condition_operator.LESS
+  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_LESS
+  commentId: F:_abstractions.condition_operator.LESS
+  fullName: _abstractions.condition_operator.LESS
   nameWithType: condition_operator.LESS
-- uid: _global.condition_operator.LESSEQUAL
+- uid: _abstractions.condition_operator.LESSEQUAL
   name: LESSEQUAL
-  href: api/_global.condition_operator.html#_global_condition_operator_LESSEQUAL
-  commentId: F:_global.condition_operator.LESSEQUAL
-  fullName: _global.condition_operator.LESSEQUAL
+  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_LESSEQUAL
+  commentId: F:_abstractions.condition_operator.LESSEQUAL
+  fullName: _abstractions.condition_operator.LESSEQUAL
   nameWithType: condition_operator.LESSEQUAL
-- uid: _global.condition_operator.NOTEQUAL
+- uid: _abstractions.condition_operator.NOTEQUAL
   name: NOTEQUAL
-  href: api/_global.condition_operator.html#_global_condition_operator_NOTEQUAL
-  commentId: F:_global.condition_operator.NOTEQUAL
-  fullName: _global.condition_operator.NOTEQUAL
+  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_NOTEQUAL
+  commentId: F:_abstractions.condition_operator.NOTEQUAL
+  fullName: _abstractions.condition_operator.NOTEQUAL
   nameWithType: condition_operator.NOTEQUAL
-- uid: _global.expression_operator
+- uid: _abstractions.expression_operator
   name: expression_operator
-  href: api/_global.expression_operator.html
-  commentId: T:_global.expression_operator
-  fullName: _global.expression_operator
+  href: api/_abstractions.expression_operator.html
+  commentId: T:_abstractions.expression_operator
+  fullName: _abstractions.expression_operator
   nameWithType: expression_operator
-- uid: _global.expression_operator.ADD
+- uid: _abstractions.expression_operator.ADD
   name: ADD
-  href: api/_global.expression_operator.html#_global_expression_operator_ADD
-  commentId: F:_global.expression_operator.ADD
-  fullName: _global.expression_operator.ADD
+  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_ADD
+  commentId: F:_abstractions.expression_operator.ADD
+  fullName: _abstractions.expression_operator.ADD
   nameWithType: expression_operator.ADD
-- uid: _global.expression_operator.DIV
+- uid: _abstractions.expression_operator.DIV
   name: DIV
-  href: api/_global.expression_operator.html#_global_expression_operator_DIV
-  commentId: F:_global.expression_operator.DIV
-  fullName: _global.expression_operator.DIV
+  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_DIV
+  commentId: F:_abstractions.expression_operator.DIV
+  fullName: _abstractions.expression_operator.DIV
   nameWithType: expression_operator.DIV
-- uid: _global.expression_operator.MOD
+- uid: _abstractions.expression_operator.MOD
   name: MOD
-  href: api/_global.expression_operator.html#_global_expression_operator_MOD
-  commentId: F:_global.expression_operator.MOD
-  fullName: _global.expression_operator.MOD
+  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_MOD
+  commentId: F:_abstractions.expression_operator.MOD
+  fullName: _abstractions.expression_operator.MOD
   nameWithType: expression_operator.MOD
-- uid: _global.expression_operator.MUL
+- uid: _abstractions.expression_operator.MUL
   name: MUL
-  href: api/_global.expression_operator.html#_global_expression_operator_MUL
-  commentId: F:_global.expression_operator.MUL
-  fullName: _global.expression_operator.MUL
+  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_MUL
+  commentId: F:_abstractions.expression_operator.MUL
+  fullName: _abstractions.expression_operator.MUL
   nameWithType: expression_operator.MUL
-- uid: _global.expression_operator.SUB
+- uid: _abstractions.expression_operator.SUB
   name: SUB
-  href: api/_global.expression_operator.html#_global_expression_operator_SUB
-  commentId: F:_global.expression_operator.SUB
-  fullName: _global.expression_operator.SUB
+  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_SUB
+  commentId: F:_abstractions.expression_operator.SUB
+  fullName: _abstractions.expression_operator.SUB
   nameWithType: expression_operator.SUB
-- uid: _global.global
-  name: global
-  href: api/_global.global.html
-  commentId: T:_global.global
-  fullName: _global.global
-  nameWithType: global
-- uid: _global.global.BOOL(System.String,System.Boolean)
-  name: BOOL(string, bool)
-  href: api/_global.global.html#_global_global_BOOL_System_String_System_Boolean_
-  commentId: M:_global.global.BOOL(System.String,System.Boolean)
-  name.vb: BOOL(String, Boolean)
-  fullName: _global.global.BOOL(string, bool)
-  fullName.vb: _global.global.BOOL(String, Boolean)
-  nameWithType: global.BOOL(string, bool)
-  nameWithType.vb: global.BOOL(String, Boolean)
-- uid: _global.global.BOOL*
-  name: BOOL
-  href: api/_global.global.html#_global_global_BOOL_
-  commentId: Overload:_global.global.BOOL
-  isSpec: "True"
-  fullName: _global.global.BOOL
-  nameWithType: global.BOOL
-- uid: _global.global.BREAK
-  name: BREAK()
-  href: api/_global.global.html#_global_global_BREAK
-  commentId: M:_global.global.BREAK
-  fullName: _global.global.BREAK()
-  nameWithType: global.BREAK()
-- uid: _global.global.BREAK*
-  name: BREAK
-  href: api/_global.global.html#_global_global_BREAK_
-  commentId: Overload:_global.global.BREAK
-  isSpec: "True"
-  fullName: _global.global.BREAK
-  nameWithType: global.BREAK
-- uid: _global.global.DOUBLE(System.String,System.Double)
-  name: DOUBLE(string, double)
-  href: api/_global.global.html#_global_global_DOUBLE_System_String_System_Double_
-  commentId: M:_global.global.DOUBLE(System.String,System.Double)
-  name.vb: DOUBLE(String, Double)
-  fullName: _global.global.DOUBLE(string, double)
-  fullName.vb: _global.global.DOUBLE(String, Double)
-  nameWithType: global.DOUBLE(string, double)
-  nameWithType.vb: global.DOUBLE(String, Double)
-- uid: _global.global.DOUBLE*
-  name: DOUBLE
-  href: api/_global.global.html#_global_global_DOUBLE_
-  commentId: Overload:_global.global.DOUBLE
-  isSpec: "True"
-  fullName: _global.global.DOUBLE
-  nameWithType: global.DOUBLE
-- uid: _global.global.IF(System.String,System.String,System.String)
-  name: IF(string, string, string)
-  href: api/_global.global.html#_global_global_IF_System_String_System_String_System_String_
-  commentId: M:_global.global.IF(System.String,System.String,System.String)
-  name.vb: IF(String, String, String)
-  fullName: _global.global.IF(string, string, string)
-  fullName.vb: _global.global.IF(String, String, String)
-  nameWithType: global.IF(string, string, string)
-  nameWithType.vb: global.IF(String, String, String)
-- uid: _global.global.IF(System.String,System.String,System.String,System.String,System.String)
-  name: IF(string, string, string, string, string)
-  href: api/_global.global.html#_global_global_IF_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:_global.global.IF(System.String,System.String,System.String,System.String,System.String)
-  name.vb: IF(String, String, String, String, String)
-  fullName: _global.global.IF(string, string, string, string, string)
-  fullName.vb: _global.global.IF(String, String, String, String, String)
-  nameWithType: global.IF(string, string, string, string, string)
-  nameWithType.vb: global.IF(String, String, String, String, String)
-- uid: _global.global.IF*
-  name: IF
-  href: api/_global.global.html#_global_global_IF_
-  commentId: Overload:_global.global.IF
-  isSpec: "True"
-  fullName: _global.global.IF
-  nameWithType: global.IF
-- uid: _global.global.INT(System.String,System.Int32)
-  name: INT(string, int)
-  href: api/_global.global.html#_global_global_INT_System_String_System_Int32_
-  commentId: M:_global.global.INT(System.String,System.Int32)
-  name.vb: INT(String, Integer)
-  fullName: _global.global.INT(string, int)
-  fullName.vb: _global.global.INT(String, Integer)
-  nameWithType: global.INT(string, int)
-  nameWithType.vb: global.INT(String, Integer)
-- uid: _global.global.INT*
-  name: INT
-  href: api/_global.global.html#_global_global_INT_
-  commentId: Overload:_global.global.INT
-  isSpec: "True"
-  fullName: _global.global.INT
-  nameWithType: global.INT
-- uid: _global.global.LOOP(System.String,System.Int32,System.Int32,System.Int32)
-  name: LOOP(string, int, int, int)
-  href: api/_global.global.html#_global_global_LOOP_System_String_System_Int32_System_Int32_System_Int32_
-  commentId: M:_global.global.LOOP(System.String,System.Int32,System.Int32,System.Int32)
-  name.vb: LOOP(String, Integer, Integer, Integer)
-  fullName: _global.global.LOOP(string, int, int, int)
-  fullName.vb: _global.global.LOOP(String, Integer, Integer, Integer)
-  nameWithType: global.LOOP(string, int, int, int)
-  nameWithType.vb: global.LOOP(String, Integer, Integer, Integer)
-- uid: _global.global.LOOP*
-  name: LOOP
-  href: api/_global.global.html#_global_global_LOOP_
-  commentId: Overload:_global.global.LOOP
-  isSpec: "True"
-  fullName: _global.global.LOOP
-  nameWithType: global.LOOP
-- uid: _global.global.MSGBOX(System.String)
-  name: MSGBOX(string)
-  href: api/_global.global.html#_global_global_MSGBOX_System_String_
-  commentId: M:_global.global.MSGBOX(System.String)
-  name.vb: MSGBOX(String)
-  fullName: _global.global.MSGBOX(string)
-  fullName.vb: _global.global.MSGBOX(String)
-  nameWithType: global.MSGBOX(string)
-  nameWithType.vb: global.MSGBOX(String)
-- uid: _global.global.MSGBOX*
-  name: MSGBOX
-  href: api/_global.global.html#_global_global_MSGBOX_
-  commentId: Overload:_global.global.MSGBOX
-  isSpec: "True"
-  fullName: _global.global.MSGBOX
-  nameWithType: global.MSGBOX
-- uid: _global.global.RETURN(_global.variable)
-  name: RETURN(variable)
-  href: api/_global.global.html#_global_global_RETURN__global_variable_
-  commentId: M:_global.global.RETURN(_global.variable)
-  fullName: _global.global.RETURN(_global.variable)
-  nameWithType: global.RETURN(variable)
-- uid: _global.global.RETURN*
-  name: RETURN
-  href: api/_global.global.html#_global_global_RETURN_
-  commentId: Overload:_global.global.RETURN
-  isSpec: "True"
-  fullName: _global.global.RETURN
-  nameWithType: global.RETURN
-- uid: _global.global.STRING(System.String,System.String)
-  name: STRING(string, string)
-  href: api/_global.global.html#_global_global_STRING_System_String_System_String_
-  commentId: M:_global.global.STRING(System.String,System.String)
-  name.vb: STRING(String, String)
-  fullName: _global.global.STRING(string, string)
-  fullName.vb: _global.global.STRING(String, String)
-  nameWithType: global.STRING(string, string)
-  nameWithType.vb: global.STRING(String, String)
-- uid: _global.global.STRING*
-  name: STRING
-  href: api/_global.global.html#_global_global_STRING_
-  commentId: Overload:_global.global.STRING
-  isSpec: "True"
-  fullName: _global.global.STRING
-  nameWithType: global.STRING
-- uid: _global.global.WHILE(System.String,System.String,System.String,System.String)
-  name: WHILE(string, string, string, string)
-  href: api/_global.global.html#_global_global_WHILE_System_String_System_String_System_String_System_String_
-  commentId: M:_global.global.WHILE(System.String,System.String,System.String,System.String)
-  name.vb: WHILE(String, String, String, String)
-  fullName: _global.global.WHILE(string, string, string, string)
-  fullName.vb: _global.global.WHILE(String, String, String, String)
-  nameWithType: global.WHILE(string, string, string, string)
-  nameWithType.vb: global.WHILE(String, String, String, String)
-- uid: _global.global.WHILE*
-  name: WHILE
-  href: api/_global.global.html#_global_global_WHILE_
-  commentId: Overload:_global.global.WHILE
-  isSpec: "True"
-  fullName: _global.global.WHILE
-  nameWithType: global.WHILE
-- uid: _global.rect
+- uid: _abstractions.rect
   name: rect
-  href: api/_global.rect.html
-  commentId: T:_global.rect
-  fullName: _global.rect
+  href: api/_abstractions.rect.html
+  commentId: T:_abstractions.rect
+  fullName: _abstractions.rect
   nameWithType: rect
-- uid: _global.variable
+- uid: _abstractions.variable
   name: variable
-  href: api/_global.variable.html
-  commentId: T:_global.variable
-  fullName: _global.variable
+  href: api/_abstractions.variable.html
+  commentId: T:_abstractions.variable
+  fullName: _abstractions.variable
   nameWithType: variable

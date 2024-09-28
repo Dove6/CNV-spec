@@ -89,19 +89,19 @@
 
 
   <h1 id="PIKLib_MULTIARRAY" data-uid="PIKLib.MULTIARRAY" class="text-break">
-Interface MULTIARRAY  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/MultiArray.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Interface MULTIARRAY  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/MultiArray.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
     <dl><dt>Namespace</dt><dd><a class="xref" href="PIKLib.html">PIKLib</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>CnvAPI.dll</dd></dl>
+  <dl><dt>Assembly</dt><dd>PIKLib.dll</dd></dl>
   </div>
 
   <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface MULTIARRAY : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs"> MULTIARRAY : OBJECT</code></pre>
   </div>
 
 
@@ -114,31 +114,31 @@ Interface MULTIARRAY  <a class="header-action link-secondary" title="View source
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_TYPE">OBJECT.TYPE</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_TYPE">OBJECT.TYPE</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_GETNAME">OBJECT.GETNAME()</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_GETNAME">OBJECT.GETNAME()</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
     </div>
     <div>
-      <a class="xref" href="_global.OBJECT.html#_global_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
+      <a class="xref" href="_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
     </div>
   </dd></dl>
 
@@ -155,7 +155,7 @@ Interface MULTIARRAY  <a class="header-action link-secondary" title="View source
 
   <h3 id="PIKLib_MULTIARRAY_DIMENSIONS" data-uid="PIKLib.MULTIARRAY.DIMENSIONS">
   DIMENSIONS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/MultiArray.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/MultiArray.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -190,7 +190,7 @@ Interface MULTIARRAY  <a class="header-action link-secondary" title="View source
 
   <h3 id="PIKLib_MULTIARRAY_GET_System_Int32___" data-uid="PIKLib.MULTIARRAY.GET(System.Int32[])">
   GET(params int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/MultiArray.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/MultiArray.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -208,7 +208,7 @@ Interface MULTIARRAY  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="_global.variable.html">variable</a></dt>
+    <dt><a class="xref" href="_abstractions.variable.html">variable</a></dt>
     <dd></dd>
   </dl>
 
@@ -224,9 +224,9 @@ Interface MULTIARRAY  <a class="header-action link-secondary" title="View source
 
   <a id="PIKLib_MULTIARRAY_SET_" data-uid="PIKLib.MULTIARRAY.SET*"></a>
 
-  <h3 id="PIKLib_MULTIARRAY_SET__global_variable_System_Int32___" data-uid="PIKLib.MULTIARRAY.SET(_global.variable,System.Int32[])">
+  <h3 id="PIKLib_MULTIARRAY_SET__abstractions_variable_System_Int32___" data-uid="PIKLib.MULTIARRAY.SET(_abstractions.variable,System.Int32[])">
   SET(variable, params int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/MultiArray.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/MultiArray.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -238,7 +238,7 @@ Interface MULTIARRAY  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="_global.variable.html">variable</a></dt>
+    <dt><code>value</code> <a class="xref" href="_abstractions.variable.html">variable</a></dt>
     <dd></dd>
     <dt><code>indices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
     <dd></dd>
@@ -259,7 +259,7 @@ Interface MULTIARRAY  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/MultiArray.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/MultiArray.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 
