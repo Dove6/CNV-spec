@@ -101,7 +101,7 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">OBJECT</code></pre>
   </div>
 
 
@@ -201,14 +201,15 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_DESCRIPTION" data-uid="abstractions.OBJECT.DESCRIPTION">
   DESCRIPTION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L4"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A short description of the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string DESCRIPTION { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">string? DESCRIPTION { init; }</code></pre>
   </div>
 
 
@@ -232,10 +233,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_TYPE" data-uid="abstractions.OBJECT.TYPE">
   TYPE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The type of the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -267,10 +269,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_ADDBEHAVIOUR_System_String_System_String_" data-uid="abstractions.OBJECT.ADDBEHAVIOUR(System.String,System.String)">
   ADDBEHAVIOUR(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds/overwrites a handler for the given signal.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -280,9 +283,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>signal_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The (parametrized) name of the signal.</p>
+</dd>
     <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A handler (code block or a BEHAVIOUR name).</p>
+</dd>
   </dl>
 
 
@@ -300,10 +305,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_CLONE_System_Int32_" data-uid="abstractions.OBJECT.CLONE(System.Int32)">
   CLONE(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the clone count for the object. If it is greater than current clone count, new clones are created.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -313,7 +319,8 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>Desired clone count.</p>
+</dd>
   </dl>
 
 
@@ -331,10 +338,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_GETCLONEINDEX" data-uid="abstractions.OBJECT.GETCLONEINDEX">
   GETCLONEINDEX()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the clone index of the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -345,7 +353,8 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>0 if the object is the original, unique sequential 1-based index otherwise.</p>
+</dd>
   </dl>
 
 
@@ -362,10 +371,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_GETNAME" data-uid="abstractions.OBJECT.GETNAME">
   GETNAME()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the name of the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -376,7 +386,8 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The object name.</p>
+</dd>
   </dl>
 
 
@@ -393,10 +404,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_MSGBOX_System_String_" data-uid="abstractions.OBJECT.MSGBOX(System.String)">
   MSGBOX(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Displays a message box with the given contents.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -406,7 +418,8 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>A message to be displayed.</p>
+</dd>
   </dl>
 
 
@@ -416,6 +429,9 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="abstractions_OBJECT_MSGBOX_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Does nothing in the release build of the original engine.</p>
+</div>
 
 
 
@@ -424,10 +440,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_REMOVEBEHAVIOUR_System_String_" data-uid="abstractions.OBJECT.REMOVEBEHAVIOUR(System.String)">
   REMOVEBEHAVIOUR(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Removes the handler for the given signal (if it exists).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -437,7 +454,8 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>signal_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The (parametrized) name of the signal.</p>
+</dd>
   </dl>
 
 
@@ -455,10 +473,11 @@ Class OBJECT  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="abstractions_OBJECT_RESETCLONES" data-uid="abstractions.OBJECT.RESETCLONES">
   RESETCLONES()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Object.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Resets the clone count.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">

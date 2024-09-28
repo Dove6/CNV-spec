@@ -548,6 +548,18 @@ references:
   isSpec: "True"
   fullName: Matrix.MATRIX.NEXT
   nameWithType: MATRIX.NEXT
+- uid: Matrix.MATRIX.ONLATEST
+  name: ONLATEST
+  href: api/Matrix.MATRIX.html#Matrix_MATRIX_ONLATEST
+  commentId: E:Matrix.MATRIX.ONLATEST
+  fullName: Matrix.MATRIX.ONLATEST
+  nameWithType: MATRIX.ONLATEST
+- uid: Matrix.MATRIX.ONNEXT
+  name: ONNEXT
+  href: api/Matrix.MATRIX.html#Matrix_MATRIX_ONNEXT
+  commentId: E:Matrix.MATRIX.ONNEXT
+  fullName: Matrix.MATRIX.ONNEXT
+  nameWithType: MATRIX.ONNEXT
 - uid: Matrix.MATRIX.SET(System.Int32,System.Int32)
   name: SET(int, int)
   href: api/Matrix.MATRIX.html#Matrix_MATRIX_SET_System_Int32_System_Int32_
@@ -1118,12 +1130,15 @@ references:
   isSpec: "True"
   fullName: PIKLib.ANIMO.INVALIDATE
   nameWithType: ANIMO.INVALIDATE
-- uid: PIKLib.ANIMO.ISAT
-  name: ISAT()
-  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ISAT
-  commentId: M:PIKLib.ANIMO.ISAT
-  fullName: PIKLib.ANIMO.ISAT()
-  nameWithType: ANIMO.ISAT()
+- uid: PIKLib.ANIMO.ISAT(System.Int32,System.Int32,System.Boolean)
+  name: ISAT(int, int, bool)
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ISAT_System_Int32_System_Int32_System_Boolean_
+  commentId: M:PIKLib.ANIMO.ISAT(System.Int32,System.Int32,System.Boolean)
+  name.vb: ISAT(Integer, Integer, Boolean)
+  fullName: PIKLib.ANIMO.ISAT(int, int, bool)
+  fullName.vb: PIKLib.ANIMO.ISAT(Integer, Integer, Boolean)
+  nameWithType: ANIMO.ISAT(int, int, bool)
+  nameWithType.vb: ANIMO.ISAT(Integer, Integer, Boolean)
 - uid: PIKLib.ANIMO.ISAT*
   name: ISAT
   href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ISAT_
@@ -1299,6 +1314,66 @@ references:
   isSpec: "True"
   fullName: PIKLib.ANIMO.NPLAY
   nameWithType: ANIMO.NPLAY
+- uid: PIKLib.ANIMO.ONCLICK
+  name: ONCLICK
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONCLICK
+  commentId: E:PIKLib.ANIMO.ONCLICK
+  fullName: PIKLib.ANIMO.ONCLICK
+  nameWithType: ANIMO.ONCLICK
+- uid: PIKLib.ANIMO.ONCOLLISION
+  name: ONCOLLISION
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONCOLLISION
+  commentId: E:PIKLib.ANIMO.ONCOLLISION
+  fullName: PIKLib.ANIMO.ONCOLLISION
+  nameWithType: ANIMO.ONCOLLISION
+- uid: PIKLib.ANIMO.ONFINISHED
+  name: ONFINISHED
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONFINISHED
+  commentId: E:PIKLib.ANIMO.ONFINISHED
+  fullName: PIKLib.ANIMO.ONFINISHED
+  nameWithType: ANIMO.ONFINISHED
+- uid: PIKLib.ANIMO.ONFOCUSOFF
+  name: ONFOCUSOFF
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONFOCUSOFF
+  commentId: E:PIKLib.ANIMO.ONFOCUSOFF
+  fullName: PIKLib.ANIMO.ONFOCUSOFF
+  nameWithType: ANIMO.ONFOCUSOFF
+- uid: PIKLib.ANIMO.ONFOCUSON
+  name: ONFOCUSON
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONFOCUSON
+  commentId: E:PIKLib.ANIMO.ONFOCUSON
+  fullName: PIKLib.ANIMO.ONFOCUSON
+  nameWithType: ANIMO.ONFOCUSON
+- uid: PIKLib.ANIMO.ONFRAMECHANGED
+  name: ONFRAMECHANGED
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONFRAMECHANGED
+  commentId: E:PIKLib.ANIMO.ONFRAMECHANGED
+  fullName: PIKLib.ANIMO.ONFRAMECHANGED
+  nameWithType: ANIMO.ONFRAMECHANGED
+- uid: PIKLib.ANIMO.ONINIT
+  name: ONINIT
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONINIT
+  commentId: E:PIKLib.ANIMO.ONINIT
+  fullName: PIKLib.ANIMO.ONINIT
+  nameWithType: ANIMO.ONINIT
+- uid: PIKLib.ANIMO.ONRELEASE
+  name: ONRELEASE
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONRELEASE
+  commentId: E:PIKLib.ANIMO.ONRELEASE
+  fullName: PIKLib.ANIMO.ONRELEASE
+  nameWithType: ANIMO.ONRELEASE
+- uid: PIKLib.ANIMO.ONSIGNAL
+  name: ONSIGNAL
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONSIGNAL
+  commentId: E:PIKLib.ANIMO.ONSIGNAL
+  fullName: PIKLib.ANIMO.ONSIGNAL
+  nameWithType: ANIMO.ONSIGNAL
+- uid: PIKLib.ANIMO.ONSTARTED
+  name: ONSTARTED
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_ONSTARTED
+  commentId: E:PIKLib.ANIMO.ONSTARTED
+  fullName: PIKLib.ANIMO.ONSTARTED
+  nameWithType: ANIMO.ONSTARTED
 - uid: PIKLib.ANIMO.PAUSE
   name: PAUSE()
   href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_PAUSE
@@ -2246,6 +2321,18 @@ references:
   commentId: T:PIKLib.BOOL
   fullName: PIKLib.BOOL
   nameWithType: BOOL
+- uid: PIKLib.BOOL.ONBRUTALCHANGED
+  name: ONBRUTALCHANGED
+  href: api/PIKLib.BOOL.html#PIKLib_BOOL_ONBRUTALCHANGED
+  commentId: E:PIKLib.BOOL.ONBRUTALCHANGED
+  fullName: PIKLib.BOOL.ONBRUTALCHANGED
+  nameWithType: BOOL.ONBRUTALCHANGED
+- uid: PIKLib.BOOL.ONCHANGED
+  name: ONCHANGED
+  href: api/PIKLib.BOOL.html#PIKLib_BOOL_ONCHANGED
+  commentId: E:PIKLib.BOOL.ONCHANGED
+  fullName: PIKLib.BOOL.ONCHANGED
+  nameWithType: BOOL.ONCHANGED
 - uid: PIKLib.BOOL.SET(System.Boolean)
   name: SET(bool)
   href: api/PIKLib.BOOL.html#PIKLib_BOOL_SET_System_Boolean_
@@ -2427,6 +2514,60 @@ references:
   isSpec: "True"
   fullName: PIKLib.BUTTON.GFXSTANDARD
   nameWithType: BUTTON.GFXSTANDARD
+- uid: PIKLib.BUTTON.ONACTION
+  name: ONACTION
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONACTION
+  commentId: E:PIKLib.BUTTON.ONACTION
+  fullName: PIKLib.BUTTON.ONACTION
+  nameWithType: BUTTON.ONACTION
+- uid: PIKLib.BUTTON.ONCLICKED
+  name: ONCLICKED
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONCLICKED
+  commentId: E:PIKLib.BUTTON.ONCLICKED
+  fullName: PIKLib.BUTTON.ONCLICKED
+  nameWithType: BUTTON.ONCLICKED
+- uid: PIKLib.BUTTON.ONDRAGGING
+  name: ONDRAGGING
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONDRAGGING
+  commentId: E:PIKLib.BUTTON.ONDRAGGING
+  fullName: PIKLib.BUTTON.ONDRAGGING
+  nameWithType: BUTTON.ONDRAGGING
+- uid: PIKLib.BUTTON.ONENDDRAGGING
+  name: ONENDDRAGGING
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONENDDRAGGING
+  commentId: E:PIKLib.BUTTON.ONENDDRAGGING
+  fullName: PIKLib.BUTTON.ONENDDRAGGING
+  nameWithType: BUTTON.ONENDDRAGGING
+- uid: PIKLib.BUTTON.ONFOCUSOFF
+  name: ONFOCUSOFF
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONFOCUSOFF
+  commentId: E:PIKLib.BUTTON.ONFOCUSOFF
+  fullName: PIKLib.BUTTON.ONFOCUSOFF
+  nameWithType: BUTTON.ONFOCUSOFF
+- uid: PIKLib.BUTTON.ONFOCUSON
+  name: ONFOCUSON
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONFOCUSON
+  commentId: E:PIKLib.BUTTON.ONFOCUSON
+  fullName: PIKLib.BUTTON.ONFOCUSON
+  nameWithType: BUTTON.ONFOCUSON
+- uid: PIKLib.BUTTON.ONINIT
+  name: ONINIT
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONINIT
+  commentId: E:PIKLib.BUTTON.ONINIT
+  fullName: PIKLib.BUTTON.ONINIT
+  nameWithType: BUTTON.ONINIT
+- uid: PIKLib.BUTTON.ONRELEASED
+  name: ONRELEASED
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONRELEASED
+  commentId: E:PIKLib.BUTTON.ONRELEASED
+  fullName: PIKLib.BUTTON.ONRELEASED
+  nameWithType: BUTTON.ONRELEASED
+- uid: PIKLib.BUTTON.ONSTARTDRAGGING
+  name: ONSTARTDRAGGING
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_ONSTARTDRAGGING
+  commentId: E:PIKLib.BUTTON.ONSTARTDRAGGING
+  fullName: PIKLib.BUTTON.ONSTARTDRAGGING
+  nameWithType: BUTTON.ONSTARTDRAGGING
 - uid: PIKLib.BUTTON.RECT
   name: RECT
   href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_RECT
@@ -2603,6 +2744,18 @@ references:
   isSpec: "True"
   fullName: PIKLib.CANVAS_OBSERVER.MOVEBKG
   nameWithType: CANVAS_OBSERVER.MOVEBKG
+- uid: PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+  name: ONWINDOWFOCUSOFF
+  href: api/PIKLib.CANVAS_OBSERVER.html#PIKLib_CANVAS_OBSERVER_ONWINDOWFOCUSOFF
+  commentId: E:PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+  fullName: PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+  nameWithType: CANVAS_OBSERVER.ONWINDOWFOCUSOFF
+- uid: PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSON
+  name: ONWINDOWFOCUSON
+  href: api/PIKLib.CANVAS_OBSERVER.html#PIKLib_CANVAS_OBSERVER_ONWINDOWFOCUSON
+  commentId: E:PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSON
+  fullName: PIKLib.CANVAS_OBSERVER.ONWINDOWFOCUSON
+  nameWithType: CANVAS_OBSERVER.ONWINDOWFOCUSON
 - uid: PIKLib.CANVAS_OBSERVER.PASTE
   name: PASTE()
   href: api/PIKLib.CANVAS_OBSERVER.html#PIKLib_CANVAS_OBSERVER_PASTE
@@ -2863,6 +3016,18 @@ references:
   isSpec: "True"
   fullName: PIKLib.COMPLEXCONDITION.ONE_BREAK
   nameWithType: COMPLEXCONDITION.ONE_BREAK
+- uid: PIKLib.COMPLEXCONDITION.ONRUNTIMEFAILED
+  name: ONRUNTIMEFAILED
+  href: api/PIKLib.COMPLEXCONDITION.html#PIKLib_COMPLEXCONDITION_ONRUNTIMEFAILED
+  commentId: E:PIKLib.COMPLEXCONDITION.ONRUNTIMEFAILED
+  fullName: PIKLib.COMPLEXCONDITION.ONRUNTIMEFAILED
+  nameWithType: COMPLEXCONDITION.ONRUNTIMEFAILED
+- uid: PIKLib.COMPLEXCONDITION.ONRUNTIMESUCCESS
+  name: ONRUNTIMESUCCESS
+  href: api/PIKLib.COMPLEXCONDITION.html#PIKLib_COMPLEXCONDITION_ONRUNTIMESUCCESS
+  commentId: E:PIKLib.COMPLEXCONDITION.ONRUNTIMESUCCESS
+  fullName: PIKLib.COMPLEXCONDITION.ONRUNTIMESUCCESS
+  nameWithType: COMPLEXCONDITION.ONRUNTIMESUCCESS
 - uid: PIKLib.COMPLEXCONDITION.OPERATOR
   name: OPERATOR
   href: api/PIKLib.COMPLEXCONDITION.html#PIKLib_COMPLEXCONDITION_OPERATOR
@@ -2930,6 +3095,18 @@ references:
   isSpec: "True"
   fullName: PIKLib.CONDITION.ONE_BREAK
   nameWithType: CONDITION.ONE_BREAK
+- uid: PIKLib.CONDITION.ONRUNTIMEFAILED
+  name: ONRUNTIMEFAILED
+  href: api/PIKLib.CONDITION.html#PIKLib_CONDITION_ONRUNTIMEFAILED
+  commentId: E:PIKLib.CONDITION.ONRUNTIMEFAILED
+  fullName: PIKLib.CONDITION.ONRUNTIMEFAILED
+  nameWithType: CONDITION.ONRUNTIMEFAILED
+- uid: PIKLib.CONDITION.ONRUNTIMESUCCESS
+  name: ONRUNTIMESUCCESS
+  href: api/PIKLib.CONDITION.html#PIKLib_CONDITION_ONRUNTIMESUCCESS
+  commentId: E:PIKLib.CONDITION.ONRUNTIMESUCCESS
+  fullName: PIKLib.CONDITION.ONRUNTIMESUCCESS
+  nameWithType: CONDITION.ONRUNTIMESUCCESS
 - uid: PIKLib.CONDITION.OPERAND1
   name: OPERAND1
   href: api/PIKLib.CONDITION.html#PIKLib_CONDITION_OPERAND1
@@ -3669,6 +3846,12 @@ references:
   isSpec: "True"
   fullName: PIKLib.GROUP.NEXT
   nameWithType: GROUP.NEXT
+- uid: PIKLib.GROUP.ONINIT
+  name: ONINIT
+  href: api/PIKLib.GROUP.html#PIKLib_GROUP_ONINIT
+  commentId: E:PIKLib.GROUP.ONINIT
+  fullName: PIKLib.GROUP.ONINIT
+  nameWithType: GROUP.ONINIT
 - uid: PIKLib.GROUP.PREV
   name: PREV()
   href: api/PIKLib.GROUP.html#PIKLib_GROUP_PREV
@@ -3947,6 +4130,30 @@ references:
   isSpec: "True"
   fullName: PIKLib.IMAGE.MOVE
   nameWithType: IMAGE.MOVE
+- uid: PIKLib.IMAGE.ONCLICK
+  name: ONCLICK
+  href: api/PIKLib.IMAGE.html#PIKLib_IMAGE_ONCLICK
+  commentId: E:PIKLib.IMAGE.ONCLICK
+  fullName: PIKLib.IMAGE.ONCLICK
+  nameWithType: IMAGE.ONCLICK
+- uid: PIKLib.IMAGE.ONFOCUSOFF
+  name: ONFOCUSOFF
+  href: api/PIKLib.IMAGE.html#PIKLib_IMAGE_ONFOCUSOFF
+  commentId: E:PIKLib.IMAGE.ONFOCUSOFF
+  fullName: PIKLib.IMAGE.ONFOCUSOFF
+  nameWithType: IMAGE.ONFOCUSOFF
+- uid: PIKLib.IMAGE.ONFOCUSON
+  name: ONFOCUSON
+  href: api/PIKLib.IMAGE.html#PIKLib_IMAGE_ONFOCUSON
+  commentId: E:PIKLib.IMAGE.ONFOCUSON
+  fullName: PIKLib.IMAGE.ONFOCUSON
+  nameWithType: IMAGE.ONFOCUSON
+- uid: PIKLib.IMAGE.ONINIT
+  name: ONINIT
+  href: api/PIKLib.IMAGE.html#PIKLib_IMAGE_ONINIT
+  commentId: E:PIKLib.IMAGE.ONINIT
+  fullName: PIKLib.IMAGE.ONINIT
+  nameWithType: IMAGE.ONINIT
 - uid: PIKLib.IMAGE.PRELOAD
   name: PRELOAD
   href: api/PIKLib.IMAGE.html#PIKLib_IMAGE_PRELOAD
@@ -4256,6 +4463,30 @@ references:
   isSpec: "True"
   fullName: PIKLib.INTEGER.MUL
   nameWithType: INTEGER.MUL
+- uid: PIKLib.INTEGER.ONBRUTALCHANGED
+  name: ONBRUTALCHANGED
+  href: api/PIKLib.INTEGER.html#PIKLib_INTEGER_ONBRUTALCHANGED
+  commentId: E:PIKLib.INTEGER.ONBRUTALCHANGED
+  fullName: PIKLib.INTEGER.ONBRUTALCHANGED
+  nameWithType: INTEGER.ONBRUTALCHANGED
+- uid: PIKLib.INTEGER.ONCHANGED
+  name: ONCHANGED
+  href: api/PIKLib.INTEGER.html#PIKLib_INTEGER_ONCHANGED
+  commentId: E:PIKLib.INTEGER.ONCHANGED
+  fullName: PIKLib.INTEGER.ONCHANGED
+  nameWithType: INTEGER.ONCHANGED
+- uid: PIKLib.INTEGER.ONINIT
+  name: ONINIT
+  href: api/PIKLib.INTEGER.html#PIKLib_INTEGER_ONINIT
+  commentId: E:PIKLib.INTEGER.ONINIT
+  fullName: PIKLib.INTEGER.ONINIT
+  nameWithType: INTEGER.ONINIT
+- uid: PIKLib.INTEGER.ONSIGNAL
+  name: ONSIGNAL
+  href: api/PIKLib.INTEGER.html#PIKLib_INTEGER_ONSIGNAL
+  commentId: E:PIKLib.INTEGER.ONSIGNAL
+  fullName: PIKLib.INTEGER.ONSIGNAL
+  nameWithType: INTEGER.ONSIGNAL
 - uid: PIKLib.INTEGER.OR(System.Int32)
   name: OR(int)
   href: api/PIKLib.INTEGER.html#PIKLib_INTEGER_OR_System_Int32_
@@ -4468,6 +4699,24 @@ references:
   isSpec: "True"
   fullName: PIKLib.KEYBOARD.ISKEYDOWN
   nameWithType: KEYBOARD.ISKEYDOWN
+- uid: PIKLib.KEYBOARD.ONCHAR
+  name: ONCHAR
+  href: api/PIKLib.KEYBOARD.html#PIKLib_KEYBOARD_ONCHAR
+  commentId: E:PIKLib.KEYBOARD.ONCHAR
+  fullName: PIKLib.KEYBOARD.ONCHAR
+  nameWithType: KEYBOARD.ONCHAR
+- uid: PIKLib.KEYBOARD.ONKEYDOWN
+  name: ONKEYDOWN
+  href: api/PIKLib.KEYBOARD.html#PIKLib_KEYBOARD_ONKEYDOWN
+  commentId: E:PIKLib.KEYBOARD.ONKEYDOWN
+  fullName: PIKLib.KEYBOARD.ONKEYDOWN
+  nameWithType: KEYBOARD.ONKEYDOWN
+- uid: PIKLib.KEYBOARD.ONKEYUP
+  name: ONKEYUP
+  href: api/PIKLib.KEYBOARD.html#PIKLib_KEYBOARD_ONKEYUP
+  commentId: E:PIKLib.KEYBOARD.ONKEYUP
+  fullName: PIKLib.KEYBOARD.ONKEYUP
+  nameWithType: KEYBOARD.ONKEYUP
 - uid: PIKLib.KEYBOARD.SETAUTOREPEAT
   name: SETAUTOREPEAT()
   href: api/PIKLib.KEYBOARD.html#PIKLib_KEYBOARD_SETAUTOREPEAT
@@ -4591,6 +4840,36 @@ references:
   isSpec: "True"
   fullName: PIKLib.MOUSE.ISLBUTTONDOWN
   nameWithType: MOUSE.ISLBUTTONDOWN
+- uid: PIKLib.MOUSE.ONCLICK
+  name: ONCLICK
+  href: api/PIKLib.MOUSE.html#PIKLib_MOUSE_ONCLICK
+  commentId: E:PIKLib.MOUSE.ONCLICK
+  fullName: PIKLib.MOUSE.ONCLICK
+  nameWithType: MOUSE.ONCLICK
+- uid: PIKLib.MOUSE.ONDBLCLICK
+  name: ONDBLCLICK
+  href: api/PIKLib.MOUSE.html#PIKLib_MOUSE_ONDBLCLICK
+  commentId: E:PIKLib.MOUSE.ONDBLCLICK
+  fullName: PIKLib.MOUSE.ONDBLCLICK
+  nameWithType: MOUSE.ONDBLCLICK
+- uid: PIKLib.MOUSE.ONINIT
+  name: ONINIT
+  href: api/PIKLib.MOUSE.html#PIKLib_MOUSE_ONINIT
+  commentId: E:PIKLib.MOUSE.ONINIT
+  fullName: PIKLib.MOUSE.ONINIT
+  nameWithType: MOUSE.ONINIT
+- uid: PIKLib.MOUSE.ONMOVE
+  name: ONMOVE
+  href: api/PIKLib.MOUSE.html#PIKLib_MOUSE_ONMOVE
+  commentId: E:PIKLib.MOUSE.ONMOVE
+  fullName: PIKLib.MOUSE.ONMOVE
+  nameWithType: MOUSE.ONMOVE
+- uid: PIKLib.MOUSE.ONRELEASE
+  name: ONRELEASE
+  href: api/PIKLib.MOUSE.html#PIKLib_MOUSE_ONRELEASE
+  commentId: E:PIKLib.MOUSE.ONRELEASE
+  fullName: PIKLib.MOUSE.ONRELEASE
+  nameWithType: MOUSE.ONRELEASE
 - uid: PIKLib.MOUSE.RAW
   name: RAW
   href: api/PIKLib.MOUSE.html#PIKLib_MOUSE_RAW
@@ -5303,6 +5582,24 @@ references:
   isSpec: "True"
   fullName: PIKLib.SEQUENCE.ISPLAYING
   nameWithType: SEQUENCE.ISPLAYING
+- uid: PIKLib.SEQUENCE.ONFINISHED
+  name: ONFINISHED
+  href: api/PIKLib.SEQUENCE.html#PIKLib_SEQUENCE_ONFINISHED
+  commentId: E:PIKLib.SEQUENCE.ONFINISHED
+  fullName: PIKLib.SEQUENCE.ONFINISHED
+  nameWithType: SEQUENCE.ONFINISHED
+- uid: PIKLib.SEQUENCE.ONINIT
+  name: ONINIT
+  href: api/PIKLib.SEQUENCE.html#PIKLib_SEQUENCE_ONINIT
+  commentId: E:PIKLib.SEQUENCE.ONINIT
+  fullName: PIKLib.SEQUENCE.ONINIT
+  nameWithType: SEQUENCE.ONINIT
+- uid: PIKLib.SEQUENCE.ONSTARTED
+  name: ONSTARTED
+  href: api/PIKLib.SEQUENCE.html#PIKLib_SEQUENCE_ONSTARTED
+  commentId: E:PIKLib.SEQUENCE.ONSTARTED
+  fullName: PIKLib.SEQUENCE.ONSTARTED
+  nameWithType: SEQUENCE.ONSTARTED
 - uid: PIKLib.SEQUENCE.PAUSE
   name: PAUSE()
   href: api/PIKLib.SEQUENCE.html#PIKLib_SEQUENCE_PAUSE
@@ -5422,6 +5719,24 @@ references:
   isSpec: "True"
   fullName: PIKLib.SOUND.LOAD
   nameWithType: SOUND.LOAD
+- uid: PIKLib.SOUND.ONFINISHED
+  name: ONFINISHED
+  href: api/PIKLib.SOUND.html#PIKLib_SOUND_ONFINISHED
+  commentId: E:PIKLib.SOUND.ONFINISHED
+  fullName: PIKLib.SOUND.ONFINISHED
+  nameWithType: SOUND.ONFINISHED
+- uid: PIKLib.SOUND.ONINIT
+  name: ONINIT
+  href: api/PIKLib.SOUND.html#PIKLib_SOUND_ONINIT
+  commentId: E:PIKLib.SOUND.ONINIT
+  fullName: PIKLib.SOUND.ONINIT
+  nameWithType: SOUND.ONINIT
+- uid: PIKLib.SOUND.ONSTARTED
+  name: ONSTARTED
+  href: api/PIKLib.SOUND.html#PIKLib_SOUND_ONSTARTED
+  commentId: E:PIKLib.SOUND.ONSTARTED
+  fullName: PIKLib.SOUND.ONSTARTED
+  nameWithType: SOUND.ONSTARTED
 - uid: PIKLib.SOUND.PAUSE
   name: PAUSE()
   href: api/PIKLib.SOUND.html#PIKLib_SOUND_PAUSE
@@ -5691,6 +6006,24 @@ references:
   isSpec: "True"
   fullName: PIKLib.STRING.LENGTH
   nameWithType: STRING.LENGTH
+- uid: PIKLib.STRING.ONBRUTALCHANGED
+  name: ONBRUTALCHANGED
+  href: api/PIKLib.STRING.html#PIKLib_STRING_ONBRUTALCHANGED
+  commentId: E:PIKLib.STRING.ONBRUTALCHANGED
+  fullName: PIKLib.STRING.ONBRUTALCHANGED
+  nameWithType: STRING.ONBRUTALCHANGED
+- uid: PIKLib.STRING.ONCHANGED
+  name: ONCHANGED
+  href: api/PIKLib.STRING.html#PIKLib_STRING_ONCHANGED
+  commentId: E:PIKLib.STRING.ONCHANGED
+  fullName: PIKLib.STRING.ONCHANGED
+  nameWithType: STRING.ONCHANGED
+- uid: PIKLib.STRING.ONINIT
+  name: ONINIT
+  href: api/PIKLib.STRING.html#PIKLib_STRING_ONINIT
+  commentId: E:PIKLib.STRING.ONINIT
+  fullName: PIKLib.STRING.ONINIT
+  nameWithType: STRING.ONINIT
 - uid: PIKLib.STRING.REPLACE(System.String,System.String)
   name: REPLACE(string, string)
   href: api/PIKLib.STRING.html#PIKLib_STRING_REPLACE_System_String_System_String_
@@ -6029,6 +6362,12 @@ references:
   isSpec: "True"
   fullName: PIKLib.TEXT.MONITORCOLLISIONALPHA
   nameWithType: TEXT.MONITORCOLLISIONALPHA
+- uid: PIKLib.TEXT.ONINIT
+  name: ONINIT
+  href: api/PIKLib.TEXT.html#PIKLib_TEXT_ONINIT
+  commentId: E:PIKLib.TEXT.ONINIT
+  fullName: PIKLib.TEXT.ONINIT
+  nameWithType: TEXT.ONINIT
 - uid: PIKLib.TEXT.RECT
   name: RECT
   href: api/PIKLib.TEXT.html#PIKLib_TEXT_RECT
@@ -6233,6 +6572,18 @@ references:
   isSpec: "True"
   fullName: PIKLib.TIMER.GETTICKS
   nameWithType: TIMER.GETTICKS
+- uid: PIKLib.TIMER.ONINIT
+  name: ONINIT
+  href: api/PIKLib.TIMER.html#PIKLib_TIMER_ONINIT
+  commentId: E:PIKLib.TIMER.ONINIT
+  fullName: PIKLib.TIMER.ONINIT
+  nameWithType: TIMER.ONINIT
+- uid: PIKLib.TIMER.ONTICK
+  name: ONTICK
+  href: api/PIKLib.TIMER.html#PIKLib_TIMER_ONTICK
+  commentId: E:PIKLib.TIMER.ONTICK
+  fullName: PIKLib.TIMER.ONTICK
+  nameWithType: TIMER.ONTICK
 - uid: PIKLib.TIMER.RESET
   name: RESET()
   href: api/PIKLib.TIMER.html#PIKLib_TIMER_RESET
@@ -7470,12 +7821,6 @@ references:
   isSpec: "True"
   fullName: abstractions.OBJECT.TYPE
   nameWithType: OBJECT.TYPE
-- uid: abstractions.ParametrizedSignalHandler
-  name: ParametrizedSignalHandler
-  href: api/abstractions.ParametrizedSignalHandler.html
-  commentId: T:abstractions.ParametrizedSignalHandler
-  fullName: abstractions.ParametrizedSignalHandler
-  nameWithType: ParametrizedSignalHandler
 - uid: abstractions.ReferenceRect
   name: ReferenceRect
   href: api/abstractions.ReferenceRect.html
@@ -7520,6 +7865,15 @@ references:
   commentId: T:abstractions.SignalHandler
   fullName: abstractions.SignalHandler
   nameWithType: SignalHandler
+- uid: abstractions.SignalHandler`1
+  name: SignalHandler<P>
+  href: api/abstractions.SignalHandler-1.html
+  commentId: T:abstractions.SignalHandler`1
+  name.vb: SignalHandler(Of P)
+  fullName: abstractions.SignalHandler<P>
+  fullName.vb: abstractions.SignalHandler(Of P)
+  nameWithType: SignalHandler<P>
+  nameWithType.vb: SignalHandler(Of P)
 - uid: abstractions.StringVariable
   name: StringVariable
   href: api/abstractions.StringVariable.html

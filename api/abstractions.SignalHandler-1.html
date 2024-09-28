@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Delegate SignalHandler | Cnv API specification </title>
+      <title>Delegate SignalHandler&lt;P&gt; | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Delegate SignalHandler | Cnv API specification ">
+      <meta name="title" content="Delegate SignalHandler&lt;P&gt; | Cnv API specification ">
       
-      <meta name="description" content="A plain non-parametrized signal handler. It can receive an arbitrary number of arguments.">
+      <meta name="description" content="A specialized signal handler identified by its parametr. It can receive an arbitrary number of arguments.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=abstractions_SignalHandler.md&amp;value=---%0Auid%3A%20abstractions.SignalHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=abstractions_SignalHandler_1.md&amp;value=---%0Auid%3A%20abstractions.SignalHandler%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="abstractions.SignalHandler">
+        <article data-uid="abstractions.SignalHandler`1">
 
 
 
-  <h1 id="abstractions_SignalHandler" data-uid="abstractions.SignalHandler" class="text-break">
-Delegate SignalHandler  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <h1 id="abstractions_SignalHandler_1" data-uid="abstractions.SignalHandler`1" class="text-break">
+Delegate SignalHandler&lt;P&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,22 +97,31 @@ Delegate SignalHandler  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>PIKLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A plain non-parametrized signal handler. It can receive an arbitrary number of arguments.</p>
+  <div class="markdown summary"><p>A specialized signal handler identified by its parametr. It can receive an arbitrary number of arguments.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">delegate void SignalHandler(params variable[] arguments)</code></pre>
+    <pre><code class="lang-csharp hljs">delegate void SignalHandler&lt;P&gt;(P parameter, params variable[] arguments)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>parameter</code> <span class="xref">P</span></dt>
+    <dd><p>The parameter identifying the handler.</p>
+</dd>
     <dt><code>arguments</code> <a class="xref" href="abstractions.variable.html">variable</a>[]</dt>
     <dd><p>Arguments passed to the handler.</p>
 </dd>
   </dl>
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>P</code></dt>
+    <dd><p>Type of the parameter (for documentation purposes).</p>
+</dd>
+  </dl>
 
 
 
@@ -127,7 +136,7 @@ Delegate SignalHandler  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L61" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L69" class="edit-link">Edit this page</a>
         </div>
 
 

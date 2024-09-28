@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_BOOL" data-uid="PIKLib.BOOL" class="text-break">
-Class BOOL  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class BOOL  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class BOOL  <a class="header-action link-secondary" title="View source" href="ht
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> BOOL : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">BOOL : OBJECT</code></pre>
   </div>
 
 
@@ -185,7 +185,7 @@ Class BOOL  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="PIKLib_BOOL_TOINI" data-uid="PIKLib.BOOL.TOINI">
   TOINI
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -216,7 +216,7 @@ Class BOOL  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="PIKLib_BOOL_VALUE" data-uid="PIKLib.BOOL.VALUE">
   VALUE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -251,7 +251,7 @@ Class BOOL  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="PIKLib_BOOL_SET_System_Boolean_" data-uid="PIKLib.BOOL.SET(System.Boolean)">
   SET(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the value of the object to <code>value</code>.</p>
@@ -284,7 +284,7 @@ Class BOOL  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="PIKLib_BOOL_SWITCH_System_Boolean_System_Boolean_" data-uid="PIKLib.BOOL.SWITCH(System.Boolean,System.Boolean)">
   SWITCH(bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Switches the value of the object between <code>TRUE</code> and <code>FALSE</code>.</p>
@@ -316,11 +316,75 @@ Class BOOL  <a class="header-action link-secondary" title="View source" href="ht
 
 
 
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="PIKLib_BOOL_ONBRUTALCHANGED" data-uid="PIKLib.BOOL.ONBRUTALCHANGED">
+  ONBRUTALCHANGED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler&lt;string&gt;? ONBRUTALCHANGED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler-1.html">SignalHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="PIKLib_BOOL_ONCHANGED" data-uid="PIKLib.BOOL.ONCHANGED">
+  ONCHANGED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler&lt;string&gt;? ONCHANGED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler-1.html">SignalHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Bool.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

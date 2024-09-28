@@ -89,7 +89,7 @@
 
 
   <h1 id="PIKLib_ANIMO" data-uid="PIKLib.ANIMO" class="text-break">
-Class ANIMO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class ANIMO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> ANIMO : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">ANIMO : OBJECT</code></pre>
   </div>
 
 
@@ -185,10 +185,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_FILENAME" data-uid="PIKLib.ANIMO.FILENAME">
   FILENAME
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A path to a file where the animation data is stored.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -208,22 +209,32 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_FILENAME_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The file must be in the ANN format.</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_LOAD_System_String_">LOAD(string)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_FPS_" data-uid="PIKLib.ANIMO.FPS*"></a>
 
   <h3 id="PIKLib_ANIMO_FPS" data-uid="PIKLib.ANIMO.FPS">
   FPS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Target animation speed (in frames per second).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int FPS { init; }</code></pre>
+    <pre><code class="lang-csharp hljs">int? FPS { init; }</code></pre>
   </div>
 
 
@@ -232,25 +243,35 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd></dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_FPS_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The property overrides settings from a file.</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETFPS_System_Int32_">SETFPS(int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_MONITORCOLLISIONALPHA_" data-uid="PIKLib.ANIMO.MONITORCOLLISIONALPHA*"></a>
 
   <h3 id="PIKLib_ANIMO_MONITORCOLLISIONALPHA" data-uid="PIKLib.ANIMO.MONITORCOLLISIONALPHA">
   MONITORCOLLISIONALPHA
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Should the pixel-perfect collision algorithm be used instead of the default AABB one?</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -270,18 +291,30 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_MONITORCOLLISIONALPHA_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The property is ignored if <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_">MONITORCOLLISION</a> is set to FALSE.</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_">MONITORCOLLISION</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_System_Boolean_">MONITORCOLLISION(bool)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_REMOVEMONITORCOLLISION">REMOVEMONITORCOLLISION()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_MONITORCOLLISION__" data-uid="PIKLib.ANIMO.MONITORCOLLISION*"></a>
 
   <h3 id="PIKLib_ANIMO_MONITORCOLLISION_" data-uid="PIKLib.ANIMO.MONITORCOLLISION">
   MONITORCOLLISION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Should 2D collisions be detected for the object?</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -301,18 +334,31 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_MONITORCOLLISION__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Setting the property to TRUE means <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ONCOLLISION">ONCOLLISION</a> callback is called.</p>
+<p>By default, AABB collision algorithm is used.</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISIONALPHA">MONITORCOLLISIONALPHA</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_System_Boolean_">MONITORCOLLISION(bool)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_REMOVEMONITORCOLLISION">REMOVEMONITORCOLLISION()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_PRELOAD_" data-uid="PIKLib.ANIMO.PRELOAD*"></a>
 
   <h3 id="PIKLib_ANIMO_PRELOAD" data-uid="PIKLib.ANIMO.PRELOAD">
   PRELOAD
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Should the file specified in <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_FILENAME">FILENAME</a> be loaded instantly?</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -340,10 +386,12 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_PRIORITY" data-uid="PIKLib.ANIMO.PRIORITY">
   PRIORITY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The position of the object on the Z axis (directed out of the screen).
+Objects with greater priority are displayed over those with smaller priority.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -363,18 +411,29 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_PRIORITY_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>For the same priority value, objects declared later are displayed over those declared before.</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPRIORITY">GETPRIORITY()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETPRIORITY_System_Int32_">SETPRIORITY(int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_RELEASE_" data-uid="PIKLib.ANIMO.RELEASE*"></a>
 
   <h3 id="PIKLib_ANIMO_RELEASE" data-uid="PIKLib.ANIMO.RELEASE">
   RELEASE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Should the file handle be released after loading the file specified in <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_FILENAME">FILENAME</a>?</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -402,7 +461,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_TOCANVAS" data-uid="PIKLib.ANIMO.TOCANVAS">
   TOCANVAS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -425,6 +484,9 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_TOCANVAS_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Without setting the property to TRUE, the object remains invisible.</p>
+</div>
 
 
 
@@ -433,10 +495,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_VISIBLE" data-uid="PIKLib.ANIMO.VISIBLE">
   VISIBLE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Should the object be visible by default?</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -458,6 +521,15 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_TOCANVAS">TOCANVAS</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_HIDE">HIDE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ISVISIBLE">ISVISIBLE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SHOW">SHOW()</a></div>
+    </dd>
+  </dl>
 
 
   <h2 class="section" id="methods">Methods
@@ -468,10 +540,10 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETCENTERX" data-uid="PIKLib.ANIMO.GETCENTERX">
   GETCENTERX()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Retrieves the horizontal position of the center of the object.</p>
+  <div class="markdown level1 summary"><p>Retrieves the horizontal position of the center of the object (in pixels).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -483,7 +555,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>Horizontal position of the object's center.</p>
+    <dd><p>The horizontal position of the object's center (in pixels).</p>
 </dd>
   </dl>
 
@@ -501,10 +573,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETCENTERY" data-uid="PIKLib.ANIMO.GETCENTERY">
   GETCENTERY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the vertical position of the center of the object (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -515,7 +588,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The vertical position of the object's center (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -532,10 +606,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETCFRAMEINEVENT" data-uid="PIKLib.ANIMO.GETCFRAMEINEVENT">
   GETCFRAMEINEVENT()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the 0-based index of the current frame within its parent (a sequence of frames).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -546,7 +621,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The index of the current frame within the current event.</p>
+</dd>
   </dl>
 
 
@@ -557,16 +633,23 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETFRAME">GETFRAME()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_GETCURRFRAMEPOSX_" data-uid="PIKLib.ANIMO.GETCURRFRAMEPOSX*"></a>
 
   <h3 id="PIKLib_ANIMO_GETCURRFRAMEPOSX" data-uid="PIKLib.ANIMO.GETCURRFRAMEPOSX">
   GETCURRFRAMEPOSX()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the horizontal position of the current animation frame (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -577,7 +660,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The horizontal position of the current animation frame (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -594,10 +678,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETCURRFRAMEPOSY" data-uid="PIKLib.ANIMO.GETCURRFRAMEPOSY">
   GETCURRFRAMEPOSY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the vertical position of the current animation frame (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -608,7 +693,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The vertical position of the current animation frame (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -625,10 +711,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETENDX" data-uid="PIKLib.ANIMO.GETENDX">
   GETENDX()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the horizontal position of the right edge of the object (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -639,7 +726,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The horizontal position of the object's right edge (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -656,10 +744,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETENDY" data-uid="PIKLib.ANIMO.GETENDY">
   GETENDY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the vertical position of the bottom edge of the object (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -670,7 +759,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The vertical position of the object's bottom edge (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -687,10 +777,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETEVENTNAME" data-uid="PIKLib.ANIMO.GETEVENTNAME">
   GETEVENTNAME()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L145"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the name of the current (a sequence of frames).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -701,7 +792,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the current event.</p>
+</dd>
   </dl>
 
 
@@ -718,10 +810,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETFRAME" data-uid="PIKLib.ANIMO.GETFRAME">
   GETFRAME()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the 0-based index of the compound image pointed to by the current animation frame.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -732,7 +825,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The index of currently displayed animation image (not the index of a frame).</p>
+</dd>
   </dl>
 
 
@@ -743,16 +837,24 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETFRAME_System_Int32_">SETFRAME(int)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETCFRAMEINEVENT">GETCFRAMEINEVENT()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_GETFRAMENAME_" data-uid="PIKLib.ANIMO.GETFRAMENAME*"></a>
 
   <h3 id="PIKLib_ANIMO_GETFRAMENAME" data-uid="PIKLib.ANIMO.GETFRAMENAME">
   GETFRAMENAME()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the name of the current frame.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -763,7 +865,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the current frame.</p>
+</dd>
   </dl>
 
 
@@ -774,16 +877,23 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETFRAMENAME_System_String_">SETFRAMENAME(string)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_GETHEIGHT_" data-uid="PIKLib.ANIMO.GETHEIGHT*"></a>
 
   <h3 id="PIKLib_ANIMO_GETHEIGHT" data-uid="PIKLib.ANIMO.GETHEIGHT">
   GETHEIGHT()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the height of the current animation frame (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -794,7 +904,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The height of the current animation frame (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -811,10 +922,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETMAXWIDTH" data-uid="PIKLib.ANIMO.GETMAXWIDTH">
   GETMAXWIDTH()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks the height of all compound images and returns the maximum (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -825,7 +937,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The maximal possible height of the displayed image (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -842,10 +955,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETNOE" data-uid="PIKLib.ANIMO.GETNOE">
   GETNOE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the total number of animation events (sequences of frames).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -856,7 +970,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The total number of animation events.</p>
+</dd>
   </dl>
 
 
@@ -873,10 +988,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETNOF" data-uid="PIKLib.ANIMO.GETNOF">
   GETNOF()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the total number of animation frames within the current (a sequence of frames).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -887,7 +1003,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The total number of animation frames within the current event.</p>
+</dd>
   </dl>
 
 
@@ -904,10 +1021,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETNOFINEVENT_System_String_" data-uid="PIKLib.ANIMO.GETNOFINEVENT(System.String)">
   GETNOFINEVENT(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the total number of animation frames within the (a sequence of frames) identified by the given name.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -917,13 +1035,15 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>event_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the to check.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The total number of animation frames within the specified event.</p>
+</dd>
   </dl>
 
 
@@ -940,10 +1060,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_GETOPACITY" data-uid="PIKLib.ANIMO.GETOPACITY">
   GETOPACITY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the general opacity of the animation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -954,7 +1075,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The general opacity of the animation.</p>
+</dd>
   </dl>
 
 
@@ -965,16 +1087,23 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETOPACITY_System_Int32_">SETOPACITY(int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_GETPOSITIONX_" data-uid="PIKLib.ANIMO.GETPOSITIONX*"></a>
 
   <h3 id="PIKLib_ANIMO_GETPOSITIONX" data-uid="PIKLib.ANIMO.GETPOSITIONX">
   GETPOSITIONX()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the horizontal position of the object (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -985,7 +1114,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The horizontal position of the object (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -996,16 +1126,25 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPOSITIONY">GETPOSITIONY()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETPOSITION_System_Int32_System_Int32_">SETPOSITION(int, int)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MOVE_System_Int32_System_Int32_">MOVE(int, int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_GETPOSITIONY_" data-uid="PIKLib.ANIMO.GETPOSITIONY*"></a>
 
   <h3 id="PIKLib_ANIMO_GETPOSITIONY" data-uid="PIKLib.ANIMO.GETPOSITIONY">
   GETPOSITIONY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L222"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the base vertical position of the object (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1016,7 +1155,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The base vertical position of the object (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -1027,16 +1167,25 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPOSITIONX">GETPOSITIONX()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETPOSITION_System_Int32_System_Int32_">SETPOSITION(int, int)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MOVE_System_Int32_System_Int32_">MOVE(int, int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_GETPRIORITY_" data-uid="PIKLib.ANIMO.GETPRIORITY*"></a>
 
   <h3 id="PIKLib_ANIMO_GETPRIORITY" data-uid="PIKLib.ANIMO.GETPRIORITY">
   GETPRIORITY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L230"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the priority of the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1047,7 +1196,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The priority of the object.</p>
+</dd>
   </dl>
 
 
@@ -1058,16 +1208,24 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PRIORITY">PRIORITY</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETPRIORITY_System_Int32_">SETPRIORITY(int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_GETWIDTH_" data-uid="PIKLib.ANIMO.GETWIDTH*"></a>
 
   <h3 id="PIKLib_ANIMO_GETWIDTH" data-uid="PIKLib.ANIMO.GETWIDTH">
   GETWIDTH()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L236"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieves the width of the current animation frame (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1078,7 +1236,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The width of the current animation frame (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -1095,10 +1254,10 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_HIDE" data-uid="PIKLib.ANIMO.HIDE">
   HIDE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L244"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Hides the object.</p>
+  <div class="markdown level1 summary"><p>Makes the object invisible.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1116,13 +1275,21 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_VISIBLE">VISIBLE</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ISVISIBLE">ISVISIBLE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SHOW">SHOW()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_INVALIDATE_" data-uid="PIKLib.ANIMO.INVALIDATE*"></a>
 
   <h3 id="PIKLib_ANIMO_INVALIDATE" data-uid="PIKLib.ANIMO.INVALIDATE">
   INVALIDATE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L246"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1146,18 +1313,27 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <a id="PIKLib_ANIMO_ISAT_" data-uid="PIKLib.ANIMO.ISAT*"></a>
 
-  <h3 id="PIKLib_ANIMO_ISAT" data-uid="PIKLib.ANIMO.ISAT">
-  ISAT()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <h3 id="PIKLib_ANIMO_ISAT_System_Int32_System_Int32_System_Boolean_" data-uid="PIKLib.ANIMO.ISAT(System.Int32,System.Int32,System.Boolean)">
+  ISAT(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L248"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISAT()</code></pre>
+    <pre><code class="lang-csharp hljs">bool ISAT(int x, int y, bool _)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>_</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -1179,7 +1355,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_ISNEAR_System_String_System_String_" data-uid="PIKLib.ANIMO.ISNEAR(System.String,System.String)">
   ISNEAR(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L258"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks if the object is near the <code>other</code> one.</p>
@@ -1203,7 +1379,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Boolean value indicating if objects are near each other.</p>
+    <dd><p>A boolean value indicating if objects are near each other.</p>
 </dd>
   </dl>
 
@@ -1221,10 +1397,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_ISPLAYING" data-uid="PIKLib.ANIMO.ISPLAYING">
   ISPLAYING()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L269"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if any animation (a sequence of frames) is currently being played.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1235,7 +1412,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Boolean value indicating if any animation is currently being played.</p>
+</dd>
   </dl>
 
 
@@ -1246,16 +1424,27 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_String_">PLAY(string)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_Int32_">PLAY(int)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_STOP_System_Boolean_">STOP(bool)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PAUSE">PAUSE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_RESUME">RESUME()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_ISVISIBLE_" data-uid="PIKLib.ANIMO.ISVISIBLE*"></a>
 
   <h3 id="PIKLib_ANIMO_ISVISIBLE" data-uid="PIKLib.ANIMO.ISVISIBLE">
   ISVISIBLE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L278"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the object is visible.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1266,7 +1455,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>A boolean value indicating if the object is visible.</p>
+</dd>
   </dl>
 
 
@@ -1277,16 +1467,25 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_VISIBLE">VISIBLE</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_HIDE">HIDE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SHOW">SHOW()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_LOAD_" data-uid="PIKLib.ANIMO.LOAD*"></a>
 
   <h3 id="PIKLib_ANIMO_LOAD_System_String_" data-uid="PIKLib.ANIMO.LOAD(System.String)">
   LOAD(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L284"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Loads animation data from the file located at the given path.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1296,7 +1495,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The path where the file is located.</p>
+</dd>
   </dl>
 
 
@@ -1314,7 +1514,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_MERGEALPHA" data-uid="PIKLib.ANIMO.MERGEALPHA">
   MERGEALPHA()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L286"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1340,10 +1540,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_MONITORCOLLISION_System_Boolean_" data-uid="PIKLib.ANIMO.MONITORCOLLISION(System.Boolean)">
   MONITORCOLLISION(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L295"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Enables the 2D collision detection for the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1353,7 +1554,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pixel_perfect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Should the pixel-perfect collision algorithm be used instead of the default AABB one?</p>
+</dd>
   </dl>
 
 
@@ -1365,16 +1567,25 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_">MONITORCOLLISION</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISIONALPHA">MONITORCOLLISIONALPHA</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_REMOVEMONITORCOLLISION">REMOVEMONITORCOLLISION()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_MOVE_" data-uid="PIKLib.ANIMO.MOVE*"></a>
 
   <h3 id="PIKLib_ANIMO_MOVE_System_Int32_System_Int32_" data-uid="PIKLib.ANIMO.MOVE(System.Int32,System.Int32)">
   MOVE(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L305"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Moves the animation object by the given offset (in pixels).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1384,9 +1595,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>x_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>A horizontal offset to be added to the current base object position.</p>
+</dd>
     <dt><code>y_offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>A vertical offset to be added to the current base object position.</p>
+</dd>
   </dl>
 
 
@@ -1398,13 +1611,21 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPOSITIONX">GETPOSITIONX()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPOSITIONY">GETPOSITIONY()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETPOSITION_System_Int32_System_Int32_">SETPOSITION(int, int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_NEXT_" data-uid="PIKLib.ANIMO.NEXT*"></a>
 
   <h3 id="PIKLib_ANIMO_NEXT" data-uid="PIKLib.ANIMO.NEXT">
   NEXT()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L307"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1430,7 +1651,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_NEXTFRAME" data-uid="PIKLib.ANIMO.NEXTFRAME">
   NEXTFRAME()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L309"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1456,7 +1677,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_NPLAY" data-uid="PIKLib.ANIMO.NPLAY">
   NPLAY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L311"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1482,10 +1703,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_PAUSE" data-uid="PIKLib.ANIMO.PAUSE">
   PAUSE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L322"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Pauses the current animation (a sequence of frames).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1502,16 +1724,27 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_RESUME">RESUME()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ISPLAYING">ISPLAYING()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_String_">PLAY(string)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_Int32_">PLAY(int)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_STOP_System_Boolean_">STOP(bool)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_PLAY_" data-uid="PIKLib.ANIMO.PLAY*"></a>
 
   <h3 id="PIKLib_ANIMO_PLAY_System_Int32_" data-uid="PIKLib.ANIMO.PLAY(System.Int32)">
   PLAY(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L356"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Plays animation identified by index <code class="paramref">event_index</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1521,39 +1754,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>event_index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="PIKLib_ANIMO_PLAY_" data-uid="PIKLib.ANIMO.PLAY*"></a>
-
-  <h3 id="PIKLib_ANIMO_PLAY_System_String_" data-uid="PIKLib.ANIMO.PLAY(System.String)">
-  PLAY(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L78"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Plays animation event identified by name <code>event_name</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PLAY(string event_name)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>event_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the animation event to play.</p>
+    <dd><p>The 0-based index of the animation to be played.</p>
 </dd>
   </dl>
 
@@ -1564,15 +1765,76 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_PLAY_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Makes the object visible.</p>
+<p>Animation can loop depending on its definition (see ANN format specification).</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_String_">PLAY(string)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ISPLAYING">ISPLAYING()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_STOP_System_Boolean_">STOP(bool)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PAUSE">PAUSE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_RESUME">RESUME()</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="PIKLib_ANIMO_PLAY_" data-uid="PIKLib.ANIMO.PLAY*"></a>
+
+  <h3 id="PIKLib_ANIMO_PLAY_System_String_" data-uid="PIKLib.ANIMO.PLAY(System.String)">
+  PLAY(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Plays animation identified by name <code class="paramref">event_name</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PLAY(string event_name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the animation to be played.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="PIKLib_ANIMO_PLAY_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Makes the object visible.</p>
+<p>Animation can loop depending on its definition (see ANN format specification).</p>
+</div>
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_Int32_">PLAY(int)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ISPLAYING">ISPLAYING()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_STOP_System_Boolean_">STOP(bool)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PAUSE">PAUSE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_RESUME">RESUME()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_PREVFRAME_" data-uid="PIKLib.ANIMO.PREVFRAME*"></a>
 
   <h3 id="PIKLib_ANIMO_PREVFRAME" data-uid="PIKLib.ANIMO.PREVFRAME">
   PREVFRAME()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L358"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1598,10 +1860,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_REMOVEMONITORCOLLISION" data-uid="PIKLib.ANIMO.REMOVEMONITORCOLLISION">
   REMOVEMONITORCOLLISION()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L366"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Disables the 2D collision detection for the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1618,16 +1881,25 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_">MONITORCOLLISION</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISIONALPHA">MONITORCOLLISIONALPHA</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_System_Boolean_">MONITORCOLLISION(bool)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_RESUME_" data-uid="PIKLib.ANIMO.RESUME*"></a>
 
   <h3 id="PIKLib_ANIMO_RESUME" data-uid="PIKLib.ANIMO.RESUME">
   RESUME()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L378"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Unpauses the current animation (a sequence of frames).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1644,13 +1916,23 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PAUSE">PAUSE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ISPLAYING">ISPLAYING()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_String_">PLAY(string)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_Int32_">PLAY(int)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_STOP_System_Boolean_">STOP(bool)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SETANCHOR_" data-uid="PIKLib.ANIMO.SETANCHOR*"></a>
 
   <h3 id="PIKLib_ANIMO_SETANCHOR_abstractions_anchor_" data-uid="PIKLib.ANIMO.SETANCHOR(abstractions.anchor)">
   SETANCHOR(anchor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L380"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1681,10 +1963,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_SETASBUTTON_System_Boolean_System_Boolean_" data-uid="PIKLib.ANIMO.SETASBUTTON(System.Boolean,System.Boolean)">
   SETASBUTTON(bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L394"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Enables or disables the object being interactable.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1694,9 +1977,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>as_button</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Should interactibility be enabled?</p>
+</dd>
     <dt><code>with_cursor_pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Should the mouse cursor icon be changed to pointer when it hovers over the interactable area? The argument is ignored if <code class="paramref">as_button</code> is FALSE.</p>
+</dd>
   </dl>
 
 
@@ -1706,6 +1991,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_SETASBUTTON_System_Boolean_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Interactibility means reacting to mouse cursor being hovered and mouse button being clicked over the displayed object.
+In reaction to these events, the following signals are fires: <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ONFOCUSON">ONFOCUSON</a>, <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ONFOCUSOFF">ONFOCUSOFF</a>, <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ONCLICK">ONCLICK</a>, <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ONRELEASE">ONRELEASE</a>.</p>
+<p>The interactable area is the AABB representing the frame at the time of calling the method.</p>
+</div>
 
 
 
@@ -1714,7 +2004,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_SETBACKWARD" data-uid="PIKLib.ANIMO.SETBACKWARD">
   SETBACKWARD()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L396"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1740,7 +2030,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_SETCLIPPING" data-uid="PIKLib.ANIMO.SETCLIPPING">
   SETCLIPPING()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L398"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1766,7 +2056,7 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_SETFORWARD" data-uid="PIKLib.ANIMO.SETFORWARD">
   SETFORWARD()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L400"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1792,10 +2082,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="PIKLib_ANIMO_SETFPS_System_Int32_" data-uid="PIKLib.ANIMO.SETFPS(System.Int32)">
   SETFPS(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L409"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the animation speed (in frames per second).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1815,18 +2106,28 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_SETFPS_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The property overrides settings from a file.</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_FPS">FPS</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SETFRAME_" data-uid="PIKLib.ANIMO.SETFRAME*"></a>
 
   <h3 id="PIKLib_ANIMO_SETFRAME_System_Int32_" data-uid="PIKLib.ANIMO.SETFRAME(System.Int32)">
   SETFRAME(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L420"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Changes the currently displayed frame to the image identified by the given index.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1846,18 +2147,29 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h4 class="section" id="PIKLib_ANIMO_SETFRAME_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If any animation (a sequence of frames) is currently played, the image set by this method gets overwritten by the next update.</p>
+</div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETFRAME">GETFRAME()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETFRAME_System_String_System_Int32_">SETFRAME(string, int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SETFRAME_" data-uid="PIKLib.ANIMO.SETFRAME*"></a>
 
   <h3 id="PIKLib_ANIMO_SETFRAME_System_String_System_Int32_" data-uid="PIKLib.ANIMO.SETFRAME(System.String,System.Int32)">
   SETFRAME(string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L430"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Changes the currently displayed frame to the one identified by the given index within the of name <code class="paramref">event_name</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1881,16 +2193,24 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETFRAME">GETFRAME()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETFRAME_System_Int32_">SETFRAME(int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SETFRAMENAME_" data-uid="PIKLib.ANIMO.SETFRAMENAME*"></a>
 
   <h3 id="PIKLib_ANIMO_SETFRAMENAME_System_String_" data-uid="PIKLib.ANIMO.SETFRAMENAME(System.String)">
   SETFRAMENAME(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L437"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Changes the name of the current frame.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1900,7 +2220,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>frame_name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name to be set.</p>
+</dd>
   </dl>
 
 
@@ -1912,16 +2233,23 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETFRAMENAME">GETFRAMENAME()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SETOPACITY_" data-uid="PIKLib.ANIMO.SETOPACITY*"></a>
 
   <h3 id="PIKLib_ANIMO_SETOPACITY_System_Int32_" data-uid="PIKLib.ANIMO.SETOPACITY(System.Int32)">
   SETOPACITY(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L445"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the general opacity of the animation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1931,7 +2259,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The opacity to be set.</p>
+</dd>
   </dl>
 
 
@@ -1943,16 +2272,23 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETOPACITY">GETOPACITY()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SETPOSITION_" data-uid="PIKLib.ANIMO.SETPOSITION*"></a>
 
   <h3 id="PIKLib_ANIMO_SETPOSITION_System_Int32_System_Int32_" data-uid="PIKLib.ANIMO.SETPOSITION(System.Int32,System.Int32)">
   SETPOSITION(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L455"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the base position of the animation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1962,9 +2298,11 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The horizontal position to be set (in pixels).</p>
+</dd>
     <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The vertical position to be set (in pixels).</p>
+</dd>
   </dl>
 
 
@@ -1976,16 +2314,25 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPOSITIONX">GETPOSITIONX()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPOSITIONY">GETPOSITIONY()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MOVE_System_Int32_System_Int32_">MOVE(int, int)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SETPRIORITY_" data-uid="PIKLib.ANIMO.SETPRIORITY*"></a>
 
   <h3 id="PIKLib_ANIMO_SETPRIORITY_System_Int32_" data-uid="PIKLib.ANIMO.SETPRIORITY(System.Int32)">
   SETPRIORITY(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L463"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the priority of the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1995,7 +2342,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The priority to be set.</p>
+</dd>
   </dl>
 
 
@@ -2007,16 +2355,24 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PRIORITY">PRIORITY</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_GETPRIORITY">GETPRIORITY()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_SHOW_" data-uid="PIKLib.ANIMO.SHOW*"></a>
 
   <h3 id="PIKLib_ANIMO_SHOW" data-uid="PIKLib.ANIMO.SHOW">
   SHOW()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L471"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Makes the object visible.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -2033,16 +2389,25 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_VISIBLE">VISIBLE</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_HIDE">HIDE()</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ISVISIBLE">ISVISIBLE()</a></div>
+    </dd>
+  </dl>
 
 
   <a id="PIKLib_ANIMO_STOP_" data-uid="PIKLib.ANIMO.STOP*"></a>
 
   <h3 id="PIKLib_ANIMO_STOP_System_Boolean_" data-uid="PIKLib.ANIMO.STOP(System.Boolean)">
   STOP(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L478"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Stops the animation (a sequence of frames) being currently played.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -2052,7 +2417,8 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>emit_on_finished</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Should the <a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_ONFINISHED">ONFINISHED</a> signal be emitted?</p>
+</dd>
   </dl>
 
 
@@ -2066,11 +2432,392 @@ Class ANIMO  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONCLICK" data-uid="PIKLib.ANIMO.ONCLICK">
+  ONCLICK
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L486"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when the object is in interactive mode and a mouse button is pressed over it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler? ONCLICK</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETASBUTTON_System_Boolean_System_Boolean_">SETASBUTTON(bool, bool)</a></div>
+    </dd>
+  </dl>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONCOLLISION" data-uid="PIKLib.ANIMO.ONCOLLISION">
+  ONCOLLISION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when the object is in collision with another object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler&lt;string&gt;? ONCOLLISION</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler-1.html">SignalHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="PIKLib_ANIMO_ONCOLLISION_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Can be specialized using the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> parameter which is the name of the object with which the current object collides.</p>
+</div>
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_">MONITORCOLLISION</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISIONALPHA">MONITORCOLLISIONALPHA</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_MONITORCOLLISION_System_Boolean_">MONITORCOLLISION(bool)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_REMOVEMONITORCOLLISION">REMOVEMONITORCOLLISION()</a></div>
+    </dd>
+  </dl>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONFINISHED" data-uid="PIKLib.ANIMO.ONFINISHED">
+  ONFINISHED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L509"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when an animation has finished playing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler&lt;string&gt;? ONFINISHED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler-1.html">SignalHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="PIKLib_ANIMO_ONFINISHED_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Can be specialized using the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> parameter which is the name of the finished event.</p>
+</div>
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_STOP_System_Boolean_">STOP(bool)</a></div>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_String_">PLAY(string)</a></div>
+    </dd>
+  </dl>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONFOCUSOFF" data-uid="PIKLib.ANIMO.ONFOCUSOFF">
+  ONFOCUSOFF
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when the object is in interactive mode and the mouse cursors is moved outside its area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler? ONFOCUSOFF</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETASBUTTON_System_Boolean_System_Boolean_">SETASBUTTON(bool, bool)</a></div>
+    </dd>
+  </dl>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONFOCUSON" data-uid="PIKLib.ANIMO.ONFOCUSON">
+  ONFOCUSON
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L515"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when the object is in interactive mode and the mouse cursors is moved onto it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler? ONFOCUSON</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETASBUTTON_System_Boolean_System_Boolean_">SETASBUTTON(bool, bool)</a></div>
+    </dd>
+  </dl>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONFRAMECHANGED" data-uid="PIKLib.ANIMO.ONFRAMECHANGED">
+  ONFRAMECHANGED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when the displayed frame changes as a result of an animation being played.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler? ONFRAMECHANGED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="PIKLib_ANIMO_ONFRAMECHANGED_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Can be specialized using the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> parameter which is the name of the currently being played.</p>
+</div>
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_String_">PLAY(string)</a></div>
+    </dd>
+  </dl>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONINIT" data-uid="PIKLib.ANIMO.ONINIT">
+  ONINIT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L535"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when the object is initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler? ONINIT</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="PIKLib_ANIMO_ONRELEASE" data-uid="PIKLib.ANIMO.ONRELEASE">
+  ONRELEASE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L542"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when the object is in interactive mode and a mouse button is released over it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler? ONRELEASE</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler.html">SignalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_SETASBUTTON_System_Boolean_System_Boolean_">SETASBUTTON(bool, bool)</a></div>
+    </dd>
+  </dl>
+
+
+
+  <h3 id="PIKLib_ANIMO_ONSIGNAL" data-uid="PIKLib.ANIMO.ONSIGNAL">
+  ONSIGNAL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L551"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when a custom message is sent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler&lt;string&gt;? ONSIGNAL</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler-1.html">SignalHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="PIKLib_ANIMO_ONSIGNAL_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Can be specialized using the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> parameter which is the name of the currently being played.</p>
+</div>
+
+
+
+
+
+  <h3 id="PIKLib_ANIMO_ONSTARTED" data-uid="PIKLib.ANIMO.ONSTARTED">
+  ONSTARTED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L560"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A handler for the signal emitted when an animation has started playing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SignalHandler&lt;string&gt;? ONSTARTED</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="abstractions.SignalHandler-1.html">SignalHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="PIKLib_ANIMO_ONSTARTED_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Can be specialized using the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> parameter which is the name of the started event.</p>
+</div>
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="PIKLib.ANIMO.html#PIKLib_ANIMO_PLAY_System_String_">PLAY(string)</a></div>
+    </dd>
+  </dl>
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Animo.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
