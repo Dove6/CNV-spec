@@ -462,160 +462,160 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.BoolVariable.yml",
+      "source_relative_path": "api/abstractions.BoolVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.BoolVariable.html"
+          "relative_path": "api/abstractions.BoolVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.DoubleVariable.yml",
+      "source_relative_path": "api/abstractions.DoubleVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.DoubleVariable.html"
+          "relative_path": "api/abstractions.DoubleVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.IntVariable.yml",
+      "source_relative_path": "api/abstractions.IntVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.IntVariable.html"
+          "relative_path": "api/abstractions.IntVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.LiteralRect.yml",
+      "source_relative_path": "api/abstractions.LiteralRect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.LiteralRect.html"
+          "relative_path": "api/abstractions.LiteralRect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.OBJECT.yml",
+      "source_relative_path": "api/abstractions.OBJECT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.OBJECT.html"
+          "relative_path": "api/abstractions.OBJECT.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.ParametrizedSignalHandler.yml",
+      "source_relative_path": "api/abstractions.ParametrizedSignalHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.ParametrizedSignalHandler.html"
+          "relative_path": "api/abstractions.ParametrizedSignalHandler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.ReferenceRect.yml",
+      "source_relative_path": "api/abstractions.ReferenceRect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.ReferenceRect.html"
+          "relative_path": "api/abstractions.ReferenceRect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.SignalHandler.yml",
+      "source_relative_path": "api/abstractions.SignalHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.SignalHandler.html"
+          "relative_path": "api/abstractions.SignalHandler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.StringVariable.yml",
+      "source_relative_path": "api/abstractions.StringVariable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.StringVariable.html"
+          "relative_path": "api/abstractions.StringVariable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.anchor.yml",
+      "source_relative_path": "api/abstractions.anchor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.anchor.html"
+          "relative_path": "api/abstractions.anchor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.complex_operator.yml",
+      "source_relative_path": "api/abstractions.complex_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.complex_operator.html"
+          "relative_path": "api/abstractions.complex_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.condition_operator.yml",
+      "source_relative_path": "api/abstractions.condition_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.condition_operator.html"
+          "relative_path": "api/abstractions.condition_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.expression_operator.yml",
+      "source_relative_path": "api/abstractions.expression_operator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.expression_operator.html"
+          "relative_path": "api/abstractions.expression_operator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.rect.yml",
+      "source_relative_path": "api/abstractions.rect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.rect.html"
+          "relative_path": "api/abstractions.rect.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.variable.yml",
+      "source_relative_path": "api/abstractions.variable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.variable.html"
+          "relative_path": "api/abstractions.variable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_abstractions.yml",
+      "source_relative_path": "api/abstractions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_abstractions.html"
+          "relative_path": "api/abstractions.html"
         }
       },
       "version": ""

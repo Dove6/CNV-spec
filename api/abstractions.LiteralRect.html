@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class KEYBOARD | Cnv API specification </title>
+      <title>Class LiteralRect | Cnv API specification </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class KEYBOARD | Cnv API specification ">
+      <meta name="title" content="Class LiteralRect | Cnv API specification ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=PIKLib_KEYBOARD.md&amp;value=---%0Auid%3A%20PIKLib.KEYBOARD%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dove6/CNV-spec/new/main/apiSpec/new?filename=abstractions_LiteralRect.md&amp;value=---%0Auid%3A%20abstractions.LiteralRect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="PIKLib.KEYBOARD">
+        <article data-uid="abstractions.LiteralRect">
 
 
 
-  <h1 id="PIKLib_KEYBOARD" data-uid="PIKLib.KEYBOARD" class="text-break">
-Class KEYBOARD  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h1 id="abstractions_LiteralRect" data-uid="abstractions.LiteralRect" class="text-break">
+Class LiteralRect  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="PIKLib.html">PIKLib</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="abstractions.html">abstractions</a></dd></dl>
   <dl><dt>Assembly</dt><dd>PIKLib.dll</dd></dl>
   </div>
 
@@ -101,7 +101,7 @@ Class KEYBOARD  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs"> KEYBOARD : OBJECT</code></pre>
+    <pre><code class="lang-csharp hljs">record LiteralRect : rect, IEquatable&lt;rect&gt;, IEquatable&lt;LiteralRect&gt;</code></pre>
   </div>
 
 
@@ -111,43 +111,23 @@ Class KEYBOARD  <a class="header-action link-secondary" title="View source" href
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="abstractions.OBJECT.html">OBJECT</a></div>
-      <div><span class="xref">KEYBOARD</span></div>
+      <div><a class="xref" href="abstractions.rect.html">rect</a></div>
+      <div><span class="xref">LiteralRect</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="abstractions.rect.html">rect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="abstractions.LiteralRect.html">LiteralRect</a>&gt;</div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_DESCRIPTION">OBJECT.DESCRIPTION</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_TYPE">OBJECT.TYPE</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_ADDBEHAVIOUR_System_String_System_String_">OBJECT.ADDBEHAVIOUR(string, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_CLONE_System_Int32_">OBJECT.CLONE(int)</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_GETCLONEINDEX">OBJECT.GETCLONEINDEX()</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_GETNAME">OBJECT.GETNAME()</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_MSGBOX_System_String_">OBJECT.MSGBOX(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_REMOVEBEHAVIOUR_System_String_">OBJECT.REMOVEBEHAVIOUR(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="abstractions.OBJECT.html#abstractions_OBJECT_RESETCLONES">OBJECT.RESETCLONES()</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -176,106 +156,33 @@ Class KEYBOARD  <a class="header-action link-secondary" title="View source" href
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="PIKLib_KEYBOARD_DISABLE_" data-uid="PIKLib.KEYBOARD.DISABLE*"></a>
+  <a id="abstractions_LiteralRect__ctor_" data-uid="abstractions.LiteralRect.#ctor*"></a>
 
-  <h3 id="PIKLib_KEYBOARD_DISABLE" data-uid="PIKLib.KEYBOARD.DISABLE">
-  DISABLE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h3 id="abstractions_LiteralRect__ctor_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="abstractions.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+  LiteralRect(int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DISABLE()</code></pre>
+    <pre><code class="lang-csharp hljs">LiteralRect(int left_x, int top_y, int right_x, int bottom_y)</code></pre>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="PIKLib_KEYBOARD_ENABLE_" data-uid="PIKLib.KEYBOARD.ENABLE*"></a>
-
-  <h3 id="PIKLib_KEYBOARD_ENABLE" data-uid="PIKLib.KEYBOARD.ENABLE">
-  ENABLE()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L7"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ENABLE()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="PIKLib_KEYBOARD_GETLATESTKEY_" data-uid="PIKLib.KEYBOARD.GETLATESTKEY*"></a>
-
-  <h3 id="PIKLib_KEYBOARD_GETLATESTKEY" data-uid="PIKLib.KEYBOARD.GETLATESTKEY">
-  GETLATESTKEY()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L8"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GETLATESTKEY()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="PIKLib_KEYBOARD_ISENABLED_" data-uid="PIKLib.KEYBOARD.ISENABLED*"></a>
-
-  <h3 id="PIKLib_KEYBOARD_ISENABLED" data-uid="PIKLib.KEYBOARD.ISENABLED">
-  ISENABLED()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L9"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISENABLED()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>left_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>top_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>right_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>bottom_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -289,24 +196,32 @@ Class KEYBOARD  <a class="header-action link-secondary" title="View source" href
 
 
 
-  <a id="PIKLib_KEYBOARD_ISKEYDOWN_" data-uid="PIKLib.KEYBOARD.ISKEYDOWN*"></a>
 
-  <h3 id="PIKLib_KEYBOARD_ISKEYDOWN" data-uid="PIKLib.KEYBOARD.ISKEYDOWN">
-  ISKEYDOWN()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="abstractions_LiteralRect_bottom_y_" data-uid="abstractions.LiteralRect.bottom_y*"></a>
+
+  <h3 id="abstractions_LiteralRect_bottom_y" data-uid="abstractions.LiteralRect.bottom_y">
+  bottom_y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ISKEYDOWN()</code></pre>
+    <pre><code class="lang-csharp hljs">int bottom_y { get; init; }</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -317,27 +232,91 @@ Class KEYBOARD  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="abstractions_LiteralRect_left_x_" data-uid="abstractions.LiteralRect.left_x*"></a>
 
-
-
-  <a id="PIKLib_KEYBOARD_SETAUTOREPEAT_" data-uid="PIKLib.KEYBOARD.SETAUTOREPEAT*"></a>
-
-  <h3 id="PIKLib_KEYBOARD_SETAUTOREPEAT" data-uid="PIKLib.KEYBOARD.SETAUTOREPEAT">
-  SETAUTOREPEAT()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h3 id="abstractions_LiteralRect_left_x" data-uid="abstractions.LiteralRect.left_x">
+  left_x
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SETAUTOREPEAT()</code></pre>
+    <pre><code class="lang-csharp hljs">int left_x { get; init; }</code></pre>
   </div>
 
 
 
 
 
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="abstractions_LiteralRect_right_x_" data-uid="abstractions.LiteralRect.right_x*"></a>
+
+  <h3 id="abstractions_LiteralRect_right_x" data-uid="abstractions.LiteralRect.right_x">
+  right_x
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int right_x { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="abstractions_LiteralRect_top_y_" data-uid="abstractions.LiteralRect.top_y*"></a>
+
+  <h3 id="abstractions_LiteralRect_top_y" data-uid="abstractions.LiteralRect.top_y">
+  top_y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int top_y { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -350,7 +329,7 @@ Class KEYBOARD  <a class="header-action link-secondary" title="View source" href
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/Keyboard.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Dove6/CNV-spec/blob/main/src/PIKLib/_types.cs/#L55" class="edit-link">Edit this page</a>
         </div>
 
 

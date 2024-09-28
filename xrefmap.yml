@@ -752,11 +752,11 @@ references:
   isSpec: "True"
   fullName: PIKLib.@.MSGBOX
   nameWithType: @.MSGBOX
-- uid: PIKLib.@.RETURN(_abstractions.variable)
+- uid: PIKLib.@.RETURN(abstractions.variable)
   name: RETURN(variable)
-  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_RETURN__abstractions_variable_
-  commentId: M:PIKLib.@.RETURN(_abstractions.variable)
-  fullName: PIKLib.@.RETURN(_abstractions.variable)
+  href: api/PIKLib.AA%E0%B6%9EAA.html#PIKLib_AA_AA_RETURN_abstractions_variable_
+  commentId: M:PIKLib.@.RETURN(abstractions.variable)
+  fullName: PIKLib.@.RETURN(abstractions.variable)
   nameWithType: @.RETURN(variable)
 - uid: PIKLib.@.RETURN*
   name: RETURN
@@ -1415,11 +1415,11 @@ references:
   isSpec: "True"
   fullName: PIKLib.ANIMO.RESUME
   nameWithType: ANIMO.RESUME
-- uid: PIKLib.ANIMO.SETANCHOR(_abstractions.anchor)
+- uid: PIKLib.ANIMO.SETANCHOR(abstractions.anchor)
   name: SETANCHOR(anchor)
-  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_SETANCHOR__abstractions_anchor_
-  commentId: M:PIKLib.ANIMO.SETANCHOR(_abstractions.anchor)
-  fullName: PIKLib.ANIMO.SETANCHOR(_abstractions.anchor)
+  href: api/PIKLib.ANIMO.html#PIKLib_ANIMO_SETANCHOR_abstractions_anchor_
+  commentId: M:PIKLib.ANIMO.SETANCHOR(abstractions.anchor)
+  fullName: PIKLib.ANIMO.SETANCHOR(abstractions.anchor)
   nameWithType: ANIMO.SETANCHOR(anchor)
 - uid: PIKLib.ANIMO.SETANCHOR*
   name: SETANCHOR
@@ -1753,13 +1753,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.APPLICATION.PATH
   nameWithType: APPLICATION.PATH
-- uid: PIKLib.APPLICATION.RUN(System.String,System.String,_abstractions.variable[])
+- uid: PIKLib.APPLICATION.RUN(System.String,System.String,abstractions.variable[])
   name: RUN(string, string, params variable[])
-  href: api/PIKLib.APPLICATION.html#PIKLib_APPLICATION_RUN_System_String_System_String__abstractions_variable___
-  commentId: M:PIKLib.APPLICATION.RUN(System.String,System.String,_abstractions.variable[])
+  href: api/PIKLib.APPLICATION.html#PIKLib_APPLICATION_RUN_System_String_System_String_abstractions_variable___
+  commentId: M:PIKLib.APPLICATION.RUN(System.String,System.String,abstractions.variable[])
   name.vb: RUN(String, String, ParamArray variable())
-  fullName: PIKLib.APPLICATION.RUN(string, string, params _abstractions.variable[])
-  fullName.vb: PIKLib.APPLICATION.RUN(String, String, ParamArray _abstractions.variable())
+  fullName: PIKLib.APPLICATION.RUN(string, string, params abstractions.variable[])
+  fullName.vb: PIKLib.APPLICATION.RUN(String, String, ParamArray abstractions.variable())
   nameWithType: APPLICATION.RUN(string, string, params variable[])
   nameWithType.vb: APPLICATION.RUN(String, String, ParamArray variable())
 - uid: PIKLib.APPLICATION.RUN*
@@ -1846,13 +1846,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.ADD
   nameWithType: ARRAY.ADD
-- uid: PIKLib.ARRAY.ADDAT(System.Int32,_abstractions.variable)
+- uid: PIKLib.ARRAY.ADDAT(System.Int32,abstractions.variable)
   name: ADDAT(int, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_ADDAT_System_Int32__abstractions_variable_
-  commentId: M:PIKLib.ARRAY.ADDAT(System.Int32,_abstractions.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_ADDAT_System_Int32_abstractions_variable_
+  commentId: M:PIKLib.ARRAY.ADDAT(System.Int32,abstractions.variable)
   name.vb: ADDAT(Integer, variable)
-  fullName: PIKLib.ARRAY.ADDAT(int, _abstractions.variable)
-  fullName.vb: PIKLib.ARRAY.ADDAT(Integer, _abstractions.variable)
+  fullName: PIKLib.ARRAY.ADDAT(int, abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.ADDAT(Integer, abstractions.variable)
   nameWithType: ARRAY.ADDAT(int, variable)
   nameWithType.vb: ARRAY.ADDAT(Integer, variable)
 - uid: PIKLib.ARRAY.ADDAT*
@@ -1862,13 +1862,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.ADDAT
   nameWithType: ARRAY.ADDAT
-- uid: PIKLib.ARRAY.CHANGEAT(System.Int32,_abstractions.variable)
+- uid: PIKLib.ARRAY.CHANGEAT(System.Int32,abstractions.variable)
   name: CHANGEAT(int, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CHANGEAT_System_Int32__abstractions_variable_
-  commentId: M:PIKLib.ARRAY.CHANGEAT(System.Int32,_abstractions.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CHANGEAT_System_Int32_abstractions_variable_
+  commentId: M:PIKLib.ARRAY.CHANGEAT(System.Int32,abstractions.variable)
   name.vb: CHANGEAT(Integer, variable)
-  fullName: PIKLib.ARRAY.CHANGEAT(int, _abstractions.variable)
-  fullName.vb: PIKLib.ARRAY.CHANGEAT(Integer, _abstractions.variable)
+  fullName: PIKLib.ARRAY.CHANGEAT(int, abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.CHANGEAT(Integer, abstractions.variable)
   nameWithType: ARRAY.CHANGEAT(int, variable)
   nameWithType.vb: ARRAY.CHANGEAT(Integer, variable)
 - uid: PIKLib.ARRAY.CHANGEAT*
@@ -1878,13 +1878,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.CHANGEAT
   nameWithType: ARRAY.CHANGEAT
-- uid: PIKLib.ARRAY.CLAMPAT(System.Int32,_abstractions.variable,_abstractions.variable)
+- uid: PIKLib.ARRAY.CLAMPAT(System.Int32,abstractions.variable,abstractions.variable)
   name: CLAMPAT(int, variable, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CLAMPAT_System_Int32__abstractions_variable__abstractions_variable_
-  commentId: M:PIKLib.ARRAY.CLAMPAT(System.Int32,_abstractions.variable,_abstractions.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CLAMPAT_System_Int32_abstractions_variable_abstractions_variable_
+  commentId: M:PIKLib.ARRAY.CLAMPAT(System.Int32,abstractions.variable,abstractions.variable)
   name.vb: CLAMPAT(Integer, variable, variable)
-  fullName: PIKLib.ARRAY.CLAMPAT(int, _abstractions.variable, _abstractions.variable)
-  fullName.vb: PIKLib.ARRAY.CLAMPAT(Integer, _abstractions.variable, _abstractions.variable)
+  fullName: PIKLib.ARRAY.CLAMPAT(int, abstractions.variable, abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.CLAMPAT(Integer, abstractions.variable, abstractions.variable)
   nameWithType: ARRAY.CLAMPAT(int, variable, variable)
   nameWithType.vb: ARRAY.CLAMPAT(Integer, variable, variable)
 - uid: PIKLib.ARRAY.CLAMPAT*
@@ -1894,11 +1894,11 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.CLAMPAT
   nameWithType: ARRAY.CLAMPAT
-- uid: PIKLib.ARRAY.CONTAINS(_abstractions.variable)
+- uid: PIKLib.ARRAY.CONTAINS(abstractions.variable)
   name: CONTAINS(variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CONTAINS__abstractions_variable_
-  commentId: M:PIKLib.ARRAY.CONTAINS(_abstractions.variable)
-  fullName: PIKLib.ARRAY.CONTAINS(_abstractions.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_CONTAINS_abstractions_variable_
+  commentId: M:PIKLib.ARRAY.CONTAINS(abstractions.variable)
+  fullName: PIKLib.ARRAY.CONTAINS(abstractions.variable)
   nameWithType: ARRAY.CONTAINS(variable)
 - uid: PIKLib.ARRAY.CONTAINS*
   name: CONTAINS
@@ -1975,13 +1975,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.ARRAY.GETSUMVALUE
   nameWithType: ARRAY.GETSUMVALUE
-- uid: PIKLib.ARRAY.INSERTAT(System.Int32,_abstractions.variable)
+- uid: PIKLib.ARRAY.INSERTAT(System.Int32,abstractions.variable)
   name: INSERTAT(int, variable)
-  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_INSERTAT_System_Int32__abstractions_variable_
-  commentId: M:PIKLib.ARRAY.INSERTAT(System.Int32,_abstractions.variable)
+  href: api/PIKLib.ARRAY.html#PIKLib_ARRAY_INSERTAT_System_Int32_abstractions_variable_
+  commentId: M:PIKLib.ARRAY.INSERTAT(System.Int32,abstractions.variable)
   name.vb: INSERTAT(Integer, variable)
-  fullName: PIKLib.ARRAY.INSERTAT(int, _abstractions.variable)
-  fullName.vb: PIKLib.ARRAY.INSERTAT(Integer, _abstractions.variable)
+  fullName: PIKLib.ARRAY.INSERTAT(int, abstractions.variable)
+  fullName.vb: PIKLib.ARRAY.INSERTAT(Integer, abstractions.variable)
   nameWithType: ARRAY.INSERTAT(int, variable)
   nameWithType.vb: ARRAY.INSERTAT(Integer, variable)
 - uid: PIKLib.ARRAY.INSERTAT*
@@ -2192,13 +2192,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.BEHAVIOUR.CONDITION
   nameWithType: BEHAVIOUR.CONDITION
-- uid: PIKLib.BEHAVIOUR.RUN(_abstractions.variable[])
+- uid: PIKLib.BEHAVIOUR.RUN(abstractions.variable[])
   name: RUN(params variable[])
-  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUN__abstractions_variable___
-  commentId: M:PIKLib.BEHAVIOUR.RUN(_abstractions.variable[])
+  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUN_abstractions_variable___
+  commentId: M:PIKLib.BEHAVIOUR.RUN(abstractions.variable[])
   name.vb: RUN(ParamArray variable())
-  fullName: PIKLib.BEHAVIOUR.RUN(params _abstractions.variable[])
-  fullName.vb: PIKLib.BEHAVIOUR.RUN(ParamArray _abstractions.variable())
+  fullName: PIKLib.BEHAVIOUR.RUN(params abstractions.variable[])
+  fullName.vb: PIKLib.BEHAVIOUR.RUN(ParamArray abstractions.variable())
   nameWithType: BEHAVIOUR.RUN(params variable[])
   nameWithType.vb: BEHAVIOUR.RUN(ParamArray variable())
 - uid: PIKLib.BEHAVIOUR.RUN*
@@ -2208,13 +2208,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.BEHAVIOUR.RUN
   nameWithType: BEHAVIOUR.RUN
-- uid: PIKLib.BEHAVIOUR.RUNC(_abstractions.variable[])
+- uid: PIKLib.BEHAVIOUR.RUNC(abstractions.variable[])
   name: RUNC(params variable[])
-  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUNC__abstractions_variable___
-  commentId: M:PIKLib.BEHAVIOUR.RUNC(_abstractions.variable[])
+  href: api/PIKLib.BEHAVIOUR.html#PIKLib_BEHAVIOUR_RUNC_abstractions_variable___
+  commentId: M:PIKLib.BEHAVIOUR.RUNC(abstractions.variable[])
   name.vb: RUNC(ParamArray variable())
-  fullName: PIKLib.BEHAVIOUR.RUNC(params _abstractions.variable[])
-  fullName.vb: PIKLib.BEHAVIOUR.RUNC(ParamArray _abstractions.variable())
+  fullName: PIKLib.BEHAVIOUR.RUNC(params abstractions.variable[])
+  fullName.vb: PIKLib.BEHAVIOUR.RUNC(ParamArray abstractions.variable())
   nameWithType: BEHAVIOUR.RUNC(params variable[])
   nameWithType.vb: BEHAVIOUR.RUNC(ParamArray variable())
 - uid: PIKLib.BEHAVIOUR.RUNC*
@@ -2488,11 +2488,11 @@ references:
   isSpec: "True"
   fullName: PIKLib.BUTTON.SETPRIORITY
   nameWithType: BUTTON.SETPRIORITY
-- uid: PIKLib.BUTTON.SETRECT(_abstractions.rect)
+- uid: PIKLib.BUTTON.SETRECT(abstractions.rect)
   name: SETRECT(rect)
-  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_SETRECT__abstractions_rect_
-  commentId: M:PIKLib.BUTTON.SETRECT(_abstractions.rect)
-  fullName: PIKLib.BUTTON.SETRECT(_abstractions.rect)
+  href: api/PIKLib.BUTTON.html#PIKLib_BUTTON_SETRECT_abstractions_rect_
+  commentId: M:PIKLib.BUTTON.SETRECT(abstractions.rect)
+  fullName: PIKLib.BUTTON.SETRECT(abstractions.rect)
   nameWithType: BUTTON.SETRECT(rect)
 - uid: PIKLib.BUTTON.SETRECT*
   name: SETRECT
@@ -2735,13 +2735,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.CLASS.DEF
   nameWithType: CLASS.DEF
-- uid: PIKLib.CLASS.NEW(System.String,_abstractions.variable[])
+- uid: PIKLib.CLASS.NEW(System.String,abstractions.variable[])
   name: NEW(string, params variable[])
-  href: api/PIKLib.CLASS.html#PIKLib_CLASS_NEW_System_String__abstractions_variable___
-  commentId: M:PIKLib.CLASS.NEW(System.String,_abstractions.variable[])
+  href: api/PIKLib.CLASS.html#PIKLib_CLASS_NEW_System_String_abstractions_variable___
+  commentId: M:PIKLib.CLASS.NEW(System.String,abstractions.variable[])
   name.vb: NEW(String, ParamArray variable())
-  fullName: PIKLib.CLASS.NEW(string, params _abstractions.variable[])
-  fullName.vb: PIKLib.CLASS.NEW(String, ParamArray _abstractions.variable())
+  fullName: PIKLib.CLASS.NEW(string, params abstractions.variable[])
+  fullName.vb: PIKLib.CLASS.NEW(String, ParamArray abstractions.variable())
   nameWithType: CLASS.NEW(string, params variable[])
   nameWithType.vb: CLASS.NEW(String, ParamArray variable())
 - uid: PIKLib.CLASS.NEW*
@@ -2991,13 +2991,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.DATABASE.ADD
   nameWithType: DATABASE.ADD
-- uid: PIKLib.DATABASE.FIND(System.String,_abstractions.variable,System.Int32)
+- uid: PIKLib.DATABASE.FIND(System.String,abstractions.variable,System.Int32)
   name: FIND(string, variable, int)
-  href: api/PIKLib.DATABASE.html#PIKLib_DATABASE_FIND_System_String__abstractions_variable_System_Int32_
-  commentId: M:PIKLib.DATABASE.FIND(System.String,_abstractions.variable,System.Int32)
+  href: api/PIKLib.DATABASE.html#PIKLib_DATABASE_FIND_System_String_abstractions_variable_System_Int32_
+  commentId: M:PIKLib.DATABASE.FIND(System.String,abstractions.variable,System.Int32)
   name.vb: FIND(String, variable, Integer)
-  fullName: PIKLib.DATABASE.FIND(string, _abstractions.variable, int)
-  fullName.vb: PIKLib.DATABASE.FIND(String, _abstractions.variable, Integer)
+  fullName: PIKLib.DATABASE.FIND(string, abstractions.variable, int)
+  fullName.vb: PIKLib.DATABASE.FIND(String, abstractions.variable, Integer)
   nameWithType: DATABASE.FIND(string, variable, int)
   nameWithType.vb: DATABASE.FIND(String, variable, Integer)
 - uid: PIKLib.DATABASE.FIND*
@@ -4694,13 +4694,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.MULTIARRAY.GET
   nameWithType: MULTIARRAY.GET
-- uid: PIKLib.MULTIARRAY.SET(_abstractions.variable,System.Int32[])
+- uid: PIKLib.MULTIARRAY.SET(abstractions.variable,System.Int32[])
   name: SET(variable, params int[])
-  href: api/PIKLib.MULTIARRAY.html#PIKLib_MULTIARRAY_SET__abstractions_variable_System_Int32___
-  commentId: M:PIKLib.MULTIARRAY.SET(_abstractions.variable,System.Int32[])
+  href: api/PIKLib.MULTIARRAY.html#PIKLib_MULTIARRAY_SET_abstractions_variable_System_Int32___
+  commentId: M:PIKLib.MULTIARRAY.SET(abstractions.variable,System.Int32[])
   name.vb: SET(variable, ParamArray Integer())
-  fullName: PIKLib.MULTIARRAY.SET(_abstractions.variable, params int[])
-  fullName.vb: PIKLib.MULTIARRAY.SET(_abstractions.variable, ParamArray Integer())
+  fullName: PIKLib.MULTIARRAY.SET(abstractions.variable, params int[])
+  fullName.vb: PIKLib.MULTIARRAY.SET(abstractions.variable, ParamArray Integer())
   nameWithType: MULTIARRAY.SET(variable, params int[])
   nameWithType.vb: MULTIARRAY.SET(variable, ParamArray Integer())
 - uid: PIKLib.MULTIARRAY.SET*
@@ -5135,13 +5135,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.SCENE.RESUME
   nameWithType: SCENE.RESUME
-- uid: PIKLib.SCENE.RUN(System.String,System.String,_abstractions.variable[])
+- uid: PIKLib.SCENE.RUN(System.String,System.String,abstractions.variable[])
   name: RUN(string, string, params variable[])
-  href: api/PIKLib.SCENE.html#PIKLib_SCENE_RUN_System_String_System_String__abstractions_variable___
-  commentId: M:PIKLib.SCENE.RUN(System.String,System.String,_abstractions.variable[])
+  href: api/PIKLib.SCENE.html#PIKLib_SCENE_RUN_System_String_System_String_abstractions_variable___
+  commentId: M:PIKLib.SCENE.RUN(System.String,System.String,abstractions.variable[])
   name.vb: RUN(String, String, ParamArray variable())
-  fullName: PIKLib.SCENE.RUN(string, string, params _abstractions.variable[])
-  fullName.vb: PIKLib.SCENE.RUN(String, String, ParamArray _abstractions.variable())
+  fullName: PIKLib.SCENE.RUN(string, string, params abstractions.variable[])
+  fullName.vb: PIKLib.SCENE.RUN(String, String, ParamArray abstractions.variable())
   nameWithType: SCENE.RUN(string, string, params variable[])
   nameWithType.vb: SCENE.RUN(String, String, ParamArray variable())
 - uid: PIKLib.SCENE.RUN*
@@ -5551,13 +5551,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.STATICFILTER.LINK
   nameWithType: STATICFILTER.LINK
-- uid: PIKLib.STATICFILTER.SETPROPERTY(System.String,_abstractions.variable)
+- uid: PIKLib.STATICFILTER.SETPROPERTY(System.String,abstractions.variable)
   name: SETPROPERTY(string, variable)
-  href: api/PIKLib.STATICFILTER.html#PIKLib_STATICFILTER_SETPROPERTY_System_String__abstractions_variable_
-  commentId: M:PIKLib.STATICFILTER.SETPROPERTY(System.String,_abstractions.variable)
+  href: api/PIKLib.STATICFILTER.html#PIKLib_STATICFILTER_SETPROPERTY_System_String_abstractions_variable_
+  commentId: M:PIKLib.STATICFILTER.SETPROPERTY(System.String,abstractions.variable)
   name.vb: SETPROPERTY(String, variable)
-  fullName: PIKLib.STATICFILTER.SETPROPERTY(string, _abstractions.variable)
-  fullName.vb: PIKLib.STATICFILTER.SETPROPERTY(String, _abstractions.variable)
+  fullName: PIKLib.STATICFILTER.SETPROPERTY(string, abstractions.variable)
+  fullName.vb: PIKLib.STATICFILTER.SETPROPERTY(String, abstractions.variable)
   nameWithType: STATICFILTER.SETPROPERTY(string, variable)
   nameWithType.vb: STATICFILTER.SETPROPERTY(String, variable)
 - uid: PIKLib.STATICFILTER.SETPROPERTY*
@@ -5858,13 +5858,13 @@ references:
   isSpec: "True"
   fullName: PIKLib.STRUCT.SET
   nameWithType: STRUCT.SET
-- uid: PIKLib.STRUCT.SETFIELD(System.String,_abstractions.variable)
+- uid: PIKLib.STRUCT.SETFIELD(System.String,abstractions.variable)
   name: SETFIELD(string, variable)
-  href: api/PIKLib.STRUCT.html#PIKLib_STRUCT_SETFIELD_System_String__abstractions_variable_
-  commentId: M:PIKLib.STRUCT.SETFIELD(System.String,_abstractions.variable)
+  href: api/PIKLib.STRUCT.html#PIKLib_STRUCT_SETFIELD_System_String_abstractions_variable_
+  commentId: M:PIKLib.STRUCT.SETFIELD(System.String,abstractions.variable)
   name.vb: SETFIELD(String, variable)
-  fullName: PIKLib.STRUCT.SETFIELD(string, _abstractions.variable)
-  fullName.vb: PIKLib.STRUCT.SETFIELD(String, _abstractions.variable)
+  fullName: PIKLib.STRUCT.SETFIELD(string, abstractions.variable)
+  fullName.vb: PIKLib.STRUCT.SETFIELD(String, abstractions.variable)
   nameWithType: STRUCT.SETFIELD(string, variable)
   nameWithType.vb: STRUCT.SETFIELD(String, variable)
 - uid: PIKLib.STRUCT.SETFIELD*
@@ -7138,591 +7138,591 @@ references:
   isSpec: "True"
   fullName: World.WORLD.UNLINK
   nameWithType: WORLD.UNLINK
-- uid: _abstractions
-  name: _abstractions
-  href: api/_abstractions.html
-  commentId: N:_abstractions
-  fullName: _abstractions
-  nameWithType: _abstractions
-- uid: _abstractions.BoolVariable
+- uid: abstractions
+  name: abstractions
+  href: api/abstractions.html
+  commentId: N:abstractions
+  fullName: abstractions
+  nameWithType: abstractions
+- uid: abstractions.BoolVariable
   name: BoolVariable
-  href: api/_abstractions.BoolVariable.html
-  commentId: T:_abstractions.BoolVariable
-  fullName: _abstractions.BoolVariable
+  href: api/abstractions.BoolVariable.html
+  commentId: T:abstractions.BoolVariable
+  fullName: abstractions.BoolVariable
   nameWithType: BoolVariable
-- uid: _abstractions.BoolVariable.#ctor(System.Boolean)
+- uid: abstractions.BoolVariable.#ctor(System.Boolean)
   name: BoolVariable(bool)
-  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable__ctor_System_Boolean_
-  commentId: M:_abstractions.BoolVariable.#ctor(System.Boolean)
+  href: api/abstractions.BoolVariable.html#abstractions_BoolVariable__ctor_System_Boolean_
+  commentId: M:abstractions.BoolVariable.#ctor(System.Boolean)
   name.vb: New(Boolean)
-  fullName: _abstractions.BoolVariable.BoolVariable(bool)
-  fullName.vb: _abstractions.BoolVariable.New(Boolean)
+  fullName: abstractions.BoolVariable.BoolVariable(bool)
+  fullName.vb: abstractions.BoolVariable.New(Boolean)
   nameWithType: BoolVariable.BoolVariable(bool)
   nameWithType.vb: BoolVariable.New(Boolean)
-- uid: _abstractions.BoolVariable.#ctor*
+- uid: abstractions.BoolVariable.#ctor*
   name: BoolVariable
-  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable__ctor_
-  commentId: Overload:_abstractions.BoolVariable.#ctor
+  href: api/abstractions.BoolVariable.html#abstractions_BoolVariable__ctor_
+  commentId: Overload:abstractions.BoolVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _abstractions.BoolVariable.BoolVariable
-  fullName.vb: _abstractions.BoolVariable.New
+  fullName: abstractions.BoolVariable.BoolVariable
+  fullName.vb: abstractions.BoolVariable.New
   nameWithType: BoolVariable.BoolVariable
   nameWithType.vb: BoolVariable.New
-- uid: _abstractions.BoolVariable.value
+- uid: abstractions.BoolVariable.value
   name: value
-  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable_value
-  commentId: P:_abstractions.BoolVariable.value
-  fullName: _abstractions.BoolVariable.value
+  href: api/abstractions.BoolVariable.html#abstractions_BoolVariable_value
+  commentId: P:abstractions.BoolVariable.value
+  fullName: abstractions.BoolVariable.value
   nameWithType: BoolVariable.value
-- uid: _abstractions.BoolVariable.value*
+- uid: abstractions.BoolVariable.value*
   name: value
-  href: api/_abstractions.BoolVariable.html#_abstractions_BoolVariable_value_
-  commentId: Overload:_abstractions.BoolVariable.value
+  href: api/abstractions.BoolVariable.html#abstractions_BoolVariable_value_
+  commentId: Overload:abstractions.BoolVariable.value
   isSpec: "True"
-  fullName: _abstractions.BoolVariable.value
+  fullName: abstractions.BoolVariable.value
   nameWithType: BoolVariable.value
-- uid: _abstractions.DoubleVariable
+- uid: abstractions.DoubleVariable
   name: DoubleVariable
-  href: api/_abstractions.DoubleVariable.html
-  commentId: T:_abstractions.DoubleVariable
-  fullName: _abstractions.DoubleVariable
+  href: api/abstractions.DoubleVariable.html
+  commentId: T:abstractions.DoubleVariable
+  fullName: abstractions.DoubleVariable
   nameWithType: DoubleVariable
-- uid: _abstractions.DoubleVariable.#ctor(System.Double)
+- uid: abstractions.DoubleVariable.#ctor(System.Double)
   name: DoubleVariable(double)
-  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable__ctor_System_Double_
-  commentId: M:_abstractions.DoubleVariable.#ctor(System.Double)
+  href: api/abstractions.DoubleVariable.html#abstractions_DoubleVariable__ctor_System_Double_
+  commentId: M:abstractions.DoubleVariable.#ctor(System.Double)
   name.vb: New(Double)
-  fullName: _abstractions.DoubleVariable.DoubleVariable(double)
-  fullName.vb: _abstractions.DoubleVariable.New(Double)
+  fullName: abstractions.DoubleVariable.DoubleVariable(double)
+  fullName.vb: abstractions.DoubleVariable.New(Double)
   nameWithType: DoubleVariable.DoubleVariable(double)
   nameWithType.vb: DoubleVariable.New(Double)
-- uid: _abstractions.DoubleVariable.#ctor*
+- uid: abstractions.DoubleVariable.#ctor*
   name: DoubleVariable
-  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable__ctor_
-  commentId: Overload:_abstractions.DoubleVariable.#ctor
+  href: api/abstractions.DoubleVariable.html#abstractions_DoubleVariable__ctor_
+  commentId: Overload:abstractions.DoubleVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _abstractions.DoubleVariable.DoubleVariable
-  fullName.vb: _abstractions.DoubleVariable.New
+  fullName: abstractions.DoubleVariable.DoubleVariable
+  fullName.vb: abstractions.DoubleVariable.New
   nameWithType: DoubleVariable.DoubleVariable
   nameWithType.vb: DoubleVariable.New
-- uid: _abstractions.DoubleVariable.value
+- uid: abstractions.DoubleVariable.value
   name: value
-  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable_value
-  commentId: P:_abstractions.DoubleVariable.value
-  fullName: _abstractions.DoubleVariable.value
+  href: api/abstractions.DoubleVariable.html#abstractions_DoubleVariable_value
+  commentId: P:abstractions.DoubleVariable.value
+  fullName: abstractions.DoubleVariable.value
   nameWithType: DoubleVariable.value
-- uid: _abstractions.DoubleVariable.value*
+- uid: abstractions.DoubleVariable.value*
   name: value
-  href: api/_abstractions.DoubleVariable.html#_abstractions_DoubleVariable_value_
-  commentId: Overload:_abstractions.DoubleVariable.value
+  href: api/abstractions.DoubleVariable.html#abstractions_DoubleVariable_value_
+  commentId: Overload:abstractions.DoubleVariable.value
   isSpec: "True"
-  fullName: _abstractions.DoubleVariable.value
+  fullName: abstractions.DoubleVariable.value
   nameWithType: DoubleVariable.value
-- uid: _abstractions.IntVariable
+- uid: abstractions.IntVariable
   name: IntVariable
-  href: api/_abstractions.IntVariable.html
-  commentId: T:_abstractions.IntVariable
-  fullName: _abstractions.IntVariable
+  href: api/abstractions.IntVariable.html
+  commentId: T:abstractions.IntVariable
+  fullName: abstractions.IntVariable
   nameWithType: IntVariable
-- uid: _abstractions.IntVariable.#ctor(System.Int32)
+- uid: abstractions.IntVariable.#ctor(System.Int32)
   name: IntVariable(int)
-  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable__ctor_System_Int32_
-  commentId: M:_abstractions.IntVariable.#ctor(System.Int32)
+  href: api/abstractions.IntVariable.html#abstractions_IntVariable__ctor_System_Int32_
+  commentId: M:abstractions.IntVariable.#ctor(System.Int32)
   name.vb: New(Integer)
-  fullName: _abstractions.IntVariable.IntVariable(int)
-  fullName.vb: _abstractions.IntVariable.New(Integer)
+  fullName: abstractions.IntVariable.IntVariable(int)
+  fullName.vb: abstractions.IntVariable.New(Integer)
   nameWithType: IntVariable.IntVariable(int)
   nameWithType.vb: IntVariable.New(Integer)
-- uid: _abstractions.IntVariable.#ctor*
+- uid: abstractions.IntVariable.#ctor*
   name: IntVariable
-  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable__ctor_
-  commentId: Overload:_abstractions.IntVariable.#ctor
+  href: api/abstractions.IntVariable.html#abstractions_IntVariable__ctor_
+  commentId: Overload:abstractions.IntVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _abstractions.IntVariable.IntVariable
-  fullName.vb: _abstractions.IntVariable.New
+  fullName: abstractions.IntVariable.IntVariable
+  fullName.vb: abstractions.IntVariable.New
   nameWithType: IntVariable.IntVariable
   nameWithType.vb: IntVariable.New
-- uid: _abstractions.IntVariable.value
+- uid: abstractions.IntVariable.value
   name: value
-  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable_value
-  commentId: P:_abstractions.IntVariable.value
-  fullName: _abstractions.IntVariable.value
+  href: api/abstractions.IntVariable.html#abstractions_IntVariable_value
+  commentId: P:abstractions.IntVariable.value
+  fullName: abstractions.IntVariable.value
   nameWithType: IntVariable.value
-- uid: _abstractions.IntVariable.value*
+- uid: abstractions.IntVariable.value*
   name: value
-  href: api/_abstractions.IntVariable.html#_abstractions_IntVariable_value_
-  commentId: Overload:_abstractions.IntVariable.value
+  href: api/abstractions.IntVariable.html#abstractions_IntVariable_value_
+  commentId: Overload:abstractions.IntVariable.value
   isSpec: "True"
-  fullName: _abstractions.IntVariable.value
+  fullName: abstractions.IntVariable.value
   nameWithType: IntVariable.value
-- uid: _abstractions.LiteralRect
+- uid: abstractions.LiteralRect
   name: LiteralRect
-  href: api/_abstractions.LiteralRect.html
-  commentId: T:_abstractions.LiteralRect
-  fullName: _abstractions.LiteralRect
+  href: api/abstractions.LiteralRect.html
+  commentId: T:abstractions.LiteralRect
+  fullName: abstractions.LiteralRect
   nameWithType: LiteralRect
-- uid: _abstractions.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+- uid: abstractions.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
   name: LiteralRect(int, int, int, int)
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:_abstractions.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect__ctor_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:abstractions.LiteralRect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
   name.vb: New(Integer, Integer, Integer, Integer)
-  fullName: _abstractions.LiteralRect.LiteralRect(int, int, int, int)
-  fullName.vb: _abstractions.LiteralRect.New(Integer, Integer, Integer, Integer)
+  fullName: abstractions.LiteralRect.LiteralRect(int, int, int, int)
+  fullName.vb: abstractions.LiteralRect.New(Integer, Integer, Integer, Integer)
   nameWithType: LiteralRect.LiteralRect(int, int, int, int)
   nameWithType.vb: LiteralRect.New(Integer, Integer, Integer, Integer)
-- uid: _abstractions.LiteralRect.#ctor*
+- uid: abstractions.LiteralRect.#ctor*
   name: LiteralRect
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect__ctor_
-  commentId: Overload:_abstractions.LiteralRect.#ctor
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect__ctor_
+  commentId: Overload:abstractions.LiteralRect.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _abstractions.LiteralRect.LiteralRect
-  fullName.vb: _abstractions.LiteralRect.New
+  fullName: abstractions.LiteralRect.LiteralRect
+  fullName.vb: abstractions.LiteralRect.New
   nameWithType: LiteralRect.LiteralRect
   nameWithType.vb: LiteralRect.New
-- uid: _abstractions.LiteralRect.bottom_y
+- uid: abstractions.LiteralRect.bottom_y
   name: bottom_y
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_bottom_y
-  commentId: P:_abstractions.LiteralRect.bottom_y
-  fullName: _abstractions.LiteralRect.bottom_y
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_bottom_y
+  commentId: P:abstractions.LiteralRect.bottom_y
+  fullName: abstractions.LiteralRect.bottom_y
   nameWithType: LiteralRect.bottom_y
-- uid: _abstractions.LiteralRect.bottom_y*
+- uid: abstractions.LiteralRect.bottom_y*
   name: bottom_y
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_bottom_y_
-  commentId: Overload:_abstractions.LiteralRect.bottom_y
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_bottom_y_
+  commentId: Overload:abstractions.LiteralRect.bottom_y
   isSpec: "True"
-  fullName: _abstractions.LiteralRect.bottom_y
+  fullName: abstractions.LiteralRect.bottom_y
   nameWithType: LiteralRect.bottom_y
-- uid: _abstractions.LiteralRect.left_x
+- uid: abstractions.LiteralRect.left_x
   name: left_x
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_left_x
-  commentId: P:_abstractions.LiteralRect.left_x
-  fullName: _abstractions.LiteralRect.left_x
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_left_x
+  commentId: P:abstractions.LiteralRect.left_x
+  fullName: abstractions.LiteralRect.left_x
   nameWithType: LiteralRect.left_x
-- uid: _abstractions.LiteralRect.left_x*
+- uid: abstractions.LiteralRect.left_x*
   name: left_x
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_left_x_
-  commentId: Overload:_abstractions.LiteralRect.left_x
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_left_x_
+  commentId: Overload:abstractions.LiteralRect.left_x
   isSpec: "True"
-  fullName: _abstractions.LiteralRect.left_x
+  fullName: abstractions.LiteralRect.left_x
   nameWithType: LiteralRect.left_x
-- uid: _abstractions.LiteralRect.right_x
+- uid: abstractions.LiteralRect.right_x
   name: right_x
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_right_x
-  commentId: P:_abstractions.LiteralRect.right_x
-  fullName: _abstractions.LiteralRect.right_x
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_right_x
+  commentId: P:abstractions.LiteralRect.right_x
+  fullName: abstractions.LiteralRect.right_x
   nameWithType: LiteralRect.right_x
-- uid: _abstractions.LiteralRect.right_x*
+- uid: abstractions.LiteralRect.right_x*
   name: right_x
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_right_x_
-  commentId: Overload:_abstractions.LiteralRect.right_x
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_right_x_
+  commentId: Overload:abstractions.LiteralRect.right_x
   isSpec: "True"
-  fullName: _abstractions.LiteralRect.right_x
+  fullName: abstractions.LiteralRect.right_x
   nameWithType: LiteralRect.right_x
-- uid: _abstractions.LiteralRect.top_y
+- uid: abstractions.LiteralRect.top_y
   name: top_y
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_top_y
-  commentId: P:_abstractions.LiteralRect.top_y
-  fullName: _abstractions.LiteralRect.top_y
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_top_y
+  commentId: P:abstractions.LiteralRect.top_y
+  fullName: abstractions.LiteralRect.top_y
   nameWithType: LiteralRect.top_y
-- uid: _abstractions.LiteralRect.top_y*
+- uid: abstractions.LiteralRect.top_y*
   name: top_y
-  href: api/_abstractions.LiteralRect.html#_abstractions_LiteralRect_top_y_
-  commentId: Overload:_abstractions.LiteralRect.top_y
+  href: api/abstractions.LiteralRect.html#abstractions_LiteralRect_top_y_
+  commentId: Overload:abstractions.LiteralRect.top_y
   isSpec: "True"
-  fullName: _abstractions.LiteralRect.top_y
+  fullName: abstractions.LiteralRect.top_y
   nameWithType: LiteralRect.top_y
-- uid: _abstractions.OBJECT
+- uid: abstractions.OBJECT
   name: OBJECT
-  href: api/_abstractions.OBJECT.html
-  commentId: T:_abstractions.OBJECT
-  fullName: _abstractions.OBJECT
+  href: api/abstractions.OBJECT.html
+  commentId: T:abstractions.OBJECT
+  fullName: abstractions.OBJECT
   nameWithType: OBJECT
-- uid: _abstractions.OBJECT.ADDBEHAVIOUR(System.String,System.String)
+- uid: abstractions.OBJECT.ADDBEHAVIOUR(System.String,System.String)
   name: ADDBEHAVIOUR(string, string)
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_ADDBEHAVIOUR_System_String_System_String_
-  commentId: M:_abstractions.OBJECT.ADDBEHAVIOUR(System.String,System.String)
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_ADDBEHAVIOUR_System_String_System_String_
+  commentId: M:abstractions.OBJECT.ADDBEHAVIOUR(System.String,System.String)
   name.vb: ADDBEHAVIOUR(String, String)
-  fullName: _abstractions.OBJECT.ADDBEHAVIOUR(string, string)
-  fullName.vb: _abstractions.OBJECT.ADDBEHAVIOUR(String, String)
+  fullName: abstractions.OBJECT.ADDBEHAVIOUR(string, string)
+  fullName.vb: abstractions.OBJECT.ADDBEHAVIOUR(String, String)
   nameWithType: OBJECT.ADDBEHAVIOUR(string, string)
   nameWithType.vb: OBJECT.ADDBEHAVIOUR(String, String)
-- uid: _abstractions.OBJECT.ADDBEHAVIOUR*
+- uid: abstractions.OBJECT.ADDBEHAVIOUR*
   name: ADDBEHAVIOUR
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_ADDBEHAVIOUR_
-  commentId: Overload:_abstractions.OBJECT.ADDBEHAVIOUR
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_ADDBEHAVIOUR_
+  commentId: Overload:abstractions.OBJECT.ADDBEHAVIOUR
   isSpec: "True"
-  fullName: _abstractions.OBJECT.ADDBEHAVIOUR
+  fullName: abstractions.OBJECT.ADDBEHAVIOUR
   nameWithType: OBJECT.ADDBEHAVIOUR
-- uid: _abstractions.OBJECT.CLONE(System.Int32)
+- uid: abstractions.OBJECT.CLONE(System.Int32)
   name: CLONE(int)
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_CLONE_System_Int32_
-  commentId: M:_abstractions.OBJECT.CLONE(System.Int32)
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_CLONE_System_Int32_
+  commentId: M:abstractions.OBJECT.CLONE(System.Int32)
   name.vb: CLONE(Integer)
-  fullName: _abstractions.OBJECT.CLONE(int)
-  fullName.vb: _abstractions.OBJECT.CLONE(Integer)
+  fullName: abstractions.OBJECT.CLONE(int)
+  fullName.vb: abstractions.OBJECT.CLONE(Integer)
   nameWithType: OBJECT.CLONE(int)
   nameWithType.vb: OBJECT.CLONE(Integer)
-- uid: _abstractions.OBJECT.CLONE*
+- uid: abstractions.OBJECT.CLONE*
   name: CLONE
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_CLONE_
-  commentId: Overload:_abstractions.OBJECT.CLONE
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_CLONE_
+  commentId: Overload:abstractions.OBJECT.CLONE
   isSpec: "True"
-  fullName: _abstractions.OBJECT.CLONE
+  fullName: abstractions.OBJECT.CLONE
   nameWithType: OBJECT.CLONE
-- uid: _abstractions.OBJECT.DESCRIPTION
+- uid: abstractions.OBJECT.DESCRIPTION
   name: DESCRIPTION
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_DESCRIPTION
-  commentId: P:_abstractions.OBJECT.DESCRIPTION
-  fullName: _abstractions.OBJECT.DESCRIPTION
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_DESCRIPTION
+  commentId: P:abstractions.OBJECT.DESCRIPTION
+  fullName: abstractions.OBJECT.DESCRIPTION
   nameWithType: OBJECT.DESCRIPTION
-- uid: _abstractions.OBJECT.DESCRIPTION*
+- uid: abstractions.OBJECT.DESCRIPTION*
   name: DESCRIPTION
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_DESCRIPTION_
-  commentId: Overload:_abstractions.OBJECT.DESCRIPTION
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_DESCRIPTION_
+  commentId: Overload:abstractions.OBJECT.DESCRIPTION
   isSpec: "True"
-  fullName: _abstractions.OBJECT.DESCRIPTION
+  fullName: abstractions.OBJECT.DESCRIPTION
   nameWithType: OBJECT.DESCRIPTION
-- uid: _abstractions.OBJECT.GETCLONEINDEX
+- uid: abstractions.OBJECT.GETCLONEINDEX
   name: GETCLONEINDEX()
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETCLONEINDEX
-  commentId: M:_abstractions.OBJECT.GETCLONEINDEX
-  fullName: _abstractions.OBJECT.GETCLONEINDEX()
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_GETCLONEINDEX
+  commentId: M:abstractions.OBJECT.GETCLONEINDEX
+  fullName: abstractions.OBJECT.GETCLONEINDEX()
   nameWithType: OBJECT.GETCLONEINDEX()
-- uid: _abstractions.OBJECT.GETCLONEINDEX*
+- uid: abstractions.OBJECT.GETCLONEINDEX*
   name: GETCLONEINDEX
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETCLONEINDEX_
-  commentId: Overload:_abstractions.OBJECT.GETCLONEINDEX
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_GETCLONEINDEX_
+  commentId: Overload:abstractions.OBJECT.GETCLONEINDEX
   isSpec: "True"
-  fullName: _abstractions.OBJECT.GETCLONEINDEX
+  fullName: abstractions.OBJECT.GETCLONEINDEX
   nameWithType: OBJECT.GETCLONEINDEX
-- uid: _abstractions.OBJECT.GETNAME
+- uid: abstractions.OBJECT.GETNAME
   name: GETNAME()
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETNAME
-  commentId: M:_abstractions.OBJECT.GETNAME
-  fullName: _abstractions.OBJECT.GETNAME()
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_GETNAME
+  commentId: M:abstractions.OBJECT.GETNAME
+  fullName: abstractions.OBJECT.GETNAME()
   nameWithType: OBJECT.GETNAME()
-- uid: _abstractions.OBJECT.GETNAME*
+- uid: abstractions.OBJECT.GETNAME*
   name: GETNAME
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_GETNAME_
-  commentId: Overload:_abstractions.OBJECT.GETNAME
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_GETNAME_
+  commentId: Overload:abstractions.OBJECT.GETNAME
   isSpec: "True"
-  fullName: _abstractions.OBJECT.GETNAME
+  fullName: abstractions.OBJECT.GETNAME
   nameWithType: OBJECT.GETNAME
-- uid: _abstractions.OBJECT.MSGBOX(System.String)
+- uid: abstractions.OBJECT.MSGBOX(System.String)
   name: MSGBOX(string)
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_MSGBOX_System_String_
-  commentId: M:_abstractions.OBJECT.MSGBOX(System.String)
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_MSGBOX_System_String_
+  commentId: M:abstractions.OBJECT.MSGBOX(System.String)
   name.vb: MSGBOX(String)
-  fullName: _abstractions.OBJECT.MSGBOX(string)
-  fullName.vb: _abstractions.OBJECT.MSGBOX(String)
+  fullName: abstractions.OBJECT.MSGBOX(string)
+  fullName.vb: abstractions.OBJECT.MSGBOX(String)
   nameWithType: OBJECT.MSGBOX(string)
   nameWithType.vb: OBJECT.MSGBOX(String)
-- uid: _abstractions.OBJECT.MSGBOX*
+- uid: abstractions.OBJECT.MSGBOX*
   name: MSGBOX
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_MSGBOX_
-  commentId: Overload:_abstractions.OBJECT.MSGBOX
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_MSGBOX_
+  commentId: Overload:abstractions.OBJECT.MSGBOX
   isSpec: "True"
-  fullName: _abstractions.OBJECT.MSGBOX
+  fullName: abstractions.OBJECT.MSGBOX
   nameWithType: OBJECT.MSGBOX
-- uid: _abstractions.OBJECT.REMOVEBEHAVIOUR(System.String)
+- uid: abstractions.OBJECT.REMOVEBEHAVIOUR(System.String)
   name: REMOVEBEHAVIOUR(string)
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_REMOVEBEHAVIOUR_System_String_
-  commentId: M:_abstractions.OBJECT.REMOVEBEHAVIOUR(System.String)
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_REMOVEBEHAVIOUR_System_String_
+  commentId: M:abstractions.OBJECT.REMOVEBEHAVIOUR(System.String)
   name.vb: REMOVEBEHAVIOUR(String)
-  fullName: _abstractions.OBJECT.REMOVEBEHAVIOUR(string)
-  fullName.vb: _abstractions.OBJECT.REMOVEBEHAVIOUR(String)
+  fullName: abstractions.OBJECT.REMOVEBEHAVIOUR(string)
+  fullName.vb: abstractions.OBJECT.REMOVEBEHAVIOUR(String)
   nameWithType: OBJECT.REMOVEBEHAVIOUR(string)
   nameWithType.vb: OBJECT.REMOVEBEHAVIOUR(String)
-- uid: _abstractions.OBJECT.REMOVEBEHAVIOUR*
+- uid: abstractions.OBJECT.REMOVEBEHAVIOUR*
   name: REMOVEBEHAVIOUR
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_REMOVEBEHAVIOUR_
-  commentId: Overload:_abstractions.OBJECT.REMOVEBEHAVIOUR
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_REMOVEBEHAVIOUR_
+  commentId: Overload:abstractions.OBJECT.REMOVEBEHAVIOUR
   isSpec: "True"
-  fullName: _abstractions.OBJECT.REMOVEBEHAVIOUR
+  fullName: abstractions.OBJECT.REMOVEBEHAVIOUR
   nameWithType: OBJECT.REMOVEBEHAVIOUR
-- uid: _abstractions.OBJECT.RESETCLONES
+- uid: abstractions.OBJECT.RESETCLONES
   name: RESETCLONES()
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES
-  commentId: M:_abstractions.OBJECT.RESETCLONES
-  fullName: _abstractions.OBJECT.RESETCLONES()
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_RESETCLONES
+  commentId: M:abstractions.OBJECT.RESETCLONES
+  fullName: abstractions.OBJECT.RESETCLONES()
   nameWithType: OBJECT.RESETCLONES()
-- uid: _abstractions.OBJECT.RESETCLONES*
+- uid: abstractions.OBJECT.RESETCLONES*
   name: RESETCLONES
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_RESETCLONES_
-  commentId: Overload:_abstractions.OBJECT.RESETCLONES
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_RESETCLONES_
+  commentId: Overload:abstractions.OBJECT.RESETCLONES
   isSpec: "True"
-  fullName: _abstractions.OBJECT.RESETCLONES
+  fullName: abstractions.OBJECT.RESETCLONES
   nameWithType: OBJECT.RESETCLONES
-- uid: _abstractions.OBJECT.TYPE
+- uid: abstractions.OBJECT.TYPE
   name: TYPE
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_TYPE
-  commentId: P:_abstractions.OBJECT.TYPE
-  fullName: _abstractions.OBJECT.TYPE
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_TYPE
+  commentId: P:abstractions.OBJECT.TYPE
+  fullName: abstractions.OBJECT.TYPE
   nameWithType: OBJECT.TYPE
-- uid: _abstractions.OBJECT.TYPE*
+- uid: abstractions.OBJECT.TYPE*
   name: TYPE
-  href: api/_abstractions.OBJECT.html#_abstractions_OBJECT_TYPE_
-  commentId: Overload:_abstractions.OBJECT.TYPE
+  href: api/abstractions.OBJECT.html#abstractions_OBJECT_TYPE_
+  commentId: Overload:abstractions.OBJECT.TYPE
   isSpec: "True"
-  fullName: _abstractions.OBJECT.TYPE
+  fullName: abstractions.OBJECT.TYPE
   nameWithType: OBJECT.TYPE
-- uid: _abstractions.ParametrizedSignalHandler
+- uid: abstractions.ParametrizedSignalHandler
   name: ParametrizedSignalHandler
-  href: api/_abstractions.ParametrizedSignalHandler.html
-  commentId: T:_abstractions.ParametrizedSignalHandler
-  fullName: _abstractions.ParametrizedSignalHandler
+  href: api/abstractions.ParametrizedSignalHandler.html
+  commentId: T:abstractions.ParametrizedSignalHandler
+  fullName: abstractions.ParametrizedSignalHandler
   nameWithType: ParametrizedSignalHandler
-- uid: _abstractions.ReferenceRect
+- uid: abstractions.ReferenceRect
   name: ReferenceRect
-  href: api/_abstractions.ReferenceRect.html
-  commentId: T:_abstractions.ReferenceRect
-  fullName: _abstractions.ReferenceRect
+  href: api/abstractions.ReferenceRect.html
+  commentId: T:abstractions.ReferenceRect
+  fullName: abstractions.ReferenceRect
   nameWithType: ReferenceRect
-- uid: _abstractions.ReferenceRect.#ctor(System.String)
+- uid: abstractions.ReferenceRect.#ctor(System.String)
   name: ReferenceRect(string)
-  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect__ctor_System_String_
-  commentId: M:_abstractions.ReferenceRect.#ctor(System.String)
+  href: api/abstractions.ReferenceRect.html#abstractions_ReferenceRect__ctor_System_String_
+  commentId: M:abstractions.ReferenceRect.#ctor(System.String)
   name.vb: New(String)
-  fullName: _abstractions.ReferenceRect.ReferenceRect(string)
-  fullName.vb: _abstractions.ReferenceRect.New(String)
+  fullName: abstractions.ReferenceRect.ReferenceRect(string)
+  fullName.vb: abstractions.ReferenceRect.New(String)
   nameWithType: ReferenceRect.ReferenceRect(string)
   nameWithType.vb: ReferenceRect.New(String)
-- uid: _abstractions.ReferenceRect.#ctor*
+- uid: abstractions.ReferenceRect.#ctor*
   name: ReferenceRect
-  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect__ctor_
-  commentId: Overload:_abstractions.ReferenceRect.#ctor
+  href: api/abstractions.ReferenceRect.html#abstractions_ReferenceRect__ctor_
+  commentId: Overload:abstractions.ReferenceRect.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _abstractions.ReferenceRect.ReferenceRect
-  fullName.vb: _abstractions.ReferenceRect.New
+  fullName: abstractions.ReferenceRect.ReferenceRect
+  fullName.vb: abstractions.ReferenceRect.New
   nameWithType: ReferenceRect.ReferenceRect
   nameWithType.vb: ReferenceRect.New
-- uid: _abstractions.ReferenceRect.object_name
+- uid: abstractions.ReferenceRect.object_name
   name: object_name
-  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect_object_name
-  commentId: P:_abstractions.ReferenceRect.object_name
-  fullName: _abstractions.ReferenceRect.object_name
+  href: api/abstractions.ReferenceRect.html#abstractions_ReferenceRect_object_name
+  commentId: P:abstractions.ReferenceRect.object_name
+  fullName: abstractions.ReferenceRect.object_name
   nameWithType: ReferenceRect.object_name
-- uid: _abstractions.ReferenceRect.object_name*
+- uid: abstractions.ReferenceRect.object_name*
   name: object_name
-  href: api/_abstractions.ReferenceRect.html#_abstractions_ReferenceRect_object_name_
-  commentId: Overload:_abstractions.ReferenceRect.object_name
+  href: api/abstractions.ReferenceRect.html#abstractions_ReferenceRect_object_name_
+  commentId: Overload:abstractions.ReferenceRect.object_name
   isSpec: "True"
-  fullName: _abstractions.ReferenceRect.object_name
+  fullName: abstractions.ReferenceRect.object_name
   nameWithType: ReferenceRect.object_name
-- uid: _abstractions.SignalHandler
+- uid: abstractions.SignalHandler
   name: SignalHandler
-  href: api/_abstractions.SignalHandler.html
-  commentId: T:_abstractions.SignalHandler
-  fullName: _abstractions.SignalHandler
+  href: api/abstractions.SignalHandler.html
+  commentId: T:abstractions.SignalHandler
+  fullName: abstractions.SignalHandler
   nameWithType: SignalHandler
-- uid: _abstractions.StringVariable
+- uid: abstractions.StringVariable
   name: StringVariable
-  href: api/_abstractions.StringVariable.html
-  commentId: T:_abstractions.StringVariable
-  fullName: _abstractions.StringVariable
+  href: api/abstractions.StringVariable.html
+  commentId: T:abstractions.StringVariable
+  fullName: abstractions.StringVariable
   nameWithType: StringVariable
-- uid: _abstractions.StringVariable.#ctor(System.String)
+- uid: abstractions.StringVariable.#ctor(System.String)
   name: StringVariable(string)
-  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable__ctor_System_String_
-  commentId: M:_abstractions.StringVariable.#ctor(System.String)
+  href: api/abstractions.StringVariable.html#abstractions_StringVariable__ctor_System_String_
+  commentId: M:abstractions.StringVariable.#ctor(System.String)
   name.vb: New(String)
-  fullName: _abstractions.StringVariable.StringVariable(string)
-  fullName.vb: _abstractions.StringVariable.New(String)
+  fullName: abstractions.StringVariable.StringVariable(string)
+  fullName.vb: abstractions.StringVariable.New(String)
   nameWithType: StringVariable.StringVariable(string)
   nameWithType.vb: StringVariable.New(String)
-- uid: _abstractions.StringVariable.#ctor*
+- uid: abstractions.StringVariable.#ctor*
   name: StringVariable
-  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable__ctor_
-  commentId: Overload:_abstractions.StringVariable.#ctor
+  href: api/abstractions.StringVariable.html#abstractions_StringVariable__ctor_
+  commentId: Overload:abstractions.StringVariable.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: _abstractions.StringVariable.StringVariable
-  fullName.vb: _abstractions.StringVariable.New
+  fullName: abstractions.StringVariable.StringVariable
+  fullName.vb: abstractions.StringVariable.New
   nameWithType: StringVariable.StringVariable
   nameWithType.vb: StringVariable.New
-- uid: _abstractions.StringVariable.value
+- uid: abstractions.StringVariable.value
   name: value
-  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable_value
-  commentId: P:_abstractions.StringVariable.value
-  fullName: _abstractions.StringVariable.value
+  href: api/abstractions.StringVariable.html#abstractions_StringVariable_value
+  commentId: P:abstractions.StringVariable.value
+  fullName: abstractions.StringVariable.value
   nameWithType: StringVariable.value
-- uid: _abstractions.StringVariable.value*
+- uid: abstractions.StringVariable.value*
   name: value
-  href: api/_abstractions.StringVariable.html#_abstractions_StringVariable_value_
-  commentId: Overload:_abstractions.StringVariable.value
+  href: api/abstractions.StringVariable.html#abstractions_StringVariable_value_
+  commentId: Overload:abstractions.StringVariable.value
   isSpec: "True"
-  fullName: _abstractions.StringVariable.value
+  fullName: abstractions.StringVariable.value
   nameWithType: StringVariable.value
-- uid: _abstractions.anchor
+- uid: abstractions.anchor
   name: anchor
-  href: api/_abstractions.anchor.html
-  commentId: T:_abstractions.anchor
-  fullName: _abstractions.anchor
+  href: api/abstractions.anchor.html
+  commentId: T:abstractions.anchor
+  fullName: abstractions.anchor
   nameWithType: anchor
-- uid: _abstractions.anchor.BOTTOM
+- uid: abstractions.anchor.BOTTOM
   name: BOTTOM
-  href: api/_abstractions.anchor.html#_abstractions_anchor_BOTTOM
-  commentId: F:_abstractions.anchor.BOTTOM
-  fullName: _abstractions.anchor.BOTTOM
+  href: api/abstractions.anchor.html#abstractions_anchor_BOTTOM
+  commentId: F:abstractions.anchor.BOTTOM
+  fullName: abstractions.anchor.BOTTOM
   nameWithType: anchor.BOTTOM
-- uid: _abstractions.anchor.CENTER
+- uid: abstractions.anchor.CENTER
   name: CENTER
-  href: api/_abstractions.anchor.html#_abstractions_anchor_CENTER
-  commentId: F:_abstractions.anchor.CENTER
-  fullName: _abstractions.anchor.CENTER
+  href: api/abstractions.anchor.html#abstractions_anchor_CENTER
+  commentId: F:abstractions.anchor.CENTER
+  fullName: abstractions.anchor.CENTER
   nameWithType: anchor.CENTER
-- uid: _abstractions.anchor.LEFT
+- uid: abstractions.anchor.LEFT
   name: LEFT
-  href: api/_abstractions.anchor.html#_abstractions_anchor_LEFT
-  commentId: F:_abstractions.anchor.LEFT
-  fullName: _abstractions.anchor.LEFT
+  href: api/abstractions.anchor.html#abstractions_anchor_LEFT
+  commentId: F:abstractions.anchor.LEFT
+  fullName: abstractions.anchor.LEFT
   nameWithType: anchor.LEFT
-- uid: _abstractions.anchor.LEFTLOWER
+- uid: abstractions.anchor.LEFTLOWER
   name: LEFTLOWER
-  href: api/_abstractions.anchor.html#_abstractions_anchor_LEFTLOWER
-  commentId: F:_abstractions.anchor.LEFTLOWER
-  fullName: _abstractions.anchor.LEFTLOWER
+  href: api/abstractions.anchor.html#abstractions_anchor_LEFTLOWER
+  commentId: F:abstractions.anchor.LEFTLOWER
+  fullName: abstractions.anchor.LEFTLOWER
   nameWithType: anchor.LEFTLOWER
-- uid: _abstractions.anchor.LEFTUPPER
+- uid: abstractions.anchor.LEFTUPPER
   name: LEFTUPPER
-  href: api/_abstractions.anchor.html#_abstractions_anchor_LEFTUPPER
-  commentId: F:_abstractions.anchor.LEFTUPPER
-  fullName: _abstractions.anchor.LEFTUPPER
+  href: api/abstractions.anchor.html#abstractions_anchor_LEFTUPPER
+  commentId: F:abstractions.anchor.LEFTUPPER
+  fullName: abstractions.anchor.LEFTUPPER
   nameWithType: anchor.LEFTUPPER
-- uid: _abstractions.anchor.RIGHT
+- uid: abstractions.anchor.RIGHT
   name: RIGHT
-  href: api/_abstractions.anchor.html#_abstractions_anchor_RIGHT
-  commentId: F:_abstractions.anchor.RIGHT
-  fullName: _abstractions.anchor.RIGHT
+  href: api/abstractions.anchor.html#abstractions_anchor_RIGHT
+  commentId: F:abstractions.anchor.RIGHT
+  fullName: abstractions.anchor.RIGHT
   nameWithType: anchor.RIGHT
-- uid: _abstractions.anchor.RIGHTLOWER
+- uid: abstractions.anchor.RIGHTLOWER
   name: RIGHTLOWER
-  href: api/_abstractions.anchor.html#_abstractions_anchor_RIGHTLOWER
-  commentId: F:_abstractions.anchor.RIGHTLOWER
-  fullName: _abstractions.anchor.RIGHTLOWER
+  href: api/abstractions.anchor.html#abstractions_anchor_RIGHTLOWER
+  commentId: F:abstractions.anchor.RIGHTLOWER
+  fullName: abstractions.anchor.RIGHTLOWER
   nameWithType: anchor.RIGHTLOWER
-- uid: _abstractions.anchor.RIGHTUPPER
+- uid: abstractions.anchor.RIGHTUPPER
   name: RIGHTUPPER
-  href: api/_abstractions.anchor.html#_abstractions_anchor_RIGHTUPPER
-  commentId: F:_abstractions.anchor.RIGHTUPPER
-  fullName: _abstractions.anchor.RIGHTUPPER
+  href: api/abstractions.anchor.html#abstractions_anchor_RIGHTUPPER
+  commentId: F:abstractions.anchor.RIGHTUPPER
+  fullName: abstractions.anchor.RIGHTUPPER
   nameWithType: anchor.RIGHTUPPER
-- uid: _abstractions.anchor.TOP
+- uid: abstractions.anchor.TOP
   name: TOP
-  href: api/_abstractions.anchor.html#_abstractions_anchor_TOP
-  commentId: F:_abstractions.anchor.TOP
-  fullName: _abstractions.anchor.TOP
+  href: api/abstractions.anchor.html#abstractions_anchor_TOP
+  commentId: F:abstractions.anchor.TOP
+  fullName: abstractions.anchor.TOP
   nameWithType: anchor.TOP
-- uid: _abstractions.complex_operator
+- uid: abstractions.complex_operator
   name: complex_operator
-  href: api/_abstractions.complex_operator.html
-  commentId: T:_abstractions.complex_operator
-  fullName: _abstractions.complex_operator
+  href: api/abstractions.complex_operator.html
+  commentId: T:abstractions.complex_operator
+  fullName: abstractions.complex_operator
   nameWithType: complex_operator
-- uid: _abstractions.complex_operator.AND
+- uid: abstractions.complex_operator.AND
   name: AND
-  href: api/_abstractions.complex_operator.html#_abstractions_complex_operator_AND
-  commentId: F:_abstractions.complex_operator.AND
-  fullName: _abstractions.complex_operator.AND
+  href: api/abstractions.complex_operator.html#abstractions_complex_operator_AND
+  commentId: F:abstractions.complex_operator.AND
+  fullName: abstractions.complex_operator.AND
   nameWithType: complex_operator.AND
-- uid: _abstractions.complex_operator.OR
+- uid: abstractions.complex_operator.OR
   name: OR
-  href: api/_abstractions.complex_operator.html#_abstractions_complex_operator_OR
-  commentId: F:_abstractions.complex_operator.OR
-  fullName: _abstractions.complex_operator.OR
+  href: api/abstractions.complex_operator.html#abstractions_complex_operator_OR
+  commentId: F:abstractions.complex_operator.OR
+  fullName: abstractions.complex_operator.OR
   nameWithType: complex_operator.OR
-- uid: _abstractions.condition_operator
+- uid: abstractions.condition_operator
   name: condition_operator
-  href: api/_abstractions.condition_operator.html
-  commentId: T:_abstractions.condition_operator
-  fullName: _abstractions.condition_operator
+  href: api/abstractions.condition_operator.html
+  commentId: T:abstractions.condition_operator
+  fullName: abstractions.condition_operator
   nameWithType: condition_operator
-- uid: _abstractions.condition_operator.EQUAL
+- uid: abstractions.condition_operator.EQUAL
   name: EQUAL
-  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_EQUAL
-  commentId: F:_abstractions.condition_operator.EQUAL
-  fullName: _abstractions.condition_operator.EQUAL
+  href: api/abstractions.condition_operator.html#abstractions_condition_operator_EQUAL
+  commentId: F:abstractions.condition_operator.EQUAL
+  fullName: abstractions.condition_operator.EQUAL
   nameWithType: condition_operator.EQUAL
-- uid: _abstractions.condition_operator.GREATER
+- uid: abstractions.condition_operator.GREATER
   name: GREATER
-  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_GREATER
-  commentId: F:_abstractions.condition_operator.GREATER
-  fullName: _abstractions.condition_operator.GREATER
+  href: api/abstractions.condition_operator.html#abstractions_condition_operator_GREATER
+  commentId: F:abstractions.condition_operator.GREATER
+  fullName: abstractions.condition_operator.GREATER
   nameWithType: condition_operator.GREATER
-- uid: _abstractions.condition_operator.GREATEREQUAL
+- uid: abstractions.condition_operator.GREATEREQUAL
   name: GREATEREQUAL
-  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_GREATEREQUAL
-  commentId: F:_abstractions.condition_operator.GREATEREQUAL
-  fullName: _abstractions.condition_operator.GREATEREQUAL
+  href: api/abstractions.condition_operator.html#abstractions_condition_operator_GREATEREQUAL
+  commentId: F:abstractions.condition_operator.GREATEREQUAL
+  fullName: abstractions.condition_operator.GREATEREQUAL
   nameWithType: condition_operator.GREATEREQUAL
-- uid: _abstractions.condition_operator.LESS
+- uid: abstractions.condition_operator.LESS
   name: LESS
-  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_LESS
-  commentId: F:_abstractions.condition_operator.LESS
-  fullName: _abstractions.condition_operator.LESS
+  href: api/abstractions.condition_operator.html#abstractions_condition_operator_LESS
+  commentId: F:abstractions.condition_operator.LESS
+  fullName: abstractions.condition_operator.LESS
   nameWithType: condition_operator.LESS
-- uid: _abstractions.condition_operator.LESSEQUAL
+- uid: abstractions.condition_operator.LESSEQUAL
   name: LESSEQUAL
-  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_LESSEQUAL
-  commentId: F:_abstractions.condition_operator.LESSEQUAL
-  fullName: _abstractions.condition_operator.LESSEQUAL
+  href: api/abstractions.condition_operator.html#abstractions_condition_operator_LESSEQUAL
+  commentId: F:abstractions.condition_operator.LESSEQUAL
+  fullName: abstractions.condition_operator.LESSEQUAL
   nameWithType: condition_operator.LESSEQUAL
-- uid: _abstractions.condition_operator.NOTEQUAL
+- uid: abstractions.condition_operator.NOTEQUAL
   name: NOTEQUAL
-  href: api/_abstractions.condition_operator.html#_abstractions_condition_operator_NOTEQUAL
-  commentId: F:_abstractions.condition_operator.NOTEQUAL
-  fullName: _abstractions.condition_operator.NOTEQUAL
+  href: api/abstractions.condition_operator.html#abstractions_condition_operator_NOTEQUAL
+  commentId: F:abstractions.condition_operator.NOTEQUAL
+  fullName: abstractions.condition_operator.NOTEQUAL
   nameWithType: condition_operator.NOTEQUAL
-- uid: _abstractions.expression_operator
+- uid: abstractions.expression_operator
   name: expression_operator
-  href: api/_abstractions.expression_operator.html
-  commentId: T:_abstractions.expression_operator
-  fullName: _abstractions.expression_operator
+  href: api/abstractions.expression_operator.html
+  commentId: T:abstractions.expression_operator
+  fullName: abstractions.expression_operator
   nameWithType: expression_operator
-- uid: _abstractions.expression_operator.ADD
+- uid: abstractions.expression_operator.ADD
   name: ADD
-  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_ADD
-  commentId: F:_abstractions.expression_operator.ADD
-  fullName: _abstractions.expression_operator.ADD
+  href: api/abstractions.expression_operator.html#abstractions_expression_operator_ADD
+  commentId: F:abstractions.expression_operator.ADD
+  fullName: abstractions.expression_operator.ADD
   nameWithType: expression_operator.ADD
-- uid: _abstractions.expression_operator.DIV
+- uid: abstractions.expression_operator.DIV
   name: DIV
-  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_DIV
-  commentId: F:_abstractions.expression_operator.DIV
-  fullName: _abstractions.expression_operator.DIV
+  href: api/abstractions.expression_operator.html#abstractions_expression_operator_DIV
+  commentId: F:abstractions.expression_operator.DIV
+  fullName: abstractions.expression_operator.DIV
   nameWithType: expression_operator.DIV
-- uid: _abstractions.expression_operator.MOD
+- uid: abstractions.expression_operator.MOD
   name: MOD
-  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_MOD
-  commentId: F:_abstractions.expression_operator.MOD
-  fullName: _abstractions.expression_operator.MOD
+  href: api/abstractions.expression_operator.html#abstractions_expression_operator_MOD
+  commentId: F:abstractions.expression_operator.MOD
+  fullName: abstractions.expression_operator.MOD
   nameWithType: expression_operator.MOD
-- uid: _abstractions.expression_operator.MUL
+- uid: abstractions.expression_operator.MUL
   name: MUL
-  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_MUL
-  commentId: F:_abstractions.expression_operator.MUL
-  fullName: _abstractions.expression_operator.MUL
+  href: api/abstractions.expression_operator.html#abstractions_expression_operator_MUL
+  commentId: F:abstractions.expression_operator.MUL
+  fullName: abstractions.expression_operator.MUL
   nameWithType: expression_operator.MUL
-- uid: _abstractions.expression_operator.SUB
+- uid: abstractions.expression_operator.SUB
   name: SUB
-  href: api/_abstractions.expression_operator.html#_abstractions_expression_operator_SUB
-  commentId: F:_abstractions.expression_operator.SUB
-  fullName: _abstractions.expression_operator.SUB
+  href: api/abstractions.expression_operator.html#abstractions_expression_operator_SUB
+  commentId: F:abstractions.expression_operator.SUB
+  fullName: abstractions.expression_operator.SUB
   nameWithType: expression_operator.SUB
-- uid: _abstractions.rect
+- uid: abstractions.rect
   name: rect
-  href: api/_abstractions.rect.html
-  commentId: T:_abstractions.rect
-  fullName: _abstractions.rect
+  href: api/abstractions.rect.html
+  commentId: T:abstractions.rect
+  fullName: abstractions.rect
   nameWithType: rect
-- uid: _abstractions.variable
+- uid: abstractions.variable
   name: variable
-  href: api/_abstractions.variable.html
-  commentId: T:_abstractions.variable
-  fullName: _abstractions.variable
+  href: api/abstractions.variable.html
+  commentId: T:abstractions.variable
+  fullName: abstractions.variable
   nameWithType: variable

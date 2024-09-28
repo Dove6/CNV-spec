@@ -224,85 +224,85 @@
     "title": "Namespace World | Cnv API specification",
     "keywords": "Namespace World Classes WORLD 3D physics simulation."
   },
-  "api/_abstractions.BoolVariable.html": {
-    "href": "api/_abstractions.BoolVariable.html",
+  "api/abstractions.BoolVariable.html": {
+    "href": "api/abstractions.BoolVariable.html",
     "title": "Class BoolVariable | Cnv API specification",
-    "keywords": "Class BoolVariable Namespace _abstractions Assembly PIKLib.dll record BoolVariable : variable, IEquatable<variable>, IEquatable<BoolVariable> Inheritance object variable BoolVariable Implements IEquatable<variable> IEquatable<BoolVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BoolVariable(bool) BoolVariable(bool value) Parameters value bool Properties value bool value { get; init; } Property Value bool"
+    "keywords": "Class BoolVariable Namespace abstractions Assembly PIKLib.dll record BoolVariable : variable, IEquatable<variable>, IEquatable<BoolVariable> Inheritance object variable BoolVariable Implements IEquatable<variable> IEquatable<BoolVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BoolVariable(bool) BoolVariable(bool value) Parameters value bool Properties value bool value { get; init; } Property Value bool"
   },
-  "api/_abstractions.DoubleVariable.html": {
-    "href": "api/_abstractions.DoubleVariable.html",
+  "api/abstractions.DoubleVariable.html": {
+    "href": "api/abstractions.DoubleVariable.html",
     "title": "Class DoubleVariable | Cnv API specification",
-    "keywords": "Class DoubleVariable Namespace _abstractions Assembly PIKLib.dll record DoubleVariable : variable, IEquatable<variable>, IEquatable<DoubleVariable> Inheritance object variable DoubleVariable Implements IEquatable<variable> IEquatable<DoubleVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DoubleVariable(double) DoubleVariable(double value) Parameters value double Properties value double value { get; init; } Property Value double"
+    "keywords": "Class DoubleVariable Namespace abstractions Assembly PIKLib.dll record DoubleVariable : variable, IEquatable<variable>, IEquatable<DoubleVariable> Inheritance object variable DoubleVariable Implements IEquatable<variable> IEquatable<DoubleVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DoubleVariable(double) DoubleVariable(double value) Parameters value double Properties value double value { get; init; } Property Value double"
   },
-  "api/_abstractions.IntVariable.html": {
-    "href": "api/_abstractions.IntVariable.html",
+  "api/abstractions.IntVariable.html": {
+    "href": "api/abstractions.IntVariable.html",
     "title": "Class IntVariable | Cnv API specification",
-    "keywords": "Class IntVariable Namespace _abstractions Assembly PIKLib.dll record IntVariable : variable, IEquatable<variable>, IEquatable<IntVariable> Inheritance object variable IntVariable Implements IEquatable<variable> IEquatable<IntVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors IntVariable(int) IntVariable(int value) Parameters value int Properties value int value { get; init; } Property Value int"
+    "keywords": "Class IntVariable Namespace abstractions Assembly PIKLib.dll record IntVariable : variable, IEquatable<variable>, IEquatable<IntVariable> Inheritance object variable IntVariable Implements IEquatable<variable> IEquatable<IntVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors IntVariable(int) IntVariable(int value) Parameters value int Properties value int value { get; init; } Property Value int"
   },
-  "api/_abstractions.LiteralRect.html": {
-    "href": "api/_abstractions.LiteralRect.html",
+  "api/abstractions.LiteralRect.html": {
+    "href": "api/abstractions.LiteralRect.html",
     "title": "Class LiteralRect | Cnv API specification",
-    "keywords": "Class LiteralRect Namespace _abstractions Assembly PIKLib.dll record LiteralRect : rect, IEquatable<rect>, IEquatable<LiteralRect> Inheritance object rect LiteralRect Implements IEquatable<rect> IEquatable<LiteralRect> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors LiteralRect(int, int, int, int) LiteralRect(int left_x, int top_y, int right_x, int bottom_y) Parameters left_x int top_y int right_x int bottom_y int Properties bottom_y int bottom_y { get; init; } Property Value int left_x int left_x { get; init; } Property Value int right_x int right_x { get; init; } Property Value int top_y int top_y { get; init; } Property Value int"
+    "keywords": "Class LiteralRect Namespace abstractions Assembly PIKLib.dll record LiteralRect : rect, IEquatable<rect>, IEquatable<LiteralRect> Inheritance object rect LiteralRect Implements IEquatable<rect> IEquatable<LiteralRect> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors LiteralRect(int, int, int, int) LiteralRect(int left_x, int top_y, int right_x, int bottom_y) Parameters left_x int top_y int right_x int bottom_y int Properties bottom_y int bottom_y { get; init; } Property Value int left_x int left_x { get; init; } Property Value int right_x int right_x { get; init; } Property Value int top_y int top_y { get; init; } Property Value int"
   },
-  "api/_abstractions.OBJECT.html": {
-    "href": "api/_abstractions.OBJECT.html",
+  "api/abstractions.OBJECT.html": {
+    "href": "api/abstractions.OBJECT.html",
     "title": "Class OBJECT | Cnv API specification",
-    "keywords": "Class OBJECT Namespace _abstractions Assembly PIKLib.dll abstract class OBJECT Inheritance object OBJECT Derived INERTIA MATRIX ANIMO APPLICATION ARRAY BEHAVIOUR BOOL BUTTON CANVAS_OBSERVER CLASS CNVLOADER COMPLEXCONDITION CONDITION DATABASE DOUBLE EPISODE EXPRESSION FILTER FONT GROUP IMAGE INTEGER KEYBOARD MOUSE MULTIARRAY MUSIC PATTERN RAND SCENE SEQUENCE SOUND STATICFILTER STRING STRUCT SYSTEM TEXT TIMER VECTOR VIRTUALGRAPHICSOBJECT WORLD Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties DESCRIPTION string DESCRIPTION { init; } Property Value string TYPE string TYPE { init; } Property Value string Methods ADDBEHAVIOUR(string, string) void ADDBEHAVIOUR(string signal_name, string code) Parameters signal_name string code string CLONE(int) void CLONE(int count = 1) Parameters count int GETCLONEINDEX() int GETCLONEINDEX() Returns int GETNAME() string GETNAME() Returns string MSGBOX(string) void MSGBOX(string message) Parameters message string REMOVEBEHAVIOUR(string) void REMOVEBEHAVIOUR(string signal_name) Parameters signal_name string RESETCLONES() void RESETCLONES()"
+    "keywords": "Class OBJECT Namespace abstractions Assembly PIKLib.dll abstract class OBJECT Inheritance object OBJECT Derived INERTIA MATRIX ANIMO APPLICATION ARRAY BEHAVIOUR BOOL BUTTON CANVAS_OBSERVER CLASS CNVLOADER COMPLEXCONDITION CONDITION DATABASE DOUBLE EPISODE EXPRESSION FILTER FONT GROUP IMAGE INTEGER KEYBOARD MOUSE MULTIARRAY MUSIC PATTERN RAND SCENE SEQUENCE SOUND STATICFILTER STRING STRUCT SYSTEM TEXT TIMER VECTOR VIRTUALGRAPHICSOBJECT WORLD Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties DESCRIPTION string DESCRIPTION { init; } Property Value string TYPE string TYPE { init; } Property Value string Methods ADDBEHAVIOUR(string, string) void ADDBEHAVIOUR(string signal_name, string code) Parameters signal_name string code string CLONE(int) void CLONE(int count = 1) Parameters count int GETCLONEINDEX() int GETCLONEINDEX() Returns int GETNAME() string GETNAME() Returns string MSGBOX(string) void MSGBOX(string message) Parameters message string REMOVEBEHAVIOUR(string) void REMOVEBEHAVIOUR(string signal_name) Parameters signal_name string RESETCLONES() void RESETCLONES()"
   },
-  "api/_abstractions.ParametrizedSignalHandler.html": {
-    "href": "api/_abstractions.ParametrizedSignalHandler.html",
+  "api/abstractions.ParametrizedSignalHandler.html": {
+    "href": "api/abstractions.ParametrizedSignalHandler.html",
     "title": "Delegate ParametrizedSignalHandler | Cnv API specification",
-    "keywords": "Delegate ParametrizedSignalHandler Namespace _abstractions Assembly PIKLib.dll Run for parametrized signals. delegate void ParametrizedSignalHandler(string parameter, params variable[] arguments) Parameters parameter string Run for parametrized signals. arguments variable[] Run for parametrized signals."
+    "keywords": "Delegate ParametrizedSignalHandler Namespace abstractions Assembly PIKLib.dll Run for parametrized signals. delegate void ParametrizedSignalHandler(string parameter, params variable[] arguments) Parameters parameter string Run for parametrized signals. arguments variable[] Run for parametrized signals."
   },
-  "api/_abstractions.ReferenceRect.html": {
-    "href": "api/_abstractions.ReferenceRect.html",
+  "api/abstractions.ReferenceRect.html": {
+    "href": "api/abstractions.ReferenceRect.html",
     "title": "Class ReferenceRect | Cnv API specification",
-    "keywords": "Class ReferenceRect Namespace _abstractions Assembly PIKLib.dll record ReferenceRect : rect, IEquatable<rect>, IEquatable<ReferenceRect> Inheritance object rect ReferenceRect Implements IEquatable<rect> IEquatable<ReferenceRect> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ReferenceRect(string) ReferenceRect(string object_name) Parameters object_name string Properties object_name string object_name { get; init; } Property Value string"
+    "keywords": "Class ReferenceRect Namespace abstractions Assembly PIKLib.dll record ReferenceRect : rect, IEquatable<rect>, IEquatable<ReferenceRect> Inheritance object rect ReferenceRect Implements IEquatable<rect> IEquatable<ReferenceRect> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ReferenceRect(string) ReferenceRect(string object_name) Parameters object_name string Properties object_name string object_name { get; init; } Property Value string"
   },
-  "api/_abstractions.SignalHandler.html": {
-    "href": "api/_abstractions.SignalHandler.html",
+  "api/abstractions.SignalHandler.html": {
+    "href": "api/abstractions.SignalHandler.html",
     "title": "Delegate SignalHandler | Cnv API specification",
-    "keywords": "Delegate SignalHandler Namespace _abstractions Assembly PIKLib.dll Run for signals. delegate void SignalHandler(params variable[] arguments) Parameters arguments variable[] Run for signals."
+    "keywords": "Delegate SignalHandler Namespace abstractions Assembly PIKLib.dll Run for signals. delegate void SignalHandler(params variable[] arguments) Parameters arguments variable[] Run for signals."
   },
-  "api/_abstractions.StringVariable.html": {
-    "href": "api/_abstractions.StringVariable.html",
+  "api/abstractions.StringVariable.html": {
+    "href": "api/abstractions.StringVariable.html",
     "title": "Class StringVariable | Cnv API specification",
-    "keywords": "Class StringVariable Namespace _abstractions Assembly PIKLib.dll record StringVariable : variable, IEquatable<variable>, IEquatable<StringVariable> Inheritance object variable StringVariable Implements IEquatable<variable> IEquatable<StringVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StringVariable(string) StringVariable(string value) Parameters value string Properties value string value { get; init; } Property Value string"
+    "keywords": "Class StringVariable Namespace abstractions Assembly PIKLib.dll record StringVariable : variable, IEquatable<variable>, IEquatable<StringVariable> Inheritance object variable StringVariable Implements IEquatable<variable> IEquatable<StringVariable> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StringVariable(string) StringVariable(string value) Parameters value string Properties value string value { get; init; } Property Value string"
   },
-  "api/_abstractions.anchor.html": {
-    "href": "api/_abstractions.anchor.html",
+  "api/abstractions.anchor.html": {
+    "href": "api/abstractions.anchor.html",
     "title": "Enum anchor | Cnv API specification",
-    "keywords": "Enum anchor Namespace _abstractions Assembly PIKLib.dll enum anchor Fields BOTTOM = 8 CENTER = 0 LEFT = 5 LEFTLOWER = 3 LEFTUPPER = 1 RIGHT = 6 RIGHTLOWER = 4 RIGHTUPPER = 2 TOP = 7"
+    "keywords": "Enum anchor Namespace abstractions Assembly PIKLib.dll enum anchor Fields BOTTOM = 8 CENTER = 0 LEFT = 5 LEFTLOWER = 3 LEFTUPPER = 1 RIGHT = 6 RIGHTLOWER = 4 RIGHTUPPER = 2 TOP = 7"
   },
-  "api/_abstractions.complex_operator.html": {
-    "href": "api/_abstractions.complex_operator.html",
+  "api/abstractions.complex_operator.html": {
+    "href": "api/abstractions.complex_operator.html",
     "title": "Enum complex_operator | Cnv API specification",
-    "keywords": "Enum complex_operator Namespace _abstractions Assembly PIKLib.dll enum complex_operator Fields AND = 0 OR = 1"
+    "keywords": "Enum complex_operator Namespace abstractions Assembly PIKLib.dll enum complex_operator Fields AND = 0 OR = 1"
   },
-  "api/_abstractions.condition_operator.html": {
-    "href": "api/_abstractions.condition_operator.html",
+  "api/abstractions.condition_operator.html": {
+    "href": "api/abstractions.condition_operator.html",
     "title": "Enum condition_operator | Cnv API specification",
-    "keywords": "Enum condition_operator Namespace _abstractions Assembly PIKLib.dll enum condition_operator Fields EQUAL = 0 GREATER = 3 GREATEREQUAL = 5 LESS = 2 LESSEQUAL = 4 NOTEQUAL = 1"
+    "keywords": "Enum condition_operator Namespace abstractions Assembly PIKLib.dll enum condition_operator Fields EQUAL = 0 GREATER = 3 GREATEREQUAL = 5 LESS = 2 LESSEQUAL = 4 NOTEQUAL = 1"
   },
-  "api/_abstractions.expression_operator.html": {
-    "href": "api/_abstractions.expression_operator.html",
+  "api/abstractions.expression_operator.html": {
+    "href": "api/abstractions.expression_operator.html",
     "title": "Enum expression_operator | Cnv API specification",
-    "keywords": "Enum expression_operator Namespace _abstractions Assembly PIKLib.dll enum expression_operator Fields ADD = 0 DIV = 3 MOD = 4 MUL = 2 SUB = 1"
+    "keywords": "Enum expression_operator Namespace abstractions Assembly PIKLib.dll enum expression_operator Fields ADD = 0 DIV = 3 MOD = 4 MUL = 2 SUB = 1"
   },
-  "api/_abstractions.html": {
-    "href": "api/_abstractions.html",
-    "title": "Namespace _abstractions | Cnv API specification",
-    "keywords": "Namespace _abstractions Classes BoolVariable DoubleVariable IntVariable LiteralRect OBJECT ReferenceRect StringVariable rect variable Enums anchor complex_operator condition_operator expression_operator Delegates ParametrizedSignalHandler Run for parametrized signals. SignalHandler Run for signals."
+  "api/abstractions.html": {
+    "href": "api/abstractions.html",
+    "title": "Namespace abstractions | Cnv API specification",
+    "keywords": "Namespace abstractions Classes BoolVariable DoubleVariable IntVariable LiteralRect OBJECT ReferenceRect StringVariable rect variable Enums anchor complex_operator condition_operator expression_operator Delegates ParametrizedSignalHandler Run for parametrized signals. SignalHandler Run for signals."
   },
-  "api/_abstractions.rect.html": {
-    "href": "api/_abstractions.rect.html",
+  "api/abstractions.rect.html": {
+    "href": "api/abstractions.rect.html",
     "title": "Class rect | Cnv API specification",
-    "keywords": "Class rect Namespace _abstractions Assembly PIKLib.dll abstract record rect : IEquatable<rect> Inheritance object rect Implements IEquatable<rect> Derived LiteralRect ReferenceRect Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+    "keywords": "Class rect Namespace abstractions Assembly PIKLib.dll abstract record rect : IEquatable<rect> Inheritance object rect Implements IEquatable<rect> Derived LiteralRect ReferenceRect Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
   },
-  "api/_abstractions.variable.html": {
-    "href": "api/_abstractions.variable.html",
+  "api/abstractions.variable.html": {
+    "href": "api/abstractions.variable.html",
     "title": "Class variable | Cnv API specification",
-    "keywords": "Class variable Namespace _abstractions Assembly PIKLib.dll abstract record variable : IEquatable<variable> Inheritance object variable Implements IEquatable<variable> Derived BoolVariable DoubleVariable IntVariable StringVariable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+    "keywords": "Class variable Namespace abstractions Assembly PIKLib.dll abstract record variable : IEquatable<variable> Inheritance object variable Implements IEquatable<variable> Derived BoolVariable DoubleVariable IntVariable StringVariable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
   },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
