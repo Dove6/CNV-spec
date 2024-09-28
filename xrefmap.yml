@@ -7972,6 +7972,138 @@ references:
   commentId: F:abstractions.anchor.TOP
   fullName: abstractions.anchor.TOP
   nameWithType: anchor.TOP
+- uid: abstractions.button_name
+  name: button_name
+  href: api/abstractions.button_name.html
+  commentId: T:abstractions.button_name
+  fullName: abstractions.button_name
+  nameWithType: button_name
+- uid: abstractions.button_name.#ctor(System.String)
+  name: button_name(string)
+  href: api/abstractions.button_name.html#abstractions_button_name__ctor_System_String_
+  commentId: M:abstractions.button_name.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.button_name.button_name(string)
+  fullName.vb: abstractions.button_name.New(String)
+  nameWithType: button_name.button_name(string)
+  nameWithType.vb: button_name.New(String)
+- uid: abstractions.button_name.#ctor*
+  name: button_name
+  href: api/abstractions.button_name.html#abstractions_button_name__ctor_
+  commentId: Overload:abstractions.button_name.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.button_name.button_name
+  fullName.vb: abstractions.button_name.New
+  nameWithType: button_name.button_name
+  nameWithType.vb: button_name.New
+- uid: abstractions.button_name.Value
+  name: Value
+  href: api/abstractions.button_name.html#abstractions_button_name_Value
+  commentId: P:abstractions.button_name.Value
+  fullName: abstractions.button_name.Value
+  nameWithType: button_name.Value
+- uid: abstractions.button_name.Value*
+  name: Value
+  href: api/abstractions.button_name.html#abstractions_button_name_Value_
+  commentId: Overload:abstractions.button_name.Value
+  isSpec: "True"
+  fullName: abstractions.button_name.Value
+  nameWithType: button_name.Value
+- uid: abstractions.button_name.op_Implicit(System.String)~abstractions.button_name
+  name: implicit operator button_name(string)
+  href: api/abstractions.button_name.html#abstractions_button_name_op_Implicit_System_String__abstractions_button_name
+  commentId: M:abstractions.button_name.op_Implicit(System.String)~abstractions.button_name
+  name.vb: CType(String)
+  fullName: abstractions.button_name.implicit operator abstractions.button_name(string)
+  fullName.vb: abstractions.button_name.CType(String)
+  nameWithType: button_name.implicit operator button_name(string)
+  nameWithType.vb: button_name.CType(String)
+- uid: abstractions.button_name.op_Implicit(abstractions.button_name)~System.String
+  name: implicit operator string(button_name)
+  href: api/abstractions.button_name.html#abstractions_button_name_op_Implicit_abstractions_button_name__System_String
+  commentId: M:abstractions.button_name.op_Implicit(abstractions.button_name)~System.String
+  name.vb: CType(button_name)
+  fullName: abstractions.button_name.implicit operator string(abstractions.button_name)
+  fullName.vb: abstractions.button_name.CType(abstractions.button_name)
+  nameWithType: button_name.implicit operator string(button_name)
+  nameWithType.vb: button_name.CType(button_name)
+- uid: abstractions.button_name.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.button_name.html#abstractions_button_name_op_Implicit_
+  commentId: Overload:abstractions.button_name.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.button_name.implicit operator
+  fullName.vb: abstractions.button_name.CType
+  nameWithType: button_name.implicit operator
+  nameWithType.vb: button_name.CType
+- uid: abstractions.char_name
+  name: char_name
+  href: api/abstractions.char_name.html
+  commentId: T:abstractions.char_name
+  fullName: abstractions.char_name
+  nameWithType: char_name
+- uid: abstractions.char_name.#ctor(System.String)
+  name: char_name(string)
+  href: api/abstractions.char_name.html#abstractions_char_name__ctor_System_String_
+  commentId: M:abstractions.char_name.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.char_name.char_name(string)
+  fullName.vb: abstractions.char_name.New(String)
+  nameWithType: char_name.char_name(string)
+  nameWithType.vb: char_name.New(String)
+- uid: abstractions.char_name.#ctor*
+  name: char_name
+  href: api/abstractions.char_name.html#abstractions_char_name__ctor_
+  commentId: Overload:abstractions.char_name.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.char_name.char_name
+  fullName.vb: abstractions.char_name.New
+  nameWithType: char_name.char_name
+  nameWithType.vb: char_name.New
+- uid: abstractions.char_name.Value
+  name: Value
+  href: api/abstractions.char_name.html#abstractions_char_name_Value
+  commentId: P:abstractions.char_name.Value
+  fullName: abstractions.char_name.Value
+  nameWithType: char_name.Value
+- uid: abstractions.char_name.Value*
+  name: Value
+  href: api/abstractions.char_name.html#abstractions_char_name_Value_
+  commentId: Overload:abstractions.char_name.Value
+  isSpec: "True"
+  fullName: abstractions.char_name.Value
+  nameWithType: char_name.Value
+- uid: abstractions.char_name.op_Implicit(System.String)~abstractions.char_name
+  name: implicit operator char_name(string)
+  href: api/abstractions.char_name.html#abstractions_char_name_op_Implicit_System_String__abstractions_char_name
+  commentId: M:abstractions.char_name.op_Implicit(System.String)~abstractions.char_name
+  name.vb: CType(String)
+  fullName: abstractions.char_name.implicit operator abstractions.char_name(string)
+  fullName.vb: abstractions.char_name.CType(String)
+  nameWithType: char_name.implicit operator char_name(string)
+  nameWithType.vb: char_name.CType(String)
+- uid: abstractions.char_name.op_Implicit(abstractions.char_name)~System.String
+  name: implicit operator string(char_name)
+  href: api/abstractions.char_name.html#abstractions_char_name_op_Implicit_abstractions_char_name__System_String
+  commentId: M:abstractions.char_name.op_Implicit(abstractions.char_name)~System.String
+  name.vb: CType(char_name)
+  fullName: abstractions.char_name.implicit operator string(abstractions.char_name)
+  fullName.vb: abstractions.char_name.CType(abstractions.char_name)
+  nameWithType: char_name.implicit operator string(char_name)
+  nameWithType.vb: char_name.CType(char_name)
+- uid: abstractions.char_name.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.char_name.html#abstractions_char_name_op_Implicit_
+  commentId: Overload:abstractions.char_name.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.char_name.implicit operator
+  fullName.vb: abstractions.char_name.CType
+  nameWithType: char_name.implicit operator
+  nameWithType.vb: char_name.CType
 - uid: abstractions.complex_operator
   name: complex_operator
   href: api/abstractions.complex_operator.html
@@ -8032,6 +8164,72 @@ references:
   commentId: F:abstractions.condition_operator.NOTEQUAL
   fullName: abstractions.condition_operator.NOTEQUAL
   nameWithType: condition_operator.NOTEQUAL
+- uid: abstractions.event_name
+  name: event_name
+  href: api/abstractions.event_name.html
+  commentId: T:abstractions.event_name
+  fullName: abstractions.event_name
+  nameWithType: event_name
+- uid: abstractions.event_name.#ctor(System.String)
+  name: event_name(string)
+  href: api/abstractions.event_name.html#abstractions_event_name__ctor_System_String_
+  commentId: M:abstractions.event_name.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.event_name.event_name(string)
+  fullName.vb: abstractions.event_name.New(String)
+  nameWithType: event_name.event_name(string)
+  nameWithType.vb: event_name.New(String)
+- uid: abstractions.event_name.#ctor*
+  name: event_name
+  href: api/abstractions.event_name.html#abstractions_event_name__ctor_
+  commentId: Overload:abstractions.event_name.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.event_name.event_name
+  fullName.vb: abstractions.event_name.New
+  nameWithType: event_name.event_name
+  nameWithType.vb: event_name.New
+- uid: abstractions.event_name.Value
+  name: Value
+  href: api/abstractions.event_name.html#abstractions_event_name_Value
+  commentId: P:abstractions.event_name.Value
+  fullName: abstractions.event_name.Value
+  nameWithType: event_name.Value
+- uid: abstractions.event_name.Value*
+  name: Value
+  href: api/abstractions.event_name.html#abstractions_event_name_Value_
+  commentId: Overload:abstractions.event_name.Value
+  isSpec: "True"
+  fullName: abstractions.event_name.Value
+  nameWithType: event_name.Value
+- uid: abstractions.event_name.op_Implicit(System.String)~abstractions.event_name
+  name: implicit operator event_name(string)
+  href: api/abstractions.event_name.html#abstractions_event_name_op_Implicit_System_String__abstractions_event_name
+  commentId: M:abstractions.event_name.op_Implicit(System.String)~abstractions.event_name
+  name.vb: CType(String)
+  fullName: abstractions.event_name.implicit operator abstractions.event_name(string)
+  fullName.vb: abstractions.event_name.CType(String)
+  nameWithType: event_name.implicit operator event_name(string)
+  nameWithType.vb: event_name.CType(String)
+- uid: abstractions.event_name.op_Implicit(abstractions.event_name)~System.String
+  name: implicit operator string(event_name)
+  href: api/abstractions.event_name.html#abstractions_event_name_op_Implicit_abstractions_event_name__System_String
+  commentId: M:abstractions.event_name.op_Implicit(abstractions.event_name)~System.String
+  name.vb: CType(event_name)
+  fullName: abstractions.event_name.implicit operator string(abstractions.event_name)
+  fullName.vb: abstractions.event_name.CType(abstractions.event_name)
+  nameWithType: event_name.implicit operator string(event_name)
+  nameWithType.vb: event_name.CType(event_name)
+- uid: abstractions.event_name.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.event_name.html#abstractions_event_name_op_Implicit_
+  commentId: Overload:abstractions.event_name.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.event_name.implicit operator
+  fullName.vb: abstractions.event_name.CType
+  nameWithType: event_name.implicit operator
+  nameWithType.vb: event_name.CType
 - uid: abstractions.expression_operator
   name: expression_operator
   href: api/abstractions.expression_operator.html
@@ -8068,12 +8266,342 @@ references:
   commentId: F:abstractions.expression_operator.SUB
   fullName: abstractions.expression_operator.SUB
   nameWithType: expression_operator.SUB
+- uid: abstractions.other_name
+  name: other_name
+  href: api/abstractions.other_name.html
+  commentId: T:abstractions.other_name
+  fullName: abstractions.other_name
+  nameWithType: other_name
+- uid: abstractions.other_name.#ctor(System.String)
+  name: other_name(string)
+  href: api/abstractions.other_name.html#abstractions_other_name__ctor_System_String_
+  commentId: M:abstractions.other_name.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.other_name.other_name(string)
+  fullName.vb: abstractions.other_name.New(String)
+  nameWithType: other_name.other_name(string)
+  nameWithType.vb: other_name.New(String)
+- uid: abstractions.other_name.#ctor*
+  name: other_name
+  href: api/abstractions.other_name.html#abstractions_other_name__ctor_
+  commentId: Overload:abstractions.other_name.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.other_name.other_name
+  fullName.vb: abstractions.other_name.New
+  nameWithType: other_name.other_name
+  nameWithType.vb: other_name.New
+- uid: abstractions.other_name.Value
+  name: Value
+  href: api/abstractions.other_name.html#abstractions_other_name_Value
+  commentId: P:abstractions.other_name.Value
+  fullName: abstractions.other_name.Value
+  nameWithType: other_name.Value
+- uid: abstractions.other_name.Value*
+  name: Value
+  href: api/abstractions.other_name.html#abstractions_other_name_Value_
+  commentId: Overload:abstractions.other_name.Value
+  isSpec: "True"
+  fullName: abstractions.other_name.Value
+  nameWithType: other_name.Value
+- uid: abstractions.other_name.op_Implicit(System.String)~abstractions.other_name
+  name: implicit operator other_name(string)
+  href: api/abstractions.other_name.html#abstractions_other_name_op_Implicit_System_String__abstractions_other_name
+  commentId: M:abstractions.other_name.op_Implicit(System.String)~abstractions.other_name
+  name.vb: CType(String)
+  fullName: abstractions.other_name.implicit operator abstractions.other_name(string)
+  fullName.vb: abstractions.other_name.CType(String)
+  nameWithType: other_name.implicit operator other_name(string)
+  nameWithType.vb: other_name.CType(String)
+- uid: abstractions.other_name.op_Implicit(abstractions.other_name)~System.String
+  name: implicit operator string(other_name)
+  href: api/abstractions.other_name.html#abstractions_other_name_op_Implicit_abstractions_other_name__System_String
+  commentId: M:abstractions.other_name.op_Implicit(abstractions.other_name)~System.String
+  name.vb: CType(other_name)
+  fullName: abstractions.other_name.implicit operator string(abstractions.other_name)
+  fullName.vb: abstractions.other_name.CType(abstractions.other_name)
+  nameWithType: other_name.implicit operator string(other_name)
+  nameWithType.vb: other_name.CType(other_name)
+- uid: abstractions.other_name.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.other_name.html#abstractions_other_name_op_Implicit_
+  commentId: Overload:abstractions.other_name.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.other_name.implicit operator
+  fullName.vb: abstractions.other_name.CType
+  nameWithType: other_name.implicit operator
+  nameWithType.vb: other_name.CType
+- uid: abstractions.parameter
+  name: parameter
+  href: api/abstractions.parameter.html
+  commentId: T:abstractions.parameter
+  fullName: abstractions.parameter
+  nameWithType: parameter
+- uid: abstractions.parameter.#ctor(System.String)
+  name: parameter(string)
+  href: api/abstractions.parameter.html#abstractions_parameter__ctor_System_String_
+  commentId: M:abstractions.parameter.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.parameter.parameter(string)
+  fullName.vb: abstractions.parameter.New(String)
+  nameWithType: parameter.parameter(string)
+  nameWithType.vb: parameter.New(String)
+- uid: abstractions.parameter.#ctor*
+  name: parameter
+  href: api/abstractions.parameter.html#abstractions_parameter__ctor_
+  commentId: Overload:abstractions.parameter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.parameter.parameter
+  fullName.vb: abstractions.parameter.New
+  nameWithType: parameter.parameter
+  nameWithType.vb: parameter.New
+- uid: abstractions.parameter.Value
+  name: Value
+  href: api/abstractions.parameter.html#abstractions_parameter_Value
+  commentId: P:abstractions.parameter.Value
+  fullName: abstractions.parameter.Value
+  nameWithType: parameter.Value
+- uid: abstractions.parameter.Value*
+  name: Value
+  href: api/abstractions.parameter.html#abstractions_parameter_Value_
+  commentId: Overload:abstractions.parameter.Value
+  isSpec: "True"
+  fullName: abstractions.parameter.Value
+  nameWithType: parameter.Value
+- uid: abstractions.parameter.op_Implicit(System.String)~abstractions.parameter
+  name: implicit operator parameter(string)
+  href: api/abstractions.parameter.html#abstractions_parameter_op_Implicit_System_String__abstractions_parameter
+  commentId: M:abstractions.parameter.op_Implicit(System.String)~abstractions.parameter
+  name.vb: CType(String)
+  fullName: abstractions.parameter.implicit operator abstractions.parameter(string)
+  fullName.vb: abstractions.parameter.CType(String)
+  nameWithType: parameter.implicit operator parameter(string)
+  nameWithType.vb: parameter.CType(String)
+- uid: abstractions.parameter.op_Implicit(abstractions.parameter)~System.String
+  name: implicit operator string(parameter)
+  href: api/abstractions.parameter.html#abstractions_parameter_op_Implicit_abstractions_parameter__System_String
+  commentId: M:abstractions.parameter.op_Implicit(abstractions.parameter)~System.String
+  name.vb: CType(parameter)
+  fullName: abstractions.parameter.implicit operator string(abstractions.parameter)
+  fullName.vb: abstractions.parameter.CType(abstractions.parameter)
+  nameWithType: parameter.implicit operator string(parameter)
+  nameWithType.vb: parameter.CType(parameter)
+- uid: abstractions.parameter.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.parameter.html#abstractions_parameter_op_Implicit_
+  commentId: Overload:abstractions.parameter.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.parameter.implicit operator
+  fullName.vb: abstractions.parameter.CType
+  nameWithType: parameter.implicit operator
+  nameWithType.vb: parameter.CType
 - uid: abstractions.rect
   name: rect
   href: api/abstractions.rect.html
   commentId: T:abstractions.rect
   fullName: abstractions.rect
   nameWithType: rect
+- uid: abstractions.signal_name
+  name: signal_name
+  href: api/abstractions.signal_name.html
+  commentId: T:abstractions.signal_name
+  fullName: abstractions.signal_name
+  nameWithType: signal_name
+- uid: abstractions.signal_name.#ctor(System.String)
+  name: signal_name(string)
+  href: api/abstractions.signal_name.html#abstractions_signal_name__ctor_System_String_
+  commentId: M:abstractions.signal_name.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.signal_name.signal_name(string)
+  fullName.vb: abstractions.signal_name.New(String)
+  nameWithType: signal_name.signal_name(string)
+  nameWithType.vb: signal_name.New(String)
+- uid: abstractions.signal_name.#ctor*
+  name: signal_name
+  href: api/abstractions.signal_name.html#abstractions_signal_name__ctor_
+  commentId: Overload:abstractions.signal_name.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.signal_name.signal_name
+  fullName.vb: abstractions.signal_name.New
+  nameWithType: signal_name.signal_name
+  nameWithType.vb: signal_name.New
+- uid: abstractions.signal_name.Value
+  name: Value
+  href: api/abstractions.signal_name.html#abstractions_signal_name_Value
+  commentId: P:abstractions.signal_name.Value
+  fullName: abstractions.signal_name.Value
+  nameWithType: signal_name.Value
+- uid: abstractions.signal_name.Value*
+  name: Value
+  href: api/abstractions.signal_name.html#abstractions_signal_name_Value_
+  commentId: Overload:abstractions.signal_name.Value
+  isSpec: "True"
+  fullName: abstractions.signal_name.Value
+  nameWithType: signal_name.Value
+- uid: abstractions.signal_name.op_Implicit(System.String)~abstractions.signal_name
+  name: implicit operator signal_name(string)
+  href: api/abstractions.signal_name.html#abstractions_signal_name_op_Implicit_System_String__abstractions_signal_name
+  commentId: M:abstractions.signal_name.op_Implicit(System.String)~abstractions.signal_name
+  name.vb: CType(String)
+  fullName: abstractions.signal_name.implicit operator abstractions.signal_name(string)
+  fullName.vb: abstractions.signal_name.CType(String)
+  nameWithType: signal_name.implicit operator signal_name(string)
+  nameWithType.vb: signal_name.CType(String)
+- uid: abstractions.signal_name.op_Implicit(abstractions.signal_name)~System.String
+  name: implicit operator string(signal_name)
+  href: api/abstractions.signal_name.html#abstractions_signal_name_op_Implicit_abstractions_signal_name__System_String
+  commentId: M:abstractions.signal_name.op_Implicit(abstractions.signal_name)~System.String
+  name.vb: CType(signal_name)
+  fullName: abstractions.signal_name.implicit operator string(abstractions.signal_name)
+  fullName.vb: abstractions.signal_name.CType(abstractions.signal_name)
+  nameWithType: signal_name.implicit operator string(signal_name)
+  nameWithType.vb: signal_name.CType(signal_name)
+- uid: abstractions.signal_name.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.signal_name.html#abstractions_signal_name_op_Implicit_
+  commentId: Overload:abstractions.signal_name.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.signal_name.implicit operator
+  fullName.vb: abstractions.signal_name.CType
+  nameWithType: signal_name.implicit operator
+  nameWithType.vb: signal_name.CType
+- uid: abstractions.stringified_tick_number
+  name: stringified_tick_number
+  href: api/abstractions.stringified_tick_number.html
+  commentId: T:abstractions.stringified_tick_number
+  fullName: abstractions.stringified_tick_number
+  nameWithType: stringified_tick_number
+- uid: abstractions.stringified_tick_number.#ctor(System.String)
+  name: stringified_tick_number(string)
+  href: api/abstractions.stringified_tick_number.html#abstractions_stringified_tick_number__ctor_System_String_
+  commentId: M:abstractions.stringified_tick_number.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.stringified_tick_number.stringified_tick_number(string)
+  fullName.vb: abstractions.stringified_tick_number.New(String)
+  nameWithType: stringified_tick_number.stringified_tick_number(string)
+  nameWithType.vb: stringified_tick_number.New(String)
+- uid: abstractions.stringified_tick_number.#ctor*
+  name: stringified_tick_number
+  href: api/abstractions.stringified_tick_number.html#abstractions_stringified_tick_number__ctor_
+  commentId: Overload:abstractions.stringified_tick_number.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.stringified_tick_number.stringified_tick_number
+  fullName.vb: abstractions.stringified_tick_number.New
+  nameWithType: stringified_tick_number.stringified_tick_number
+  nameWithType.vb: stringified_tick_number.New
+- uid: abstractions.stringified_tick_number.Value
+  name: Value
+  href: api/abstractions.stringified_tick_number.html#abstractions_stringified_tick_number_Value
+  commentId: P:abstractions.stringified_tick_number.Value
+  fullName: abstractions.stringified_tick_number.Value
+  nameWithType: stringified_tick_number.Value
+- uid: abstractions.stringified_tick_number.Value*
+  name: Value
+  href: api/abstractions.stringified_tick_number.html#abstractions_stringified_tick_number_Value_
+  commentId: Overload:abstractions.stringified_tick_number.Value
+  isSpec: "True"
+  fullName: abstractions.stringified_tick_number.Value
+  nameWithType: stringified_tick_number.Value
+- uid: abstractions.stringified_tick_number.op_Implicit(System.String)~abstractions.stringified_tick_number
+  name: implicit operator stringified_tick_number(string)
+  href: api/abstractions.stringified_tick_number.html#abstractions_stringified_tick_number_op_Implicit_System_String__abstractions_stringified_tick_number
+  commentId: M:abstractions.stringified_tick_number.op_Implicit(System.String)~abstractions.stringified_tick_number
+  name.vb: CType(String)
+  fullName: abstractions.stringified_tick_number.implicit operator abstractions.stringified_tick_number(string)
+  fullName.vb: abstractions.stringified_tick_number.CType(String)
+  nameWithType: stringified_tick_number.implicit operator stringified_tick_number(string)
+  nameWithType.vb: stringified_tick_number.CType(String)
+- uid: abstractions.stringified_tick_number.op_Implicit(abstractions.stringified_tick_number)~System.String
+  name: implicit operator string(stringified_tick_number)
+  href: api/abstractions.stringified_tick_number.html#abstractions_stringified_tick_number_op_Implicit_abstractions_stringified_tick_number__System_String
+  commentId: M:abstractions.stringified_tick_number.op_Implicit(abstractions.stringified_tick_number)~System.String
+  name.vb: CType(stringified_tick_number)
+  fullName: abstractions.stringified_tick_number.implicit operator string(abstractions.stringified_tick_number)
+  fullName.vb: abstractions.stringified_tick_number.CType(abstractions.stringified_tick_number)
+  nameWithType: stringified_tick_number.implicit operator string(stringified_tick_number)
+  nameWithType.vb: stringified_tick_number.CType(stringified_tick_number)
+- uid: abstractions.stringified_tick_number.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.stringified_tick_number.html#abstractions_stringified_tick_number_op_Implicit_
+  commentId: Overload:abstractions.stringified_tick_number.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.stringified_tick_number.implicit operator
+  fullName.vb: abstractions.stringified_tick_number.CType
+  nameWithType: stringified_tick_number.implicit operator
+  nameWithType.vb: stringified_tick_number.CType
+- uid: abstractions.stringified_value
+  name: stringified_value
+  href: api/abstractions.stringified_value.html
+  commentId: T:abstractions.stringified_value
+  fullName: abstractions.stringified_value
+  nameWithType: stringified_value
+- uid: abstractions.stringified_value.#ctor(System.String)
+  name: stringified_value(string)
+  href: api/abstractions.stringified_value.html#abstractions_stringified_value__ctor_System_String_
+  commentId: M:abstractions.stringified_value.#ctor(System.String)
+  name.vb: New(String)
+  fullName: abstractions.stringified_value.stringified_value(string)
+  fullName.vb: abstractions.stringified_value.New(String)
+  nameWithType: stringified_value.stringified_value(string)
+  nameWithType.vb: stringified_value.New(String)
+- uid: abstractions.stringified_value.#ctor*
+  name: stringified_value
+  href: api/abstractions.stringified_value.html#abstractions_stringified_value__ctor_
+  commentId: Overload:abstractions.stringified_value.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: abstractions.stringified_value.stringified_value
+  fullName.vb: abstractions.stringified_value.New
+  nameWithType: stringified_value.stringified_value
+  nameWithType.vb: stringified_value.New
+- uid: abstractions.stringified_value.Value
+  name: Value
+  href: api/abstractions.stringified_value.html#abstractions_stringified_value_Value
+  commentId: P:abstractions.stringified_value.Value
+  fullName: abstractions.stringified_value.Value
+  nameWithType: stringified_value.Value
+- uid: abstractions.stringified_value.Value*
+  name: Value
+  href: api/abstractions.stringified_value.html#abstractions_stringified_value_Value_
+  commentId: Overload:abstractions.stringified_value.Value
+  isSpec: "True"
+  fullName: abstractions.stringified_value.Value
+  nameWithType: stringified_value.Value
+- uid: abstractions.stringified_value.op_Implicit(System.String)~abstractions.stringified_value
+  name: implicit operator stringified_value(string)
+  href: api/abstractions.stringified_value.html#abstractions_stringified_value_op_Implicit_System_String__abstractions_stringified_value
+  commentId: M:abstractions.stringified_value.op_Implicit(System.String)~abstractions.stringified_value
+  name.vb: CType(String)
+  fullName: abstractions.stringified_value.implicit operator abstractions.stringified_value(string)
+  fullName.vb: abstractions.stringified_value.CType(String)
+  nameWithType: stringified_value.implicit operator stringified_value(string)
+  nameWithType.vb: stringified_value.CType(String)
+- uid: abstractions.stringified_value.op_Implicit(abstractions.stringified_value)~System.String
+  name: implicit operator string(stringified_value)
+  href: api/abstractions.stringified_value.html#abstractions_stringified_value_op_Implicit_abstractions_stringified_value__System_String
+  commentId: M:abstractions.stringified_value.op_Implicit(abstractions.stringified_value)~System.String
+  name.vb: CType(stringified_value)
+  fullName: abstractions.stringified_value.implicit operator string(abstractions.stringified_value)
+  fullName.vb: abstractions.stringified_value.CType(abstractions.stringified_value)
+  nameWithType: stringified_value.implicit operator string(stringified_value)
+  nameWithType.vb: stringified_value.CType(stringified_value)
+- uid: abstractions.stringified_value.op_Implicit*
+  name: implicit operator
+  href: api/abstractions.stringified_value.html#abstractions_stringified_value_op_Implicit_
+  commentId: Overload:abstractions.stringified_value.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: abstractions.stringified_value.implicit operator
+  fullName.vb: abstractions.stringified_value.CType
+  nameWithType: stringified_value.implicit operator
+  nameWithType.vb: stringified_value.CType
 - uid: abstractions.variable
   name: variable
   href: api/abstractions.variable.html

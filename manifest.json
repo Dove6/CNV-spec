@@ -562,6 +562,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.button_name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.button_name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.char_name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.char_name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/abstractions.complex_operator.yml",
       "output": {
         ".html": {
@@ -582,6 +602,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.event_name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.event_name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/abstractions.expression_operator.yml",
       "output": {
         ".html": {
@@ -592,10 +622,60 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.other_name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.other_name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.parameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/abstractions.rect.yml",
       "output": {
         ".html": {
           "relative_path": "api/abstractions.rect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.signal_name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.signal_name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.stringified_tick_number.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.stringified_tick_number.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/abstractions.stringified_value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/abstractions.stringified_value.html"
         }
       },
       "version": ""
